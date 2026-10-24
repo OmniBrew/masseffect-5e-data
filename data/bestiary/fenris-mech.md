@@ -46,7 +46,7 @@ entries:
       dc: false
       mod: str
       damage:
-        - {dieCount: '2', dieType: '6', mod: true, type: bludgeoning}
+        - {dieCount: 2, dieType: 6, mod: true, type: bludgeoning}
       target: one
       id: pounce
     - attack: melee
@@ -55,7 +55,7 @@ entries:
       dc: false
       mod: str
       damage:
-        - {dieCount: '2', dieType: '8', mod: true, type: lightning}
+        - {dieCount: 2, dieType: 8, mod: true, type: lightning}
       target: one
       id: stun
 cr: '00500'

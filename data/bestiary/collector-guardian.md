@@ -35,7 +35,7 @@ entries:
       dc: false
       mod: str
       damage:
-        - {dieCount: '2', dieType: '8', mod: true, type: bludgeoning}
+        - {dieCount: 2, dieType: 8, mod: true, type: bludgeoning}
       target: one
       id: weapon-bash
     - ref: weapon

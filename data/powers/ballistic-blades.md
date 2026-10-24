@@ -14,6 +14,9 @@ classes:
 mechanics:
   - castingTime:
       unit: attack
+    duration:
+      length: 0
+      unit: instant
     resource:
       reset: short
       max:

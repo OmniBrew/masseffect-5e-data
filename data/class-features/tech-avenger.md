@@ -20,7 +20,7 @@ mechanics:
             - type: powers
               value: bec-field
               provider:
-                model: subclass
+                model: subclasses
                 id: engi-knight
         - id: tech-strike-focus-cold
           name: Frostbite Strike

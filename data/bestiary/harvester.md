@@ -40,7 +40,7 @@ entries:
       dc: false
       mod: str
       damage:
-        - {dieCount: '2', dieType: '6', mod: true, type: piercing}
+        - {dieCount: 2, dieType: 6, mod: true, type: piercing}
       target: one
       id: stomp
   legendary:

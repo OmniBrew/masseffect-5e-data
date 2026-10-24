@@ -21,7 +21,6 @@ irv:
     - charmed
     - grappled
     - paralyzed
-    - petrified
     - poisoned
   res:
     - force
@@ -48,7 +47,7 @@ entries:
       dc: false
       mod: str
       damage:
-        - {dieCount: '6', dieType: '10', mod: true, type: piercing}
+        - {dieCount: 6, dieType: 10, mod: true, type: piercing}
       target: one
       id: claw
     - dc: false

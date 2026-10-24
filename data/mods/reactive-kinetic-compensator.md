@@ -19,7 +19,7 @@ mechanics:
     subType: defenses
     value: Null Critical
     moreInfo:
-      model: mod
+      model: mods
       id: reactive-kinetic-compensator
 ---
 Any critical hit against you becomes a normal hit.

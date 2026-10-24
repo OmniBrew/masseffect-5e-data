@@ -45,7 +45,7 @@ entries:
       dc: false
       mod: str
       damage:
-        - {dieCount: '4', dieType: '6', mod: true, type: bludgeoning}
+        - {dieCount: 4, dieType: 6, mod: true, type: bludgeoning}
       target: one
       id: crush
 cr: '11000'

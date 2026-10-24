@@ -43,8 +43,8 @@ entries:
       dc: false
       mod: str
       damage:
-        - {dieCount: '1', dieType: '4', mod: true, type: piercing}
-        - {dieCount: '1', dieType: '4', mod: true, type: fire}
+        - {dieCount: 1, dieType: 4, mod: true, type: piercing}
+        - {dieCount: 1, dieType: 4, mod: true, type: fire}
       target: one
       id: pincer
 cr: '01000'

@@ -18,7 +18,6 @@ abilityScores:
   cha: 12
 irv:
   conImm:
-    - petrified
     - poisoned
   damImm:
     - poison
@@ -47,8 +46,8 @@ entries:
       dc: false
       mod: dex
       damage:
-        - {dieCount: '3', dieType: '10', mod: true, type: piercing}
-        - {dieCount: '3', dieType: '10', mod: true, type: radiant}
+        - {dieCount: 3, dieType: 10, mod: true, type: piercing}
+        - {dieCount: 3, dieType: 10, mod: true, type: radiant}
       target: one
       id: mass-accelerator-machinegun
     - dc: false

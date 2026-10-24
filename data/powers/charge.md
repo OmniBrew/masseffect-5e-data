@@ -22,6 +22,7 @@ mechanics:
     duration:
       length: 0
       unit: instant
+    concentration: false
     range:
       short: 40
     detonates: true

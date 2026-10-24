@@ -35,7 +35,7 @@ entries:
       dc: false
       mod: dex
       damage:
-        - {dieCount: '1', dieType: '6', mod: true, type: acid}
+        - {dieCount: 1, dieType: 6, mod: true, type: acid}
       target: one
       id: suicide-attack
 cr: '00125'

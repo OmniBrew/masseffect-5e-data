@@ -8,7 +8,7 @@ mechanics:
   - type: resistance
     value: necrotic
     note: while within your hermetic suit
-  - type: condition-immunity
-    value: disease
-    note: immune to disease while within your hermetic suit
+  - type: global-note
+    subType: defenses
+    value: Immune to disease while within your hermetic suit
 ---

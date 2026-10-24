@@ -2,7 +2,7 @@
 image: null
 type: organic
 unit: tracker
-alignment: tracker
+alignment: u
 profBonus: 2
 ac: 14
 hp:
@@ -31,7 +31,7 @@ entries:
       dc: false
       mod: str
       damage:
-        - {dieCount: '1', dieType: '8', mod: true, type: piercing}
+        - {dieCount: 1, dieType: 8, mod: true, type: piercing}
       target: one
       id: melee-strike
 cr: '00125'

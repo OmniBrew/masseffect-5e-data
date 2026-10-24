@@ -5,7 +5,7 @@ mechanics:
     subType: action
     value: Hide if Lightly Obscured
     moreInfo:
-      model: edge
+      model: edges
       id: TA_jungle
 type: tracker-affinity
 ---

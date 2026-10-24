@@ -25,7 +25,7 @@ mechanics:
     damage:
       - dieCount: 5
         dieType: 4
-        tpe: force
+        type: force
     dc:
       save: dex
       base: 13

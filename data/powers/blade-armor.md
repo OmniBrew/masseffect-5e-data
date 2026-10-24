@@ -33,6 +33,7 @@ mechanics:
     duration:
       length: 1
       unit: minute
+    concentration: false
     range:
       short: 0
     detonates: false

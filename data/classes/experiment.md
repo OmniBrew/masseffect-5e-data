@@ -15,7 +15,7 @@ profs:
       count: 1
   skill:
     choices:
-      items: [acrobatics,athletics,,insight,medicine,perception,science,survival]
+      items: [acrobatics,athletics,insight,medicine,perception,science,survival]
       count: 3
   saving-throw:
     has:

@@ -35,7 +35,7 @@ entries:
       dc: false
       mod: str
       damage:
-        - {dieCount: '2', dieType: '6', mod: true, type: slashing}
+        - {dieCount: 2, dieType: 6, mod: true, type: slashing}
       target: one
       id: claw
     - ref: weapon

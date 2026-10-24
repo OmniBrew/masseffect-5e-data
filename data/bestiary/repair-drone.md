@@ -43,7 +43,7 @@ entries:
       dc: false
       mod: str
       damage:
-        - {dieCount: '1', dieType: '4', mod: true, type: lightning}
+        - {dieCount: 1, dieType: 4, mod: true, type: lightning}
       target: one
       id: defibrillators
     - dc: false

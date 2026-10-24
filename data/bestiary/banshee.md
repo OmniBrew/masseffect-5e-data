@@ -44,7 +44,7 @@ entries:
       dc: false
       mod: str
       damage:
-        - {dieCount: '3', dieType: '8', mod: true, type: piercing}
+        - {dieCount: 3, dieType: 8, mod: true, type: piercing}
       target: one
       id: impale
     - dc: false

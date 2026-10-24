@@ -3,7 +3,7 @@ level: 14
 klass: sentinel
 subclass: warleader
 mechanics:
-  - type: reaction
+  - type: augment
     value:
       model: sentinel
       id: tech-barricade

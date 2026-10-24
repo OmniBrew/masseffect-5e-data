@@ -40,8 +40,8 @@ entries:
       dc: false
       mod: int
       damage:
-        - {dieCount: '2', dieType: '6', mod: true, type: piercing}
-        - {dieCount: '2', dieType: '6', mod: true, type: radiant}
+        - {dieCount: 2, dieType: 6, mod: true, type: piercing}
+        - {dieCount: 2, dieType: 6, mod: true, type: radiant}
       target: one
       id: mass-accelerator-machinegun
 cr: '01000'

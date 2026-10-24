@@ -47,7 +47,7 @@ entries:
       dc: false
       mod: str
       damage:
-        - {dieCount: '1', dieType: '8', mod: true, type: slashing}
+        - {dieCount: 1, dieType: 8, mod: true, type: slashing}
       target: one
       id: claw
     - attack: ranged
@@ -56,7 +56,7 @@ entries:
       dc: false
       mod: dex
       damage:
-        - {dieCount: '3', dieType: '6', mod: true, type: radiant}
+        - {dieCount: 3, dieType: 6, mod: true, type: radiant}
       target: one
       id: eye-cannon
 cr: '03000'

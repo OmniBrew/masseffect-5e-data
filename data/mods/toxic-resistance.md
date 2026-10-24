@@ -18,8 +18,8 @@ flavor: >-
 mechanics:
   - type: resistance
     value: acid
-  - type: poison
-    value: acid
+  - type: resistance
+    value: poison
   - type: saving-throw
     against: [poisoned]
     effect:

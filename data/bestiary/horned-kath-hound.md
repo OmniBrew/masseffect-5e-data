@@ -32,7 +32,7 @@ entries:
       dc: false
       mod: str
       damage:
-        - {dieCount: '3', dieType: '4', mod: true, type: piercing}
+        - {dieCount: 3, dieType: 4, mod: true, type: piercing}
       target: one
       id: gore
     - attack: melee
@@ -41,7 +41,7 @@ entries:
       dc: false
       mod: str
       damage:
-        - {dieCount: '2', dieType: '8', mod: true, type: piercing}
+        - {dieCount: 2, dieType: 8, mod: true, type: piercing}
       target: one
       id: maul
 cr: '01000'

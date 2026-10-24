@@ -21,7 +21,7 @@ flavor: >-
 mechanics:
   - type: ac
     bonus:
-      type: 1
+      type: flat
       value: 1
 ---
 - +1 AC

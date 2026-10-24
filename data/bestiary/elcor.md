@@ -39,7 +39,7 @@ entries:
       dc: false
       mod: int
       damage:
-        - {dieCount: '5', dieType: '8', mod: false, type: radiant}
+        - {dieCount: 5, dieType: 8, mod: false, type: radiant}
       target: one
       id: mass-accelerator-cannon
 cr: '06000'

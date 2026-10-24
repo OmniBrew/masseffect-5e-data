@@ -8,7 +8,9 @@ mechanics:
   - type: model-choice
     model: fighting-styles
     options: true
-    limit: [FS_ambidextrous, FS_assault, FS_carnage, FS_close-quarters-shooter, FS_sniper]
+    limits:
+      - attr: id
+        value: [FS_ambidextrous, FS_assault, FS_carnage, FS_close-quarters-shooter, FS_sniper]
   - type: other
     shortDesc: >-
       At the beginning of your turn, you can reduce your movement speed to 0.

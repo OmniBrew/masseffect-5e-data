@@ -5,8 +5,12 @@ mechanics:
     note: >-
       Your climbing speed now equals your movement speed (or is increased by <me-distance length="10" abbr /> instead
       of <me-distance length="5" /> if you already had one.)
-  - type: resistance
-    value: fall
+  - type: fall-damage
+    reduce:
+      bonus:
+        type: level
+        value: tracker
+        multiplier: 5
     note: take less falling damage equal to 5x your Tracker level
 type: tracker-affinity-advancement
 ---

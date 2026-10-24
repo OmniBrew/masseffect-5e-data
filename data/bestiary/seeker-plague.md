@@ -32,8 +32,8 @@ entries:
       dc: false
       mod: dex
       damage:
-        - {dieCount: '1', dieType: '4', mod: true, type: poison}
-        - {dieCount: '1', dieType: '4', mod: true, type: necrotic}
+        - {dieCount: 1, dieType: 4, mod: true, type: poison}
+        - {dieCount: 1, dieType: 4, mod: true, type: necrotic}
       target: one
       id: plague-sting
 cr: '00250'

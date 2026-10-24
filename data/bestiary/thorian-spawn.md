@@ -34,7 +34,7 @@ entries:
       dc: false
       mod: dex
       damage:
-        - {dieCount: '2', dieType: '6', mod: true, type: necrotic}
+        - {dieCount: 2, dieType: 6, mod: true, type: necrotic}
       target: one
       id: acid-spit
     - dc: false

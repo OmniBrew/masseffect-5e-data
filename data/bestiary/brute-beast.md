@@ -2,7 +2,7 @@
 image: null
 type: organic
 unit: tracker
-alignment: tracker
+alignment: u
 profBonus: 2
 ac: 11
 hp:
@@ -30,7 +30,7 @@ entries:
       dc: false
       mod: str
       damage:
-        - {dieCount: '1', dieType: '10', mod: true, type: bludgeoning}
+        - {dieCount: 1, dieType: 10, mod: true, type: bludgeoning}
       target: one
       id: gore
 cr: '00125'

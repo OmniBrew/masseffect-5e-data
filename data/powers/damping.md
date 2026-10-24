@@ -18,7 +18,9 @@ mechanics:
       unit: action
     attack: false
     dc:
-      save: 'Special'
+      base: 8
+      proficient: true
+      note: the target saves with its powercasting ability
     damage: false
     duration:
       length: 0

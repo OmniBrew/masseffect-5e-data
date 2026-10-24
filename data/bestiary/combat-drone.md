@@ -43,7 +43,7 @@ entries:
       dc: false
       mod: dex
       damage:
-        - {dieCount: '1', dieType: '6', mod: true, type: lightning}
+        - {dieCount: 1, dieType: 6, mod: true, type: lightning}
       target: one
       id: shock-attack
 cr: '00250'

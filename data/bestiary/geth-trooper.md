@@ -38,7 +38,7 @@ entries:
       dc: false
       mod: str
       damage:
-        - {dieCount: '1', dieType: '6', mod: true, type: bludgeoning}
+        - {dieCount: 1, dieType: 6, mod: true, type: bludgeoning}
       target: one
       id: weapon-strike
     - ref: weapon
