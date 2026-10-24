@@ -1,14 +1,15 @@
 ---
+name: Tech Aura
 level: 18
 klass: sentinel
 subclass: guardian
-name: Tech Aura
 mechanics:
   - type: augment
     value:
       model: sentinel
       id: tech-armor
-      limit: [bonus-action]
+      limit:
+        - bonus-action
     merge:
       moreInfo:
         additional:
@@ -86,4 +87,4 @@ mechanics:
                     aoe:
                       size: 60
 ---
-At 18th level, increase the distance of your Tech Aura packages to <me-distance length="60" />.
+At 18th level, increase the distance of your Tech Aura packages to :distance{length="60"}.

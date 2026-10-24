@@ -1,4 +1,5 @@
 ---
+name: Training Regimens
 level: 2
 klass: tracker
 mechanics:
@@ -8,9 +9,28 @@ mechanics:
     selections: 2
     progressionColumn:
       label: Training Regimens
-      values: ['-',2,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10]
+      values:
+        - "-"
+        - 2
+        - 2
+        - 2
+        - 3
+        - 3
+        - 4
+        - 4
+        - 5
+        - 5
+        - 6
+        - 6
+        - 7
+        - 7
+        - 8
+        - 8
+        - 9
+        - 9
+        - 10
+        - 10
       order: 21
-name: Training Regimens
 ---
 No one ever stops learning, least of all the pets in the employ of a skilled Tracker.
 
@@ -23,6 +43,5 @@ You gain 2 training regimens at level 2, gaining another at levels 5, 7, 9, 11, 
 
 When you gain a level in the Tracker class, you may replace one of the regimen you've taught your pet with another.
 
-<me-edge-list id="training-regimens" />
-
-
+::edge-list{type="training-regimens"}
+::

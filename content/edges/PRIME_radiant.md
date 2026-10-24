@@ -16,8 +16,7 @@ mechanics:
         dc:
           base: 15
           save: con
-        shortDesc: Each creature within <me-distance length="10" /> of the detonated creature suffers {{ damage }} damage must
-          succeed on DC 15 Constitution saving throw or become <me-condition id="poisoned" /> for 1 hour.
+        shortDesc: Each creature within :distance{length="10"} of the detonated creature suffers {{ damage }} damage must succeed on DC 15 Constitution saving throw or become :condition{id="poisoned"} for 1 hour.
       - damage:
           - dieCount: 4
       - damage:
@@ -25,6 +24,6 @@ mechanics:
       - damage:
           - dieCount: 6
 ---
-A creature that is primed: radiant is also <me-condition id="poisoned" /> until the primed: radiant condition ends.
-When a creature that is primed: radiant detonates, each creature within <me-distance length="10" /> of it suffers
-3d4 radiant damage and must succeed on DC 15 Constitution saving throw or become <me-condition id="poisoned" /> for 1 hour.
+A creature that is primed: radiant is also :condition{id="poisoned"} until the primed: radiant condition ends.
+When a creature that is primed: radiant detonates, each creature within :distance{length="10"} of it suffers
+3d4 radiant damage and must succeed on DC 15 Constitution saving throw or become :condition{id="poisoned"} for 1 hour.

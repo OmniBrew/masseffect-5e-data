@@ -1,10 +1,10 @@
 ---
+name: Cognition_Booster.exe
 rarity: rare
-type: omni_tool_program
+gearType: omni_tool_program
 cost: 0
 weight: 0
-subType: ''
-name: Cognition_Booster.exe
+subType: ""
 installation: true
 equippable: true
 mechanics:

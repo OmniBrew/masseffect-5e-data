@@ -1,4 +1,5 @@
 ---
+name: Holo Fury
 level: 3
 klass: soldier
 subclass: holo-operative
@@ -7,10 +8,7 @@ mechanics:
     resource:
       max:
         type: proficiency
-    shortDesc: >-
-      When you take the Attack action and have a Hologram out, you can make an additional attack from the
-      hologram's position.
-name: Holo Fury
+    shortDesc: When you take the Attack action and have a Hologram out, you can make an additional attack from the hologram's position.
 ---
 At 3rd level, when you take the Attack action and have a Hologram out, you can make an additional attack from the
 hologram's position. When you gain the Extra Attack feature, you can make one attack in addition to your standard

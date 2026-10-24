@@ -2,7 +2,8 @@
 name: Arctic
 mechanics:
   - type: saving-throw
-    value: [con]
+    value:
+      - con
     effect:
       type: advantage
       note: against effects of extreme cold

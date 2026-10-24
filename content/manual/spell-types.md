@@ -19,4 +19,3 @@ omni-tool can appear over either of a person's forearms and/or hands, and occasi
 Combat powers rely on gadgets, physical devices, special equipment or even overriding safety protocols on armor or weapons.
 Combat powers have no casting cost, as they are generally instantiated by some sort of gadget or device. Instead of a
 casting cost, combat powers recharge on a short or long rest.
-

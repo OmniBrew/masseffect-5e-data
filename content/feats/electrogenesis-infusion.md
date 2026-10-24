@@ -17,7 +17,8 @@ mechanics:
 prerequisite: Angara
 prereq:
   - type: species
-    limit: [angara]
+    limit:
+      - angara
 ---
 You have trained with amplifying your electrogenesis into your weapons and can even electrify ammunition.
 

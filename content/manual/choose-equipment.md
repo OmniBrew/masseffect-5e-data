@@ -42,7 +42,7 @@ _finesse_ property, such as a monomolecular blade, can use your Dexterity modifi
 For attacks with __ranged weapons__, use your Dexterity modifier for attack and damage rolls. A weapon that has the
 _recoil_ property, such as the M-300 Claymore, can use your Strength modifier instead.
 
-::: alert
+::note
 __BUILDING KALEEM, STEP 5__
 Sam writes down the starting equipment from the engineer class and the scrapper background. Her starting equipment
 includes Stock Medium Armor which (after adding her Dexterity modifier) gives Kaleem an Armor Class of 16.
@@ -54,6 +54,7 @@ and Kaleem adds her Dexterity modifier to the damage when she hits, for a total 
 she does not add her proficiency bonus to the damage roll, only the attack roll. When using the
 Omni-torch, a melee weapon, Kaleem adds her Strength modifier (+1) to the attack roll and the damage roll. But, because
 she is not proficient with melee weapons, she does not add her proficiency bonus to the attack roll.
-:::
+::
 
-<me-source-reference pages="9" source="basic"></me-source-reference>
+::source-reference{pages="9" source="basic"}
+::

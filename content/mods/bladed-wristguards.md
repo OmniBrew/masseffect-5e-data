@@ -1,6 +1,7 @@
 ---
+name: Bladed Wristguards
 rarity: uncommon
-type: armor
+modType: armor
 cost: 5000
 manufacturer: batarian-state-arms
 tags:
@@ -10,7 +11,6 @@ availability:
   - light
   - medium
   - heavy
-name: Bladed Wristguards
 flavor: Reinforce armor with razor-sharp blades that deal damage to melee attackers.
 mechanics:
   - type: other

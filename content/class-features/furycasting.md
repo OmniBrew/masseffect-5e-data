@@ -1,8 +1,8 @@
 ---
+name: Furycasting
 level: 2
 klass: adept
 subclass: fury
-name: Furycasting
 mechanics:
   - type: global-note
     subType: action

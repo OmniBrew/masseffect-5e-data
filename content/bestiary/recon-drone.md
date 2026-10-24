@@ -1,6 +1,6 @@
 ---
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/2/29/Geth_Recon_Drone_ME2.png/revision/latest/scale-to-width-down/350?cb=20100627032507
+name: Recon Drone
+image: https://vignette.wikia.nocookie.net/masseffect/images/2/29/Geth_Recon_Drone_ME2.png/revision/latest/scale-to-width-down/350?cb=20100627032507
 type: synthetic
 unit: mech
 alignment: nn
@@ -24,9 +24,8 @@ irv:
     - psychic
   vul:
     - lightning
-savingThrows: false
 senses:
-  infrared_vision: 30
+  infrared-vision: 30
 size: small
 skills:
   - perception
@@ -38,17 +37,22 @@ entries:
     - uses: 3
       perDay: true
       id: tactical-cloak
+      name: Tactical Cloak
+      text: As a bonus action, the recon drone activates its tactical cloak, becoming invisible for 1 minute. When the recon drone makes a melee or ranged attack or uses a tech or combat power, tactical cloak ends.
   actions:
     - attack: ranged
       proficient: true
       range: 150
-      dc: false
       mod: dex
       damage:
-        - {dieCount: 1, dieType: 4, mod: true, type: radiant}
+        - dieCount: 1
+          dieType: 4
+          mod: true
+          type: radiant
       target: one
       id: pulse-rifle
-cr: '00125'
+      name: Pulse Rifle
+cr: "00125"
 shields:
   capacity: 5
   regen: 5

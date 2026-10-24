@@ -5,7 +5,8 @@ mechanics:
     value:
       model: main-augments
       id: MA_weaponry-ranged
-      limit: [attack]
+      limit:
+        - attack
     merge:
       moreInfo:
         additional:
@@ -16,8 +17,7 @@ mechanics:
         - {}
         - type: tooltip
           text: 1/2 dmg @ SoT
-          tooltipText: >-
-            Whenever you damage an enemy with your weapon, that enemy takes half the damage you dealt again at the start of their next turn.
+          tooltipText: Whenever you damage an enemy with your weapon, that enemy takes half the damage you dealt again at the start of their next turn.
       damage:
         - {}
         - dieCount: 1

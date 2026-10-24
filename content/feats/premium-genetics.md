@@ -9,7 +9,8 @@ mechanics:
 prerequisite: Kett
 prereq:
   - type: species
-    limit: [kett]
+    limit:
+      - kett
 ---
 Through additional bioengineering, you’ve put yourself through a second exaltation process which has kept a valuable
 genetic trait from the exalted species. Choose one species from the list below and gain the listed benefits.
@@ -46,10 +47,3 @@ __Volus__. Your Wisdom score increases by 1, to a maximum of 20. Additionally, g
 __Vorcha__. Your Dexterity score increases by 1, to a maximum of 20. Additionally, gain the Non-Differentiated Cells trait.
 
 __Yahg__. Your Strength score increases by 1, to a maximum of 20. Additionally, gain the Predator Eyes trait.
-
-
-
-
-
-
-

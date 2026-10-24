@@ -1,6 +1,7 @@
 ---
+name: Voice Modulator
 rarity: common
-type: armor
+modType: armor
 cost: 12000
 manufacturer: tyriel-advanced-communications-corporation
 tags:
@@ -10,10 +11,7 @@ availability:
   - light
   - medium
   - heavy
-name: Voice Modulator
-flavor: >-
-  Includes an advanced audio processing package that allows unprecedented
-  clarity and resonance for spoken communication.
+flavor: Includes an advanced audio processing package that allows unprecedented clarity and resonance for spoken communication.
 mechanics:
   - type: skill-check
     value: persuasion

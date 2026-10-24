@@ -1,21 +1,16 @@
 ---
-placement: head
-type: light
+name: Archon Visor
+coverage: piece
+slot: head
+armorType: light
 cost: 29750
 manufacturer: devlon-industries
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/2/22/ME3_capacitor_helmet.png/revision/latest/scale-to-width-down/115?cb=20120312191432
+image: https://vignette.wikia.nocookie.net/masseffect/images/2/22/ME3_capacitor_helmet.png/revision/latest/scale-to-width-down/115?cb=20120312191432
 tags:
   - power_regen
 andromeda: false
-set: false
 rarity: uncommon
-name: Archon Visor
-flavor: >-
-  The Archon visor uses an efficient algorithm to balance processing power for
-  omni-tools. A heads-up display and voice command software allows users to
-  micromanage the systems, reducing the cool-down period between energy
-  expenditures.
+flavor: The Archon visor uses an efficient algorithm to balance processing power for omni-tools. A heads-up display and voice command software allows users to micromanage the systems, reducing the cool-down period between energy expenditures.
 mechanics:
   - type: action
     resource:

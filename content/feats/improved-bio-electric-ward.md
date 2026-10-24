@@ -8,13 +8,12 @@ mechanics:
       value: 1
   - type: other
     resource: {}
-    shortDesc: >-
-      When you are reduced to 0 hit points by lightning or cold damage but not killed outright,
-      you can drop to 1 hit point instead.
+    shortDesc: When you are reduced to 0 hit points by lightning or cold damage but not killed outright, you can drop to 1 hit point instead.
 prerequisite: Angara
 prereq:
   - type: species
-    limit: [angara]
+    limit:
+      - angara
 ---
 You have honed your bio-electric ward to new heights providing greater defense.
 

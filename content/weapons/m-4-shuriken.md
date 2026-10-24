@@ -1,11 +1,10 @@
 ---
 name: M-4 Shuriken
 rarity: common
-type: smg
+weaponType: smg
 cost: 8000
 manufacturer: elkoss-combine
 weight: 4
-heat: 3
 damage:
   dieCount: 2
   dieType: 4
@@ -16,8 +15,10 @@ range:
 image: https://vignette1.wikia.nocookie.net/masseffect/images/8/8b/ME3_Shuriken_Smg.png/revision/latest?cb=20120317184559
 andromeda: false
 properties:
-  - hip-fire
-  - burst-fire
-  - light
+  - id: hip-fire
+  - id: burst-fire
+  - id: light
+  - id: heat
+    value: 3
 slots: 1
 ---

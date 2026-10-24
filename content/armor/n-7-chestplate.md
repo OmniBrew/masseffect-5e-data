@@ -1,10 +1,11 @@
 ---
-placement: chest
-type: medium
+name: N7 Chestplate
+coverage: piece
+slot: chest
+armorType: medium
 cost: 40250
 manufacturer: hahne-kedar
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/1/1c/MEA_N7_Chest.png/revision/latest?cb=20180507215320
+image: https://vignette.wikia.nocookie.net/masseffect/images/1/1c/MEA_N7_Chest.png/revision/latest?cb=20180507215320
 tags:
   - shields
   - special
@@ -12,21 +13,18 @@ tags:
 andromeda: false
 set: n-7
 rarity: rare
-name: N7 Chestplate
-flavor: >-
-  Interlocking plates of thick, ablative ceramic plates. Designed to be light,
-  effective, and easily repaired.
+flavor: Interlocking plates of thick, ablative ceramic plates. Designed to be light, effective, and easily repaired.
 mechanics:
-  - type: shields
+  - type: me:shields
     capacity:
       type: flat
       value: 10
     regen:
       type: flat
       value: 5
-  - type: thermal-clip-capacity
+  - type: me:thermal-clip-capacity
     value: 6
-  - type: medi-gel-capacity
+  - type: me:medi-gel-capacity
     value: 2
 ---
 - 10 shields (regen 5).

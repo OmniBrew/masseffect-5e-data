@@ -1,4 +1,5 @@
 ---
+name: Voice of Royalty
 level: 11
 klass: musician
 subclass: operatic
@@ -7,7 +8,6 @@ mechanics:
     effect:
       type: advantage
       note: On social checks against creatures of a high social standing
-name: Voice of Royalty
 ---
 At 11th level, you have permanent advantage on social checks against creatures of a high social standing.
 Your GM determines if the creature counts as having a high social standing: when in doubt, someone with a

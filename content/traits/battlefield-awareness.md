@@ -5,6 +5,8 @@ species:
 mechanics:
   - type: skill-choice
     options: true
-    limit: [perception, insight]
+    limit:
+      - perception
+      - insight
 ---
 You gain proficiency in Perception or Insight skill (your choice).

@@ -2,7 +2,8 @@
 name: Arctic
 mechanics:
   - type: saving-throw
-    value: [str]
+    value:
+      - str
     effect:
       type: advantage
       note: against being frozen

@@ -1,8 +1,9 @@
 ---
+name: Magazine Upgrade
 rarity: uncommon
-type: weapon
+modType: weapon
 cost: 8000
-manufacturer: ''
+manufacturer: ""
 tags:
   - additional_heat
 placement: magazine
@@ -12,10 +13,9 @@ availability:
   - smg
   - shotgun
   - sniper_rifle
-name: Magazine Upgrade
 flavor: Increases magazine capacity, allowing more shots before reload.
 mechanics:
-  - type: weapon-heat-increase
+  - type: me:weapon-heat-increase
     multiplier: 0.5
 ---
 The weapon gains additional heat equal to half its base heat (rounded down).

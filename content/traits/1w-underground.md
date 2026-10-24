@@ -7,4 +7,4 @@ mechanics:
     sense: darkvision
     distance: 60
 ---
-After 1 week, you gain darkvision <me-distance length="60" />.
+After 1 week, you gain darkvision :distance{length="60"}.

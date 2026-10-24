@@ -1,6 +1,6 @@
 ---
+name: Turian Hierarchy Destroyer
 type: starship
-subtype: false
 size: cruiser
 ac: 22
 hp: 2300
@@ -32,3 +32,7 @@ weapons:
 cr: 16+
 cost: military
 ---
+The Destroy class is a standard Turian Hierarchy cruiser.
+
+__Additional Systems__: The Destroyer class has an _Armory_, _Weapons Range_, __GARDIAN__ system,
+and 6 open additional system slots.

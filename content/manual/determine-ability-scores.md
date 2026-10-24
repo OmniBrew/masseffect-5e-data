@@ -31,7 +31,7 @@ by 2 (round down). Write the modifier next to each of your scores.
 
 See: [Rules > Using Ability Scores > Ability Scores and Modifiers](/manual/using-ability-scores#ability-scores-and-modifiers)
 
-::: alert
+::note
 __BUILDING KALEEM, STEP 3__
 Sam decides to use the standard set of scores (15, 14, 13, 12, 10, 8) for Kaleem’s abilities. Since she’s an engineer,
 she puts her highest score, 15, in Intelligence. Her next-highest, 14, goes in Dexterity. Kaleem might be a charismatic,
@@ -41,7 +41,7 @@ Dexterity by 1), Kaleem’s ability scores and modifiers look like this: Strengt
 Constitution 13 (+1), Intelligence 17 (+3), Wisdom 10 (0), Charisma 8 (-1).
 
 Sam fills in Kaleem’s final hit points: 8 + her Constitution modifier of +1, for a total of 9 hit points.
-:::
+::
 
 ### Variant: Customizing Ability Scores
 At your Galaxy Master’s option, you can use this variant for determining your ability scores. The method described here
@@ -67,4 +67,5 @@ between those extremes.
 |14|7|
 |15|9|
 
-<me-source-reference pages="7-8" source="basic"></me-source-reference>
+::source-reference{pages="7-8" source="basic"}
+::

@@ -6,7 +6,9 @@ mechanics:
     ability: cha
     amount: 1
   - type: skill-check
-    value: [deception, performance]
+    value:
+      - deception
+      - performance
     effect:
       type: advantage
       note: when attempting to convince a creature you can accomplish a task
@@ -21,7 +23,9 @@ mechanics:
 prerequisite: Human or Batarian
 prereq:
   - type: species
-    limit: [human, batarian]
+    limit:
+      - human
+      - batarian
 ---
 You mimic confidence, competence and an optimistic mindset, which you hope help you realize those qualities in
 your real life. You gain the following benefits:

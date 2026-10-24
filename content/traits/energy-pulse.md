@@ -1,6 +1,7 @@
 ---
 name: Energy Pulse
-species: [hardware-loki]
+species:
+  - hardware-loki
 mechanics:
   - type: natural-weapon
     value:

@@ -1,10 +1,10 @@
 ---
+name: Cardio_Muscular_Optimizer.exe
 rarity: rare
-type: omni_tool_program
+gearType: omni_tool_program
 cost: 0
 weight: 0
-subType: ''
-name: Cardio_Muscular_Optimizer.exe
+subType: ""
 installation: true
 equippable: true
 mechanics:

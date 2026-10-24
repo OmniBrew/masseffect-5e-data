@@ -1,6 +1,7 @@
 ---
+name: Battle Telemetry
 rarity: spectre
-type: armor
+modType: armor
 cost: 30000
 manufacturer: rosenkov-materials
 tags:
@@ -10,10 +11,7 @@ availability:
   - light
   - medium
   - heavy
-name: Battle Telemetry
-flavor: >-
-  Battle telemetry systems increase the efficiency of your biotic amplifiers and
-  omni-tool.
+flavor: Battle telemetry systems increase the efficiency of your biotic amplifiers and omni-tool.
 mechanics:
   - type: power-resource-recovery
     dieCount: 1

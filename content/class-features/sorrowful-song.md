@@ -1,4 +1,5 @@
 ---
+name: Sorrowful Song
 level: 17
 klass: musician
 subclass: operatic
@@ -18,12 +19,8 @@ mechanics:
       bonus:
         type: powercastingMod
         value: musician
-    shortDesc: >-
-      You can spend one use of Inspiration as an action to target an enemy. Do not roll the Inspiration die.
-      When you use this ability, the enemy must succeed on a DC {{dc}} Charisma saving throw or be
-      <me-condition id="stunned" /> until the end of your next round.
-name: Sorrowful Song
+    shortDesc: You can spend one use of Inspiration as an action to target an enemy. Do not roll the Inspiration die. When you use this ability, the enemy must succeed on a DC {{dc}} Charisma saving throw or be :condition{id="stunned"} until the end of your next round.
 ---
 At 17th level, you can spend one use of Inspiration as an action to target an enemy. Do not roll the Inspiration die.
 When you use this ability, the enemy must succeed a Charisma saving throw of DC equal to your Powercasting DC or be
-<me-condition id="stunned" /> until the end of your next round.
+:condition{id="stunned"} until the end of your next round.

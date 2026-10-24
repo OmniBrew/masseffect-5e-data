@@ -1,4 +1,5 @@
 ---
+name: Feat
 species:
   - human-variant
   - prothean-no-avatar
@@ -6,5 +7,6 @@ species:
 mechanics:
   - type: model-choice
     options: true
-    model: 'feats'
+    model: feats
 ---
+You gain one feat of your choice.

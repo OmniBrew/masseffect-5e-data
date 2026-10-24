@@ -1,11 +1,11 @@
 ---
+name: EM_Trail_Scrambler.exe
 mechanics: []
 rarity: uncommon
-type: omni_tool_program
+gearType: omni_tool_program
 cost: 0
 weight: 0
-subType: ''
-name: EM_Trail_Scrambler.exe
+subType: ""
 installation: true
 equippable: true
 ---

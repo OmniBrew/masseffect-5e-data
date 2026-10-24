@@ -1,11 +1,10 @@
 ---
 name: Collector Sniper Rifle
 rarity: rare
-type: sniper_rifle
+weaponType: sniper_rifle
 cost: 36500
 manufacturer: ""
 weight: 18
-heat: 4
 damage:
   dieCount: 1
   dieType: 12
@@ -16,9 +15,11 @@ range:
 image: https://vignette.wikia.nocookie.net/masseffect/images/4/40/ME3_Collector_Sniper_Rifle.png/revision/latest/scale-to-width-down/200?cb=20121009204028
 andromeda: false
 properties:
-  - two-handed
-  - burst-fire
-  - vented
+  - id: two-handed
+  - id: burst-fire
+  - id: vented
+  - id: heat
+    value: 4
 slots: 2
 ---
 The Collector Sniper Rifle does not use thermal clips. Instead, use a d4 to track the "heat". 

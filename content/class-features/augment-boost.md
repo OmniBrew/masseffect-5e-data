@@ -1,7 +1,7 @@
 ---
+name: Augment Boost
 level: 9
 klass: experiment
-name: Augment Boost
 mechanics:
   - type: model-choice
     options: true

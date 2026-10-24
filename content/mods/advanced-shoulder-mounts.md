@@ -1,8 +1,8 @@
 ---
+name: Advanced Shoulder Mounts
 rarity: rare
-type: armor
+modType: armor
 cost: 30000
-manufacturer: null
 tags:
   - special
 placement: chest
@@ -10,12 +10,9 @@ availability:
   - light
   - medium
   - heavy
-name: Advanced Shoulder Mounts
-flavor: >-
-  Originally designed for Elcor battlesuits, these hydraulic
-  mounts allow you to equip and fire ranged weapons from your shoulder.
+flavor: Originally designed for Elcor battlesuits, these hydraulic mounts allow you to equip and fire ranged weapons from your shoulder.
 mechanics:
-  - type: shoulder-mounts
+  - type: me:shoulder-mounts
     slots: 2
     max: 2
 ---

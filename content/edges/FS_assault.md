@@ -5,7 +5,8 @@ mechanics:
     attackLimit:
       model: weapon
       special: bf
-    augmentTypes: [dc]
+    augmentTypes:
+      - dc
     bonus:
       type: flat
       value: 2

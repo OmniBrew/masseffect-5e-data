@@ -1,4 +1,5 @@
 ---
+name: Venom Arsenal
 level: 3
 klass: infiltrator
 subclass: poisoner
@@ -9,7 +10,6 @@ mechanics:
     moreInfo:
       model: class-features
       id: venom-arsenal
-name: Venom Arsenal
 ---
 At 3rd level, you gain proficiency and expertise in the Poisoner's Kit. If you are already proficient in the Poisoner's
 Kit, gain Expertise for it and proficiency in another kit of your choice. If you have both, you gain proficiency and

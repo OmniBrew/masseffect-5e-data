@@ -1,11 +1,12 @@
 ---
+name: Ride On!
 level: 3
 klass: tracker
 subclass: outrider
 mechanics:
   - type: global-note
     subType: action
-    value: 'Ride On (1d8)'
+    value: Ride On (1d8)
     moreInfo:
       model: class-features
       id: ride-on
@@ -15,7 +16,6 @@ mechanics:
       bonus:
         type: mod
         value: cha
-name: Ride On!
 ---
 You and your beast are of one mind, and perfectly adjusted to each others strengths, weaknesses, and weights. Starting
 at 3rd level, you gain the ability to mount creatures that are the same size as you. If the Beast casts a power that

@@ -1,8 +1,8 @@
 ---
+name: Dark Biotics
 level: 2
 klass: adept
 subclass: disruptor
-name: Dark Biotics
 mechanics:
   - type: global-note
     subType: action

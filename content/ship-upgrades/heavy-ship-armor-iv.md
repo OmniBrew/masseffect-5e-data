@@ -1,7 +1,7 @@
 ---
 name: Heavy Ship Armor IV
-system: '-'
+system: "-"
 prerequisite: Heavy Ship Armor III
-cost: '525000'
+cost: "525000"
 ---
 +4 AC

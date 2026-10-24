@@ -2,7 +2,8 @@
 name: Swamps
 mechanics:
   - type: speed-bonus
-    value: [swim]
+    value:
+      - swim
     ifExists:
       bonus:
         type: flat
@@ -13,4 +14,4 @@ mechanics:
         value: walk
 type: tracker-affinity
 ---
-You gain a swimming speed equal to your walking speed. If you already have a swimming speed, your swim speed increases by <me-distance length="10" />.
+You gain a swimming speed equal to your walking speed. If you already have a swimming speed, your swim speed increases by :distance{length="10"}.

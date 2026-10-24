@@ -1,8 +1,8 @@
 ---
+name: Transfer Barrier
 level: 3
 klass: vanguard
 subclass: valkyrie
-name: Transfer Barrier
 mechanics:
   - type: global-note
     subType: power

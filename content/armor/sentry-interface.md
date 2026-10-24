@@ -1,20 +1,16 @@
 ---
-placement: head
-type: medium
+name: Sentry Interface
+coverage: piece
+slot: head
+armorType: medium
 cost: 17000
 manufacturer: hahne-kedar
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/b/b7/ME3_sentry_interface.png/revision/latest/scale-to-width-down/115?cb=20120312190726
+image: https://vignette.wikia.nocookie.net/masseffect/images/b/b7/ME3_sentry_interface.png/revision/latest/scale-to-width-down/115?cb=20120312190726
 tags:
   - shield_jumpstart
 andromeda: false
-set: false
 rarity: uncommon
-name: Sentry Interface
-flavor: >-
-  This visor works with the Sentry system, a software application that optimizes
-  an armor suit's microframe computer. When the Sentry system is running, more
-  power can be devoted to shield management.
+flavor: This visor works with the Sentry system, a software application that optimizes an armor suit's microframe computer. When the Sentry system is running, more power can be devoted to shield management.
 mechanics:
   - type: reaction
     name: Capacitor Helmet

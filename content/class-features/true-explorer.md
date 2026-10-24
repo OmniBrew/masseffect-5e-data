@@ -1,33 +1,40 @@
 ---
+name: True Explorer
 level: 20
 klass: explorer
 mechanics:
   - type: model-choice
-    label: 'Choose a Biotic Cantrip'
+    label: Choose a Biotic Cantrip
     model: powers
     options: true
     hide: true
     limits:
       - attr: level
-        value: [0]
+        value:
+          - 0
       - attr: classes
-        value: [explorer]
+        value:
+          - explorer
       - attr: type
-        value: [biotic]
+        value:
+          - biotic
     append:
       klass: explorer
   - type: model-choice
-    label: 'Choose a Combat Cantrip'
+    label: Choose a Combat Cantrip
     model: powers
     options: true
     hide: true
     limits:
       - attr: level
-        value: [0]
+        value:
+          - 0
       - attr: classes
-        value: [explorer]
+        value:
+          - explorer
       - attr: type
-        value: [combat]
+        value:
+          - combat
     append:
       klass: explorer
   - type: global-note
@@ -36,7 +43,6 @@ mechanics:
     moreInfo:
       model: class-features
       id: true-explorer
-name: True Explorer
 ---
 Your abilities have reached their peak, and the galaxy is ripe for your exploring. You double the number of cantrips
 you select every short rest with The Right Cantrip for the Job.

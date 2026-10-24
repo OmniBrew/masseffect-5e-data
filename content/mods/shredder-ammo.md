@@ -1,18 +1,18 @@
 ---
+name: Shredder Ammo
 rarity: rare
-type: weapon
+modType: weapon
 cost: 20000
-manufacturer: ''
+manufacturer: ""
 tags:
   - damage_augment
   - ignore_resistance
 placement: ammo
 availability:
   - shotgun
-name: Shredder Ammo
 flavor: Shoot pellets covered in Tungsten for increased damage.
 mechanics:
-  - type: weapon-augment
+  - type: me:weapon-augment
     damageType: slashing
     notes:
       - type: text

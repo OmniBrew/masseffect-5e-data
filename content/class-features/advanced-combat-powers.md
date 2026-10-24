@@ -1,8 +1,8 @@
 ---
+name: Advanced Combat Powers
 level: 7
 klass: soldier
 subclass: havoc
-name: Advanced Combat Powers
 mechanics:
   - type: additional-cantrips
     bonus:

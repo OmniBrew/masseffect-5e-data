@@ -1,19 +1,98 @@
 ---
+name: Biotic Scar
 level: 1
 klass: experiment
 subclass: biotic
-name: Biotic Scar
 mechanics:
   - type: powercasting-slots
     multiclassConversion: 0.25
-    known: [0,0,2,2,2,3,3,3,4,4,4,5,5,5,6,6,6,7,7,7]
-    prepared: false
+    known:
+      - 0
+      - 0
+      - 2
+      - 2
+      - 2
+      - 3
+      - 3
+      - 3
+      - 4
+      - 4
+      - 4
+      - 5
+      - 5
+      - 5
+      - 6
+      - 6
+      - 6
+      - 7
+      - 7
+      - 7
     slots:
-      1: [0,0,2,2,2,2,2,2,3,3,3,3,3,3,4,4,4,4,4,4]
-      2: [0,0,0,0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,3]
+      1:
+        - 0
+        - 0
+        - 2
+        - 2
+        - 2
+        - 2
+        - 2
+        - 2
+        - 3
+        - 3
+        - 3
+        - 3
+        - 3
+        - 3
+        - 4
+        - 4
+        - 4
+        - 4
+        - 4
+        - 4
+      2:
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 1
+        - 1
+        - 1
+        - 1
+        - 2
+        - 2
+        - 2
+        - 2
+        - 3
+        - 3
+        - 3
+        - 3
+        - 3
     mod: con
   - type: cantrips
-    known: [1,1,1,1,1,1,2,2,2,2,2,2,3,3,3,3,3,3,4,4]
+    known:
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 3
+      - 3
+      - 3
+      - 3
+      - 3
+      - 3
+      - 4
+      - 4
   - type: use-class-for-cantrip-list
     klass: adept
   - type: use-class-for-power-list

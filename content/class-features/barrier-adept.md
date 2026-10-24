@@ -1,14 +1,54 @@
 ---
+name: Barrier
 level: 1
 klass: adept
 mechanics:
-  - type: barrier
+  - type: me:barrier
     multiclassConversion: 0.5
-    ticks: [2,2,2,2,2,2,3,3,3,3,3,3,4,4,4,4,4,4,5,5]
-    uses: [2,2,3,3,3,4,4,4,4,4,4,5,5,5,5,5,6,6,6,6]
+    ticks:
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 3
+      - 3
+      - 3
+      - 3
+      - 3
+      - 3
+      - 4
+      - 4
+      - 4
+      - 4
+      - 4
+      - 4
+      - 5
+      - 5
+    uses:
+      - 2
+      - 2
+      - 3
+      - 3
+      - 3
+      - 4
+      - 4
+      - 4
+      - 4
+      - 4
+      - 4
+      - 5
+      - 5
+      - 5
+      - 5
+      - 5
+      - 6
+      - 6
+      - 6
+      - 6
     dieCount: 1
     dieType: 8
-name: Barrier
 ---
 As an action or bonus action, you create a biotic barrier around you that reduces incoming damage and fuels certain
 biotic abilities. You gain barrier ticks equal to the Barrier Ticks column shown on your class progression table. Your total

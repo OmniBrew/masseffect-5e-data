@@ -1,6 +1,7 @@
 ---
+name: Thermal Armor
 rarity: uncommon
-type: armor
+modType: armor
 cost: 35000
 manufacturer: devlon-industries
 tags:
@@ -10,7 +11,6 @@ availability:
   - light
   - medium
   - heavy
-name: Thermal Armor
 flavor: Heat regulators keep your armor warm in the coldest environments.
 mechanics:
   - type: condition-immunity

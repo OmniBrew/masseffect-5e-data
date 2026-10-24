@@ -1,8 +1,8 @@
 ---
+name: Extra Attack (2)
 level: 14
 klass: vanguard
 subclass: battle-master
-name: Extra Attack (2)
 mechanics:
   - type: extra-attack
     value: 3

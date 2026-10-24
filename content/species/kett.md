@@ -1,18 +1,10 @@
 ---
 name: Kett
-alignment: >-
-  Kett view all other species as inferior, but follow a strict hierarchy, generally making them Lawful Evil.
-size: >-
-  Kett have a similar height to humans with slightly bulkier builds due to the external bones. Your size is Medium.
-snippet: >-
-  Kett are a dangerous race native to the Andromeda galaxy. They prize physical supremacy and genetic dominance,
-  assimilating conquered peoples.
-age: >-
-  The Kett lifespan is currently undetermined. The only known datapoint is that the Archon
-  of the Heleus contingent has been active in cluster affairs for over seven decades. Due to their unique
-  reproduction process via exaltation, Kett are fully mature when the exaltation is complete.
-bodyImg: >-
-  /images/species/kett.png
+alignment: Kett view all other species as inferior, but follow a strict hierarchy, generally making them Lawful Evil.
+size: Kett have a similar height to humans with slightly bulkier builds due to the external bones. Your size is Medium.
+snippet: Kett are a dangerous race native to the Andromeda galaxy. They prize physical supremacy and genetic dominance, assimilating conquered peoples.
+age: The Kett lifespan is currently undetermined. The only known datapoint is that the Archon of the Heleus contingent has been active in cluster affairs for over seven decades. Due to their unique reproduction process via exaltation, Kett are fully mature when the exaltation is complete.
+bodyImg: /images/species/kett.png
 img: https://vignette.wikia.nocookie.net/masseffect/images/0/0e/Habitat_7_-_kett_Chosen.png/revision/latest/scale-to-width-down/1000?cb=20191013042530
 randomDimensions:
   height:

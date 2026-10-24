@@ -7,10 +7,11 @@ mechanics:
     sense: blindsight
     distance: 30
   - type: skill-check
-    value: [stealth]
+    value:
+      - stealth
     effect:
       type: advantage
       note: while in darkness
 ---
-After 1 year, you gain blindsight <me-distance length="30" />. Additionally, you have advantage on stealth checks while
+After 1 year, you gain blindsight :distance{length="30"}. Additionally, you have advantage on stealth checks while
 in darkness.

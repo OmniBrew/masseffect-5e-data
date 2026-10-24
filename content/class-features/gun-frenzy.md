@@ -1,4 +1,5 @@
 ---
+name: Gun Frenzy
 level: 10
 klass: vanguard
 subclass: warp-gunner
@@ -14,6 +15,5 @@ mechanics:
           - {}
           - model: class-features
             id: gun-frenzy
-name: Gun Frenzy
 ---
 At 10th level, your Brutal Critical features can be applied to any weapon that is currently firing Biotic Bullets.

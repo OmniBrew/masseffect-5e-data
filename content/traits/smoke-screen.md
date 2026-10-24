@@ -14,11 +14,11 @@ mechanics:
       max:
         type: flat
         value: 2
-    shortDesc: Create an <me-distance length="20" adj />-radius sphere of smoke centered on you.
+    shortDesc: Create an :distance{length="20" adj}-radius sphere of smoke centered on you.
 ---
-As an action, you can create an <me-distance length="20" adj />-radius sphere of smoke centered on you.
+As an action, you can create an :distance{length="20" adj}-radius sphere of smoke centered on you.
 The sphere spreads around corners, and its area is heavily obscured. It lasts
 for 1 minute or until a wind of moderate or greater speed (at least
-<me-distance large length="10" /> per hour) disperses it.
+:distance{large length="10"} per hour) disperses it.
 
 You may use this twice between short or long rests.

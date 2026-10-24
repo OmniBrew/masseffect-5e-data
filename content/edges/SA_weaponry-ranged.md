@@ -5,7 +5,8 @@ mechanics:
     value:
       model: main-augments
       id: MA_weaponry-ranged
-      limit: [attack]
+      limit:
+        - attack
     merge:
       moreInfo:
         additional:

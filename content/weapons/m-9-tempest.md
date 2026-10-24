@@ -1,11 +1,10 @@
 ---
 name: M-9 Tempest
 rarity: uncommon
-type: smg
+weaponType: smg
 cost: 17000
 manufacturer: elanus-risk-control-services
 weight: 2
-heat: 6
 damage:
   dieCount: 2
   dieType: 6
@@ -16,8 +15,10 @@ range:
 image: https://vignette2.wikia.nocookie.net/masseffect/images/1/14/ME3_Tempest_Smg.png/revision/latest?cb=20120317184648
 andromeda: false
 properties:
-  - hip-fire
-  - burst-fire
-  - light
+  - id: hip-fire
+  - id: burst-fire
+  - id: light
+  - id: heat
+    value: 6
 slots: 1
 ---

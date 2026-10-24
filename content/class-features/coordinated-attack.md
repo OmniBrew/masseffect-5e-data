@@ -1,8 +1,8 @@
 ---
+name: Coordinated Attack
 level: 6
 klass: engineer
 subclass: drone-jockey
-name: Coordinated Attack
 mechanics:
   - type: global-note
     value: Coordinated Attack

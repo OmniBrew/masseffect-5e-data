@@ -1,4 +1,5 @@
 ---
+name: Venom Training
 level: 3
 klass: vanguard
 subclass: cabal
@@ -14,10 +15,11 @@ mechanics:
         dieCount: 1
         dieType: 8
         type: poison
-      properties: [finesse, special]
+      properties:
+        - finesse
+        - special
       notes:
-        - 'Can be used for Two-Weapon Fighting'
-name: Venom Training
+        - Can be used for Two-Weapon Fighting
 ---
 You are trained in the Cabal's signature style of biotics. When you gain this feature at 3rd level, you integrate a
 special melee weapon onto your armor: the Cabal Venom Gauntlets. These weapons have the Special and Finesse tags, and

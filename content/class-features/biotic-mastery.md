@@ -1,22 +1,24 @@
 ---
+name: Biotic Mastery
 level: 15
 klass: adept
-name: Biotic Mastery
 mechanics:
   - type: model-choice
-    label: 'Choose two powers'
+    label: Choose two powers
     model: powers
     options: true
     known: true
     limits:
       - attr: level
-        value: [1]
+        value:
+          - 1
     hide: true
     isolated: true
     selections: 2
     append:
-      type: 'power-at-will'
-      levels: [1]
+      type: power-at-will
+      levels:
+        - 1
 ---
 At 15th level, you have achieved such mastery over certain biotics that you can cast them at will. Choose two 1st-level
 biotic powers that you have learned. You can cast those powers at 1st level without

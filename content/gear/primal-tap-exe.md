@@ -1,10 +1,10 @@
 ---
+name: Primal_Tap.exe
 subsets:
   - id: primal-tap-i-exe
     rarity: uncommon
     name: Primal_Tap_I.exe
-    html: >-
-      Your Strength score becomes 19. This has no effect if your Strength score is already equal to or higher than 19.
+    html: Your Strength score becomes 19. This has no effect if your Strength score is already equal to or higher than 19.
     mechanics:
       - type: asi-minimum
         ability: str
@@ -12,8 +12,7 @@ subsets:
   - id: primal-tap-ii-exe
     rarity: rare
     name: Primal_Tap_II.exe
-    html: >-
-      Your Strength score becomes 21. This has no effect if your Strength score is already equal to or higher than 21.
+    html: Your Strength score becomes 21. This has no effect if your Strength score is already equal to or higher than 21.
     mechanics:
       - type: asi-minimum
         ability: str
@@ -21,8 +20,7 @@ subsets:
   - id: primal-tap-iii-exe
     rarity: rare
     name: Primal_Tap_III.exe
-    html: >-
-      Your Strength score becomes 23. This has no effect if your Strength score is already equal to or higher than 23.
+    html: Your Strength score becomes 23. This has no effect if your Strength score is already equal to or higher than 23.
     mechanics:
       - type: asi-minimum
         ability: str
@@ -30,8 +28,7 @@ subsets:
   - id: primal-tap-iv-exe
     rarity: very_rare
     name: Primal_Tap_IV.exe
-    html: >-
-      Your Strength score becomes 26. This has no effect if your Strength score is already equal to or higher than 26.
+    html: Your Strength score becomes 26. This has no effect if your Strength score is already equal to or higher than 26.
     mechanics:
       - type: asi-minimum
         ability: str
@@ -39,18 +36,16 @@ subsets:
   - id: primal-tap-v-exe
     rarity: spectre
     name: Primal_Tap_v.exe
-    html: >-
-      Your Strength score becomes 29. This has no effect if your Strength score is already equal to or higher than 29.
+    html: Your Strength score becomes 29. This has no effect if your Strength score is already equal to or higher than 29.
     mechanics:
       - type: asi-minimum
         ability: str
         minimum: 29
 rarity: varies
-type: omni_tool_program
+gearType: omni_tool_program
 cost: 0
 weight: 0
-subType: ''
-name: Primal_Tap.exe
+subType: ""
 equippable: true
 installation: true
 ---

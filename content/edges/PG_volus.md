@@ -8,8 +8,8 @@ mechanics:
   - type: model-choice
     options: true
     model: traits
-    set: [lucky]
+    set:
+      - lucky
 ---
 - Increase your Wisdom score by 1, to a maximum of 20.
 - Gain the Lucky trait.
-

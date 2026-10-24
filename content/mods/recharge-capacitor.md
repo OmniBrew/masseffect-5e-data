@@ -1,6 +1,7 @@
 ---
+name: Recharge Capacitor
 rarity: rare
-type: armor
+modType: armor
 cost: 15000
 manufacturer: alliance
 tags:
@@ -10,10 +11,7 @@ availability:
   - light
   - medium
   - heavy
-name: Recharge Capacitor
-flavor: >-
-  Microwells store part of the energy directed at the armor and use it to jump
-  start the kinetic barrier recharge cycle.
+flavor: Microwells store part of the energy directed at the armor and use it to jump start the kinetic barrier recharge cycle.
 mechanics:
   - type: reaction
     name: Recharge Capacitor (mod)

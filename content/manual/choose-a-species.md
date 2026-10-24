@@ -17,12 +17,13 @@ remember to apply them later.
 
 Record the traits granted by your species on your character sheet. Be sure to note your base speed and size as well.
 
-::: alert
+::note
 __BUILDING KALEEM, STEP 1__
 Sam is sitting down to create her character. She decides that a wiley salarian fits the character she wants to play and
 she knows she wants to play with tech powers available to the engineer or infiltrator class, both of which are available
 classes for the salarian species. She notes all the racial traits of salarians on her character sheet, including her speed
-of <me-distance length="30" /> and Medium size.
-:::
+of :distance{length="30"} and Medium size.
+::
 
-<me-source-reference pages="6" source="basic" />
+::source-reference{pages="6" source="basic"}
+::

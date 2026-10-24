@@ -1,5 +1,5 @@
 ---
-image: null
+name: All-Round Beast
 type: organic
 unit: tracker
 alignment: u
@@ -15,11 +15,7 @@ abilityScores:
   int: 4
   wis: 12
   cha: 6
-irv: false
-savingThrows: false
-senses: false
 size: medium
-skills: false
 speed:
   walk: 40
   note: choose 16m swimming or climbing, or 8m of burrowing
@@ -28,14 +24,25 @@ entries:
     - attack: melee
       proficient: true
       range: 5
-      dc: false
       mod: str
       damage:
-        - {dieCount: 1, dieType: 8, mod: true, type: piercing}
+        - dieCount: 1
+          dieType: 8
+          mod: true
+          type: piercing
       target: one
       id: melee-strike
-cr: '00125'
+      name: Melee Strike
+  features:
+    - name: Biological Versatility
+      text: You may choose 1 Unrestricted Training Regimen and add it to your known Regimens. It does not count towards your total known.
+      id: biological-versatility
+    - name: Keen Senses
+      text: The All-Round beast has advantage on Wisdom (Perception) checks that have to do with smelling or hearing.
+      id: keen-senses
+cr: "00125"
 shields:
   capacity: 5
   regen: 5
+author: Helios
 ---

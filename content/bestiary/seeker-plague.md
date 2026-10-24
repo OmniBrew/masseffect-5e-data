@@ -1,6 +1,6 @@
 ---
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/9/9f/SwarmME3_Plague.jpg/revision/latest/scale-to-width-down/350?cb=20121201212536
+name: Seeker Plague
+image: https://vignette.wikia.nocookie.net/masseffect/images/9/9f/SwarmME3_Plague.jpg/revision/latest/scale-to-width-down/350?cb=20121201212536
 type: organic
 unit: collector
 alignment: le
@@ -16,12 +16,9 @@ abilityScores:
   int: 10
   wis: 8
   cha: 6
-irv: false
 savingThrows:
   - dex
-senses: false
 size: small
-skills: false
 speed:
   fly: 30
 entries:
@@ -29,13 +26,23 @@ entries:
     - attack: melee
       proficient: true
       range: 5
-      dc: false
       mod: dex
       damage:
-        - {dieCount: 1, dieType: 4, mod: true, type: poison}
-        - {dieCount: 1, dieType: 4, mod: true, type: necrotic}
+        - dieCount: 1
+          dieType: 4
+          mod: true
+          type: poison
+        - dieCount: 1
+          dieType: 4
+          mod: true
+          type: necrotic
       target: one
       id: plague-sting
-cr: '00250'
-shields: false
+      name: Plague Sting
+      hit: The target must succeed on DC 13 Constitution saving throw or has disadvantage on its next attack roll
+  features:
+    - name: Barrier
+      text: The seeker plague has 1 barrier tick. When it is dealt damage, remove one barrier tick and reduce the damage by 1d8.
+      id: barrier
+cr: "00250"
 ---

@@ -1,4 +1,5 @@
 ---
+name: Power from Pain
 level: 3
 klass: soldier
 subclass: incubus
@@ -9,7 +10,6 @@ mechanics:
     moreInfo:
       model: class-features
       id: power-from-pain
-name: Power from Pain
 ---
 Your greatest strength lies in inflicting pain on others. Especially enemies that are already wounded are prime targets
 for your agonizing strikes.

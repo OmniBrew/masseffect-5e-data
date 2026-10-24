@@ -1,30 +1,29 @@
 ---
+name: Shotgun Choke
 rarity: rare
-type: weapon
+modType: weapon
 cost: 12500
-manufacturer: ''
+manufacturer: ""
 tags:
   - increased_range
   - extra_damage
 placement: barrel
 availability:
   - shotgun
-name: Shotgun Choke
-flavor: >-
-  This barrel extension tightens the spread of the shotgun's pellets increasing
-  its effective firing distance and damage, but decreasing its close-quarters
-  capabilities.
+flavor: This barrel extension tightens the spread of the shotgun's pellets increasing its effective firing distance and damage, but decreasing its close-quarters capabilities.
 mechanics:
   - type: attack-augment
     attackLimit:
       model: weapon
-    augmentTypes: [damage]
+    augmentTypes:
+      - damage
     bonus:
       type: flat
       value: 1
   - type: adjust-weapon-props
-    remove: [hip-fire]
-  - type: weapon-augment
+    remove:
+      - hip-fire
+  - type: me:weapon-augment
     shortRangeMultiplier: 2
     longRangeMultiplier: 2
 ---

@@ -2,9 +2,7 @@
 name: Heads Up
 mechanics:
   - type: bonus-action
-    shortDesc: >-
-      Set your tactical focus. If an ally in your tactical focus must make a Dexterity saving throw it has advantage
-      on that saving throw.
+    shortDesc: Set your tactical focus. If an ally in your tactical focus must make a Dexterity saving throw it has advantage on that saving throw.
     range:
       short: 60
       aoe:

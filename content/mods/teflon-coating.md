@@ -1,6 +1,7 @@
 ---
+name: Teflon Coating
 rarity: uncommon
-type: armor
+modType: armor
 cost: 15000
 manufacturer: devlon-industries
 tags:
@@ -10,7 +11,6 @@ availability:
   - light
   - medium
   - heavy
-name: Teflon Coating
 flavor: A spray of Teflon that reflects multiple types of radiation.
 mechanics:
   - type: resistance

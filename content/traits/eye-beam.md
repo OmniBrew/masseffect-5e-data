@@ -1,6 +1,7 @@
 ---
-species: [mobile-platform-hopper]
 name: Eye Beam
+species:
+  - mobile-platform-hopper
 mechanics:
   - type: natural-weapon
     value:

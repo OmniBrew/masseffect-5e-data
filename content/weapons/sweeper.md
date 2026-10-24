@@ -1,11 +1,10 @@
 ---
 name: Sweeper
 rarity: rare
-type: assault_rifle
+weaponType: assault_rifle
 cost: 39000
 manufacturer: remnant
 weight: 18
-heat: 6
 damage:
   dieCount: 2
   dieType: 8
@@ -16,11 +15,13 @@ range:
 image: https://vignette.wikia.nocookie.net/masseffect/images/4/49/MEA_Sweeper_MP.png/revision/latest?cb=20180530232437
 andromeda: true
 properties:
-  - two-handed
-  - heavy
-  - special
-  - burst-fire
-  - vented
+  - id: two-handed
+  - id: heavy
+  - id: special
+  - id: burst-fire
+  - id: vented
+  - id: heat
+    value: 6
 slots: 2
 ---
 The Sweeper does not use thermal clips. Instead, use a d6 to track the "heat". Whenever you make a 

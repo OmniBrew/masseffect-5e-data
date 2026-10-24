@@ -1,4 +1,5 @@
 ---
+name: Recon Tracking
 level: 3
 klass: tracker
 subclass: bloodhound
@@ -8,8 +9,7 @@ mechanics:
     klass: tracker
     merge:
       notes:
-        - 'Recon Tracking'
-name: Recon Tracking
+        - Recon Tracking
 ---
 When you choose this specialization at 3rd level, you gain the Recon Scan combat power. This does not count towards
 your total combat powers known.

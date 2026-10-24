@@ -1,21 +1,18 @@
 ---
-placement: head
-type: medium
+name: N7 Helmet
+coverage: piece
+slot: head
+armorType: medium
 cost: 23250
 manufacturer: hahne-kedar
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/7/78/MEA_N7_Helmet.png/revision/latest/scale-to-width-down/700?cb=20180507215345
+image: https://vignette.wikia.nocookie.net/masseffect/images/7/78/MEA_N7_Helmet.png/revision/latest/scale-to-width-down/700?cb=20180507215345
 tags:
   - special
   - set_bonus
 andromeda: false
 set: n-7
 rarity: rare
-name: N7 Helmet
-flavor: >-
-  Dual layer of fabric armor and kinetic padding within a lightweight ablative
-  ceramic shell. Comes standard with a suite of communication, navigation, and
-  battlefield awareness software.
+flavor: Dual layer of fabric armor and kinetic padding within a lightweight ablative ceramic shell. Comes standard with a suite of communication, navigation, and battlefield awareness software.
 mechanics:
   - type: initiative
     effect:

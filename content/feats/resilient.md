@@ -1,4 +1,5 @@
 ---
+name: Resilient
 mechanics:
   - type: asi-choice
     options: true
@@ -6,5 +7,8 @@ mechanics:
     valueLookup:
       model: feats
       id: resilient
-      limit: [asi]
+      limit:
+        - asi
+note: +1 and proficiency with saving throws to a chosen ability score
 ---
+Player's Handbook, p. 168

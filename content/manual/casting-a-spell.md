@@ -39,7 +39,7 @@ spend tech points. If you want to try casting the power again, you must start ov
 The target of a power must be within the power's range. For a power like lance, the target is a creature. For a power
 like havoc strike, the target is the point in space where your character lands emitting a violent shockwave.
 
-Most powers have ranges expressed in <me-distance length="0" />. Some powers can target only a creature (including you) that you touch.
+Most powers have ranges expressed in :distance{length="0"}. Some powers can target only a creature (including you) that you touch.
 Other powers, such as the fortification power, affect only you. These powers have a range of self.
 
 Powers that create cones or lines of effect that originate from you also have a range of self, indicating that the origin
@@ -49,7 +49,7 @@ Once a power is cast, its effects aren't limited by its range, unless the power'
 
 
 
-### Components <v-chip color="warning" text-color="black" small>change</v-chip>
+### Components :change-badge{type="change"}
 In Mass Effect 5e, all powers are Somatic, meaning they require some amount of gesturing. To cast any of the power types
 a caster must have free use of at least one hand to perform these gestures.
 
@@ -137,7 +137,7 @@ A line's point of origin is not included in the line's area of effect, unless yo
 
 #### Sphere
 You select a sphere's point of origin, and the sphere extends outward from that point. The sphere's size is expressed as
-a radius in <me-distance length="0" /> that extends from the point.
+a radius in :distance{length="0"} that extends from the point.
 
 A sphere's point of origin is included in the sphere's area of effect.
 
@@ -156,7 +156,7 @@ Some powers require the caster to make an attack roll to determine whether the p
 Your attack bonus with a power attack equals your powercasting ability modifier + your proficiency bonus.
 
 Most powers that require attack rolls involve ranged attacks. Remember that you have disadvantage on a ranged attack roll
-if you are within <me-distance length="5" /> of a hostile creature that can see you and that isn't incapacitated.
+if you are within :distance{length="5"} of a hostile creature that can see you and that isn't incapacitated.
 
 
 
@@ -164,4 +164,5 @@ if you are within <me-distance length="5" /> of a hostile creature that can see 
 Because of the mental focus and precise gestures required for powercasting, you must be proficient with the
 armor you are wearing to cast a power. You are otherwise too distracted and physically hampered by your armor for powercasting.
 
-<me-source-reference pages="101-104"></me-source-reference>
+::source-reference{pages="101-104"}
+::

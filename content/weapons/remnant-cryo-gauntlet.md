@@ -1,18 +1,16 @@
 ---
 name: Remnant Cryo-Gauntlet
 rarity: spectre
-type: melee
+weaponType: melee
 cost: 53500
 manufacturer: remnant
 weight: 7
-heat: null
 damage:
   dieCount: 1
   dieType: 6
   type: cold
 range:
   short: 5
-image: null
 andromeda: true
 properties: []
 slots: 1

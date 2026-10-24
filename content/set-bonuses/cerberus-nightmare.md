@@ -6,7 +6,9 @@ bonuses:
       - type: attack-augment
         attackLimit:
           type: melee
-        augmentTypes: [damage, hit]
+        augmentTypes:
+          - damage
+          - hit
         bonus:
           type: flat
           value: 1
@@ -16,7 +18,9 @@ bonuses:
       - type: attack-augment
         attackLimit:
           type: melee
-        augmentTypes: [damage, hit]
+        augmentTypes:
+          - damage
+          - hit
         bonus:
           type: flat
           value: 1
@@ -26,7 +30,9 @@ bonuses:
       - type: attack-augment
         attackLimit:
           type: melee
-        augmentTypes: [damage, hit]
+        augmentTypes:
+          - damage
+          - hit
         bonus:
           type: flat
           value: 1

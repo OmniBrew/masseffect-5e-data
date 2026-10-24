@@ -1,7 +1,7 @@
 ---
+name: Slippery Mind
 level: 15
 klass: infiltrator
-name: Slippery Mind
 mechanics:
   - type: saving-throw
     value: wis

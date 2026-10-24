@@ -1,4 +1,5 @@
 ---
+name: Adrenaline Frenzy
 level: 18
 klass: soldier
 subclass: reaver-enforcer
@@ -9,7 +10,6 @@ mechanics:
     moreInfo:
       model: class-features
       id: adrenaline-frenzy
-name: Adrenaline Frenzy
 ---
 At 18th level, whenever you activate Adrenaline Rush, you gain an additional Bonus Action on your turn.
 You can use this bonus action only to activate your Barbed Strikes feature. You must strike the

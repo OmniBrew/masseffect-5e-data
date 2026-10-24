@@ -1,8 +1,8 @@
 ---
+name: Biotic Maneuvers
 level: 10
 klass: vanguard
 subclass: battle-master
-name: Biotic Maneuvers
 mechanics:
   - type: model-choice
     options: true

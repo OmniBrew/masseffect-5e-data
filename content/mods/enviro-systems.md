@@ -1,6 +1,7 @@
 ---
+name: Enviro-Systems
 rarity: common
-type: armor
+modType: armor
 cost: 6000
 manufacturer: devlon-industries
 tags:
@@ -10,12 +11,7 @@ availability:
   - light
   - medium
   - heavy
-name: Enviro-Systems
-flavor: >-
-  An activatable hermetic seal against vacuum or underwater pressure. While most
-  armors act as space-suits, they aren't necessarily graded for more than a few
-  hours of vacuum exposure, nor are they graded for underwater performance where
-  water pressure can be crushing.
+flavor: An activatable hermetic seal against vacuum or underwater pressure. While most armors act as space-suits, they aren't necessarily graded for more than a few hours of vacuum exposure, nor are they graded for underwater performance where water pressure can be crushing.
 mechanics:
   - type: other
     name: Enviro-Systems (mod)

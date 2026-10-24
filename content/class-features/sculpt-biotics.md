@@ -1,8 +1,8 @@
 ---
+name: Sculpt Biotics
 level: 2
 klass: adept
 subclass: blackstar
-name: Sculpt Biotics
 mechanics:
   - type: global-note
     subType: power

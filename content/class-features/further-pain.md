@@ -1,4 +1,5 @@
 ---
+name: Further Pain
 level: 15
 klass: soldier
 subclass: incubus
@@ -12,7 +13,6 @@ mechanics:
         additional:
           - model: class-features
             id: further-pain
-name: Further Pain
 ---
 Why let only one individual experience the joy of the pain you inflict? Share it with all!
 

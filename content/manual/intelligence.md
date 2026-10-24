@@ -19,4 +19,5 @@ Electronics, Engineering, History, Investigation, and Science skills reflect apt
 Engineers, infiltrators, and sentinels use Intelligence as their powercasting ability, which helps determine the saving
 throw DCs of powers they cast.
 
-<me-source-reference pages="81-82"></me-source-reference>
+::source-reference{pages="81-82"}
+::

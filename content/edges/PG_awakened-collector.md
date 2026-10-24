@@ -8,8 +8,8 @@ mechanics:
   - type: model-choice
     options: true
     model: traits
-    set: [wings]
+    set:
+      - wings
 ---
 - Your Dexterity score increases by 1, to a maximum of 20.
 - Gain the Wings trait.
-

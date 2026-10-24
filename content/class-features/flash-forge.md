@@ -1,8 +1,8 @@
 ---
+name: Flash Forge
 level: 2
 klass: engineer
 subclass: holosmith
-name: Flash Forge
 mechanics:
   - type: global-note
     subType: action

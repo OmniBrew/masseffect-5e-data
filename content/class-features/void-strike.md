@@ -1,8 +1,8 @@
 ---
+name: Void Strike
 level: 10
 klass: vanguard
 subclass: void-fist
-name: Void Strike
 mechanics:
   - type: augment
     value:

@@ -1,7 +1,7 @@
 ---
 name: Archon AI
 rarity: spectre
-type: armor
+modType: armor
 cost: 30000
 manufacturer: rosenkov-materials
 tags:
@@ -11,11 +11,7 @@ availability:
   - light
   - medium
   - heavy
-flavor: >-
-  An efficient algorithm to balance processing power for biotic amps and
-  omni-tools. A heads-up display and voice command software allows users to
-  micromanage the systems, reducing the cooldown period between energy
-  expenditures.
+flavor: An efficient algorithm to balance processing power for biotic amps and omni-tools. A heads-up display and voice command software allows users to micromanage the systems, reducing the cooldown period between energy expenditures.
 mechanics:
   - type: power-resource-recovery
     dieCount: 1

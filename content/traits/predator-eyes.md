@@ -9,7 +9,8 @@ mechanics:
   - type: skill
     value: insight
   - type: skill-check
-    value: [insight]
+    value:
+      - insight
     effect:
       type: advantage
       note: to determine lies

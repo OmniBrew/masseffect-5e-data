@@ -1,15 +1,11 @@
 ---
+name: Proximity Mine
 subsets:
   - id: proximity-mine-i
     rarity: common
     cost: 900
     name: Proximity Mine I
-    html: >-
-      Place a proximity mine within <me-distance length="5" />. On your turn, you may use a bonus action to arm or
-      disarm the mine, as long as you are within <me-distance length="500" /> of it. While armed, if a creature moves within
-      <me-distance length="5" /> of the mine, it detonates and each creature within a <me-distance length="5" adj/>-radius
-      sphere centred on the mine suffers 1d8 thunder damage. A creature can spot the mine with a DC 11 Wisdom (Perception) check.
-      Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
+    html: Place a proximity mine within :distance{length="5"}. On your turn, you may use a bonus action to arm or disarm the mine, as long as you are within :distance{length="500"} of it. While armed, if a creature moves within :distance{length="5"} of the mine, it detonates and each creature within a :distance{length="5" adj}-radius sphere centred on the mine suffers 1d8 thunder damage. A creature can spot the mine with a DC 11 Wisdom (Perception) check. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
     mechanics:
       - type: action
         layout: attack
@@ -31,12 +27,7 @@ subsets:
     rarity: common
     cost: 1800
     name: Proximity Mine II
-    html: >-
-      Place a proximity mine within <me-distance length="5" />. On your turn, you may use a bonus action to arm or
-      disarm the mine, as long as you are within <me-distance length="500" /> of it. While armed, if a creature moves within
-      <me-distance length="5" /> of the mine, it detonates and each creature within a <me-distance length="5" adj/>-radius
-      sphere centred on the mine suffers 2d8 thunder damage. A creature can spot the mine with a DC 13 Wisdom (Perception) check.
-      Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
+    html: Place a proximity mine within :distance{length="5"}. On your turn, you may use a bonus action to arm or disarm the mine, as long as you are within :distance{length="500"} of it. While armed, if a creature moves within :distance{length="5"} of the mine, it detonates and each creature within a :distance{length="5" adj}-radius sphere centred on the mine suffers 2d8 thunder damage. A creature can spot the mine with a DC 13 Wisdom (Perception) check. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
     mechanics:
       - type: action
         layout: attack
@@ -58,12 +49,7 @@ subsets:
     rarity: uncommon
     cost: 2700
     name: Proximity Mine III
-    html: >-
-      Place a proximity mine within <me-distance length="5" />. On your turn, you may use a bonus action to arm or
-      disarm the mine, as long as you are within <me-distance length="500" /> of it. While armed, if a creature moves within
-      <me-distance length="5" /> of the mine, it detonates and each creature within a <me-distance length="5" adj/>-radius
-      sphere centred on the mine suffers 3d8 thunder damage. A creature can spot the mine with a DC 13 Wisdom (Perception) check.
-      Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
+    html: Place a proximity mine within :distance{length="5"}. On your turn, you may use a bonus action to arm or disarm the mine, as long as you are within :distance{length="500"} of it. While armed, if a creature moves within :distance{length="5"} of the mine, it detonates and each creature within a :distance{length="5" adj}-radius sphere centred on the mine suffers 3d8 thunder damage. A creature can spot the mine with a DC 13 Wisdom (Perception) check. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
     mechanics:
       - type: action
         layout: attack
@@ -85,12 +71,7 @@ subsets:
     rarity: uncommon
     cost: 3600
     name: Proximity Mine IV
-    html: >-
-      Place a proximity mine within <me-distance length="5" />. On your turn, you may use a bonus action to arm or
-      disarm the mine, as long as you are within <me-distance length="500" /> of it. While armed, if a creature moves within
-      <me-distance length="5" /> of the mine, it detonates and each creature within a <me-distance length="5" adj/>-radius
-      sphere centred on the mine suffers 4d8 thunder damage. A creature can spot the mine with a DC 15 Wisdom (Perception) check.
-      Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
+    html: Place a proximity mine within :distance{length="5"}. On your turn, you may use a bonus action to arm or disarm the mine, as long as you are within :distance{length="500"} of it. While armed, if a creature moves within :distance{length="5"} of the mine, it detonates and each creature within a :distance{length="5" adj}-radius sphere centred on the mine suffers 4d8 thunder damage. A creature can spot the mine with a DC 15 Wisdom (Perception) check. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
     mechanics:
       - type: action
         layout: attack
@@ -112,12 +93,7 @@ subsets:
     rarity: rare
     cost: 4500
     name: Proximity Mine V
-    html: >-
-      Place a proximity mine within <me-distance length="5" />. On your turn, you may use a bonus action to arm or
-      disarm the mine, as long as you are within <me-distance length="500" /> of it. While armed, if a creature moves within
-      <me-distance length="5" /> of the mine, it detonates and each creature within a <me-distance length="5" adj/>-radius
-      sphere centred on the mine suffers 5d8 thunder damage. A creature can spot the mine with a DC 15 Wisdom (Perception) check.
-      Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
+    html: Place a proximity mine within :distance{length="5"}. On your turn, you may use a bonus action to arm or disarm the mine, as long as you are within :distance{length="500"} of it. While armed, if a creature moves within :distance{length="5"} of the mine, it detonates and each creature within a :distance{length="5" adj}-radius sphere centred on the mine suffers 5d8 thunder damage. A creature can spot the mine with a DC 15 Wisdom (Perception) check. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
     mechanics:
       - type: action
         layout: attack
@@ -139,12 +115,7 @@ subsets:
     rarity: rare
     cost: 5400
     name: Proximity Mine VI
-    html: >-
-      Place a proximity mine within <me-distance length="5" />. On your turn, you may use a bonus action to arm or
-      disarm the mine, as long as you are within <me-distance length="500" /> of it. While armed, if a creature moves within
-      <me-distance length="5" /> of the mine, it detonates and each creature within a <me-distance length="5" adj/>-radius
-      sphere centred on the mine suffers 6d8 thunder damage. A creature can spot the mine with a DC 17 Wisdom (Perception) check.
-      Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
+    html: Place a proximity mine within :distance{length="5"}. On your turn, you may use a bonus action to arm or disarm the mine, as long as you are within :distance{length="500"} of it. While armed, if a creature moves within :distance{length="5"} of the mine, it detonates and each creature within a :distance{length="5" adj}-radius sphere centred on the mine suffers 6d8 thunder damage. A creature can spot the mine with a DC 17 Wisdom (Perception) check. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
     mechanics:
       - type: action
         layout: attack
@@ -166,12 +137,7 @@ subsets:
     rarity: very_rare
     cost: 6300
     name: Proximity Mine VII
-    html: >-
-      Place a proximity mine within <me-distance length="5" />. On your turn, you may use a bonus action to arm or
-      disarm the mine, as long as you are within <me-distance length="500" /> of it. While armed, if a creature moves within
-      <me-distance length="5" /> of the mine, it detonates and each creature within a <me-distance length="5" adj/>-radius
-      sphere centred on the mine suffers 7d8 thunder damage. A creature can spot the mine with a DC 17 Wisdom (Perception) check.
-      Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
+    html: Place a proximity mine within :distance{length="5"}. On your turn, you may use a bonus action to arm or disarm the mine, as long as you are within :distance{length="500"} of it. While armed, if a creature moves within :distance{length="5"} of the mine, it detonates and each creature within a :distance{length="5" adj}-radius sphere centred on the mine suffers 7d8 thunder damage. A creature can spot the mine with a DC 17 Wisdom (Perception) check. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
     mechanics:
       - type: action
         layout: attack
@@ -193,12 +159,7 @@ subsets:
     rarity: very_rare
     cost: 7200
     name: Proximity Mine VIII
-    html: >-
-      Place a proximity mine within <me-distance length="5" />. On your turn, you may use a bonus action to arm or
-      disarm the mine, as long as you are within <me-distance length="500" /> of it. While armed, if a creature moves within
-      <me-distance length="5" /> of the mine, it detonates and each creature within a <me-distance length="5" adj/>-radius
-      sphere centred on the mine suffers 8d8 thunder damage. A creature can spot the mine with a DC 18 Wisdom (Perception) check.
-      Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
+    html: Place a proximity mine within :distance{length="5"}. On your turn, you may use a bonus action to arm or disarm the mine, as long as you are within :distance{length="500"} of it. While armed, if a creature moves within :distance{length="5"} of the mine, it detonates and each creature within a :distance{length="5" adj}-radius sphere centred on the mine suffers 8d8 thunder damage. A creature can spot the mine with a DC 18 Wisdom (Perception) check. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
     mechanics:
       - type: action
         layout: attack
@@ -220,12 +181,7 @@ subsets:
     rarity: very_rare
     cost: 8100
     name: Proximity Mine IX
-    html: >-
-      Place a proximity mine within <me-distance length="5" />. On your turn, you may use a bonus action to arm or
-      disarm the mine, as long as you are within <me-distance length="500" /> of it. While armed, if a creature moves within
-      <me-distance length="5" /> of the mine, it detonates and each creature within a <me-distance length="5" adj/>-radius
-      sphere centred on the mine suffers 9d8 thunder damage. A creature can spot the mine with a DC 18 Wisdom (Perception) check.
-      Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
+    html: Place a proximity mine within :distance{length="5"}. On your turn, you may use a bonus action to arm or disarm the mine, as long as you are within :distance{length="500"} of it. While armed, if a creature moves within :distance{length="5"} of the mine, it detonates and each creature within a :distance{length="5" adj}-radius sphere centred on the mine suffers 9d8 thunder damage. A creature can spot the mine with a DC 18 Wisdom (Perception) check. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
     mechanics:
       - type: action
         layout: attack
@@ -247,12 +203,7 @@ subsets:
     rarity: spectre
     cost: 9000
     name: Proximity Mine X
-    html: >-
-      Place a proximity mine within <me-distance length="5" />. On your turn, you may use a bonus action to arm or
-      disarm the mine, as long as you are within <me-distance length="500" /> of it. While armed, if a creature moves within
-      <me-distance length="5" /> of the mine, it detonates and each creature within a <me-distance length="5" adj/>-radius
-      sphere centred on the mine suffers 10d8 thunder damage. A creature can spot the mine with a DC 19 Wisdom (Perception) check.
-      Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
+    html: Place a proximity mine within :distance{length="5"}. On your turn, you may use a bonus action to arm or disarm the mine, as long as you are within :distance{length="500"} of it. While armed, if a creature moves within :distance{length="5"} of the mine, it detonates and each creature within a :distance{length="5" adj}-radius sphere centred on the mine suffers 10d8 thunder damage. A creature can spot the mine with a DC 19 Wisdom (Perception) check. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
     mechanics:
       - type: action
         layout: attack
@@ -302,22 +253,21 @@ marks:
     rarity: Spectre
     damage: 10d8
 rarity: varies
-type: grenade
+gearType: grenade
 cost: Varies
 weight: 1
-subType: ''
-name: Proximity Mine
+subType: ""
 consumable: true
 ---
-Place a proximity mine within <me-distance length="5" />. On your turn, you may use a bonus action to arm or
-disarm the mine, as long as you are within <me-distance length="500" /> of it. While armed, any creature that moves within
-<me-distance length="5" /> of the mine detonates it. If you arm the mine while a creature is within <me-distance length="5" />
+Place a proximity mine within :distance{length="5"}. On your turn, you may use a bonus action to arm or
+disarm the mine, as long as you are within :distance{length="500"} of it. While armed, any creature that moves within
+:distance{length="5"} of the mine detonates it. If you arm the mine while a creature is within :distance{length="5"}
 of it, it detonates immediately.
 
 A creature can spot the mine with a successful Wisdom (Perception) check. Additionally, the mine has an AC 10 and
 detonates when hit by a weapon attack roll.
 
-When the mine detonates, each creature within a <me-distance length="5" adj/>-radius sphere centred on the mine suffers
+When the mine detonates, each creature within a :distance{length="5" adj}-radius sphere centred on the mine suffers
 thunder damage (see below).
 
 The mark of this mine determines the DC of its Wisdom (Perception) check, damage, and credits.

@@ -1,20 +1,17 @@
 ---
+name: Poisoned Alloys
 rarity: rare
-type: weapon
+modType: weapon
 cost: 15000
-manufacturer: ''
+manufacturer: ""
 tags:
   - special
 placement: strike
 availability:
   - melee
-name: Poisoned Alloys
-flavor: >-
-  For millenia, beings have been dipping their blades in poison, allowing the
-  simplest wound to cripple their enemy. With advancements in metalwork and
-  weaponsmithing, now the blade can be infused with poison.
+flavor: For millenia, beings have been dipping their blades in poison, allowing the simplest wound to cripple their enemy. With advancements in metalwork and weaponsmithing, now the blade can be infused with poison.
 mechanics:
-  - type: weapon-augment
+  - type: me:weapon-augment
     notes:
       - type: text
         text: DC 13 CON or poisoned

@@ -7,30 +7,33 @@ mechanics:
       id: empowered-hunter-mode
       whenOn:
         - type: speed-bonus
-          value: [walk]
+          value:
+            - walk
           bonus:
             type: flat
             value: 5
         - type: attack-augment
           attackLimit:
             model: power
-          augmentTypes: [hit, dc]
+          augmentTypes:
+            - hit
+            - dc
           bonus:
             type: flat
             value: 1
         - type: attack-augment
           attackLimit:
             model: power
-          augmentTypes: [damage]
+          augmentTypes:
+            - damage
           dieIncrease: 1
     resource: {}
-    shortDesc: >-
-      For 1 minute, your speed increases by <me-distance length="5" />, you gain +1 to power attack rolls,
-      and whenever you deal damage with a power, increase the die type by 1 (gain +1 if the die is a d12).
+    shortDesc: For 1 minute, your speed increases by :distance{length="5"}, you gain +1 to power attack rolls, and whenever you deal damage with a power, increase the die type by 1 (gain +1 if the die is a d12).
 prerequisite: Geth and the ability to cast one tech or biotic power
 prereq:
   - type: species
-    limit: [geth]
+    limit:
+      - geth
 ---
 Geth were designed as lethal weapons and can activate subroutines to enhance their lethality.
 

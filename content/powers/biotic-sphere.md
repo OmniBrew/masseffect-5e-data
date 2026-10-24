@@ -2,18 +2,15 @@
 name: Biotic Sphere
 version: 1
 level: 4
-type: biotic
+powerType: biotic
 tags:
   - protection
 classes:
   - adept
-mechanics:
+casting:
   - castingTime:
       length: 1
       unit: action
-    attack: false
-    dc: false
-    damage: false
     duration:
       length: 1
       unit: minute
@@ -24,7 +21,6 @@ mechanics:
         type: sphere
         size: 15
     detonates: false
-    primes: false
     resource:
       displayType: counter
       reset: cast
@@ -41,7 +37,7 @@ advancements:
   - id: infuse-ammo
     name: Infuse Ammo
     text: Friendly creatures inside the sphere add 1d6 force damage to all ranged weapon attacks against creatures outside of the sphere. This damage can detonate primed targets.
-    mechanics:
+    casting:
       - damage:
           - dieCount: 1
             dieType: 6
@@ -49,7 +45,7 @@ advancements:
   - id: armored
     name: Armored
     text: The sphere has resistance to bludgeoning, piercing, slashing, and thunder damage, but only has 75 hit points.
-    mechanics:
+    casting:
       - resource:
           max:
             value: 75
@@ -59,7 +55,7 @@ advancements:
             value: 125
           label: Resistance to bludgeoning, piercing, slashing, and thunder damage
 ---
-A shimmering barrier with 100 hit points extends out from you in a <me-distance length="15" adj /> sphere and moves with you, remaining centered on
+A shimmering barrier with 100 hit points extends out from you in a :distance{length="15" adj} sphere and moves with you, remaining centered on
 you and hedging out hostile creatures. If a hostile creature is within the sphere when you cast this power, it is pushed
 outside of the sphere's radius.
 

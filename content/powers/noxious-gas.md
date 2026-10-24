@@ -1,9 +1,9 @@
 ---
-author: Helios
 name: Noxious Gas
+author: Helios
 version: 1
 level: 1
-type: tech
+powerType: tech
 classes:
   - tracker
   - sentinel
@@ -12,11 +12,10 @@ classes:
   - explorer
 tags:
   - damage
-mechanics:
+casting:
   - castingTime:
       length: 1
       unit: action
-    attack: false
     dc:
       base: 8
       proficient: true
@@ -25,7 +24,6 @@ mechanics:
       - dieCount: 2
         dieType: 6
         type: acid
-    conditions: false
     duration:
       length: 1
       unit: minute
@@ -36,7 +34,6 @@ mechanics:
         type: sphere
         size: 20
     detonates: false
-    primes: false
   - damage:
       - dieCount: 4
     range:
@@ -65,12 +62,8 @@ mechanics:
 advancements:
   - id: flammable
     name: Flammable
-    text: >-
-      The cloud of Noxious gas becomes flammable. If something that deals fire damage hits the cloud, it explodes,
-      forcing all creatures inside the cloud to make a Dexterity saving throw, dealing 3d6 fire damage on a fail, or
-      half as much on a success, and priming (fire) all creatures inside the cloud. The damage increases
-      by 2d6 for each level above 1st.
-    mechanics:
+    text: The cloud of Noxious gas becomes flammable. If something that deals fire damage hits the cloud, it explodes, forcing all creatures inside the cloud to make a Dexterity saving throw, dealing 3d6 fire damage on a fail, or half as much on a success, and priming (fire) all creatures inside the cloud. The damage increases by 2d6 for each level above 1st.
+    casting:
       - damage:
           - {}
           - dieCount: 3
@@ -103,10 +96,8 @@ advancements:
             type: fire
   - id: gas-visor
     name: Gas Visor
-    text: >-
-      You found a way to see through the gas using a special program in your HUD. You have vision over all creatures
-      inside the gas, unbothered by the cloud. Additionally, creatures cannot hide from you inside the cloud.
-    mechanics: []
+    text: You found a way to see through the gas using a special program in your HUD. You have vision over all creatures inside the gas, unbothered by the cloud. Additionally, creatures cannot hide from you inside the cloud.
+    casting: []
 ---
 You fire a canister filled with toxic gas, creating a large cloud of greenish gas in an area within range. It spreads
 around corners and the area inside is heavily obscured. All creatures that start their turn inside the gas must make a
@@ -114,4 +105,4 @@ Constitution saving throw, or take 2d6 acid damage. The cloud remains there for 
 disperses it. When the power ends (You can do this at any time, even when it's not your turn) the canister stops
 emitting gas and returns to you. You only have 1 canister, and can thus only have 1 gas cloud active at a time.
 
-__At Higher Levels__. When cast at a higher level, the damage increases by 2d6, and the radius increases by <me-distance length="5" abbr /> for each level above 1st.
+__At Higher Levels__. When cast at a higher level, the damage increases by 2d6, and the radius increases by :distance{length="5" abbr} for each level above 1st.

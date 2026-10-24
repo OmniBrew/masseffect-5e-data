@@ -2,7 +2,7 @@
 name: Alter Center Mass
 version: 1
 level: 1
-type: biotic
+powerType: biotic
 tags:
   - debuff
 classes:
@@ -10,13 +10,11 @@ classes:
   - sentinel
   - vanguard
   - explorer
-reactionQualifier: false
-mechanics:
+casting:
   - castingTime:
       unit: action
     dc:
       save: con
-    damage: false
     duration:
       length: 1
       unit: minute
@@ -24,20 +22,15 @@ mechanics:
     range:
       short: 90
     detonates: false
-    primes: false
 advancements:
   - id: disorient
     name: Disorient
-    text: >-
-      Creatures that fail the saving throw become disoriented. Until the end of your next turn, attacks made against
-      the creature have advantage and the creature can't take reactions.
-    mechanics: []
+    text: Creatures that fail the saving throw become disoriented. Until the end of your next turn, attacks made against the creature have advantage and the creature can't take reactions.
+    casting: []
   - id: debilitate
     name: Debilitate
-    text: >-
-      Creatures that fail the saving throw can barely move. Until the end of your next turn, the creature's
-      speed becomes 0 and it automatically fails Dexterity saving throws.
-    mechanics: []
+    text: Creatures that fail the saving throw can barely move. Until the end of your next turn, the creature's speed becomes 0 and it automatically fails Dexterity saving throws.
+    casting: []
 ---
 Up to three creatures of your choice that you can see within range must make Constitution saving throws as you generate
 minor mass effect fields that alter their center mass. Whenever a target that fails this saving throw makes an attack

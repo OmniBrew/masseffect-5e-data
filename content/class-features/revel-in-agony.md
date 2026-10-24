@@ -1,10 +1,13 @@
 ---
+name: Revel in Agony
 level: 3
 klass: soldier
 subclass: incubus
 mechanics:
   - type: skill-or-expertise
-    value: [performance, intimidation]
+    value:
+      - performance
+      - intimidation
   - type: other
     name: Revel in Agony
     dc:
@@ -12,18 +15,13 @@ mechanics:
       base: 8
       mod: cha
       save: wis
-    shortDesc: >-
-      Whenever you score a critical hit or reduce a creature to 0 hit points, you can select one
-      creature within <me-distance length="30" /> of you. That creature must make a DC {{ dc }} Wisdom saving throw.
-      On a fail, the creature is frightened of you for 1 minute. The creature can retry the saving throw at the end
-      of its turn, ending the effect on a success.
-name: Revel in Agony
+    shortDesc: Whenever you score a critical hit or reduce a creature to 0 hit points, you can select one creature within :distance{length="30"} of you. That creature must make a DC {{ dc }} Wisdom saving throw. On a fail, the creature is frightened of you for 1 minute. The creature can retry the saving throw at the end of its turn, ending the effect on a success.
 ---
 You do not just kill your enemies, no. You eviscerate them, drawing out their screams of pain. But much more interesting
 than the screams themselves, is the look on the face of that poor individual that you look dead in the eye as you do it.
 
 Also starting at 3rd level, whenever you score a critical hit or reduce a creature to 0 hit points, you can select one
-creature within <me-distance length="30" /> of you. That creature must make a Wisdom saving throw
+creature within :distance{length="30"} of you. That creature must make a Wisdom saving throw
 (DC 8 + your proficiency bonus + your Charisma modifier). On a fail, the creature is frightened of you for
 1 minute. The creature can retry the saving throw at the end of its turn, ending the effect on a success.
 

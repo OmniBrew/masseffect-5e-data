@@ -16,4 +16,3 @@ bonuses:
           value: 5
 max: 4
 ---
-

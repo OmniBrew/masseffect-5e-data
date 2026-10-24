@@ -1,6 +1,7 @@
 ---
+name: Tactical Holsters
 rarity: uncommon
-type: armor
+modType: armor
 cost: 8000
 manufacturer: alliance
 tags:
@@ -10,10 +11,7 @@ availability:
   - light
   - medium
   - heavy
-name: Tactical Holsters
-flavor: >-
-  Magnetic clips that use VI sensors to lock and unlock holstered weapons into
-  position, greatly increasing the time needed to exchange weapons in combat.
+flavor: Magnetic clips that use VI sensors to lock and unlock holstered weapons into position, greatly increasing the time needed to exchange weapons in combat.
 mechanics:
   - type: other
     name: Tactical Holsters (mod)

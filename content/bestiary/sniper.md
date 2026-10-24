@@ -1,6 +1,6 @@
 ---
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/e/e6/Codex_ME_-_Mass_Accelerators.png/revision/latest?cb=20140820141725
+name: Sniper
+image: https://vignette.wikia.nocookie.net/masseffect/images/e/e6/Codex_ME_-_Mass_Accelerators.png/revision/latest?cb=20140820141725
 type: organic_or_synthetic
 unit: archetype
 alignment: nn
@@ -16,8 +16,6 @@ abilityScores:
   int: 13
   wis: 12
   cha: 10
-irv: false
-savingThrows: false
 senses:
   darkvision: 60
 size: medium
@@ -30,8 +28,14 @@ entries:
   features:
     - mod: int
       list:
-        - {id: concussive-shot, perDay: 5}
+        - id: concussive-shot
+          perDay: 5
       id: innate-powercasting
+      name: Innate Powercasting
+      text: "The sniper's innate powercasting ability is Intelligence (power save DC 11, +3 to hit with power attacks). It can innately cast the following powers:"
+    - name: Surprise Attack
+      text: If the sniper surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 10 (3d6) damage from the attack.
+      id: surprise-attack
   actions:
     - ref: weapon
       proficient: true
@@ -41,7 +45,7 @@ entries:
       proficient: true
       id: m-4-shuriken
       weaponId: m-4-shuriken
-cr: '01000'
+cr: "01000"
 shields:
   capacity: 5
   regen: 5

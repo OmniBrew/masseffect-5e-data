@@ -1,8 +1,8 @@
 ---
+name: Biotic Harmony
 level: 14
 klass: adept
 subclass: commando
-name: Biotic Harmony
 mechanics:
   - type: global-note
     subType: action
@@ -13,5 +13,3 @@ mechanics:
 ---
 Starting at 14th level, you can harmonize more exhaustive biotic powers with ease. When you use Extra Attack, you
 can cast a 1st level biotic power in place of one of those attacks.
-
-

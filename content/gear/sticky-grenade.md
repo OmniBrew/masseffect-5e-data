@@ -1,16 +1,11 @@
 ---
+name: Sticky Grenade
 subsets:
   - id: sticky-grenade-i
     rarity: common
     cost: 1400
     name: Sticky Grenade I
-    html: >-
-      Target an area within <me-distance length="30" />. At the start of your next turn, creatures within
-      <me-distance length="10" /> of the target must make a DC 11 Dexterity saving throw. On a failed save, a creature suffers
-      2d6 thunder damage or half as much damage on a successful one. Alternatively, you may make a melee weapon attack
-      or a ranged weapon attack with the sticky grenade, adding your Dexterity modifier to the attack roll. On a hit,
-      the grenade hits and sticks to the target, and when it explodes, the target automatically fails its saving throw.
-      On a miss, the grenade lands within <me-distance length="5" /> of the target.
+    html: Target an area within :distance{length="30"}. At the start of your next turn, creatures within :distance{length="10"} of the target must make a DC 11 Dexterity saving throw. On a failed save, a creature suffers 2d6 thunder damage or half as much damage on a successful one. Alternatively, you may make a melee weapon attack or a ranged weapon attack with the sticky grenade, adding your Dexterity modifier to the attack roll. On a hit, the grenade hits and sticks to the target, and when it explodes, the target automatically fails its saving throw. On a miss, the grenade lands within :distance{length="5"} of the target.
     mechanics:
       - type: action
         layout: attack
@@ -36,13 +31,7 @@ subsets:
     rarity: common
     cost: 2400
     name: Sticky Grenade II
-    html: >-
-      Target an area within <me-distance length="30" />. At the start of your next turn, creatures within
-      <me-distance length="10" /> of the target must make a DC 13 Dexterity saving throw. On a failed save, a creature suffers
-      2d6 thunder damage or half as much damage on a successful one. Alternatively, you may make a melee weapon attack
-      or a ranged weapon attack with the sticky grenade, adding your Dexterity modifier to the attack roll. On a hit,
-      the grenade hits and sticks to the target, and when it explodes, the target automatically fails its saving throw.
-      On a miss, the grenade lands within <me-distance length="5" /> of the target.
+    html: Target an area within :distance{length="30"}. At the start of your next turn, creatures within :distance{length="10"} of the target must make a DC 13 Dexterity saving throw. On a failed save, a creature suffers 2d6 thunder damage or half as much damage on a successful one. Alternatively, you may make a melee weapon attack or a ranged weapon attack with the sticky grenade, adding your Dexterity modifier to the attack roll. On a hit, the grenade hits and sticks to the target, and when it explodes, the target automatically fails its saving throw. On a miss, the grenade lands within :distance{length="5"} of the target.
     mechanics:
       - type: action
         layout: attack
@@ -68,13 +57,7 @@ subsets:
     rarity: uncommon
     cost: 3100
     name: Sticky Grenade III
-    html: >-
-      Target an area within <me-distance length="30" />. At the start of your next turn, creatures within
-      <me-distance length="10" /> of the target must make a DC 13 Dexterity saving throw. On a failed save, a creature suffers
-      3d6 thunder damage or half as much damage on a successful one. Alternatively, you may make a melee weapon attack
-      or a ranged weapon attack with the sticky grenade, adding your Dexterity modifier to the attack roll. On a hit,
-      the grenade hits and sticks to the target, and when it explodes, the target automatically fails its saving throw.
-      On a miss, the grenade lands within <me-distance length="5" /> of the target.
+    html: Target an area within :distance{length="30"}. At the start of your next turn, creatures within :distance{length="10"} of the target must make a DC 13 Dexterity saving throw. On a failed save, a creature suffers 3d6 thunder damage or half as much damage on a successful one. Alternatively, you may make a melee weapon attack or a ranged weapon attack with the sticky grenade, adding your Dexterity modifier to the attack roll. On a hit, the grenade hits and sticks to the target, and when it explodes, the target automatically fails its saving throw. On a miss, the grenade lands within :distance{length="5"} of the target.
     mechanics:
       - type: action
         layout: attack
@@ -100,13 +83,7 @@ subsets:
     rarity: uncommon
     cost: 4100
     name: Sticky Grenade IV
-    html: >-
-      Target an area within <me-distance length="30" />. At the start of your next turn, creatures within
-      <me-distance length="10" /> of the target must make a DC 15 Dexterity saving throw. On a failed save, a creature suffers
-      3d6 thunder damage or half as much damage on a successful one. Alternatively, you may make a melee weapon attack
-      or a ranged weapon attack with the sticky grenade, adding your Dexterity modifier to the attack roll. On a hit,
-      the grenade hits and sticks to the target, and when it explodes, the target automatically fails its saving throw.
-      On a miss, the grenade lands within <me-distance length="5" /> of the target.
+    html: Target an area within :distance{length="30"}. At the start of your next turn, creatures within :distance{length="10"} of the target must make a DC 15 Dexterity saving throw. On a failed save, a creature suffers 3d6 thunder damage or half as much damage on a successful one. Alternatively, you may make a melee weapon attack or a ranged weapon attack with the sticky grenade, adding your Dexterity modifier to the attack roll. On a hit, the grenade hits and sticks to the target, and when it explodes, the target automatically fails its saving throw. On a miss, the grenade lands within :distance{length="5"} of the target.
     mechanics:
       - type: action
         layout: attack
@@ -132,13 +109,7 @@ subsets:
     rarity: rare
     cost: 5500
     name: Sticky Grenade V
-    html: >-
-      Target an area within <me-distance length="30" />. At the start of your next turn, creatures within
-      <me-distance length="10" /> of the target must make a DC 15 Dexterity saving throw. On a failed save, a creature suffers
-      5d6 thunder damage or half as much damage on a successful one. Alternatively, you may make a melee weapon attack
-      or a ranged weapon attack with the sticky grenade, adding your Dexterity modifier to the attack roll. On a hit,
-      the grenade hits and sticks to the target, and when it explodes, the target automatically fails its saving throw.
-      On a miss, the grenade lands within <me-distance length="5" /> of the target.
+    html: Target an area within :distance{length="30"}. At the start of your next turn, creatures within :distance{length="10"} of the target must make a DC 15 Dexterity saving throw. On a failed save, a creature suffers 5d6 thunder damage or half as much damage on a successful one. Alternatively, you may make a melee weapon attack or a ranged weapon attack with the sticky grenade, adding your Dexterity modifier to the attack roll. On a hit, the grenade hits and sticks to the target, and when it explodes, the target automatically fails its saving throw. On a miss, the grenade lands within :distance{length="5"} of the target.
     mechanics:
       - type: action
         layout: attack
@@ -164,13 +135,7 @@ subsets:
     rarity: rare
     cost: 6500
     name: Sticky Grenade VI
-    html: >-
-      Target an area within <me-distance length="30" />. At the start of your next turn, creatures within
-      <me-distance length="10" /> of the target must make a DC 17 Dexterity saving throw. On a failed save, a creature suffers
-      5d6 thunder damage or half as much damage on a successful one. Alternatively, you may make a melee weapon attack
-      or a ranged weapon attack with the sticky grenade, adding your Dexterity modifier to the attack roll. On a hit,
-      the grenade hits and sticks to the target, and when it explodes, the target automatically fails its saving throw.
-      On a miss, the grenade lands within <me-distance length="5" /> of the target.
+    html: Target an area within :distance{length="30"}. At the start of your next turn, creatures within :distance{length="10"} of the target must make a DC 17 Dexterity saving throw. On a failed save, a creature suffers 5d6 thunder damage or half as much damage on a successful one. Alternatively, you may make a melee weapon attack or a ranged weapon attack with the sticky grenade, adding your Dexterity modifier to the attack roll. On a hit, the grenade hits and sticks to the target, and when it explodes, the target automatically fails its saving throw. On a miss, the grenade lands within :distance{length="5"} of the target.
     mechanics:
       - type: action
         layout: attack
@@ -196,13 +161,7 @@ subsets:
     rarity: very_rare
     cost: 7200
     name: Sticky Grenade VII
-    html: >-
-      Target an area within <me-distance length="30" />. At the start of your next turn, creatures within
-      <me-distance length="10" /> of the target must make a DC 17 Dexterity saving throw. On a failed save, a creature suffers
-      6d6 thunder damage or half as much damage on a successful one. Alternatively, you may make a melee weapon attack
-      or a ranged weapon attack with the sticky grenade, adding your Dexterity modifier to the attack roll. On a hit,
-      the grenade hits and sticks to the target, and when it explodes, the target automatically fails its saving throw.
-      On a miss, the grenade lands within <me-distance length="5" /> of the target.
+    html: Target an area within :distance{length="30"}. At the start of your next turn, creatures within :distance{length="10"} of the target must make a DC 17 Dexterity saving throw. On a failed save, a creature suffers 6d6 thunder damage or half as much damage on a successful one. Alternatively, you may make a melee weapon attack or a ranged weapon attack with the sticky grenade, adding your Dexterity modifier to the attack roll. On a hit, the grenade hits and sticks to the target, and when it explodes, the target automatically fails its saving throw. On a miss, the grenade lands within :distance{length="5"} of the target.
     mechanics:
       - type: action
         layout: attack
@@ -228,13 +187,7 @@ subsets:
     rarity: very_rare
     cost: 7700
     name: Sticky Grenade VIII
-    html: >-
-      Target an area within <me-distance length="30" />. At the start of your next turn, creatures within
-      <me-distance length="10" /> of the target must make a DC 18 Dexterity saving throw. On a failed save, a creature suffers
-      6d6 thunder damage or half as much damage on a successful one. Alternatively, you may make a melee weapon attack
-      or a ranged weapon attack with the sticky grenade, adding your Dexterity modifier to the attack roll. On a hit,
-      the grenade hits and sticks to the target, and when it explodes, the target automatically fails its saving throw.
-      On a miss, the grenade lands within <me-distance length="5" /> of the target.
+    html: Target an area within :distance{length="30"}. At the start of your next turn, creatures within :distance{length="10"} of the target must make a DC 18 Dexterity saving throw. On a failed save, a creature suffers 6d6 thunder damage or half as much damage on a successful one. Alternatively, you may make a melee weapon attack or a ranged weapon attack with the sticky grenade, adding your Dexterity modifier to the attack roll. On a hit, the grenade hits and sticks to the target, and when it explodes, the target automatically fails its saving throw. On a miss, the grenade lands within :distance{length="5"} of the target.
     mechanics:
       - type: action
         layout: attack
@@ -260,13 +213,7 @@ subsets:
     rarity: very_rare
     cost: 8400
     name: Sticky Grenade IX
-    html: >-
-      Target an area within <me-distance length="30" />. At the start of your next turn, creatures within
-      <me-distance length="10" /> of the target must make a DC 18 Dexterity saving throw. On a failed save, a creature suffers
-      7d6 thunder damage or half as much damage on a successful one. Alternatively, you may make a melee weapon attack
-      or a ranged weapon attack with the sticky grenade, adding your Dexterity modifier to the attack roll. On a hit,
-      the grenade hits and sticks to the target, and when it explodes, the target automatically fails its saving throw.
-      On a miss, the grenade lands within <me-distance length="5" /> of the target.
+    html: Target an area within :distance{length="30"}. At the start of your next turn, creatures within :distance{length="10"} of the target must make a DC 18 Dexterity saving throw. On a failed save, a creature suffers 7d6 thunder damage or half as much damage on a successful one. Alternatively, you may make a melee weapon attack or a ranged weapon attack with the sticky grenade, adding your Dexterity modifier to the attack roll. On a hit, the grenade hits and sticks to the target, and when it explodes, the target automatically fails its saving throw. On a miss, the grenade lands within :distance{length="5"} of the target.
     mechanics:
       - type: action
         layout: attack
@@ -292,13 +239,7 @@ subsets:
     rarity: spectre
     cost: 9600
     name: Sticky Grenade X
-    html: >-
-      Target an area within <me-distance length="30" />. At the start of your next turn, creatures within
-      <me-distance length="10" /> of the target must make a DC 19 Dexterity saving throw. On a failed save, a creature suffers
-      8d6 thunder damage or half as much damage on a successful one. Alternatively, you may make a melee weapon attack
-      or a ranged weapon attack with the sticky grenade, adding your Dexterity modifier to the attack roll. On a hit,
-      the grenade hits and sticks to the target, and when it explodes, the target automatically fails its saving throw.
-      On a miss, the grenade lands within <me-distance length="5" /> of the target.
+    html: Target an area within :distance{length="30"}. At the start of your next turn, creatures within :distance{length="10"} of the target must make a DC 19 Dexterity saving throw. On a failed save, a creature suffers 8d6 thunder damage or half as much damage on a successful one. Alternatively, you may make a melee weapon attack or a ranged weapon attack with the sticky grenade, adding your Dexterity modifier to the attack roll. On a hit, the grenade hits and sticks to the target, and when it explodes, the target automatically fails its saving throw. On a miss, the grenade lands within :distance{length="5"} of the target.
     mechanics:
       - type: action
         layout: attack
@@ -352,23 +293,22 @@ marks:
     rarity: Spectre
     damage: 8d6
 rarity: varies
-type: grenade
+gearType: grenade
 cost: Varies
 weight: 1
-subType: ''
-name: Sticky Grenade
+subType: ""
 consumable: true
 equippable: true
 ---
-Target an area within <me-distance length="30" />. At the beginning of your next turn, creatures within
-<me-distance length="10" /> of the target must make a Dexterity saving throw. On a failed save, a creature suffers
+Target an area within :distance{length="30"}. At the beginning of your next turn, creatures within
+:distance{length="10"} of the target must make a Dexterity saving throw. On a failed save, a creature suffers
 thunder damage (see below) or half as much damage on a successful one.
 
 With a sticky grenade, you may choose to make a melee weapon attack on a target creature within
-<me-distance length="5" /> instead, or a ranged weapon attack on a target creature within <me-distance length="30" />.
+:distance{length="5"} instead, or a ranged weapon attack on a target creature within :distance{length="30"}.
 Add your Dexterity modifier to the attack. Do not add your proficiency bonus to the attack unless you have the
 Grenadier feat. On a hit, the grenade hits and sticks to the target, and when it explodes, the target automatically
-fails its saving throw. On a miss, the grenade lands within <me-distance length="5" /> of the target.
+fails its saving throw. On a miss, the grenade lands within :distance{length="5"} of the target.
 
 The mark of this grenade determines its Save DC, damage, and cost.
 
@@ -384,4 +324,3 @@ VII|Very Rare|17|6d6|7,200 credits
 VIII|Very Rare|18|6d6|7,700 credits
 IX|Very Rare|18|7d6|8,400 credits
 X|Spectre|19|8d6|9,600 credits
-

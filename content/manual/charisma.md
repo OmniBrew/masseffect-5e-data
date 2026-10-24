@@ -26,4 +26,5 @@ own interpretation of the Mass Effect games and the mental stats (Widsom, Intell
 Additionally, anyone who creates new classes for this system can freely use Charisma as a powercasting modifier if
 they feel it is a more representative stat for the class's powercasting ability.
 
-<me-source-reference pages="82-83"></me-source-reference>
+::source-reference{pages="82-83"}
+::

@@ -1,14 +1,15 @@
 ---
+name: Omni-Shield
 level: 14
 klass: sentinel
 subclass: guardian
-name: Omni-Shield
 mechanics:
   - type: augment
     value:
       model: sentinel
       id: omni-shield-1
-      limit: [bonus-action]
+      limit:
+        - bonus-action
     merge:
       shortDesc: Activate your regular omni-shield, or a fire or cryo shield.
       toggle:
@@ -42,7 +43,7 @@ mechanics:
                       type: powercastingMod
                       value: sentinel
                 notes:
-                  - 'Hit: shove creature <me-distance length="5" />.'
+                  - 'Hit: shove creature :distance{length="5"}.'
                 moreInfo:
                   model: class-features
                   id: omni-shield-1
@@ -71,7 +72,7 @@ mechanics:
                       type: powercastingMod
                       value: sentinel
                 notes:
-                  - 'Hit: detonates'
+                  - "Hit: detonates"
                 moreInfo:
                   model: class-features
                   id: omni-shield-1
@@ -108,7 +109,7 @@ mechanics:
                       type: powercastingMod
                       value: sentinel
                 notes:
-                  - 'Hit: DC {{ dc }} STR save or frozen.'
+                  - "Hit: DC {{ dc }} STR save or frozen."
                 moreInfo:
                   model: class-features
                   id: omni-shield-1
@@ -120,12 +121,12 @@ Starting at 14th level, you can transform your omni-shield into a fire shield or
 
 __Fire Shield__.
 * +1 AC.
-* If a creature within <me-distance length="5" /> of you is attacked, you may use your reaction to impose disadvantage on that attack.
+* If a creature within :distance{length="5"} of you is attacked, you may use your reaction to impose disadvantage on that attack.
 * You can make a melee weapon attack with your fire shield. You are proficient with this attack and add your powercasting modifier to the attack and damage rolls.
 On a hit, it deals 4d10 fire damage and detonates primed targets.
 
 __Cryo Shield__.
 * +1 AC.
-* If a creature within <me-distance length="5" /> of you is attacked, you may use your reaction to impose disadvantage on that attack.
+* If a creature within :distance{length="5"} of you is attacked, you may use your reaction to impose disadvantage on that attack.
 * You can make a melee weapon attack with your cryo shield. You are proficient with this attack and add your powercasting modifier to the attack and damage rolls.
-On a hit, it deals 2d8 cold damage and detonates primed targets and the target must succeed on a Strength saving throw against your powercasting DC or become <me-condition id="frozen"/> until the end its next turn.
+On a hit, it deals 2d8 cold damage and detonates primed targets and the target must succeed on a Strength saving throw against your powercasting DC or become :condition{id="frozen"} until the end its next turn.

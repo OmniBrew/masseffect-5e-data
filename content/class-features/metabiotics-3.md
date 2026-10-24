@@ -1,8 +1,8 @@
 ---
+name: Metabiotics
 level: 14
 klass: vanguard
 subclass: nemesis
-name: Metabiotics
 mechanics:
   - type: model-choice
     options: true

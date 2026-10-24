@@ -1,11 +1,10 @@
 ---
+title: The Bestest Update Eva!!!
 layout: post
-title: "The Bestest Update Eva!!!"
-description: "I'm Commander Shepard, and this is my favorite update on the Citadel"
+description: I'm Commander Shepard, and this is my favorite update on the Citadel
 date: 2022-04-02
 image: https://data.n7.world/images/af-2022/cmf.jpg
 ---
-
 # v100.N7.314
 
 ## Rules
@@ -80,133 +79,114 @@ The NPC Generator has been reverted back to the Grunt Generator and now only gen
 
 #### Angara
 
-<v-card max-width="300">
-
+::figure{max-width="300"}
 ![Angara](https://data.n7.world/images/af-2022/angara.jpg)
-</v-card>
+::
 
 #### Asari
 
-<v-card max-width="300">
-
+::figure{max-width="300"}
 ![Asari](https://data.n7.world/images/af-2022/asari.jpg)
-</v-card>
+::
 
 #### Awakened Collector
 
-<v-card max-width="300">
-
+::figure{max-width="300"}
 ![Awakened Collector](https://data.n7.world/images/af-2022/awakened-collector.jpg)
-</v-card>
+::
 
 #### Batarian
 
-<v-card max-width="300">
-
+::figure{max-width="300"}
 ![Batarian](https://data.n7.world/images/af-2022/batarian.jpg)
-</v-card>
+::
 
 #### Drell
 
-<v-card max-width="300">
-
+::figure{max-width="300"}
 ![Drell](https://data.n7.world/images/af-2022/drell.jpg)
-</v-card>
+::
 
 #### Elcor
 
-<v-card max-width="300">
-
+::figure{max-width="300"}
 ![Elcor](https://data.n7.world/images/af-2022/elcor.jpg)
-</v-card>
+::
 
 #### Geth
 
-<v-card max-width="300">
-
+::figure{max-width="300"}
 ![Geth](https://data.n7.world/images/af-2022/geth.jpg)
-</v-card>
+::
 
 #### Hanar
 
-<v-card max-width="300">
-
+::figure{max-width="300"}
 ![hanar](https://data.n7.world/images/af-2022/hanar.jpg)
-</v-card>
+::
 
 #### Human
 
-<v-card max-width="300">
-
+::figure{max-width="300"}
 ![human](https://data.n7.world/images/af-2022/human.jpg)
-</v-card>
+::
 
 #### Kett
 
-<v-card max-width="300">
-
+::figure{max-width="300"}
 ![Kett](https://data.n7.world/images/af-2022/kett.jpg)
-</v-card>
+::
 
 #### Krogan
 
-<v-card max-width="300">
-
+::figure{max-width="300"}
 ![Krogan](https://data.n7.world/images/af-2022/krogan.jpg)
-</v-card>
+::
 
 #### Prothean
 
-<v-card max-width="300">
-
+::figure{max-width="300"}
 ![Prothean](https://data.n7.world/images/af-2022/prothean.jpg)
-</v-card>
+::
 
 #### Quarian
 
-<v-card max-width="300">
-
+::figure{max-width="300"}
 ![Quarian](https://data.n7.world/images/af-2022/quarian.jpg)
-</v-card>
+::
 
 #### Salarian
 
-<v-card max-width="300">
-
+::figure{max-width="300"}
 ![Salarian](https://data.n7.world/images/af-2022/salarian.jpg)
-</v-card>
+::
 
 #### Turian
 
-<v-card max-width="300">
-
+::figure{max-width="300"}
 ![Turian](https://data.n7.world/images/af-2022/turian.jpg)
-</v-card>
+::
 
 #### Unshackled AI
 
-<v-card max-width="300">
-
+::figure{max-width="300"}
 ![Unshackled AI](https://data.n7.world/images/af-2022/unshackled-ai.jpg)
-</v-card>
+::
 
 #### Volus
 
-<v-card max-width="300">
-
+::figure{max-width="300"}
 ![Volus](https://data.n7.world/images/af-2022/volus.jpg)
-</v-card>
+::
 
 #### Vorcha
 
-<v-card max-width="300">
-
+::figure{max-width="300"}
 ![Vorcha](https://data.n7.world/images/af-2022/vorcha.jpg)
-</v-card>
+::
 
 #### Yahg
 
-<v-card max-width="300">
-
+::figure{max-width="300"}
 ![Yahg](https://data.n7.world/images/af-2022/yahg.jpg)
-</v-card>
+::

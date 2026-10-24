@@ -1,4 +1,5 @@
 ---
+name: Improved Style
 level: 9
 klass: explorer
 subclass: path-of-war
@@ -6,7 +7,6 @@ mechanics:
   - type: model-choice
     options: true
     model: fighting-styles
-name: Improved Style
 ---
 At 9th level, you can choose another Fighting Style. Alternatively, you can select your fighting Style again,
 which improves it in the following ways:

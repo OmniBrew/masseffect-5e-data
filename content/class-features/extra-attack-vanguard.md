@@ -1,7 +1,7 @@
 ---
+name: Extra Attack
 level: 5
 klass: vanguard
-name: Extra Attack
 mechanics:
   - type: extra-attack
     value: 2

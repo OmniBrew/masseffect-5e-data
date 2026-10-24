@@ -1,8 +1,8 @@
 ---
+name: Aura of Dominance
 level: 6
 klass: experiment
 subclass: reaper
-name: Aura of Dominance
 mechanics:
   - type: global-note
     subType: action
@@ -14,7 +14,8 @@ mechanics:
     value:
       model: experiment
       id: reaper-scar
-      limit: [attack-augment]
+      limit:
+        - attack-augment
     merge:
       bonus:
         value: 2
@@ -22,7 +23,8 @@ mechanics:
     value:
       model: experiment
       id: reaper-scar
-      limit: [global-note]
+      limit:
+        - global-note
     merge:
       moreInfo:
         additional:
@@ -30,8 +32,8 @@ mechanics:
             id: aura-of-dominance
 ---
 At 6th level, your indoctrination works its way into the minds of people around you. It's a pervasive paranoia that
-slowly takes over other's cognitive behaviour. While within <me-distance length="25" /> of you, creatures reduce their movement
-speed by <me-distance length="10" />. Any creature that starts its turn frightened in this
-space has its speed reduced to 0 instead. This area increases to encapsulate <me-distance length="50" /> at 12th level.
+slowly takes over other's cognitive behaviour. While within :distance{length="25"} of you, creatures reduce their movement
+speed by :distance{length="10"}. Any creature that starts its turn frightened in this
+space has its speed reduced to 0 instead. This area increases to encapsulate :distance{length="50"} at 12th level.
 
 You become Indoctrinated 2.

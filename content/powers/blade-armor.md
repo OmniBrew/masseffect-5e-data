@@ -2,13 +2,13 @@
 name: Blade Armor
 version: 1
 level: 0
-type: combat
+powerType: combat
 tags:
   - damage
   - protection
 classes:
   - soldier
-mechanics:
+casting:
   - castingTime:
       length: 1
       unit: bonus_action
@@ -21,7 +21,6 @@ mechanics:
       wp: weapon
       proficient: true
       mod: str
-    dc: false
     damage:
       - dieCount: 1
         dieType: 6
@@ -37,7 +36,6 @@ mechanics:
     range:
       short: 0
     detonates: false
-    primes: false
     resource:
       reset: long
       max:
@@ -53,14 +51,15 @@ advancements:
   - id: poisoned-armor
     name: Poisoned Armor
     text: Creatures hit by your blade armor must succeed on a DC 14 Constitution saving throw or become poisoned for 1 hour.
-    mechanics:
-      - conditions: [poisoned]
+    casting:
+      - conditions:
+          - poisoned
         notes:
           - DC 14 CON or poisoned 1H
   - id: retribution
     name: Retribution
-    text: When a creature within <me-distance length="5" /> of you hits you with a melee attack while blade armor is active, you may use your reaction to make a melee weapon attack with blade armor against the creature.
-    mechanics: []
+    text: When a creature within :distance{length="5"} of you hits you with a melee attack while blade armor is active, you may use your reaction to make a melee weapon attack with blade armor against the creature.
+    casting: []
 ---
 As a bonus action or as a reaction to taking damage, you reinforce your armor with razor-sharp blades that damage
 nearby enemies. Until the power ends, you AC increases by 2 but you are unable to Dodge and have disadvantage on Dexterity

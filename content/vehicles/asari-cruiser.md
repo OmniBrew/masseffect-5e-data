@@ -1,6 +1,6 @@
 ---
+name: Asari Cruiser
 type: starship
-subtype: false
 size: cruiser
 ac: 18
 hp: 2000
@@ -31,6 +31,10 @@ weapons:
     damage: 900 (2d8[x100]) radiant damage.
 cr: 17+
 cost: military
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/e/e8/WA_AsariCruiser.png/revision/latest?cb=20120326173630&format=original
+image: https://vignette.wikia.nocookie.net/masseffect/images/e/e8/WA_AsariCruiser.png/revision/latest?cb=20120326173630&format=original
 ---
+A mix-up during the cruiser's design left it with an unusually large drive core and engineers redesigned the ship
+around the excessive power source. The asari cruiser's unusually robust engines provide enough energy to generate kinetic
+barriers normally reserved for dreadnoughts.
+
+__Additional Systems__: The asari cruiser has an Armory, GARDIAN system, Medbay, and Exonet.

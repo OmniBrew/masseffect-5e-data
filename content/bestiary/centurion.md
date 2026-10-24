@@ -1,6 +1,6 @@
 ---
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/3/3f/ME3_Cerberus_Centurion.png/revision/latest/scale-to-width-down/417?cb=20120322145316
+name: Centurion
+image: https://vignette.wikia.nocookie.net/masseffect/images/3/3f/ME3_Cerberus_Centurion.png/revision/latest/scale-to-width-down/417?cb=20120322145316
 type: organic
 unit: cerberus
 alignment: nn
@@ -21,19 +21,26 @@ irv:
     - bludgeoning
     - piercing
     - slashing
-savingThrows: false
 senses:
-  infrared_vision: 30
+  infrared-vision: 30
 size: medium
-skills: false
 speed:
   walk: 30
 entries:
   features:
     - list:
-        - {id: frag-grenade, mark: iii, uses: 2}
-        - {id: smoke, mark: grenade, uses: 2}
+        - id: frag-grenade
+          mark: iii
+          uses: 2
+        - id: smoke
+          mark: grenade
+          uses: 2
       id: grenades
+      name: Grenades
+      text: The centurion has the following grenades equipped. It can use a grenade as an action.
+    - name: Aggressive
+      text: As a bonus action, the centurion can move up to its speed toward a hostile creature that it can see.
+      id: aggressive
   actions:
     - ref: weapon
       proficient: true
@@ -43,7 +50,10 @@ entries:
       proficient: true
       id: m-96-mattock
       weaponId: m-96-mattock
-cr: '04000'
+    - name: Multiattack
+      text: The centurion makes two M-96 Mattock attacks or two Stun Baton attacks.
+      id: multiattack
+cr: "04000"
 shields:
   capacity: 10
   regen: 10

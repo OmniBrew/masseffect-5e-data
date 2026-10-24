@@ -1,8 +1,9 @@
 ---
+name: High-Caliber Barrel II
 rarity: rare
-type: weapon
+modType: weapon
 cost: 19500
-manufacturer: ''
+manufacturer: ""
 tags:
   - extra_damage
   - special
@@ -13,13 +14,14 @@ availability:
   - smg
   - shotgun
   - sniper_rifle
-name: High-Caliber Barrel II
 flavor: Superior kinetic coils increase shot penetration and damage.
 mechanics:
   - type: attack-augment
     attackLimit:
       model: weapon
-    augmentTypes: [damage, notes]
+    augmentTypes:
+      - damage
+      - notes
     bonus:
       type: flat
       value: 2

@@ -1,4 +1,5 @@
 ---
+name: Focus Points
 level: 3
 klass: vanguard
 subclass: cardinal
@@ -7,7 +8,7 @@ mechanics:
     name: Focus Points
     resource:
       reset: long
-      label: 'Resets to 0 on long rest'
+      label: Resets to 0 on long rest
       resetTo: min
       max:
         type: progressive
@@ -21,9 +22,7 @@ mechanics:
       id: cardinal-focus-points
       shortDesc: Focus Points are used for your Cardinal Blades features.
   - type: bonus-action
-    shortDesc: >-
-      Convert up to {{ conMod }} Barrier Tick(s) into Focus Points
-name: Focus Points
+    shortDesc: Convert up to {{ conMod }} Barrier Tick(s) into Focus Points
 ---
 Through their meditation, their mental focus allows them to channel their own energy into offence and allow for
 further more advanced abilities as they grow and master their gifts.

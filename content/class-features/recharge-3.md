@@ -1,7 +1,7 @@
 ---
+name: Recharge (1d8)
 level: 15
 klass: engineer
-name: Recharge (1d8)
 mechanics:
   - type: augment
     value:

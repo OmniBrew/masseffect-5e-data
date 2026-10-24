@@ -11,7 +11,8 @@ mechanics:
     value:
       model: soldier
       id: nanite-combat
-      limit: [attack]
+      limit:
+        - attack
     merge:
       damage:
         - dieCount: 2

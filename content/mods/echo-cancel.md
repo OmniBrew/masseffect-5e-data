@@ -1,6 +1,7 @@
 ---
+name: Echo Cancel
 rarity: common
-type: armor
+modType: armor
 cost: 4000
 manufacturer: elanus-risk-control-services
 tags:
@@ -10,10 +11,7 @@ availability:
   - light
   - medium
   - heavy
-name: Echo Cancel
-flavor: >-
-  Specifically attuned mass effect fields in your armor's boots that are keyed
-  to sound waves.
+flavor: Specifically attuned mass effect fields in your armor's boots that are keyed to sound waves.
 mechanics:
   - type: skill-check
     value: stealth

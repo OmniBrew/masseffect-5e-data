@@ -4,22 +4,27 @@ new: true
 mechanics:
   - type: asi-choice
     options: true
-    limit: [str, dex]
+    limit:
+      - str
+      - dex
   - type: model-choice
     model: fighting-styles
     options: true
     limits:
       - attr: id
-        value: [FS_ambidextrous, FS_assault, FS_carnage, FS_close-quarters-shooter, FS_sniper]
+        value:
+          - FS_ambidextrous
+          - FS_assault
+          - FS_carnage
+          - FS_close-quarters-shooter
+          - FS_sniper
   - type: other
-    shortDesc: >-
-      At the beginning of your turn, you can reduce your movement speed to 0.
-      Until the end of your turn, you may engage in two-weapon fighting even
-      if the weapons you are wielding don’t have the light property.
+    shortDesc: At the beginning of your turn, you can reduce your movement speed to 0. Until the end of your turn, you may engage in two-weapon fighting even if the weapons you are wielding don’t have the light property.
 prerequisite: Elcor
 prereq:
   - type: species
-    limit: [elcor]
+    limit:
+      - elcor
 ---
 You can balance on your haunches and briefly dual-wield two weapons, becoming a living turret.
 

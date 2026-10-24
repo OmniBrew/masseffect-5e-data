@@ -4,7 +4,9 @@ new: true
 mechanics:
   - type: asi-choice
     options: true
-    limit: [str, dex]
+    limit:
+      - str
+      - dex
   - type: natural-weapon
     replacesUnarmedStrike: true
     value:
@@ -20,19 +22,22 @@ mechanics:
   - type: attack-augment
     attackLimit:
       type: melee
-    augmentTypes: [damage]
+    augmentTypes:
+      - damage
     rerollIfLessThan: 2
   - type: attack-augment
     attackLimit:
       type: melee
-    augmentTypes: [range]
+    augmentTypes:
+      - range
     bonus:
       type: flat
       value: 5
 prerequisite: Elcor
 prereq:
   - type: species
-    limit: [elcor]
+    limit:
+      - elcor
 ---
 You’ve trained in an ancient Elcor martial art which adds range and impact to your slow and sweeping strikes.
 - Increase your Dexterity or Strength score by 1, to a maximum of 20.

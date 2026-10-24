@@ -1,4 +1,5 @@
 ---
+name: Tool Proficiency
 species:
   - human
 mechanics:
@@ -6,3 +7,4 @@ mechanics:
     options: true
     selections: 1
 ---
+Your choice of Tool proficiency.

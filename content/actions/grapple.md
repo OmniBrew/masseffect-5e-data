@@ -10,7 +10,7 @@ The target of your grapple must be no more than one size larger than you and mus
 reach. Using at least one free hand, you try to seize the target by making a grapple check instead
 of an attack roll: a Strength (Athletics) check contested by the target's Strength (Athletics)
 or Dexterity (Acrobatics) check (the target chooses the ability to use). If you succeed,
-you subject the target to the <me-condition id="grappled" /> condition. The condition
+you subject the target to the :condition{id="grappled"} condition. The condition
 specifies the things that end it, and you can release the target whenever you like
 (no action required).
 

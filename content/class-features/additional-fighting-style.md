@@ -1,8 +1,8 @@
 ---
+name: Additional Fighting Style
 level: 10
 klass: soldier
 subclass: gladiator
-name: Additional Fighting Style
 mechanics:
   - type: model-choice
     options: true

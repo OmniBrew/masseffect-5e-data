@@ -2,7 +2,7 @@
 name: Stimulant Pack
 version: 1
 level: 0
-type: combat
+powerType: combat
 classes:
   - infiltrator
   - soldier
@@ -10,14 +10,10 @@ classes:
   - explorer
 tags:
   - buff
-mechanics:
+casting:
   - castingTime:
       length: 1
       unit: bonus_action
-    attack: false
-    dc: false
-    damage: false
-    conditions: false
     duration:
       length: 1
       unit: minute
@@ -25,7 +21,6 @@ mechanics:
     range:
       short: 0
     detonates: false
-    primes: false
     resource:
       reset: long
       max:
@@ -35,13 +30,13 @@ advancements:
   - id: friendly
     name: Friendly
     text: You can inject a willing creature within melee range with the stimulant pack.
-    mechanics:
+    casting:
       - range:
           short: 5
   - id: high-tolerance
     name: High Tolerance
     text: You can use stimulant pack twice per long rest.
-    mechanics:
+    casting:
       - resource:
           max:
             value: 2

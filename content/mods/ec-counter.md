@@ -1,6 +1,7 @@
 ---
+name: EC Counter
 rarity: rare
-type: armor
+modType: armor
 cost: 22000
 manufacturer: armax-arsenal
 tags:
@@ -10,13 +11,10 @@ availability:
   - light
   - medium
   - heavy
-name: EC Counter
 flavor: Uses an electrical conduit to automatically counter-attack melee combatants.
 mechanics:
   - type: other
-    shortDesc: >-
-      Once per round, when you are hit with a melee attack, the attacking creature suffers 2d4 lightning
-      damage and must succeed on a DC 10 Constitution saving throw or becomes stunned until the start of your next turn.
+    shortDesc: Once per round, when you are hit with a melee attack, the attacking creature suffers 2d4 lightning damage and must succeed on a DC 10 Constitution saving throw or becomes stunned until the start of your next turn.
     dc:
       base: 10
       proficient: false

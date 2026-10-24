@@ -3,11 +3,10 @@ name: Empowered Power
 mechanics:
   - type: other
     resource:
-      reset: 'off'
+      reset: off
       displayType: barrier-ticks
-      label: 'Barrier Ticks'
-    shortDesc: >-
-      Reroll up to {{ powercastingMod:vanguard }} damage die for a power you cast. Can be combined with other metabiotics.
+      label: Barrier Ticks
+    shortDesc: Reroll up to {{ powercastingMod:vanguard }} damage die for a power you cast. Can be combined with other metabiotics.
 type: metabiotics
 ---
 When you roll damage for a power, you can spend 1 barrier tick to reroll a number of the damage dice up to your

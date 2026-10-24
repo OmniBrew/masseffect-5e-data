@@ -8,7 +8,8 @@ mechanics:
       id: assault-hunter-mode
       whenOn:
         - type: speed-bonus
-          value: [walk]
+          value:
+            - walk
           bonus:
             type: flat
             value: 5
@@ -16,18 +17,18 @@ mechanics:
           attackLimit:
             type: melee
             model: weapon
-          augmentTypes: [hit]
+          augmentTypes:
+            - hit
           bonus:
             type: flat
             value: 1
         - type: extra-attack-add
-    shortDesc: >-
-      For 1 minute, your speed increases by <me-distance length="5" />, you gain +1 to weapon attack rolls,
-      and you may make 1 additional attack when you take the Attack action.
+    shortDesc: For 1 minute, your speed increases by :distance{length="5"}, you gain +1 to weapon attack rolls, and you may make 1 additional attack when you take the Attack action.
 prerequisite: Geth
 prereq:
   - type: species
-    limit: [geth]
+    limit:
+      - geth
 ---
 Geth were designed as lethal weapons and can activate subroutines to enhance their lethality.
 

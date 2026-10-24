@@ -21,7 +21,7 @@ time and omni-gel (if crafting) or credits (if purchasing).
 |Head|5,000|||1 _(3)_|16 hours & 5 omni-gel|
 |__Additional Mod Slots.__ 20,000 credits or 8 hours & 10 omni-gel||||||
 
-::: alert
+::note
 __EXAMPLE ARMOR CREATION__
 
 Imogen wants to create a fancy chest piece for her character Tiiva. She wants to add another mod slot for a
@@ -30,4 +30,4 @@ chest armor. Alternatively, she could have spent 30,000 credits to purchase the 
 on the ablative coating mod. She also looted an asymmetric defense layer mod from a previous
 mission. She spends 2 more long rests applying those mods, giving her chest armor resistance to piercing damage
 and +2 AC. She leaves her third slot empty for the time being, hoping to loot another mod and fit it in later.
-:::
+::

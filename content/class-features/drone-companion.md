@@ -1,8 +1,8 @@
 ---
+name: Drone Companion
 level: 2
 klass: engineer
 subclass: drone-jockey
-name: Drone Companion
 mechanics:
   - type: companion
 ---

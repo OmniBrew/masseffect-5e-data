@@ -1,15 +1,11 @@
 ---
+name: Judgement
 level: 7
 klass: soldier
 subclass: legionnaire
-name: Judgement
 mechanics:
   - type: reaction
-    shortDesc: >-
-      Whenever another creature make an attack roll against you and misses, you may use you reaction to
-      for the attacking creature to make a {{ 8 + conMod + profBonus }} Wisdom saving throw. On a failed
-      save, the creature becomes frightened of your for 1 minute. The affected creature may roll another Wisdom saving
-      throw at the end of each of their next turns. On a success, they're no longer frightened.
+    shortDesc: Whenever another creature make an attack roll against you and misses, you may use you reaction to for the attacking creature to make a {{ 8 + conMod + profBonus }} Wisdom saving throw. On a failed save, the creature becomes frightened of your for 1 minute. The affected creature may roll another Wisdom saving throw at the end of each of their next turns. On a success, they're no longer frightened.
 ---
 Your might and ability to hold your ground against difficult odds start to weaken the resolve of lesser
 gangs and other troublemakers.

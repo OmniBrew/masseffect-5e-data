@@ -4,8 +4,10 @@ mechanics:
   - type: attack-augment
     attackLimit:
       model: weapon
-      modelTypes: [shotgun]
-    augmentTypes: [damage]
+      modelTypes:
+        - shotgun
+    augmentTypes:
+      - damage
     rerollIfLessThan: 3
 type: fighting-styles
 ---

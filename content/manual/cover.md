@@ -21,7 +21,7 @@ if about three-quarters of it is covered by an obstacle. The obstacle might be a
 A target with total cover can't be targeted directly by an attack or a power, although some powers can reach such a
 target by including it in an area of effect. A target has total cover if it is completely concealed by an obstacle.
 
-### Variant: Additional Cover Rules <v-chip color="info" small>new</v-chip>
+### Variant: Additional Cover Rules :change-badge{type="new"}
 
 #### Size
 Size matters. If the target is one size larger than the creature providing cover, the target has no cover. If the target
@@ -35,4 +35,5 @@ Don't hit your friends! If the creature providing cover is friendly and the atta
 50% chance to hit the friendly target. Roll a die and if the result is odd the attack hits, even the attack misses both
 creatures. Or you can use the friendly creature's AC to decide if the attack hits or misses.
 
-<me-source-reference pages="96"></me-source-reference>
+::source-reference{pages="96"}
+::

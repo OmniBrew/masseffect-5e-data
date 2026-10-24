@@ -1,31 +1,25 @@
 ---
-placement: legs
-type: heavy
+name: Lockdown Greaves
+coverage: piece
+slot: legs
+armorType: heavy
 cost: 18700
 manufacturer: hahne-kedar
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/0/09/ME3_hahne_kedar_legs.png/revision/latest/scale-to-width-down/100?cb=20120314172009
+image: https://vignette.wikia.nocookie.net/masseffect/images/0/09/ME3_hahne_kedar_legs.png/revision/latest/scale-to-width-down/100?cb=20120314172009
 tags:
   - special
 andromeda: false
-set: false
 rarity: uncommon
-name: Lockdown Greaves
-flavor: >-
-  A pair of leg armor pieces that connect the wearer's boots to the suit's power
-  supply, turning the boots into a powerful electromagnet.
+flavor: A pair of leg armor pieces that connect the wearer's boots to the suit's power supply, turning the boots into a powerful electromagnet.
 mechanics:
-  - type: thermal-clip-capacity
+  - type: me:thermal-clip-capacity
     value: 2
-  - type: grenade-capacity
+  - type: me:grenade-capacity
     value: 2
   - type: bonus-action
     resource:
       reset: short
-    shortDesc: >-
-      For the next minute, you may walk up walls, upside down, and gain immunity to being lifted
-      if the surface you are walking on is made of metal. Otherwise, gain advantage on saving throws
-      to become lifted.
+    shortDesc: For the next minute, you may walk up walls, upside down, and gain immunity to being lifted if the surface you are walking on is made of metal. Otherwise, gain advantage on saving throws to become lifted.
     toggle:
       id: lockdown-greaves
       whenOn:
@@ -33,7 +27,8 @@ mechanics:
           value: lifted
           note: when you are on a metal surface
         - type: saving-throw
-          against: [lifted]
+          against:
+            - lifted
           effect:
             type: advantage
 ---

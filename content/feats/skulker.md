@@ -1,3 +1,7 @@
 ---
+name: Skulker
 mechanics: []
+note: You are expert at slinking through shadows
+prerequisite: Dexterity 13 or higher.
 ---
+Player's Handbook, p. 170

@@ -1,6 +1,7 @@
 ---
+name: Reactive Kinetic Compensator
 rarity: uncommon
-type: armor
+modType: armor
 cost: 20000
 manufacturer: armax-arsenal
 tags:
@@ -10,10 +11,7 @@ availability:
   - light
   - medium
   - heavy
-name: Reactive Kinetic Compensator
-flavor: >-
-  A vi-response program that generates a burst of hard light between the layers
-  of the user's armor to reduce trauma from otherwise-lethal hits.
+flavor: A vi-response program that generates a burst of hard light between the layers of the user's armor to reduce trauma from otherwise-lethal hits.
 mechanics:
   - type: global-note
     subType: defenses

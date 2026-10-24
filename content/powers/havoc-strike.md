@@ -2,18 +2,17 @@
 name: Havoc Strike
 version: 1
 level: 0
-type: combat
+powerType: combat
 classes:
   - soldier
   - vanguard
   - tracker
 tags:
   - damage
-mechanics:
+casting:
   - castingTime:
       length: 1
       unit: attack
-    attack: false
     dc:
       base: 8
       proficient: true
@@ -23,7 +22,6 @@ mechanics:
       - dieCount: 2
         dieType: 8
         type: thunder
-    conditions: false
     duration:
       length: 0
       unit: instant
@@ -34,7 +32,6 @@ mechanics:
         type: sphere
         size: 5
     detonates: false
-    primes: false
     resource:
       reset: short
       max:
@@ -49,18 +46,18 @@ mechanics:
 advancements:
   - id: improved-distance
     name: Improved Distance
-    text: You can jump up to <me-distance length="35" />.
-    mechanics: []
+    text: You can jump up to :distance{length="35"}.
+    casting: []
   - id: improved-radius
     name: Improved Radius
-    text: Increase the radius of the impact to <me-distance length="10" />.
-    mechanics:
+    text: Increase the radius of the impact to :distance{length="10"}.
+    casting:
       - range:
           aoe:
             size: 10
 ---
-Use a propulsion jet built into your leg armor to spring to a location within <me-distance length="25" /> and strike the ground with violent force.
-Each creature within a <me-distance length="5" adj/> radius of where you land must make a Dexterity saving throw (DC 8 + proficiency bonus + STR modifier).
+Use a propulsion jet built into your leg armor to spring to a location within :distance{length="25"} and strike the ground with violent force.
+Each creature within a :distance{length="5" adj} radius of where you land must make a Dexterity saving throw (DC 8 + proficiency bonus + STR modifier).
 On a failed save, a creature takes 2d8 thunder damage or half as much on a successful one.
 
 You can use this feature twice between short or long rests.

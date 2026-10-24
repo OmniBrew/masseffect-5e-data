@@ -1,8 +1,8 @@
 ---
+name: Total Combat
 level: 18
 klass: soldier
 subclass: legionnaire
-name: Total Combat
 mechanics:
   - type: global-note
     subType: action

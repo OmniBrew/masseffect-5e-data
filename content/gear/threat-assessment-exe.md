@@ -1,10 +1,10 @@
 ---
+name: Threat_Assessment.exe
 rarity: rare
-type: omni_tool_program
+gearType: omni_tool_program
 cost: 0
 weight: 0
-subType: ''
-name: Threat_Assessment.exe
+subType: ""
 installation: true
 equippable: true
 mechanics:
@@ -13,7 +13,13 @@ mechanics:
       type: flat
       value: 1
   - type: saving-throw
-    value: [str,dex,con,int,wis,cha]
+    value:
+      - str
+      - dex
+      - con
+      - int
+      - wis
+      - cha
     effect:
       type: bonus
       bonus:

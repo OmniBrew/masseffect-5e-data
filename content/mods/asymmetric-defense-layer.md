@@ -1,6 +1,7 @@
 ---
+name: Asymmetric Defense Layer
 rarity: rare
-type: armor
+modType: armor
 cost: 50000
 manufacturer: rosenkov-materials
 tags:
@@ -10,11 +11,7 @@ availability:
   - light
   - medium
   - heavy
-name: Asymmetric Defense Layer
-flavor: >-
-  Offering increased protection where it's needed most, Rosenkov Materials'
-  proprietary coating process increases stopping power of standard ceramic
-  armor.
+flavor: Offering increased protection where it's needed most, Rosenkov Materials' proprietary coating process increases stopping power of standard ceramic armor.
 mechanics:
   - type: ac
     bonus:

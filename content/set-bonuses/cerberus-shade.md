@@ -1,10 +1,7 @@
 ---
 bonuses:
   - threshold: 2
-    text: >-
-      Once per short rest, as a reaction to taking damage, you may jumpstart
-      your shield regen and immediately gain shield points equal to your regen
-      amount.
+    text: Once per short rest, as a reaction to taking damage, you may jumpstart your shield regen and immediately gain shield points equal to your regen amount.
     mechanics:
       - type: reaction
         name: Cerberus Shade Armor Bonus (2 of 4)
@@ -14,7 +11,7 @@ bonuses:
   - threshold: 4
     text: +10 shields. +10 shield regen.
     mechanics:
-      - type: shields
+      - type: me:shields
         capacity:
           type: flat
           value: 10

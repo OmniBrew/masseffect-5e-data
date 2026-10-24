@@ -20,4 +20,5 @@ of the day.
 
 If the character already has one or more levels of exhaustion, the character takes two levels in either case.
 
-<me-source-reference pages="86-87"></me-source-reference>
+::source-reference{pages="86-87"}
+::

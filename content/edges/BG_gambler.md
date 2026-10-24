@@ -6,5 +6,4 @@ mechanics:
   - type: skill
     value: sleight-of-hand
 type: subgrounds
-
 ---

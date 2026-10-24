@@ -1,8 +1,8 @@
 ---
+name: Reaper Scar
 level: 1
 klass: experiment
 subclass: reaper
-name: Reaper Scar
 mechanics:
   - type: global-note
     subType: action
@@ -11,7 +11,9 @@ mechanics:
       model: class-features
       id: reaper-scar
   - type: attack-augment
-    augmentTypes: [damage, hit]
+    augmentTypes:
+      - damage
+      - hit
     bonus:
       type: flat
       value: 1

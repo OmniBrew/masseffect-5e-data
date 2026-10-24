@@ -1,11 +1,10 @@
 ---
 name: Shadow
 rarity: rare
-type: sniper_rifle
+weaponType: sniper_rifle
 cost: 39000
 manufacturer: remnant
 weight: 20
-heat: 4
 damage:
   dieCount: 2
   dieType: 8
@@ -16,10 +15,12 @@ range:
 image: https://vignette.wikia.nocookie.net/masseffect/images/e/ea/MEA_Shadow_MP.png/revision/latest?cb=20180602004449
 andromeda: true
 properties:
-  - two-handed
-  - heavy
-  - special
-  - vented
+  - id: two-handed
+  - id: heavy
+  - id: special
+  - id: vented
+  - id: heat
+    value: 4
 slots: 2
 ---
 The Shadow does not use thermal clips. Instead, use a d4 to track the "heat". Whenever you make a 

@@ -2,7 +2,7 @@
 name: Submission Net
 version: 1
 level: 2
-type: tech
+powerType: tech
 classes:
   - engineer
   - musician
@@ -12,17 +12,16 @@ classes:
   - explorer
 tags:
   - control
-mechanics:
+casting:
   - castingTime:
       length: 1
       unit: action
-    attack: false
     dc:
       base: 8
       proficient: true
       save: dex
-    damage: false
-    conditions: [restrained]
+    conditions:
+      - restrained
     duration:
       length: 1
       unit: minute
@@ -33,7 +32,6 @@ mechanics:
         type: cylinder
         size: 10
     detonates: false
-    primes: false
     notes:
       - 1d6 lightning dmg on failed STR save to escape
   - range:
@@ -52,7 +50,7 @@ advancements:
   - id: electrified-net
     name: Electrified Net
     text: If you have a submission net deployed, you can use your bonus action to send electric currents through it. Each creature within the net takes 2d6 lightning damage.
-    mechanics:
+    casting:
       - damage:
           - dieCount: 2
             dieType: 6
@@ -60,16 +58,16 @@ advancements:
   - id: anti-tech
     name: Anti-Tech
     text: If a creature you can see begins to cast a tech power, you can use your reaction to cast submission net.
-    mechanics:
+    casting:
       - altCasting:
           - length: 1
             unit: reaction
             reaction: when a creature you see casts a tech power
 ---
-Shoot a swarm of miniature pylons to a target location within range. Each creature within a <me-distance length="10" adj />-radius,
-<me-distance length="10" adj />-high cylinder of the target
+Shoot a swarm of miniature pylons to a target location within range. Each creature within a :distance{length="10" adj}-radius,
+:distance{length="10" adj}-high cylinder of the target
 location must make a Dexterity saving throw. Any creature that fails the saving throw is trapped in an electrified net,
-becoming <me-condition id="restrained"/> and cannot cast tech powers.
+becoming :condition{id="restrained"} and cannot cast tech powers.
 
 Until the power ends, the area is considered difficult terrain. A creature that enters the cylinder for the first time
 on its turn or ends its turn there must also make the Dexterity saving throw.
@@ -79,4 +77,4 @@ DC to escape the net. On each attempt, the creature takes 1d6 lightning damage a
 success, the creature is no longer restrained.
 
 __At Higher Levels__: When you cast this power using a power slot of 3rd level or higher, increase the radius of the
-net by <me-distance length="5" /> for each power slot about the 2nd.
+net by :distance{length="5"} for each power slot about the 2nd.

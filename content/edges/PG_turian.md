@@ -3,12 +3,14 @@ name: Turian
 type: premium-genetics
 mechanics:
   - type: asi-choice
-    limit: [dex,con]
+    limit:
+      - dex
+      - con
   - type: model-choice
     options: true
     model: traits
-    set: [thulium-skin]
+    set:
+      - thulium-skin
 ---
 - Increase your Dexterity or Constitution score by 1, to a maximum of 20.
 - Gain the Thulium Skin trait.
-

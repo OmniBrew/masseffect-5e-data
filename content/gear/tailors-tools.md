@@ -1,9 +1,9 @@
 ---
+name: Tailor's Tools
 rarity: common
-type: tool
+gearType: tool
 cost: 6000
 weight: 10
 subType: artisan
-name: Tailor's Tools
 ---
 All the necessary tools to work with light armor.

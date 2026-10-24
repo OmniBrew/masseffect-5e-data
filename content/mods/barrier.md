@@ -1,6 +1,7 @@
 ---
+name: Barrier
 rarity: rare
-type: armor
+modType: armor
 cost: 24000
 manufacturer: armali-council
 tags:
@@ -10,13 +11,52 @@ availability:
   - light
   - medium
   - heavy
-name: Barrier
 flavor: Eezo oscillator provides a biotic-like barrier.
 mechanics:
-  - type: barrier
+  - type: me:barrier
     multiclassConversion: 1
-    ticks: [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3]
-    uses: [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
+    ticks:
+      - 3
+      - 3
+      - 3
+      - 3
+      - 3
+      - 3
+      - 3
+      - 3
+      - 3
+      - 3
+      - 3
+      - 3
+      - 3
+      - 3
+      - 3
+      - 3
+      - 3
+      - 3
+      - 3
+      - 3
+    uses:
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
     dieCount: 1
     dieType: 8
 ---

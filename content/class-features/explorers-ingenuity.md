@@ -1,4 +1,5 @@
 ---
+name: Explorer's Ingenuity
 level: 3
 klass: explorer
 mechanics:
@@ -8,7 +9,6 @@ mechanics:
     moreInfo:
       model: class-features
       id: explorers-ingenuity
-name: Explorer's Ingenuity
 ---
 Your quick thinking lets you apply creative solutions to incoming problems. At 3rd level, select one of your saving
 throws that isn't Intelligence. You may add your Intelligence modifier to that saving throw if you'd be affected by an

@@ -10,8 +10,7 @@ mechanics:
       max:
         type: flat
         value: 3
-    shortDesc: >-
-      Whenever you hit a creature with a ranged weapon attack on your turn, you may take the Hide action as a free action.
+    shortDesc: Whenever you hit a creature with a ranged weapon attack on your turn, you may take the Hide action as a free action.
 ---
 The ways of the Night Stalkers teach one to keep hidden at all times, never to be caught unawares, taking cover at
 lightning speed after shooting to keep the prey guessing on where that last shot came from.

@@ -1,6 +1,6 @@
 ---
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/e/e5/Thorian_Creeper.png/revision/latest/scale-to-width-down/424?cb=20140614190322
+name: Thorian Creeper
+image: https://vignette.wikia.nocookie.net/masseffect/images/e/e5/Thorian_Creeper.png/revision/latest/scale-to-width-down/424?cb=20140614190322
 type: organic
 unit: thorian
 alignment: le
@@ -20,10 +20,7 @@ irv:
   vul:
     - bludgeoning
     - force
-savingThrows: false
-senses: false
 size: medium
-skills: false
 speed:
   walk: 30
 entries:
@@ -31,18 +28,24 @@ entries:
     - attack: melee
       proficient: true
       range: 5
-      dc: false
       mod: str
       damage:
-        - {dieCount: 2, dieType: 4, mod: true, type: slashing}
+        - dieCount: 2
+          dieType: 4
+          mod: true
+          type: slashing
       target: one
       id: slash
-    - dc: false
-      save: false
-      recharge:
-        - '4'
-        - '6'
+      name: Slash
+    - recharge:
+        - "4"
+        - "6"
       id: acid-vomit
-cr: '00250'
-shields: false
+      name: Acid Vomit
+      text: The creeper regurgitates acid in a 4-meter cone. A creature within the cone must succeed on a DC 15 Dexterity saving throw or take 7 (2d6) acid damage.
+  features:
+    - name: Hive Mind
+      text: If the creeper is within :distance{length="60"} of a Thorian Controller, it gains +1 to attack and damage rolls, ability checks, and saving throws.
+      id: hive-mind
+cr: "00250"
 ---

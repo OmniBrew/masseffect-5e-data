@@ -1,6 +1,6 @@
 ---
-image: >-
-  https://vignette.wikia.nocookie.net/elderscrolls/images/c/c3/Chaurus_3D.png/revision/latest/scale-to-width-down/700?cb=20120612155204
+name: Thorian Nymph
+image: https://vignette.wikia.nocookie.net/elderscrolls/images/c/c3/Chaurus_3D.png/revision/latest/scale-to-width-down/700?cb=20120612155204
 type: organic
 unit: thorian
 alignment: le
@@ -16,11 +16,7 @@ abilityScores:
   int: 13
   wis: 11
   cha: 2
-irv: false
-savingThrows: false
-senses: false
 size: small
-skills: false
 speed:
   walk: 30
 entries:
@@ -28,26 +24,33 @@ entries:
     - attack: melee
       proficient: true
       range: 5
-      dc: false
       mod: str
       damage:
-        - {dieCount: 1, dieType: 4, mod: true, type: piercing}
+        - dieCount: 1
+          dieType: 4
+          mod: true
+          type: piercing
       target: one
       id: bite
+      name: Bite
     - attack: ranged
       proficient: true
       range: 25
-      dc: false
       mod: dex
       damage:
-        - {dieCount: 2, dieType: 6, mod: true, type: necrotic}
+        - dieCount: 2
+          dieType: 6
+          mod: true
+          type: necrotic
       target: one
       id: acid-spit
-    - dc: false
-      save: false
-      uses: 1
+      name: Acid Spit
+    - uses: 1
       perDay: true
       id: release-spores
-cr: '00500'
-shields: false
+      name: Release Spores
+      text: The nymph releases spores in a :distance{length="10" adj}-radius sphere lasting until the end of its next turn. A creature that enters the area for the first time on a turn or starts its turn there takes 3 (1d6) psychic damage and must make a DC 13 Wisdom saving throw. On a failed save, a creature becomes paralyzed until the start of its next turn.
+cr: "00500"
 ---
+In its juvenile stage, the Thorian becomes mobile and sneaks aboard unknowing ships to spread across 
+the galaxy.

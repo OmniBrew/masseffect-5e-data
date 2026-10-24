@@ -2,7 +2,7 @@
 name: Unity
 version: 1
 level: 2
-type: tech
+powerType: tech
 classes:
   - engineer
   - musician
@@ -11,18 +11,15 @@ classes:
   - explorer
 tags:
   - heal
-mechanics:
+casting:
   - castingTime:
       length: 1
       unit: action
-    attack: false
-    dc: false
     damage:
       - dieCount: 1
         dieType: 6
         type: hp
         mod: pc
-    conditions: false
     duration:
       length: 0
       unit: instant
@@ -30,7 +27,6 @@ mechanics:
     range:
       short: 90
     detonates: false
-    primes: false
   - damage:
       - dieCount: 3
   - damage:
@@ -43,11 +39,11 @@ advancements:
   - id: unrestricted--engineer-only-
     name: Unrestricted (Engineer only)
     text: Engineers can spend any amount of tech points to cast this power. They are not limited by their Tech Point Limit column.
-    mechanics: []
+    casting: []
   - id: shield-restore
     name: Shield restore
     text: Creatures also gain 1d4 shield points. This increases by 1d4 for each power slot above the 2nd.
-    mechanics:
+    casting:
       - damage:
           - {}
           - dieCount: 1

@@ -1,8 +1,9 @@
 ---
+name: Vintage Heat Sink
 rarity: uncommon
-type: weapon
+modType: weapon
 cost: 13000
-manufacturer: ''
+manufacturer: ""
 tags:
   - special
 placement: magazine
@@ -12,10 +13,10 @@ availability:
   - smg
   - shotgun
   - sniper_rifle
-name: Vintage Heat Sink
 flavor: Augment the weapons heat displacement with a vintage recharge module.
 mechanics:
   - type: adjust-weapon-props
-    add: [vented]
+    add:
+      - vented
 ---
 This weapons gains the vented property.

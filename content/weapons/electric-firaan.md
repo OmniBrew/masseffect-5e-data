@@ -1,22 +1,20 @@
 ---
 name: Electric Firaan
 rarity: rare
-type: melee
+weaponType: melee
 cost: 32500
 manufacturer: taravay-industries
 weight: 2
-heat: null
 damage:
   dieCount: 1
   dieType: 4
   type: piercing
 range:
   short: 5
-image: null
 andromeda: true
 properties:
-  - finesse
-  - light
+  - id: finesse
+  - id: light
 slots: 1
 ---
 When you hit with an attack using this weapon, the target takes an additional 1d4 lightning damage. 

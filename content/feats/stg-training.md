@@ -4,11 +4,17 @@ new: true
 mechanics:
   - type: asi-choice
     options: true
-    limit: [int, dex]
+    limit:
+      - int
+      - dex
     amount: 1
     selections: 1
   - type: skill-check
-    value: [vehicle-handling, acrobatics, stealth, sleight-of-hand]
+    value:
+      - vehicle-handling
+      - acrobatics
+      - stealth
+      - sleight-of-hand
     effect:
       type: bonus
       bonus:
@@ -17,7 +23,8 @@ mechanics:
 prerequisite: Salarian
 prereq:
   - type: species
-    limit: [salarian]
+    limit:
+      - salarian
 ---
 The Special Tasks Group is trained to run every step and action through potential outcome scenarios
 for the best possible result.

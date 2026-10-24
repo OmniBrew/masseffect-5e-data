@@ -1,6 +1,6 @@
 ---
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/2/21/Maintenance_Drone.png/revision/latest/scale-to-width-down/350?cb=20100909024927
+name: Repair Drone
+image: https://vignette.wikia.nocookie.net/masseffect/images/2/21/Maintenance_Drone.png/revision/latest/scale-to-width-down/350?cb=20100909024927
 type: synthetic
 unit: mech
 alignment: nn
@@ -24,33 +24,36 @@ irv:
     - psychic
   vul:
     - lightning
-savingThrows: false
-senses: false
 size: small
-skills: false
 speed:
   fly: 35
 entries:
   features:
     - mod: int
       list:
-        - {id: first-aid, perDay: 3}
+        - id: first-aid
+          perDay: 3
       id: innate-powercasting
+      name: Innate Powercasting
+      text: "The repair drone's innate powercasting ability is Intelligence (power save DC 10, +2 to hit with power attacks). It can innately cast the following powers:"
   actions:
     - attack: melee
       proficient: true
       range: 5
-      dc: false
       mod: str
       damage:
-        - {dieCount: 1, dieType: 4, mod: true, type: lightning}
+        - dieCount: 1
+          dieType: 4
+          mod: true
+          type: lightning
       target: one
       id: defibrillators
-    - dc: false
-      save: false
-      recharge: short
+      name: Defibrillators
+    - recharge: short
       id: stabalize
-cr: '00125'
+      name: Stabilize
+      text: The repair drone can stabilize a friendly creature within :distance{length="5"}.
+cr: "00125"
 shields:
   capacity: 5
   regen: 5

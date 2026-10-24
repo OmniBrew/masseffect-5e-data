@@ -1,6 +1,7 @@
 ---
+name: Hardened Weave
 rarity: spectre
-type: armor
+modType: armor
 cost: 250000
 manufacturer: elanus-risk-control-services
 tags:
@@ -10,10 +11,7 @@ availability:
   - light
   - medium
   - heavy
-name: Hardened Weave
-flavor: >-
-  A complex filament network of element zero microcores combined with advanced
-  firewall technology provides protection against both biotic and tech attacks.
+flavor: A complex filament network of element zero microcores combined with advanced firewall technology provides protection against both biotic and tech attacks.
 mechanics:
   - type: resistance
     value: cold

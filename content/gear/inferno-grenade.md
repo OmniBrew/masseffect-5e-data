@@ -1,15 +1,11 @@
 ---
+name: Inferno Grenade
 subsets:
   - id: inferno-grenade-i
     rarity: common
     cost: 1000
     name: Inferno Grenade I
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target
-      must make a DC 11 Dexterity saving throw. A creature takes 2d4 fire damage on a failed save or half as
-      much on a successful one. The area within a <me-distance length="10" adj /> radius, centered on the target
-      continues to burn for 1 minute. A creature must also make the saving throw when it enters the burning space
-      for the first time on a turn or ends its turn there.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 11 Dexterity saving throw. A creature takes 2d4 fire damage on a failed save or half as much on a successful one. The area within a :distance{length="10" adj} radius, centered on the target continues to burn for 1 minute. A creature must also make the saving throw when it enters the burning space for the first time on a turn or ends its turn there.
     mechanics:
       - type: action
         layout: attack
@@ -35,12 +31,7 @@ subsets:
     rarity: common
     cost: 2000
     name: Inferno Grenade II
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target
-      must make a DC 13 Dexterity saving throw. A creature takes 2d4 fire damage on a failed save or half as
-      much on a successful one. The area within a <me-distance length="10" adj /> radius, centered on the target
-      continues to burn for 1 minute. A creature must also make the saving throw when it enters the burning space
-      for the first time on a turn or ends its turn there.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 13 Dexterity saving throw. A creature takes 2d4 fire damage on a failed save or half as much on a successful one. The area within a :distance{length="10" adj} radius, centered on the target continues to burn for 1 minute. A creature must also make the saving throw when it enters the burning space for the first time on a turn or ends its turn there.
     mechanics:
       - type: action
         layout: attack
@@ -66,12 +57,7 @@ subsets:
     rarity: uncommon
     cost: 2500
     name: Inferno Grenade III
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target
-      must make a DC 13 Dexterity saving throw. A creature takes 3d4 fire damage on a failed save or half as
-      much on a successful one. The area within a <me-distance length="10" adj /> radius, centered on the target
-      continues to burn for 1 minute. A creature must also make the saving throw when it enters the burning space
-      for the first time on a turn or ends its turn there.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 13 Dexterity saving throw. A creature takes 3d4 fire damage on a failed save or half as much on a successful one. The area within a :distance{length="10" adj} radius, centered on the target continues to burn for 1 minute. A creature must also make the saving throw when it enters the burning space for the first time on a turn or ends its turn there.
     mechanics:
       - type: action
         layout: attack
@@ -97,12 +83,7 @@ subsets:
     rarity: uncommon
     cost: 3500
     name: Inferno Grenade IV
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target
-      must make a DC 15 Dexterity saving throw. A creature takes 3d4 fire damage on a failed save or half as
-      much on a successful one. The area within a <me-distance length="10" adj /> radius, centered on the target
-      continues to burn for 1 minute. A creature must also make the saving throw when it enters the burning space
-      for the first time on a turn or ends its turn there.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 15 Dexterity saving throw. A creature takes 3d4 fire damage on a failed save or half as much on a successful one. The area within a :distance{length="10" adj} radius, centered on the target continues to burn for 1 minute. A creature must also make the saving throw when it enters the burning space for the first time on a turn or ends its turn there.
     mechanics:
       - type: action
         layout: attack
@@ -128,12 +109,7 @@ subsets:
     rarity: rare
     cost: 4500
     name: Inferno Grenade V
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target
-      must make a DC 15 Dexterity saving throw. A creature takes 5d4 fire damage on a failed save or half as
-      much on a successful one. The area within a <me-distance length="10" adj /> radius, centered on the target
-      continues to burn for 1 minute. A creature must also make the saving throw when it enters the burning space
-      for the first time on a turn or ends its turn there.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 15 Dexterity saving throw. A creature takes 5d4 fire damage on a failed save or half as much on a successful one. The area within a :distance{length="10" adj} radius, centered on the target continues to burn for 1 minute. A creature must also make the saving throw when it enters the burning space for the first time on a turn or ends its turn there.
     mechanics:
       - type: action
         layout: attack
@@ -159,12 +135,7 @@ subsets:
     rarity: rare
     cost: 5500
     name: Inferno Grenade VI
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target
-      must make a DC 17 Dexterity saving throw. A creature takes 5d4 fire damage on a failed save or half as
-      much on a successful one. The area within a <me-distance length="10" adj /> radius, centered on the target
-      continues to burn for 1 minute. A creature must also make the saving throw when it enters the burning space
-      for the first time on a turn or ends its turn there.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 17 Dexterity saving throw. A creature takes 5d4 fire damage on a failed save or half as much on a successful one. The area within a :distance{length="10" adj} radius, centered on the target continues to burn for 1 minute. A creature must also make the saving throw when it enters the burning space for the first time on a turn or ends its turn there.
     mechanics:
       - type: action
         layout: attack
@@ -190,12 +161,7 @@ subsets:
     rarity: very_rare
     cost: 6000
     name: Inferno Grenade VII
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target
-      must make a DC 17 Dexterity saving throw. A creature takes 6d4 fire damage on a failed save or half as
-      much on a successful one. The area within a <me-distance length="10" adj /> radius, centered on the target
-      continues to burn for 1 minute. A creature must also make the saving throw when it enters the burning space
-      for the first time on a turn or ends its turn there.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 17 Dexterity saving throw. A creature takes 6d4 fire damage on a failed save or half as much on a successful one. The area within a :distance{length="10" adj} radius, centered on the target continues to burn for 1 minute. A creature must also make the saving throw when it enters the burning space for the first time on a turn or ends its turn there.
     mechanics:
       - type: action
         layout: attack
@@ -221,12 +187,7 @@ subsets:
     rarity: very_rare
     cost: 6500
     name: Inferno Grenade VIII
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target
-      must make a DC 18 Dexterity saving throw. A creature takes 6d4 fire damage on a failed save or half as
-      much on a successful one. The area within a <me-distance length="10" adj /> radius, centered on the target
-      continues to burn for 1 minute. A creature must also make the saving throw when it enters the burning space
-      for the first time on a turn or ends its turn there.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 18 Dexterity saving throw. A creature takes 6d4 fire damage on a failed save or half as much on a successful one. The area within a :distance{length="10" adj} radius, centered on the target continues to burn for 1 minute. A creature must also make the saving throw when it enters the burning space for the first time on a turn or ends its turn there.
     mechanics:
       - type: action
         layout: attack
@@ -252,12 +213,7 @@ subsets:
     rarity: very_rare
     cost: 7000
     name: Inferno Grenade IX
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target
-      must make a DC 18 Dexterity saving throw. A creature takes 7d4 fire damage on a failed save or half as
-      much on a successful one. The area within a <me-distance length="10" adj /> radius, centered on the target
-      continues to burn for 1 minute. A creature must also make the saving throw when it enters the burning space
-      for the first time on a turn or ends its turn there.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 18 Dexterity saving throw. A creature takes 7d4 fire damage on a failed save or half as much on a successful one. The area within a :distance{length="10" adj} radius, centered on the target continues to burn for 1 minute. A creature must also make the saving throw when it enters the burning space for the first time on a turn or ends its turn there.
     mechanics:
       - type: action
         layout: attack
@@ -283,12 +239,7 @@ subsets:
     rarity: spectre
     cost: 8000
     name: Inferno Grenade X
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target
-      must make a DC 19 Dexterity saving throw. A creature takes 8d4 fire damage on a failed save or half as
-      much on a successful one. The area within a <me-distance length="10" adj /> radius, centered on the target
-      continues to burn for 1 minute. A creature must also make the saving throw when it enters the burning space
-      for the first time on a turn or ends its turn there.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 19 Dexterity saving throw. A creature takes 8d4 fire damage on a failed save or half as much on a successful one. The area within a :distance{length="10" adj} radius, centered on the target continues to burn for 1 minute. A creature must also make the saving throw when it enters the burning space for the first time on a turn or ends its turn there.
     mechanics:
       - type: action
         layout: attack
@@ -342,16 +293,15 @@ marks:
     rarity: Spectre
     damage: 8d4
 rarity: varies
-type: grenade
+gearType: grenade
 cost: Varies
 weight: 1
-subType: ''
+subType: ""
 consumable: true
 equippable: true
-name: Inferno Grenade
 ---
-Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target must make a Dexterity saving throw.
-On a failed save, a creature suffers fire damage or half as much on a successful one. The area within a <me-distance length="10" adj /> radius, centered on the target
+Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a Dexterity saving throw.
+On a failed save, a creature suffers fire damage or half as much on a successful one. The area within a :distance{length="10" adj} radius, centered on the target
 continues to burn for 1 minute.
 
 A creature must also make the saving throw when it enters the burning space for the first time on a turn or ends its turn there.

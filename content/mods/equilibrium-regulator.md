@@ -1,6 +1,7 @@
 ---
+name: Equilibrium Regulator
 rarity: uncommon
-type: armor
+modType: armor
 cost: 30000
 manufacturer: alliance
 tags:
@@ -10,10 +11,7 @@ availability:
   - light
   - medium
   - heavy
-name: Equilibrium Regulator
-flavor: >-
-  Stabilizes your HUD while running which allows you to take quick shots while
-  running.
+flavor: Stabilizes your HUD while running which allows you to take quick shots while running.
 mechanics:
   - type: bonus-action
     name: Equilibrium Regulator (mod)

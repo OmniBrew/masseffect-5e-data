@@ -1,30 +1,26 @@
 ---
-placement: arms
-type: medium
+name: Angaran Arms
+coverage: piece
+slot: arms
+armorType: medium
 cost: 17300
 manufacturer: taravay-industries
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/2/20/MEA_Angaran_Ranger_Arms.png/revision/latest/scale-to-width-down/350?cb=20180509000906
+image: https://vignette.wikia.nocookie.net/masseffect/images/2/20/MEA_Angaran_Ranger_Arms.png/revision/latest/scale-to-width-down/350?cb=20180509000906
 tags:
   - shields
   - set_bonus
 andromeda: true
 set: angaran
 rarity: rare
-name: Angaran Arms
-flavor: >-
-  This armor integrates angaran hardware with Initiative software, resulting in
-  a sturdy hardsuit that utilizes technologies unique to the Heleus Cluster.
-  Various adjustments have been made to the design to accommodate non-angaran
-  biology.
+flavor: This armor integrates angaran hardware with Initiative software, resulting in a sturdy hardsuit that utilizes technologies unique to the Heleus Cluster. Various adjustments have been made to the design to accommodate non-angaran biology.
 mechanics:
-  - type: shields
+  - type: me:shields
     capacity:
       type: flat
       value: 5
-  - type: thermal-clip-capacity
+  - type: me:thermal-clip-capacity
     value: 2
-  - type: medi-gel-capacity
+  - type: me:medi-gel-capacity
     value: 2
 ---
 - +5 shields

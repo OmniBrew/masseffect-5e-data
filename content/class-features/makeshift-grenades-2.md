@@ -1,15 +1,15 @@
 ---
+name: Makeshift Grenades
 level: 15
 klass: soldier
 subclass: havoc
-name: Makeshift Grenades
 mechanics:
   - type: bonus-action
     layout: simple
     resource:
       displayType: omni-gel
-      reset: 'off'
-      label: 'omni-gel'
+      reset: off
+      label: omni-gel
     dc:
       base: 0
       proficient: false

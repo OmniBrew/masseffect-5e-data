@@ -1,4 +1,5 @@
 ---
+name: Tear Apart
 level: 10
 klass: vanguard
 subclass: warp-gunner
@@ -13,7 +14,6 @@ mechanics:
           - {}
           - model: class-features
             id: tear-apart
-name: Tear Apart
 ---
 At 10th level, your Biotic Bullets are strong enough to rip against an organic's flesh and a synthetic's metal. When
 you hit a creature out of cover with a Biotic Bullet, you deal an additional 1d4 force damage.

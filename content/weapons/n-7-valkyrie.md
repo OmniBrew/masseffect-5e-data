@@ -1,11 +1,10 @@
 ---
 name: N7 Valkyrie
 rarity: rare
-type: assault_rifle
+weaponType: assault_rifle
 cost: 39000
 manufacturer: systems-alliance
 weight: 11
-heat: 4
 damage:
   dieCount: 2
   dieType: 8
@@ -16,6 +15,8 @@ range:
 image: https://vignette1.wikia.nocookie.net/masseffect/images/0/08/ME3_N7_Valkyrie_Assault_Rifle.png/revision/latest?cb=20120317181450
 andromeda: false
 properties:
-  - two-handed
+  - id: two-handed
+  - id: heat
+    value: 4
 slots: 2
 ---

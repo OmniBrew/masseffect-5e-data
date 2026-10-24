@@ -1,7 +1,7 @@
 ---
+name: Expertise
 level: 1
 klass: infiltrator
-name: Expertise
 mechanics:
   - type: expertise-choice
     options: true

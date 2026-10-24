@@ -10,7 +10,7 @@ bonuses:
   - threshold: 3
     text: +10 Shields, +5 Shield Regen.
     mechanics:
-      - type: shields
+      - type: me:shields
         capacity:
           type: flat
           value: 10
@@ -18,10 +18,7 @@ bonuses:
           type: flat
           value: 5
   - threshold: 4
-    text: >-
-      Once per short rest, as a reaction to taking damage, you may jumpstart
-      your shield regen and immediately gain shield points equal to your regen
-      amount.
+    text: Once per short rest, as a reaction to taking damage, you may jumpstart your shield regen and immediately gain shield points equal to your regen amount.
     mechanics:
       - type: reaction
         name: Hyper Guardian Armor (Set Bonus 4 of 4)

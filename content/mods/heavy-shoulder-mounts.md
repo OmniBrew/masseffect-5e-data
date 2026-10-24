@@ -1,20 +1,17 @@
 ---
+name: Heavy Shoulder Mounts
 rarity: uncommon
-type: armor
+modType: armor
 cost: 15000
-manufacturer: null
 tags:
   - special
 placement: chest
 availability:
   - medium
   - heavy
-name: Heavy Shoulder Mounts
-flavor: >-
-  Originally designed for Elcor battlesuits, these hydraulic
-  mounts allow you to equip and fire ranged weapons from your shoulder.
+flavor: Originally designed for Elcor battlesuits, these hydraulic mounts allow you to equip and fire ranged weapons from your shoulder.
 mechanics:
-  - type: shoulder-mounts
+  - type: me:shoulder-mounts
     proficient: true
     slots: 4
     max: 2

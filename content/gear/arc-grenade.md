@@ -1,13 +1,11 @@
 ---
+name: Arc Grenade
 subsets:
   - id: arc-grenade-i
     rarity: common
     cost: 1400
     name: Arc Grenade I
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target
-      must make a DC 11 Dexterity saving throw. A creature takes 2d6 lightning damage on a failed save, or half as
-      much damage on a successful one.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 11 Dexterity saving throw. A creature takes 2d6 lightning damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -33,10 +31,7 @@ subsets:
     rarity: common
     cost: 2400
     name: Arc Grenade II
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target
-      must make a DC 13 Dexterity saving throw. A creature takes 2d6 lightning damage on a failed save, or half as
-      much damage on a successful one.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 13 Dexterity saving throw. A creature takes 2d6 lightning damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -61,10 +56,7 @@ subsets:
     rarity: uncommon
     cost: 3100
     name: Arc Grenade III
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target
-      must make a DC 13 Dexterity saving throw. A creature takes 3d6 lightning damage on a failed save, or half as
-      much damage on a successful one.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 13 Dexterity saving throw. A creature takes 3d6 lightning damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -90,10 +82,7 @@ subsets:
     rarity: uncommon
     cost: 4100
     name: Arc Grenade IV
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target
-      must make a DC 15 Dexterity saving throw. A creature takes 3d6 lightning damage on a failed save, or half as
-      much damage on a successful one.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 15 Dexterity saving throw. A creature takes 3d6 lightning damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -119,10 +108,7 @@ subsets:
     rarity: rare
     cost: 5500
     name: Arc Grenade V
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target
-      must make a DC 15 Dexterity saving throw. A creature takes 5d6 lightning damage on a failed save, or half as
-      much damage on a successful one.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 15 Dexterity saving throw. A creature takes 5d6 lightning damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -148,10 +134,7 @@ subsets:
     rarity: rare
     cost: 6500
     name: Arc Grenade VI
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target
-      must make a DC 17 Dexterity saving throw. A creature takes 5d6 lightning damage on a failed save, or half as
-      much damage on a successful one.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 17 Dexterity saving throw. A creature takes 5d6 lightning damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -177,10 +160,7 @@ subsets:
     rarity: very_rare
     cost: 7200
     name: Arc Grenade VII
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target
-      must make a DC 17 Dexterity saving throw. A creature takes 6d6 lightning damage on a failed save, or half as
-      much damage on a successful one.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 17 Dexterity saving throw. A creature takes 6d6 lightning damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -206,10 +186,7 @@ subsets:
     rarity: very_rare
     cost: 7700
     name: Arc Grenade VIII
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target
-      must make a DC 18 Dexterity saving throw. A creature takes 6d6 lightning damage on a failed save, or half as
-      much damage on a successful one.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 18 Dexterity saving throw. A creature takes 6d6 lightning damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -235,10 +212,7 @@ subsets:
     rarity: very_rare
     cost: 8400
     name: Arc Grenade IX
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target
-      must make a DC 18 Dexterity saving throw. A creature takes 7d6 lightning damage on a failed save, or half as
-      much damage on a successful one.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 18 Dexterity saving throw. A creature takes 7d6 lightning damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -264,10 +238,7 @@ subsets:
     rarity: spectre
     cost: 9600
     name: Arc Grenade X
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target
-      must make a DC 19 Dexterity saving throw. A creature takes 8d6 lightning damage on a failed save, or half as
-      much damage on a successful one.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 19 Dexterity saving throw. A creature takes 8d6 lightning damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -331,15 +302,14 @@ marks:
     damage: 8d6
     dc: 19
 rarity: varies
-type: grenade
+gearType: grenade
 cost: Varies
 weight: 1
-subType: ''
-name: Arc Grenade
+subType: ""
 consumable: true
 equippable: true
 ---
-Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target must make a Dexterity saving throw.
+Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a Dexterity saving throw.
 A creature takes lightning damage on a failed save, or half as much damage on a successful one.
 
 The mark of this grenade determines its Save DC, damage, and cost.

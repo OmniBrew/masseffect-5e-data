@@ -2,22 +2,20 @@
 name: Hawk Missile Launcher
 version: 1
 level: 0
-type: combat
-tags: [damage]
+powerType: combat
+tags:
+  - damage
 classes:
   - soldier
   - tracker
-mechanics:
+casting:
   - castingTime:
       length: 1
       unit: bonus_action
-    attack: false
-    dc: false
     damage:
       - dieCount: 3
         dieType: 6
         type: thunder
-    conditions: false
     duration:
       length: 0
       unit: instant
@@ -25,7 +23,6 @@ mechanics:
     range:
       short: 150
     detonates: false
-    primes: false
     resource:
       reset: short
       max:
@@ -41,13 +38,13 @@ advancements:
   - id: anti-shield
     name: Anti-Shield
     text: The missile detonates a small EMP, transforming the damage to lightning.
-    mechanics:
+    casting:
       - damage:
           - type: lightning
   - id: three-headed-beast
     name: Three-headed beast
     text: Your missile splits into three separate missiles, each dealing 1d6 damage (2d6 at 5th level, 3d6 at 11th level and 4d6 at 17th level). You can direct the missiles at the same target or at different ones.
-    mechanics:
+    casting:
       - damage:
           - dieCount: 1
       - damage:

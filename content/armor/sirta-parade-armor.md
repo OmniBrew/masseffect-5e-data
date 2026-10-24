@@ -1,34 +1,32 @@
 ---
-placement: body_armor
-type: light
+name: Sirta Parade Armor
+coverage: suit
+armorType: light
 cost: 38675
 manufacturer: ariake-technologies
-image: null
 tags:
   - ability_skill_bonus
 andromeda: false
-set: false
 rarity: uncommon
-name: Sirta Parade Armor
-flavor: >-
-  Glossy armor that shines in the light, designed to look good as its first
-  function.
+flavor: Glossy armor that shines in the light, designed to look good as its first function.
 mechanics:
-  - type: shields
+  - type: me:shields
     capacity:
       type: flat
       value: 5
     regen:
       type: flat
       value: 5
-  - type: thermal-clip-capacity
+  - type: me:thermal-clip-capacity
     value: 10
-  - type: medi-gel-capacity
+  - type: me:medi-gel-capacity
     value: 4
-  - type: grenade-capacity
+  - type: me:grenade-capacity
     value: 2
   - type: skill-check
-    value: [persuasion, performance]
+    value:
+      - persuasion
+      - performance
     effect:
       type: advantage
 ---

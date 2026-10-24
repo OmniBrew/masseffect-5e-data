@@ -1,7 +1,7 @@
 ---
+name: Reliable Talent
 level: 11
 klass: infiltrator
-name: Reliable Talent
 mechanics:
   - type: skill-check
     value: proficient

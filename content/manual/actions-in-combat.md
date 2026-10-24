@@ -23,16 +23,16 @@ so a powercaster often uses his or her action in combat to cast such a power.
 
 ### Dash
 When you take the Dash action, you gain extra movement for the current turn. The increase equals your speed, after
-applying any modifiers. With a speed of <me-distance length="30" />, for example, you can move up to <me-distance length="60" /> on your turn if you dash.
+applying any modifiers. With a speed of :distance{length="30"}, for example, you can move up to :distance{length="60"} on your turn if you dash.
 
-Any increase or decrease to your speed changes this additional movement by the same amount. If your speed of <me-distance length="30" />
-is reduced to <me-distance length="10" />, for instance, you can move up to <me-distance length="20" /> this turn if you dash.
+Any increase or decrease to your speed changes this additional movement by the same amount. If your speed of :distance{length="30"}
+is reduced to :distance{length="10"}, for instance, you can move up to :distance{length="20"} this turn if you dash.
 
-### Disengage <v-chip color="warning" text-color="black" small>change</v-chip>
+### Disengage :change-badge{type="change"}
 If you take the Disengage action, your movement doesn't provoke opportunity attacks for the rest of the turn. In  Mass Effect 5e,
 the Disengage action can also kick off your shield regeneration, detailed later.
 
-### Dodge <v-chip color="warning" text-color="black" small>change</v-chip>
+### Dodge :change-badge{type="change"}
 When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack
 roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage.
 You lose this benefit if you are incapacitated or if your speed drops to 0.
@@ -44,11 +44,11 @@ You can lend your aid to another creature in the completion of a task. When you 
 aid gains advantage on the next ability check it makes to perform the task you are helping with, provided that it makes
 the check before the start of your next turn.
 
-Alternatively, you can aid a friendly creature in attacking a creature within <me-distance length="5" /> of you. You feint, distract the
+Alternatively, you can aid a friendly creature in attacking a creature within :distance{length="5"} of you. You feint, distract the
 target, or in some other way team up to make your ally's attack more effective. If your ally attacks the target before
 your next turn, the first attack roll is made with advantage.
 
-### Hide <v-chip color="warning" text-color="black" small>change</v-chip>
+### Hide :change-badge{type="change"}
 When you take the Hide action, you make a Dexterity (Stealth) check in an attempt to hide, following the rules for
 [hiding](/manual/using-ability-scores#dexterity).
 
@@ -77,7 +77,7 @@ release lance with your reaction, your concentration might be broken.
 
 
 
-### Reload <v-chip color="info" small>new</v-chip>
+### Reload :change-badge{type="new"}
 All guns have a heat property which indicates the number of times it can be fired before the thermal clip must be exchanged.
 When you take the Reload Action, you expend a Thermal Clip from your inventory and insert it into the weapon you're currently
 holding, returning the weapon's heat to its maximum value.
@@ -116,4 +116,5 @@ You normally interact with an object while doing something else, such as when yo
 When an object requires your action for its use (such as throwing a grenade), you take the Use an Object action.
 This action is also useful when you want to interact with more than one object on your turn.
 
-<me-source-reference pages="91-92"></me-source-reference>
+::source-reference{pages="91-92"}
+::

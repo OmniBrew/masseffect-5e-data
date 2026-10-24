@@ -1,6 +1,7 @@
 ---
 name: Self Destruct
-species: [hardware-loki]
+species:
+  - hardware-loki
 mechanics:
   - type: reaction
     layout: stats-right
@@ -19,14 +20,10 @@ mechanics:
         type: fire
         bonus:
           type: hp
-    shortDesc: >-
-      When you have half you hit points or less remaining, initiate a self-destruct sequence. Each creature
-      within <me-distance length="10" abbr /> of you must make DC {{ dc }} DEX saving throw. On a failed save
-      a creature suffers 8d6 + {{ hp }} fire damage, or half as much on a successful save. Then, you drop to 0 hit
-      points and suffer one death saving throw failure.
+    shortDesc: When you have half you hit points or less remaining, initiate a self-destruct sequence. Each creature within :distance{length="10" abbr} of you must make DC {{ dc }} DEX saving throw. On a failed save a creature suffers 8d6 + {{ hp }} fire damage, or half as much on a successful save. Then, you drop to 0 hit points and suffer one death saving throw failure.
 ---
 If you have less than half your hit points remaining, you can use your reaction to initiate a self-destruct sequence.
-If you do so, each creature within <me-distance length="10" /> of you must make a Dexterity saving throw. The DC of this saving throw is
+If you do so, each creature within :distance{length="10"} of you must make a Dexterity saving throw. The DC of this saving throw is
 equal to 15 plus your proficiency bonus. On a failed save, a creature suffers fire damage equal to 8d6 + your
 remaining hit points, or half as much on a successful save. Then, you drop to 0 hit points and suffer one death
 saving throw failure.
@@ -54,5 +51,3 @@ d8|Effect|Replacement Cost
 6|Loss of one leg and one arm. Combined effects of 4 and 5 on this table.|4,000 credits
 7|Loss of lower body. Your speed becomes 2 meters, you cannot take the Dash action, and you automatically fail Dexterity saving throws.|5,000 credits
 8|Loss of both arms. You cannot wield weapons or cast powers.|4,000 credits
-
-

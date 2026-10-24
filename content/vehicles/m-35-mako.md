@@ -1,4 +1,5 @@
 ---
+name: M35 Mako
 type: transport
 subtype: land
 size: large
@@ -28,6 +29,8 @@ weapons:
     damage: 55 (1d10[x10]) radiant damage.
 cr: 6
 cost: military
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/b/bd/Mako_2.jpg/revision/latest/scale-to-width-down/640?cb=20111101095511
+image: https://vignette.wikia.nocookie.net/masseffect/images/b/bd/Mako_2.jpg/revision/latest/scale-to-width-down/640?cb=20111101095511
 ---
+The M35 Mako infantry fighting vehicle was designed for the Systems Alliance's frigates. It is designed to fulfill the
+role of rapid deployment that its predecessor, the M29 Grizzly, fell short of accomplishing. Though the interior is
+cramped, an M35 is small enough to be carried in the cargo bay and easily deployed on virtually any world.

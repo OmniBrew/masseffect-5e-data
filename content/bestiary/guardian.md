@@ -1,6 +1,6 @@
 ---
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/3/3f/ME3_Cerberus_Guardian.png/revision/latest/scale-to-width-down/350?cb=20120321201359
+name: Guardian
+image: https://vignette.wikia.nocookie.net/masseffect/images/3/3f/ME3_Cerberus_Guardian.png/revision/latest/scale-to-width-down/350?cb=20120321201359
 type: organic
 unit: cerberus
 alignment: nn
@@ -16,12 +16,9 @@ abilityScores:
   int: 11
   wis: 10
   cha: 12
-irv: false
 savingThrows:
   - str
-senses: false
 size: medium
-skills: false
 speed:
   walk: 15
 entries:
@@ -34,6 +31,12 @@ entries:
       proficient: true
       id: m-358-talon
       weaponId: m-358-talon
-cr: '05000'
-shields: false
+    - name: Multiattack
+      text: The guardian makes two M-358 Talon attacks.
+      id: multiattack
+  features:
+    - name: Heavy Shield
+      text: While the guardian has their Heavy Shield equipped, it gains +2 AC and has resistance bludgeoning, piercing, and slashing damage.
+      id: heavy-shield
+cr: "05000"
 ---

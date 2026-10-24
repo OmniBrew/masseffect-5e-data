@@ -1,11 +1,10 @@
 ---
 name: P.A.W.
 rarity: spectre
-type: assault_rifle
+weaponType: assault_rifle
 cost: 59000
 manufacturer: remnant
 weight: 11
-heat: 6
 damage:
   dieCount: 2
   dieType: 8
@@ -16,9 +15,11 @@ range:
 image: https://vignette.wikia.nocookie.net/masseffect/images/0/01/MEA_P.A.W._MP.png/revision/latest?cb=20180530231855
 andromeda: true
 properties:
-  - two-handed
-  - special
-  - vented
+  - id: two-handed
+  - id: special
+  - id: vented
+  - id: heat
+    value: 6
 slots: 2
 ---
 The P.A.W. does not use thermal clips. Instead, use a d6 to track the "heat". Whenever you make a 

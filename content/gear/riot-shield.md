@@ -1,10 +1,10 @@
 ---
+name: Riot Shield
 rarity: common
-type: shield
+gearType: shield
 cost: 5000
 weight: 5
-subType: ''
-name: Riot Shield
+subType: ""
 equippable: true
 mechanics:
   - type: ac

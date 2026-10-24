@@ -1,6 +1,7 @@
 ---
+name: Microservos
 rarity: rare
-type: armor
+modType: armor
 cost: 30000
 manufacturer: ariake-technologies
 tags:
@@ -11,13 +12,14 @@ availability:
   - light
   - medium
   - heavy
-name: Microservos
 flavor: Microservos coordinate your melee strikes.
 mechanics:
   - type: attack-augment
     attackLimit:
       type: melee
-    augmentTypes: [damage, hit]
+    augmentTypes:
+      - damage
+      - hit
     bonus:
       type: flat
       value: 2

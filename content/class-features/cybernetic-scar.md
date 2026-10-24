@@ -1,8 +1,8 @@
 ---
+name: Cybernetic Scar
 level: 1
 klass: experiment
 subclass: cybernetic
-name: Cybernetic Scar
 mechanics: []
 ---
 Beggining at 1st level, you can take a long rest in half the time appropriate for your species, and you do not

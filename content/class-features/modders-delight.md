@@ -1,8 +1,8 @@
 ---
+name: Modder's Delight
 level: 18
 klass: engineer
 subclass: armorer
-name: Modder's Delight
 mechanics: []
 ---
 At 18th level, your Power Armor gains one more mod slot for each part. You can also install two mods per slot, although

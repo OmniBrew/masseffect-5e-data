@@ -22,7 +22,7 @@ an omni-hammer, a monomolecular blade, or a krogan warhammer. Additionally, rang
 allow you to overcome the kickback of the weapon with brute force. You may apply your Strength modifier to your attack roll
 and damage roll when attacking with _Recoil_ weapons.
 
-### Lifting and Carrying <v-chip color="warning" text-color="black" small>change</v-chip>
+### Lifting and Carrying :change-badge{type="change"}
 
 Your Strength score determines the amount of weight you can bear. The following terms define what you can lift or carry.
 \
@@ -32,7 +32,7 @@ This score is not affected by weapons or armor (see below). This is the weight i
 that most characters don't usually have to worry about it.
 \
 __Push, Drag, Lift__. You can push, drag, or lift a weight in kgs (or lbs) up to twice your carrying capacity. While pushing or
-dragging weight in excess of your carrying capacity, your speed drops to <me-distance length="5" />.
+dragging weight in excess of your carrying capacity, your speed drops to :distance{length="5"}.
 \
 __Size & Strength__. Larger creatures can bear more weight, whereas Tiny creatures can carry less. For each size category
 above Medium, double the creature's carrying capacity and the amount it can push, drag, or lift. For a Tiny creature, halve these weights.
@@ -45,7 +45,7 @@ must meet or exceed that score.
 
 See: [Rules > Equipment > Armor](/manual/equipment#armor)
 
-### Variant: Encumbrance <v-chip color="warning" text-color="black" small>change</v-chip>
+### Variant: Encumbrance :change-badge{type="change"}
 
 The lifting and carrying rules attempt to keep the simplicity of 5th edition, with the added restrictions of weapon capacity.
 Here is a variant if you are looking for more detailed rules for determining how a character is hindered by the weight of equipment.
@@ -53,9 +53,10 @@ When you use this variant, ignore the minimum Strength column of the Armor table
 
 - Your __carry weight__ is equal to 2.5 times your Strength score (5 times if using imperial)
 - Each weapon and armor piece has a weight. If your total weight from all weapons and armor is in excess of your
-  carry weight, you are __encumbered__, which means your speed drops by <me-distance length="10" />.
+  carry weight, you are __encumbered__, which means your speed drops by :distance{length="10"}.
 - If your total weight from all weapons and armor is in excess of twice your carry weight, you are instead
-  __heavily encumbered__, which means your speed drops by <me-distance length="30" /> and you have disadvantage on ability
+  __heavily encumbered__, which means your speed drops by :distance{length="30"} and you have disadvantage on ability
   checks, attack rolls, and saving throws that use Strength, Dexterity, or Constitution.
 
-<me-source-reference pages="79-80"></me-source-reference>
+::source-reference{pages="79-80"}
+::

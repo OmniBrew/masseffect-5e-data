@@ -1,6 +1,7 @@
 ---
+name: Shield Battery
 rarity: uncommon
-type: armor
+modType: armor
 cost: 10000
 manufacturer: any
 tags:
@@ -10,10 +11,9 @@ availability:
   - light
   - medium
   - heavy
-name: Shield Battery
 flavor: An increased shield battery for your kinetic barrier.
 mechanics:
-  - type: shields
+  - type: me:shields
     capacity:
       type: flat
       value: 5

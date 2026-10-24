@@ -1,8 +1,8 @@
 ---
+name: Combat Heuristics
 level: 3
 klass: infiltrator
 subclass: saboteur
-name: Combat Heuristics
 mechanics:
   - type: global-note
     subType: action

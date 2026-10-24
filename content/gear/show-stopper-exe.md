@@ -1,17 +1,16 @@
 ---
+name: Show_Stopper.exe
 mechanics:
   - type: action
     resource:
       id: show-stopper-exe
       displayType: gear-consumable
-    shortDesc: >-
-      Create a holographic creature (see description) that lasts for 1 hour or until you cancel the hologram.
+    shortDesc: Create a holographic creature (see description) that lasts for 1 hour or until you cancel the hologram.
 rarity: uncommon
-type: omni_tool_program
+gearType: omni_tool_program
 cost: 0
 weight: 0
-subType: ''
-name: Show_Stopper.exe
+subType: ""
 installation: false
 equippable: true
 consumable: true
@@ -20,13 +19,13 @@ This suite of programs contains a subset of holographic displays. A full suite h
 missing 1d20 − 1 displays.
 
 The creator of this program, a human hacker, known as Gahri Gi'gax, wrote a randomization algorithm into its use. You can use
-an action to activate a display at random from the program, spawning a holographic image within <me-distance length="30" />
+an action to activate a display at random from the program, spawning a holographic image within :distance{length="30"}
 of you.
 
 The image of one or more creatures forms over the targeted area and remains until dipowered. The holographic creature
 appears real, of the appropriate size, and behaves as if it were a real creature except that it can do no harm. While
-you are within <me-distance length="120" /> of the hologram and can see it, you can use an action to move it anywhere within
-<me-distance length="30" /> of the initial location. Any physical interaction with the hologram reveals it to be an
+you are within :distance{length="120"} of the hologram and can see it, you can use an action to move it anywhere within
+:distance{length="30"} of the initial location. Any physical interaction with the hologram reveals it to be an
 illusion because objects pass through it. Someone who uses an action to visually inspect the creature identifies it as a
 hologram with a successful DC 15 Intelligence (Investigation) check. The creature then appears translucent.
 

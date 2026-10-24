@@ -1,4 +1,5 @@
 ---
+name: M-100 Grenade Launcher
 mechanics:
   - type: action
     layout: attack
@@ -26,14 +27,13 @@ mechanics:
         type: sphere
 image: https://vignette.wikia.nocookie.net/masseffect/images/f/f0/ME2_HW_-_Grenade_Launcher.png/revision/latest?cb=20140823054132
 rarity: uncommon
-type: heavy_weapon
+gearType: heavy_weapon
 cost: 20500
 weight: 12
-subType: ''
+subType: ""
 charges: 12
-name: M-100 Grenade Launcher
 equippable: true
 ---
-Target an area within <me-distance length="90" /> that you can see and fire a grenade at it. Each creature
-within a <me-distance length="10" adj /> radius sphere must make a DC 14 Dexterity saving throw.
+Target an area within :distance{length="90"} that you can see and fire a grenade at it. Each creature
+within a :distance{length="10" adj} radius sphere must make a DC 14 Dexterity saving throw.
 On a failed save a creature takes 3d6 thunder damage or half as much on a successful one.

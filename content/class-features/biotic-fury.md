@@ -1,14 +1,15 @@
 ---
+name: Biotic Fury
 level: 10
 klass: vanguard
 subclass: nemesis
-name: Biotic Fury
 mechanics:
   - type: augment
     value:
       model: vanguard
       id: brutal-critical-1
-    limit: [global-note]
+    limit:
+      - global-note
     merge:
       moreInfo:
         additional:
@@ -18,7 +19,8 @@ mechanics:
     value:
       model: vanguard
       id: zero-sum
-    limit: [global-note]
+    limit:
+      - global-note
     merge:
       shortDesc: Instead on a melee or power attack roll, flip a coin. On heads, it's a critical hit. On tails, it's a critical miss.
       moreInfo:

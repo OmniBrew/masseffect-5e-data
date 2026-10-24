@@ -1,4 +1,5 @@
 ---
+name: Skill Expertise
 species:
   - human
 mechanics:
@@ -7,3 +8,4 @@ mechanics:
     options: true
     selections: 1
 ---
+Your choice of expertise in one skill.

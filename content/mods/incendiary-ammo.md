@@ -1,8 +1,9 @@
 ---
+name: Incendiary Ammo
 rarity: rare
-type: weapon
+modType: weapon
 cost: 20000
-manufacturer: ''
+manufacturer: ""
 tags:
   - damage_augment
   - extra_damage
@@ -14,10 +15,9 @@ availability:
   - smg
   - shotgun
   - sniper_rifle
-name: Incendiary Ammo
 flavor: Fire super-heated plasma.
 mechanics:
-  - type: weapon-augment
+  - type: me:weapon-augment
     damageType: fire
     primes: fire
     primeLength: until the end of its next turn

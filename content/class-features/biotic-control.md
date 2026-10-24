@@ -1,8 +1,8 @@
 ---
+name: Biotic Control
 level: 14
 klass: adept
 subclass: blackstar
-name: Biotic Control
 mechanics:
   - type: global-note
     subType: power

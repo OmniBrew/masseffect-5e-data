@@ -5,7 +5,7 @@ title: Travel
 Mass Effect Galaxy Map by otvert ([Full Size](https://orig00.deviantart.net/ba03/f/2013/100/0/0/mass_effect_galaxy_map_by_otvert-d5u3tvb.png))
 
 ### The Milky Way
-The Milky Way comprises a number of __Clusters__ (represented by the yellow, target icons <v-icon>filter_center_focus</v-icon> on the map).
+The Milky Way comprises a number of __Clusters__ (represented by the yellow, target icons :icon{name="ic:baseline-filter-center-focus"} on the map).
 Each Cluster is composed of __Systems__, and, in turn, each System contains a group of planetary objects (generally a
 star and any number of planets and their moons, planetoids, asteroids, comets and other celestial bodies).
 
@@ -54,8 +54,7 @@ the system that contains the mass effect relay. Then you can jump to another clu
 Mass Relays are connected as a network, but travel between relays might require additional jumps. I.e., unlike travel
 between planets and systems, you can only move between clusters following the lines on the map.
 
-::: alert
-
+::note
 __EXAMPLE TRAVEL__
 
 The party has been searching for a Prothean device in the Carbonaceous Asteroid (_Phoenix system, Argos Rho cluster_).
@@ -65,5 +64,4 @@ In this example, the party has requisitioned a starship with a range of 2. It ta
 Phoenix system to the Hydra system which contains the Mass Relay for the Argos Rho cluster. Then it requires 2 Mass
 Relay jumps (Argos Rho > Horse Head Nebula > Serpent Nebula), arriving in the Widow system where the Citadel is located.
 For our group, this would take as little as 24 but no more than 48 hours to complete the journey.
-
-:::
+::

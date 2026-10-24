@@ -1,4 +1,5 @@
 ---
+name: Fuel
 level: 3
 klass: soldier
 subclass: armiger
@@ -7,7 +8,6 @@ mechanics:
     options: true
     model: armiger-fuel
     hide: true
-name: Fuel
 ---
 At 3rd level, you modified your armor to install the Armiger's signature JumpPack, and also install the system to
 provide it with Fuel. Your armor automatically regenerates Fuel when you take a short or long rest, and the amount of

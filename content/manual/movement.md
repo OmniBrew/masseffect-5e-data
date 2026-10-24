@@ -15,15 +15,15 @@ days, hours, or minutes. The rules for determining travel time depend on two fac
 creatures moving and the terrain they're moving over.
 
 ### Speed
-Every character and monster has a speed, which is the distance in <me-distance length="0" /> that the character or monster can walk in 1 round.
+Every character and monster has a speed, which is the distance in :distance{length="0"} that the character or monster can walk in 1 round.
 This number assumes short bursts of energetic movement in the midst of a life-threatening situation. The following rules
 determine how far a character or monster can move in a minute, an hour, or a day.
 
-::: alert
+::note
 By default, Mass Effect 5e uses meters instead of feet. You can toggle to imperial measurements at the bottom of the left-hand navigation.
 ### 5ft = 2m
 ### On a playmat: 2m = 1 square
-:::
+::
 
 ### Travel Pace
 
@@ -41,7 +41,7 @@ On a failed saving throw, a character suffers one level of exhaustion.
 #### Mounts and Vehicles
 For short spans of time (up to an hour), many animals move much faster than humanoids. A mounted
 character can ride at a gallop for about an hour, covering twice the usual distance for a fast pace. If fresh mounts are
-available every <me-distance length="8" large numOnly /> to <me-distance length="10" large />, characters can cover larger distances at this pace, but this is very
+available every :distance{length="8" large num-only} to :distance{length="10" large}, characters can cover larger distances at this pace, but this is very
 rare except in densely populated areas.
 
 Characters in transports choose a pace as normal. The __range__ statistic on transports indicates how far the transport can
@@ -53,16 +53,17 @@ More details about traveling in transports and starships are provided in the [ve
 
 |Pace|per Minute|per Hour|per Day|Effect|
 |:---|:---:|:---:|:---:|:---:|
-|Fast|<me-distance length="400" />|<me-distance length="4" large />|<me-distance length="30" large />|-5 penalty to passive Wisdom (Perception) scores|
-|Normal|<me-distance length="300" />|<me-distance length="3" large />|<me-distance length="24" large />|-|
-|Slow|<me-distance length="200" />|<me-distance length="2" large />|<me-distance length="18" large />|Able to use stealth|
+|Fast|:distance{length="400"}|:distance{length="4" large}|:distance{length="30" large}|-5 penalty to passive Wisdom (Perception) scores|
+|Normal|:distance{length="300"}|:distance{length="3" large}|:distance{length="24" large}|-|
+|Slow|:distance{length="200"}|:distance{length="2" large}|:distance{length="18" large}|Able to use stealth|
 
 ### Difficult Terrain
 The travel speeds given in the Travel Pace table assume relatively simple terrain: roads, open plains, or clear corridors.
 But operatives can face dense forests, deep swamps, rubble-filled craters, steep mountains, and ice-covered ground -
 all considered difficult terrain.
 
-You move at half speed in difficult terrain - moving <me-distance length="1" /> in difficult terrain costs <me-distance length="2" /> of speed - so you can
+You move at half speed in difficult terrain - moving :distance{length="1"} in difficult terrain costs :distance{length="2"} of speed - so you can
 cover only half the normal distance in a minute, an hour, or a day.
 
-<me-source-reference pages="84-85"></me-source-reference>
+::source-reference{pages="84-85"}
+::

@@ -2,7 +2,7 @@
 name: First Aid
 version: 1
 level: 1
-type: tech
+powerType: tech
 tags:
   - heal
 classes:
@@ -12,27 +12,22 @@ classes:
   - sentinel
   - tracker
   - explorer
-mechanics:
+casting:
   - castingTime:
       length: 1
       unit: action
-    attack: false
-    dc: false
     damage:
       - dieCount: 1
         dieType: 8
         mod: pc
         type: hp
-    conditions: false
     duration:
       length: 0
       unit: instant
     concentration: false
     range:
       short: 1
-      aoe: false
     detonates: false
-    primes: false
   - damage:
       - dieCount: 3
   - damage:
@@ -47,11 +42,11 @@ advancements:
   - id: adaptive
     name: Adaptive
     text: The healed creature gains resistance to the last damage type it suffered. This effect lasts for 1 minute.
-    mechanics: []
+    casting: []
   - id: improved-healing
     name: Improved Healing
     text: Increase the healing die type to d12
-    mechanics:
+    casting:
       - damage:
           - dieType: 12
 ---

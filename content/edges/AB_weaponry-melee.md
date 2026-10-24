@@ -5,7 +5,8 @@ mechanics:
     value:
       model: main-augments
       id: MA_weaponry-melee
-      limit: [attack]
+      limit:
+        - attack
     merge:
       resource:
         reset: short
@@ -31,7 +32,8 @@ mechanics:
                 value:
                   model: main-augments
                   id: MA_weaponry-melee
-                  limit: [attack]
+                  limit:
+                    - attack
                 merge:
                   range:
                     short: 10
@@ -44,7 +46,8 @@ mechanics:
                 value:
                   model: main-augments
                   id: MA_weaponry-melee
-                  limit: [attack]
+                  limit:
+                    - attack
                 merge:
                   damage:
                     - type: lightning
@@ -55,7 +58,8 @@ mechanics:
                 value:
                   model: main-augments
                   id: MA_weaponry-melee
-                  limit: [attack]
+                  limit:
+                    - attack
                 merge:
                   damage:
                     - type: fire

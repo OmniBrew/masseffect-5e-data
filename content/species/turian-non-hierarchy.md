@@ -7,7 +7,7 @@ Though uncommon, turians that grow up on other homeworlds may not be raised in t
 turian Hierarchy. If you wish to play a Non-Hierarchy turian, you can replace Military Doctrine with
 the following.
 
-:::alert
+::note
 ##### Barefaced Turians
 During the Unification War, turians began utilizing facial markings to differentiate themselves from members of other
 colonies, a tradition that exists to this day. However, some turians choose not to receive these markings; others may
@@ -18,5 +18,4 @@ designers believe this stylistic choice should be ruled by the GM during rolepla
 
 As a general guideline, GMs may impose disadvantage or increase the DC of Charisma-based skill checks when a
 barefaced turian interacts with a turian with facial markings.
-:::
-
+::

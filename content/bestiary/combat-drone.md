@@ -1,6 +1,6 @@
 ---
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/4/44/Me3_combat_drone.png/revision/latest/scale-to-width-down/480?cb=20120720164039
+name: Combat Drone
+image: https://vignette.wikia.nocookie.net/masseffect/images/4/44/Me3_combat_drone.png/revision/latest/scale-to-width-down/480?cb=20120720164039
 type: synthetic
 unit: mech
 alignment: nn
@@ -24,29 +24,32 @@ irv:
     - psychic
   vul:
     - lightning
-savingThrows: false
-senses: false
 size: small
-skills: false
 speed:
   fly: 40
 entries:
   features:
     - mod: int
       list:
-        - {id: sabotage, perDay: 3}
+        - id: sabotage
+          perDay: 3
       id: innate-powercasting
+      name: Innate Powercasting
+      text: "The combat drone's innate powercasting ability is Intelligence (power save DC 10, +2 to hit with power attacks). It can innately cast the following powers:"
   actions:
     - attack: ranged
       proficient: true
       range: 25
-      dc: false
       mod: dex
       damage:
-        - {dieCount: 1, dieType: 6, mod: true, type: lightning}
+        - dieCount: 1
+          dieType: 6
+          mod: true
+          type: lightning
       target: one
       id: shock-attack
-cr: '00250'
+      name: Shock Attack
+cr: "00250"
 shields:
   capacity: 10
   regen: 5

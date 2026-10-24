@@ -1,4 +1,5 @@
 ---
+name: Biotic Maneuvers
 level: 14
 klass: vanguard
 subclass: battle-master
@@ -7,6 +8,5 @@ mechanics:
     options: true
     model: maneuvers
     selections: 2
-name: Biotic Maneuvers
 ---
 At 14th level, learn 2 additional biotic maneuvers.

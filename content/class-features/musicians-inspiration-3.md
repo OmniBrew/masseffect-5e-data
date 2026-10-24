@@ -1,4 +1,5 @@
 ---
+name: Musician's Inspiration (d10)
 level: 10
 klass: musician
 mechanics:
@@ -9,11 +10,10 @@ mechanics:
     merge:
       damage:
         - dieType: 10
-name: Musician's Inspiration (d10)
 noFeatureDisplay: true
 ---
 You can inspire others through your music. To do so, you use a Bonus Action on your turn to choose one creature other
-than yourself within <me-distance length="60" /> of you who can hear you. That creature gains one Inspiration die, a d6.
+than yourself within :distance{length="60"} of you who can hear you. That creature gains one Inspiration die, a d6.
 
 Once within the next 10 minutes, the target can roll the die and add the number rolled to one ability check or Attack
 roll it makes. The target can wait until after it rolls The D20 before deciding to use the Musician's Inspiration die,

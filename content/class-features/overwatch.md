@@ -1,8 +1,8 @@
 ---
+name: Overwatch
 level: 13
 klass: infiltrator
 subclass: sniper
-name: Overwatch
 mechanics:
   - type: global-note
     subType: action

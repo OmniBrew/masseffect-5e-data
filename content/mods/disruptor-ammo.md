@@ -1,8 +1,9 @@
 ---
+name: Disruptor Ammo
 rarity: rare
-type: weapon
+modType: weapon
 cost: 20000
-manufacturer: ''
+manufacturer: ""
 tags:
   - damage_augment
   - primes
@@ -14,10 +15,9 @@ availability:
   - smg
   - shotgun
   - sniper_rifle
-name: Disruptor Ammo
 flavor: Fire statically charged projectiles.
 mechanics:
-  - type: weapon-augment
+  - type: me:weapon-augment
     primes: lightning
     primesLength: until the end of its next turn
     detonates: true

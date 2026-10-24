@@ -1,4 +1,5 @@
 ---
+name: Hammer the Gap
 level: 7
 klass: soldier
 subclass: painkiller
@@ -12,7 +13,6 @@ mechanics:
     moreInfo:
       model: class-features
       id: hammer-the-gap
-name: Hammer the Gap
 ---
 At 7th level, you gain a better understanding of small arms. You gain the Ambidextrous Fighting Style. If you already
 have that Fighting Style, you may select another fighting style of your choice.

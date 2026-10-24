@@ -2,21 +2,17 @@
 name: Sentry Turret
 version: 1
 level: 3
-type: tech
+powerType: tech
 classes:
   - engineer
   - musician
   - tracker
 tags:
   - summon
-mechanics:
+casting:
   - castingTime:
       length: 1
       unit: action
-    attack: false
-    dc: false
-    damage: false
-    conditions: false
     duration:
       length: 1
       unit: minute
@@ -24,18 +20,17 @@ mechanics:
     range:
       short: 5
     detonates: false
-    primes: false
 advancements:
   - id: cryo-turret
     name: Cryo Turret
     text: The turret's mass accelerator machine gun deals 7 (2d6) piercing and 7 (2d6) cold damage. Instead of flamethrower, the turret can innately cast cryo beam 5 times per day.
-    mechanics: []
+    casting: []
   - id: shields
     name: Shields
     text: The turret has 30 shield points (regen 0).
-    mechanics: []
+    casting: []
 ---
-Construct a sentry turret (stats can be found in the bestiary) in an unoccupied space within <me-distance length="5" />. You have complete control over the turret. Any hacking
+Construct a sentry turret (stats can be found in the bestiary) in an unoccupied space within :distance{length="5"}. You have complete control over the turret. Any hacking
 attempts on the turret are rolled against your Intelligence, not the turret's.
 
 The turret has its own turn in the initiative order, which occurs immediately following your turn.

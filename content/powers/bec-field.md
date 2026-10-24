@@ -9,13 +9,11 @@ classes:
   - musician
   - infiltrator
   - tracker
-type: tech
-mechanics:
+powerType: tech
+casting:
   - castingTime:
       length: 1
       unit: action
-    attack: false
-    dc: false
     damage:
       - type: temp
         bonus:
@@ -32,7 +30,6 @@ mechanics:
     range:
       short: 0
     detonates: false
-    primes: false
   - damage:
       - bonus:
           value: 10
@@ -61,14 +58,12 @@ mechanics:
 advancements:
   - id: reactive
     name: Reactive
-    text: >-
-      When you are hit by a ranged attack while the this power is active, you may use your reaction to deal the cold damage to a creature within <me-distance length="5" /> of you.
-    mechanics: []
+    text: When you are hit by a ranged attack while the this power is active, you may use your reaction to deal the cold damage to a creature within :distance{length="5"} of you.
+    casting: []
   - id: cold-aura
     name: Cold Aura
-    text: >-
-      While the BEC field is active, you are immune to the Frozen condition. Creatures that take damage from this power are primed (cold).
-    mechanics:
+    text: While the BEC field is active, you are immune to the Frozen condition. Creatures that take damage from this power are primed (cold).
+    casting:
       - primes: cold
 ---
 You generate a Bose-Einstein Condensate field around your armor that acts to entangle incoming attacks on a quantum level.

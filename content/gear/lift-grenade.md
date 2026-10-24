@@ -1,12 +1,11 @@
 ---
+name: Lift Grenade
 subsets:
   - id: lift-grenade-i
     rarity: common
     cost: 500
     name: Lift Grenade I
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target must make a DC 11 Strength saving throw.
-      On a failed save, a creature is <me-condition id="lifted" /> until the end of your next turn.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 11 Strength saving throw. On a failed save, a creature is :condition{id="lifted"} until the end of your next turn.
     mechanics:
       - type: action
         layout: attack
@@ -28,9 +27,7 @@ subsets:
     rarity: common
     cost: 1500
     name: Lift Grenade II
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target must make a DC 12 Strength saving throw.
-      On a failed save, a creature is <me-condition id="lifted" /> until the end of your next turn.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 12 Strength saving throw. On a failed save, a creature is :condition{id="lifted"} until the end of your next turn.
     mechanics:
       - type: action
         layout: attack
@@ -52,9 +49,7 @@ subsets:
     rarity: uncommon
     cost: 2500
     name: Lift Grenade III
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target must make a DC 13 Strength saving throw.
-      On a failed save, a creature is <me-condition id="lifted" /> until the end of your next turn.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 13 Strength saving throw. On a failed save, a creature is :condition{id="lifted"} until the end of your next turn.
     mechanics:
       - type: action
         layout: attack
@@ -76,9 +71,7 @@ subsets:
     rarity: uncommon
     cost: 3500
     name: Lift Grenade IV
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target must make a DC 14 Strength saving throw.
-      On a failed save, a creature is <me-condition id="lifted" /> until the end of your next turn.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 14 Strength saving throw. On a failed save, a creature is :condition{id="lifted"} until the end of your next turn.
     mechanics:
       - type: action
         layout: attack
@@ -100,9 +93,7 @@ subsets:
     rarity: rare
     cost: 4500
     name: Lift Grenade V
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target must make a DC 15 Strength saving throw.
-      On a failed save, a creature is <me-condition id="lifted" /> until the end of your next turn.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 15 Strength saving throw. On a failed save, a creature is :condition{id="lifted"} until the end of your next turn.
     mechanics:
       - type: action
         layout: attack
@@ -124,9 +115,7 @@ subsets:
     rarity: rare
     cost: 5500
     name: Lift Grenade VI
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target must make a DC 16 Strength saving throw.
-      On a failed save, a creature is <me-condition id="lifted" /> until the end of your next turn.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 16 Strength saving throw. On a failed save, a creature is :condition{id="lifted"} until the end of your next turn.
     mechanics:
       - type: action
         layout: attack
@@ -148,9 +137,7 @@ subsets:
     rarity: very_rare
     cost: 6500
     name: Lift Grenade VII
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target must make a DC 17 Strength saving throw.
-      On a failed save, a creature is <me-condition id="lifted" /> until the end of your next turn.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 17 Strength saving throw. On a failed save, a creature is :condition{id="lifted"} until the end of your next turn.
     mechanics:
       - type: action
         layout: attack
@@ -172,9 +159,7 @@ subsets:
     rarity: very_rare
     cost: 7500
     name: Lift Grenade VIII
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target must make a DC 18 Strength saving throw.
-      On a failed save, a creature is <me-condition id="lifted" /> until the end of your next turn.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 18 Strength saving throw. On a failed save, a creature is :condition{id="lifted"} until the end of your next turn.
     mechanics:
       - type: action
         layout: attack
@@ -196,9 +181,7 @@ subsets:
     rarity: very_rare
     cost: 8500
     name: Lift Grenade IX
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target must make a DC 19 Strength saving throw.
-      On a failed save, a creature is <me-condition id="lifted" /> until the end of your next turn.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 19 Strength saving throw. On a failed save, a creature is :condition{id="lifted"} until the end of your next turn.
     mechanics:
       - type: action
         layout: attack
@@ -220,9 +203,7 @@ subsets:
     rarity: spectre
     cost: 9500
     name: Lift Grenade X
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target must make a DC 20 Strength saving throw.
-      On a failed save, a creature is <me-condition id="lifted" /> until the end of your next turn.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 20 Strength saving throw. On a failed save, a creature is :condition{id="lifted"} until the end of your next turn.
     mechanics:
       - type: action
         layout: attack
@@ -262,16 +243,15 @@ marks:
   - mark: X
     rarity: Spectre
 rarity: varies
-type: grenade
+gearType: grenade
 cost: Varies
 weight: 1
-subType: ''
-name: Lift Grenade
+subType: ""
 consumable: true
 equippable: true
 ---
-Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target must make a Strength saving throw.
-On a failed save, a creature is <me-condition id="lifted" /> until the end of your next turn.
+Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a Strength saving throw.
+On a failed save, a creature is :condition{id="lifted"} until the end of your next turn.
 
 The mark of this grenade determines its Save DC and credits.
 

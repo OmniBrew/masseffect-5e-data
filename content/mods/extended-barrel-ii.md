@@ -1,8 +1,9 @@
 ---
+name: Extended Barrel II
 rarity: rare
-type: weapon
+modType: weapon
 cost: 12500
-manufacturer: ''
+manufacturer: ""
 tags:
   - extra_damage
 placement: barrel
@@ -11,13 +12,13 @@ availability:
   - heavy_pistol
   - smg
   - sniper_rifle
-name: Extended Barrel II
 flavor: Lengthens barrel, creating greater bullet velocity and impact.
 mechanics:
   - type: attack-augment
     attackLimit:
       model: weapon
-    augmentTypes: [damage]
+    augmentTypes:
+      - damage
     bonus:
       type: flat
       value: 2

@@ -1,8 +1,8 @@
 ---
+name: Justice
 level: 3
 klass: soldier
 subclass: legionnaire
-name: Justice
 mechanics:
   - type: powers
     value: justice

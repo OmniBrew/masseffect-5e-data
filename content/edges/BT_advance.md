@@ -2,9 +2,7 @@
 name: Advance
 mechanics:
   - type: bonus-action
-    shortDesc: >-
-      Set your tactical focus. If an ally spends all of its movement moving towards your tactical focus, it
-      doubles its movement, ignores difficult terrain, and does not provoke attacks of opportunity.
+    shortDesc: Set your tactical focus. If an ally spends all of its movement moving towards your tactical focus, it doubles its movement, ignores difficult terrain, and does not provoke attacks of opportunity.
     range:
       short: 60
       aoe:

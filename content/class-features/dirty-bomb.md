@@ -1,4 +1,5 @@
 ---
+name: Dirty Bomb
 level: 18
 klass: engineer
 subclass: chemist
@@ -7,7 +8,7 @@ mechanics:
     name: Dirty Bomb
     resource:
       reset: off
-      label: ' / 20 omni-gel + 24 hrs downtime'
+      label: " / 20 omni-gel + 24 hrs downtime"
     range:
       short: 100
       aoe:
@@ -20,23 +21,15 @@ mechanics:
         - dieCount: 5
           dieType: 6
           type: poison
-    shortDesc: >-
-      Fire off a heavy charge full of toxins at a point within <me-distance length="100" /> of you. It
-      explodes upon impact, creating a large cloud of toxic gas and raining down acidic rain upon all creatures in a
-      cylinder with a radius of <me-distance length="30" />, and a height of <me-distance length="50" />.
-      <br><br>
-      All creatures inside the area upon impact must make a Dexterity saving throw, taking 12d6 acid damage on a fail,
-      or half as much on a success. Creatures starting their turn inside the cloud must make a Constitution saving throw.
-      On a failure, they gain a level of exhaustion and take 5d6 poison damage.
-name: Dirty Bomb
+    shortDesc: Fire off a heavy charge full of toxins at a point within :distance{length="100"} of you. It explodes upon impact, creating a large cloud of toxic gas and raining down acidic rain upon all creatures in a cylinder with a radius of :distance{length="30"}, and a height of :distance{length="50"}. <br><br> All creatures inside the area upon impact must make a Dexterity saving throw, taking 12d6 acid damage on a fail, or half as much on a success. Creatures starting their turn inside the cloud must make a Constitution saving throw. On a failure, they gain a level of exhaustion and take 5d6 poison damage.
 ---
 You devise a recipe and blueprint for an explosive full of all your best ideas, as well a special launcher for it.
 Starting at 18th level, you have created 1 Dirty Bomb, and gain the knowledge and capabilities to create more
 with time and resources.
 
-As an action, you fire off a heavy charge full of toxins at a point within <me-distance length="100" /> of you. It
+As an action, you fire off a heavy charge full of toxins at a point within :distance{length="100"} of you. It
 explodes upon impact, creating a large cloud of toxic gas and raining down acidic rain upon all creatures in a
-cylinder with a radius of <me-distance length="30" />, and a height of <me-distance length="50" />.
+cylinder with a radius of :distance{length="30"}, and a height of :distance{length="50"}.
 
 All creatures inside the area upon impact must make a Dexterity saving throw, taking 12d6 acid damage on a fail,
 or half as much on a success. Creatures starting their turn inside the cloud must make a Constitution saving throw.

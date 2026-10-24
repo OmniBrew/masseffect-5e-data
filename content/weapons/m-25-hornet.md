@@ -1,11 +1,10 @@
 ---
 name: M-25 Hornet
 rarity: uncommon
-type: smg
+weaponType: smg
 cost: 15000
 manufacturer: cerberus
 weight: 2
-heat: 6
 damage:
   dieCount: 2
   dieType: 4
@@ -16,9 +15,11 @@ range:
 image: https://vignette3.wikia.nocookie.net/masseffect/images/6/66/ME3_Hornet_Smg.png/revision/latest?cb=20120317184337
 andromeda: false
 properties:
-  - double-tap
-  - hip-fire
-  - burst-fire
-  - light
+  - id: double-tap
+  - id: hip-fire
+  - id: burst-fire
+  - id: light
+  - id: heat
+    value: 6
 slots: 1
 ---

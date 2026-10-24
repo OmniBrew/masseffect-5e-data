@@ -1,4 +1,5 @@
 ---
+name: Unstable Warp
 level: 14
 klass: vanguard
 subclass: warp-gunner
@@ -16,7 +17,6 @@ mechanics:
           - {}
           - model: class-features
             id: unstable-warp
-name: Unstable Warp
 ---
 At 14th level, your attacks that use Biotic Bullets can crit on a roll of 19 or 20.
 This has no effect if a roll of 19 would still miss the target's AC.

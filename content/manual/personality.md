@@ -52,7 +52,7 @@ in particular, anything that someone else could exploit to bring you to ruin or 
 More significant than negative personality traits, a flaw might answer any of these questions: What enrages you?
 What’s the one person, concept, or event that you are terrified of? What are your vices?
 
-::: alert
+::note
 __BUILDING KALEEM, STEP 4.D__
 Sam has a pretty clear picture of Kaleem’s personality in mind, so she skips the personality traits suggested in the scrapper
 background, noting instead that Kaleem is aloof and soft-spoken. She is distrustful of strangers but fiercely loyal to her friends.
@@ -61,6 +61,7 @@ is change.
 
 Given her history, Kaleem’s bond is obvious: she owes her life to the Blue Suns. Her flaw is that she lacks empathy which
 has caused her to do some morally questionable deeds without thinking twice.
-:::
+::
 
-<me-source-reference pages="8-9, 34-35" source="basic"></me-source-reference>
+::source-reference{pages="8-9, 34-35" source="basic"}
+::

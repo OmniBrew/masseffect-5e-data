@@ -1,8 +1,8 @@
 ---
+name: Apex Augments
 level: 18
 klass: experiment
 subclass: reaper
-name: Apex Augments
 mechanics:
   - type: model-choice
     options: true
@@ -11,7 +11,8 @@ mechanics:
     value:
       model: experiment
       id: reaper-scar
-      limit: [attack-augment]
+      limit:
+        - attack-augment
     merge:
       bonus:
         value: 5
@@ -19,7 +20,8 @@ mechanics:
     value:
       model: experiment
       id: reaper-scar
-      limit: [global-note]
+      limit:
+        - global-note
     merge:
       moreInfo:
         additional:

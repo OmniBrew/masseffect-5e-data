@@ -1,6 +1,6 @@
 ---
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/f/f8/ME3_Sentry_Turret.png/revision/latest/scale-to-width-down/100?cb=20180206214039
+name: Sentry Turret
+image: https://vignette.wikia.nocookie.net/masseffect/images/f/f8/ME3_Sentry_Turret.png/revision/latest/scale-to-width-down/100?cb=20180206214039
 type: synthetic
 unit: mech
 alignment: nn
@@ -24,29 +24,38 @@ irv:
     - psychic
   vul:
     - lightning
-savingThrows: false
-senses: false
 size: small
-skills: false
 speed:
   walk: 0
 entries:
   features:
     - mod: int
       list:
-        - {id: flamethrower, perDay: 3}
+        - id: flamethrower
+          perDay: 3
       id: innate-powercasting
+      name: Innate Powercasting
+      text: "The sentry turret's innate powercasting ability is Intelligence (power save DC 10, +2 to hit with power attacks). It can innately cast the following powers:"
+    - name: Stationary
+      text: The sentry turret automatically fails Strength and Dexterity saving throws and skill checks.
+      id: stationary
   actions:
     - attack: ranged
       proficient: true
       range: 150
-      dc: false
       mod: dex
       damage:
-        - {dieCount: 2, dieType: 6, mod: true, type: piercing}
-        - {dieCount: 2, dieType: 6, mod: true, type: radiant}
+        - dieCount: 2
+          dieType: 6
+          mod: true
+          type: piercing
+        - dieCount: 2
+          dieType: 6
+          mod: true
+          type: radiant
       target: one
       id: mass-accelerator-machinegun
-cr: '01000'
-shields: false
+      name: Mass Accelerator Machinegun
+      hit: " The sentry turret can make a burst fire attack instead"
+cr: "01000"
 ---

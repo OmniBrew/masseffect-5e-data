@@ -1,13 +1,11 @@
 ---
+name: Cluster Grenade
 subsets:
   - id: cluster-grenade-i
     rarity: common
     cost: 2400
     name: Cluster Grenade I
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="15" /> of the target
-      must make a DC 13 Dexterity saving throw. A creature takes 2d6 thunder damage on a failed save, or half as
-      much damage on a successful one.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="15"} of the target must make a DC 13 Dexterity saving throw. A creature takes 2d6 thunder damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -33,10 +31,7 @@ subsets:
     rarity: common
     cost: 3400
     name: Cluster Grenade II
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="15" /> of the target
-      must make a DC 15 Dexterity saving throw. A creature takes 2d6 thunder damage on a failed save, or half as
-      much damage on a successful one.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="15"} of the target must make a DC 15 Dexterity saving throw. A creature takes 2d6 thunder damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -62,10 +57,7 @@ subsets:
     rarity: uncommon
     cost: 4100
     name: Cluster Grenade III
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="15" /> of the target
-      must make a DC 15 Dexterity saving throw. A creature takes 3d6 thunder damage on a failed save, or half as
-      much damage on a successful one.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="15"} of the target must make a DC 15 Dexterity saving throw. A creature takes 3d6 thunder damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -91,10 +83,7 @@ subsets:
     rarity: uncommon
     cost: 5100
     name: Cluster Grenade IV
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="15" /> of the target
-      must make a DC 17 Dexterity saving throw. A creature takes 3d6 thunder damage on a failed save, or half as
-      much damage on a successful one.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="15"} of the target must make a DC 17 Dexterity saving throw. A creature takes 3d6 thunder damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -120,10 +109,7 @@ subsets:
     rarity: rare
     cost: 6500
     name: Cluster Grenade V
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="15" /> of the target
-      must make a DC 17 Dexterity saving throw. A creature takes 5d6 thunder damage on a failed save, or half as
-      much damage on a successful one.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="15"} of the target must make a DC 17 Dexterity saving throw. A creature takes 5d6 thunder damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -149,10 +135,7 @@ subsets:
     rarity: rare
     cost: 7500
     name: Cluster Grenade VI
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="15" /> of the target
-      must make a DC 19 Dexterity saving throw. A creature takes 5d6 thunder damage on a failed save, or half as
-      much damage on a successful one.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="15"} of the target must make a DC 19 Dexterity saving throw. A creature takes 5d6 thunder damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -178,10 +161,7 @@ subsets:
     rarity: very_rare
     cost: 8200
     name: Cluster Grenade VII
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="15" /> of the target
-      must make a DC 19 Dexterity saving throw. A creature takes 6d6 thunder damage on a failed save, or half as
-      much damage on a successful one.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="15"} of the target must make a DC 19 Dexterity saving throw. A creature takes 6d6 thunder damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -207,10 +187,7 @@ subsets:
     rarity: very_rare
     cost: 9200
     name: Cluster Grenade VIII
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="15" /> of the target
-      must make a DC 21 Dexterity saving throw. A creature takes 6d6 thunder damage on a failed save, or half as
-      much damage on a successful one.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="15"} of the target must make a DC 21 Dexterity saving throw. A creature takes 6d6 thunder damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -236,10 +213,7 @@ subsets:
     rarity: very_rare
     cost: 9900
     name: Cluster Grenade IX
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="15" /> of the target
-      must make a DC 21 Dexterity saving throw. A creature takes 7d6 thunder damage on a failed save, or half as
-      much damage on a successful one.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="15"} of the target must make a DC 21 Dexterity saving throw. A creature takes 7d6 thunder damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -265,10 +239,7 @@ subsets:
     rarity: spectre
     cost: 11600
     name: Cluster Grenade X
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="15" /> of the target
-      must make a DC 23 Dexterity saving throw. A creature takes 8d6 thunder damage on a failed save, or half as
-      much damage on a successful one.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="15"} of the target must make a DC 23 Dexterity saving throw. A creature takes 8d6 thunder damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -322,15 +293,14 @@ marks:
     rarity: Spectre
     damage: 8d6
 rarity: varies
-type: grenade
+gearType: grenade
 cost: Varies
 weight: 1
-subType: ''
-name: Cluster Grenade
+subType: ""
 consumable: true
 equippable: true
 ---
-Target an area within <me-distance length="30" />. Each creature within <me-distance length="15" /> of the target must make a Dexterity saving throw.
+Target an area within :distance{length="30"}. Each creature within :distance{length="15"} of the target must make a Dexterity saving throw.
 A creature takes thunder damage on a failed save, or half as much damage on a successful one.
 
 The mark of this grenade determines its Save DC, damage, and credits.

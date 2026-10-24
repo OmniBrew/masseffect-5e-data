@@ -1,6 +1,6 @@
 ---
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/9/9b/ME3_Marauder.png/revision/latest/scale-to-width-down/219?cb=20120313015215
+name: Marauder
+image: https://vignette.wikia.nocookie.net/masseffect/images/9/9b/ME3_Marauder.png/revision/latest/scale-to-width-down/219?cb=20120313015215
 type: synorg
 unit: reaper
 alignment: le
@@ -16,7 +16,6 @@ abilityScores:
   int: 8
   wis: 11
   cha: 8
-irv: false
 savingThrows:
   - dex
 senses:
@@ -32,13 +31,16 @@ entries:
       proficient: true
       id: phaeston
       weaponId: phaeston
-    - dc: false
-      save: false
-      recharge:
-        - '5'
-        - '6'
+    - recharge:
+        - "5"
+        - "6"
       id: create-armor-plating
-cr: '02000'
+      name: Create Armor Plating
+      text: The marauder coats a friendly husk, abomination, or cannibal in a scab-like armor plating, increasing the target's AC by 2.
+    - name: Multiattack
+      text: The marauder makes 2 Phaeston attacks.
+      id: multiattack
+cr: "02000"
 shields:
   capacity: 15
   regen: 15

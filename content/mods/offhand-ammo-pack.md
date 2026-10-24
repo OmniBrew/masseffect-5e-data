@@ -1,6 +1,7 @@
 ---
+name: Offhand Ammo Pack
 rarity: common
-type: armor
+modType: armor
 cost: 500
 manufacturer: elkoss-combine
 tags:
@@ -10,12 +11,9 @@ availability:
   - light
   - medium
   - heavy
-name: Offhand Ammo Pack
-flavor: >-
-  A simple but popular modification favored among mercenary groups and military
-  personnel on active assignment.
+flavor: A simple but popular modification favored among mercenary groups and military personnel on active assignment.
 mechanics:
-  - type: thermal-clip-capacity
+  - type: me:thermal-clip-capacity
     value: 2
 ---
 Increase your thermal clip capacity by 2

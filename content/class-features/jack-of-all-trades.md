@@ -1,8 +1,8 @@
 ---
+name: Jack of All Trades
 level: 2
 klass: engineer
 subclass: mastermind
-name: Jack of All Trades
 mechanics:
   - type: half-proficiency
 ---

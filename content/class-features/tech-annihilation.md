@@ -1,4 +1,5 @@
 ---
+name: Tech Annihilation
 level: 18
 klass: soldier
 subclass: engi-knight
@@ -13,7 +14,8 @@ mechanics:
     value:
       model: soldier
       id: tech-strike
-      limit: [global-note]
+      limit:
+        - global-note
     merge:
       moreInfo:
         additional:
@@ -24,7 +26,8 @@ mechanics:
     value:
       model: soldier
       id: tech-avenger
-      limit: [global-note]
+      limit:
+        - global-note
     merge:
       moreInfo:
         additional:
@@ -36,7 +39,8 @@ mechanics:
     value:
       model: soldier
       id: tech-avenger
-      limit: [other]
+      limit:
+        - other
     merge:
       toggle:
         options:
@@ -45,9 +49,7 @@ mechanics:
               - merge:
                   notes:
                     - {}
-                    - 'Spend 1 TP: +1d10 DMG and target must succeed on STR save or become <me-condition id="frozen" />
-                      and each creature within <me-distance length="10" /> has movement reduced by <me-distance length="10" />
-                      + <me-condition id="primed" sub="cold" /> until the end of your next turn'
+                    - 'Spend 1 TP: +1d10 DMG and target must succeed on STR save or become :condition{id="frozen"} and each creature within :distance{length="10"} has movement reduced by :distance{length="10"} + :condition{id="primed" sub="cold"} until the end of your next turn'
           - whenOn:
               - {}
               - {}
@@ -66,10 +68,7 @@ mechanics:
                   proficient: ture
                   save: dex
                   mod: int
-                shortDesc: >-
-                  Spend 1 Tech Point. All creatures within <me-distance length="10" /> of you must succeed on a
-                  {{ dc }} DEX Save or take {{ damage }} fire damage and be <me-condition id="primed" sub="fire" />
-                  until the end of your next turn. Half damage on a success.
+                shortDesc: Spend 1 Tech Point. All creatures within :distance{length="10"} of you must succeed on a {{ dc }} DEX Save or take {{ damage }} fire damage and be :condition{id="primed" sub="fire"} until the end of your next turn. Half damage on a success.
           - whenOn:
               - {}
               - {}
@@ -83,7 +82,6 @@ mechanics:
             id: tech-obliteration
           - model: class-features
             id: tech-annihilation
-name: Tech Annihilation
 ---
 At 18th level, your Tech Strike and Tech Avenger damage dice increases from d8s to d10s, this includes the Blazing
 Strike's extra damage after the attack.

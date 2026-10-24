@@ -1,11 +1,10 @@
 ---
+name: Adrenaline Rush
 level: 2
 klass: soldier
 mechanics:
   - type: other
-    shortDesc: >-
-      Take one additional action this turn on top of your regular action and a possible
-      bonus action.
+    shortDesc: Take one additional action this turn on top of your regular action and a possible bonus action.
     resource:
       reset: short
       max:
@@ -14,7 +13,6 @@ mechanics:
         value:
           2: 1
           17: 2
-name: Adrenaline Rush
 ---
 You can inject yourself with a shot of adrenaline, pushing yourself beyond your normal limits for a moment.
 At 2nd level, you can take one additional action this turn on top of your regular action and a possible

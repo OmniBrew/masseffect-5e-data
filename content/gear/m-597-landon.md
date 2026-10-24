@@ -1,4 +1,5 @@
 ---
+name: M-597 Landon
 mechanics:
   - type: action
     layout: attack
@@ -19,14 +20,13 @@ mechanics:
       short: 300
 image: https://vignette4.wikia.nocookie.net/masseffect/images/6/61/ME3_Ladon_Codex_Rip.png/revision/latest?cb=20140106114047
 rarity: spectre
-type: heavy_weapon
+gearType: heavy_weapon
 cost: 68000
 weight: 22
-subType: ''
+subType: ""
 charges: 10
-name: M-597 Landon
 equippable: true
 ---
-As an Attack, begin targeting, choosing up to 10 creatures within <me-distance length="300" />. If you remain targeting
+As an Attack, begin targeting, choosing up to 10 creatures within :distance{length="300"}. If you remain targeting
 until the start of your next turn, launch a miniature missile at each target, dealing 4d8 thunder damage. Each missile
 used consumes a weapon charge.

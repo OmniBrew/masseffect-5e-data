@@ -2,7 +2,7 @@
 name: Biotic Slash
 version: 1
 level: 1
-type: biotic
+powerType: biotic
 tags:
   - damage
   - buff
@@ -10,12 +10,10 @@ classes:
   - sentinel
   - vanguard
   - explorer
-mechanics:
+casting:
   - castingTime:
       length: 1
       unit: bonus_action
-    attack: false
-    dc: false
     damage:
       - dieCount: 2
         dieType: 8
@@ -26,9 +24,7 @@ mechanics:
     concentration: true
     range:
       short: 0
-      aoe: false
     detonates: true
-    primes: false
   - damage:
       - dieCount: 4
   - damage:
@@ -41,13 +37,13 @@ advancements:
   - id: improved-damage
     name: Improved Damage
     text: Increase the damage die to 2d12
-    mechanics:
+    casting:
       - damage:
           - dieType: 12
   - id: destined-hit
     name: Destined Hit
     text: Gain a +5 bonus to your next melee weapon attack roll
-    mechanics: []
+    casting: []
 ---
 The next time you hit a creature with a melee weapon attack during the power's duration, increase the density of the
 weapon dealing an extra 2d8 force damage to the target. This damage detonates primed targets.

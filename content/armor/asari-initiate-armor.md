@@ -1,33 +1,29 @@
 ---
-placement: body_armor
-type: light
+name: Asari Initiate Armor
+coverage: suit
+armorType: light
 cost: 42500
 manufacturer: serrice-council
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/5/51/Light-human-Phoenix.png/revision/latest/scale-to-width-down/160?cb=20100209134257
+image: https://vignette.wikia.nocookie.net/masseffect/images/5/51/Light-human-Phoenix.png/revision/latest/scale-to-width-down/160?cb=20100209134257
 tags:
   - extra_damage
 andromeda: false
-set: false
 rarity: spectre
-name: Asari Initiate Armor
-flavor: >-
-  Standard issue armor for all Asari infantry. Build-in biotic amps provide a
-  minor boost to biotic powers.
+flavor: Standard issue armor for all Asari infantry. Build-in biotic amps provide a minor boost to biotic powers.
 mechanics:
-  - type: cantrip-boost
-  - type: shields
+  - type: me:cantrip-boost
+  - type: me:shields
     capacity:
       type: flat
       value: 5
     regen:
       type: flat
       value: 5
-  - type: thermal-clip-capacity
+  - type: me:thermal-clip-capacity
     value: 10
-  - type: medi-gel-capacity
+  - type: me:medi-gel-capacity
     value: 4
-  - type: grenade-capacity
+  - type: me:grenade-capacity
     value: 2
 ---
 - While wearing this armor, your cantrips are considered to be 1 step higher in their progression.

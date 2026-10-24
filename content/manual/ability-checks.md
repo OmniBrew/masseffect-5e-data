@@ -44,7 +44,7 @@ In a contest between a monster trying to open a door and an operative trying to 
 the door remains shut.
 
 
-### Skills <v-chip color="warning" text-color="black" small>change</v-chip>
+### Skills :change-badge{type="change"}
 Mass Effect 5e is a sci-fi setting, thus some of the fantasy skills (like religion and arcana) have been replaced with new
 skills.
 
@@ -103,7 +103,7 @@ For example, if a character attempts to climb up a dangerous cliff, the GM might
 the character is proficient in Athletics, the character's proficiency bonus is added to the Strength check. If the character
 lacks that proficiency, he or she just makes a Strength check.
 
-### Variant: Paragon & Renegade <v-chip color="info" small>new</v-chip>
+### Variant: Paragon & Renegade :change-badge{type="new"}
 In Mass Effect 5e, you may also choose to use the [Variant: Paragon & Renegade](/manual/beyond-first-level#paragon-renegade).
 This new rule allows you to apply another bonus to your ability checks, pending the context of your action is "Paragon-ish"
 or "Renegade-ish".
@@ -151,4 +151,5 @@ Wisdom (Survival) check to see if the characters can avoid the quicksand, sinkho
 environment. If at least half the group succeeds, the successful characters are able to guide their companions out of
 danger. Otherwise, the group stumbles into one of these hazards.
 
-<me-source-reference pages="77-79"></me-source-reference>
+::source-reference{pages="77-79"}
+::

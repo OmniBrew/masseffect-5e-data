@@ -1,4 +1,5 @@
 ---
+name: Poison Strike
 level: 10
 klass: vanguard
 subclass: cabal
@@ -7,22 +8,23 @@ mechanics:
     value:
       model: vanguard
       id: venom-training
-      limit: [natural-weapon]
+      limit:
+        - natural-weapon
     merge:
       value:
         damage:
           dieCount: 2
-        html: >-
-          <p>When you take the Attack Action to use your Venom Gauntlets, you can teleport up to <me-distance length="15" />
-             before every attack you make.</p>
-          <p>If you attack two different targets with each of the attacks provided by your
-             Attack action, you can make a third attack against another different target.</p>
+        html: |-
+          When you take the Attack Action to use your Venom Gauntlets, you can teleport up to :distance{length="15"}
+             before every attack you make.
+
+          If you attack two different targets with each of the attacks provided by your
+             Attack action, you can make a third attack against another different target.
         notes:
-          - 'Can be used for Two-Weapon Fighting'
-          - 'Teleport <me-distance length="15" />'
-name: Poison Strike
+          - Can be used for Two-Weapon Fighting
+          - Teleport :distance{length="15"}
 ---
-At 10th level, when you take the Attack Action to use your Venom Gauntlets, you can teleport up to <me-distance length="15" />
+At 10th level, when you take the Attack Action to use your Venom Gauntlets, you can teleport up to :distance{length="15"}
 before every attack you make. If you attack two different targets with each of the attacks provided by your
 Attack action, you can make a third attack against another different target.
 

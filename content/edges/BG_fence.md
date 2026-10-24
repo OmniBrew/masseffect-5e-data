@@ -6,5 +6,4 @@ mechanics:
   - type: skill
     value: persuasion
 type: subgrounds
-
 ---

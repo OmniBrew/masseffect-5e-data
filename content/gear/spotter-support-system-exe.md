@@ -1,22 +1,24 @@
 ---
+name: Spotter_Support_System.exe
 mechanics:
   - type: attack-augment
     attackLimit:
       type: melee
       model: weapon
-      modelTypes: [sniper_rifle]
-    augmentTypes: [damage]
+      modelTypes:
+        - sniper_rifle
+    augmentTypes:
+      - damage
     bonus:
       type: flat
       value: 2
   - type: weapon
     value: sniper_rifle
 rarity: uncommon
-type: omni_tool_program
+gearType: omni_tool_program
 cost: 0
 weight: 0
-subType: ''
-name: Spotter_Support_System.exe
+subType: ""
 installation: true
 equippable: true
 ---

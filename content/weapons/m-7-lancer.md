@@ -1,11 +1,10 @@
 ---
 name: M-7 Lancer
 rarity: rare
-type: assault_rifle
+weaponType: assault_rifle
 cost: 37000
 manufacturer: hahne-kedar
 weight: 4
-heat: 8
 damage:
   dieCount: 2
   dieType: 6
@@ -16,9 +15,11 @@ range:
 image: https://vignette4.wikia.nocookie.net/masseffect/images/c/c6/ME3_Lancer_AS.png/revision/latest?cb=20130227094559
 andromeda: false
 properties:
-  - burst-fire
-  - two-handed
-  - vented
+  - id: burst-fire
+  - id: two-handed
+  - id: vented
+  - id: heat
+    value: 8
 slots: 2
 ---
 Somewhat of a relic and hard to come by, the M-7 does not use thermal clips. Instead, use a d8 to 

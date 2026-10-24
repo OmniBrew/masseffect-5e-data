@@ -2,7 +2,7 @@
 name: Slam
 version: 1
 level: 0
-type: biotic
+powerType: biotic
 classes:
   - adept
   - sentinel
@@ -10,17 +10,14 @@ classes:
   - explorer
 tags:
   - damage
-mechanics:
+casting:
   - castingTime:
       length: 1
       unit: action
-    attack: false
-    dc: false
     damage:
       - dieCount: 2
         dieType: 8
         type: bludgeoning
-    conditions: false
     duration:
       length: 0
       unit: instant
@@ -28,22 +25,21 @@ mechanics:
     range:
       short: 90
     detonates: false
-    primes: false
 advancements:
   - id: stun
     name: Stun
     text: If the target is a creature, it must pass a Constitution saving throw or becomes stunned until the end of your next turn.
-    mechanics:
+    casting:
       - dc:
           base: 8
           proficient: true
           save: con
         notes:
-          - 'CON save (DC {{ dc }}) or stunned'
+          - CON save (DC {{ dc }}) or stunned
   - id: reaction
     name: Reaction
     text: When a creature or object you can see becomes lifted, you may cast Slam on it as a reaction.
-    mechanics:
+    casting:
       - altCasting:
           - length: 1
             unit: reaction

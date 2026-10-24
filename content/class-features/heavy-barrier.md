@@ -1,13 +1,14 @@
 ---
+name: Heavy Barrier
 level: 11
 klass: vanguard
-name: Heavy Barrier
 mechanics:
   - type: augment
     value:
       model: vanguard
       id: barrier-vanguard
-    limit: [barrier]
+    limit:
+      - barrier
     merge:
       dieCount: 2
 ---

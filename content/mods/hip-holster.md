@@ -1,6 +1,7 @@
 ---
+name: Hip Holster
 rarity: common
-type: armor
+modType: armor
 cost: 3000
 manufacturer: any
 tags:
@@ -10,10 +11,9 @@ availability:
   - light
   - medium
   - heavy
-name: Hip Holster
 flavor: An additional hip holster designed to hold a small weapon.
 mechanics:
-  - type: weapon-slots
+  - type: me:weapon-slots
     value: 1
 ---
 Gain 1 additional weapon slot. If using the Variant: Encumbrance rule, increase your Carry Weight by 5.

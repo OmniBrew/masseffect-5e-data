@@ -1,14 +1,15 @@
 ---
+name: Tech Aura
 level: 7
 klass: sentinel
 subclass: guardian
-name: Tech Aura
 mechanics:
   - type: augment
     value:
       model: sentinel
       id: tech-armor
-      limit: [bonus-action]
+      limit:
+        - bonus-action
     merge:
       name: Activate Tech Armor/Aura
       shortDesc: When you would activate your tech armor, you may activate a tech aura package instead, lasting 1 hour.
@@ -35,7 +36,8 @@ mechanics:
                 value:
                   model: sentinel
                   id: tech-armor
-                  limit: [bonus-action]
+                  limit:
+                    - bonus-action
                 merge:
                   shortDesc: Tech Armor active for 1 minute.
               - type: resource
@@ -87,8 +89,7 @@ mechanics:
                     aoe:
                       type: sphere
                       size: 30
-                  shortDesc: >-
-                    Each friendly creature within range gains resistance to force and necrotic damage.
+                  shortDesc: Each friendly creature within range gains resistance to force and necrotic damage.
           - id: anti-tech
             name: Anti-Tech
             whenOn:
@@ -106,8 +107,7 @@ mechanics:
                     aoe:
                       type: sphere
                       size: 30
-                  shortDesc: >-
-                    Each friendly creature within range gains resistance to fire and cold damage.
+                  shortDesc: Each friendly creature within range gains resistance to fire and cold damage.
           - id: grounded
             name: Grounded
             whenOn:
@@ -123,13 +123,14 @@ mechanics:
                     aoe:
                       type: sphere
                       size: 30
-                  shortDesc: >-
-                    Each friendly creature within range gains resistance to lightning damage.
+                  shortDesc: Each friendly creature within range gains resistance to lightning damage.
           - id: reactive
             name: Reactive
             whenOn:
               - type: saving-throw
-                value: [str, dex]
+                value:
+                  - str
+                  - dex
                 effect:
                   type: bonus
                   bonus:
@@ -145,14 +146,13 @@ mechanics:
                     aoe:
                       type: sphere
                       size: 30
-                  shortDesc: >-
-                    Each friendly creature within range gains
-                    +{{ powercastingMod:sentinel }} to Strength and Dexterity saving throws.
+                  shortDesc: Each friendly creature within range gains +{{ powercastingMod:sentinel }} to Strength and Dexterity saving throws.
           - id: speed
             name: Speed
             whenOn:
               - type: speed-bonus
-                value: [walk]
+                value:
+                  - walk
                 bonus:
                   type: flat
                   value: 15
@@ -169,9 +169,7 @@ mechanics:
                     aoe:
                       type: sphere
                       size: 30
-                  shortDesc: >-
-                    Each friendly creature within range can take the Disengage as a bonus action and has its walking speed
-                    increased by <me-distance length="15" />.
+                  shortDesc: Each friendly creature within range can take the Disengage as a bonus action and has its walking speed increased by :distance{length="15"}.
           - id: regen
             name: Regen
             whenOn:
@@ -185,14 +183,14 @@ mechanics:
                     aoe:
                       type: sphere
                       size: 30
-                  shortDesc: >-
-                    Each friendly creature within range gains {{ powercastingMod:sentinel }} shield point(s) at the start
-                    of each of your turns.
+                  shortDesc: Each friendly creature within range gains {{ powercastingMod:sentinel }} shield point(s) at the start of each of your turns.
           - id: inspiring-music
             name: Inspiring Music
             whenOn:
               - type: saving-throw
-                against: [charmed,frightened]
+                against:
+                  - charmed
+                  - frightened
                 effect:
                   type: advantage
               - type: augment
@@ -205,8 +203,7 @@ mechanics:
                     aoe:
                       type: sphere
                       size: 30
-                  shortDesc: >-
-                    Each friendly creature within range gains advantage on saving throws against becoming charmed or frightened.
+                  shortDesc: Each friendly creature within range gains advantage on saving throws against becoming charmed or frightened.
           - id: brute-force
             name: Brute Force
             whenOn:
@@ -220,8 +217,7 @@ mechanics:
                     aoe:
                       type: sphere
                       size: 30
-                  shortDesc: >-
-                    Each friendly creature within range deals an additional 1d8 bludgeoning damage with melee attacks.
+                  shortDesc: Each friendly creature within range deals an additional 1d8 bludgeoning damage with melee attacks.
           - id: negation-field
             name: Negation Field
             whenOn:
@@ -237,23 +233,22 @@ mechanics:
                     aoe:
                       type: sphere
                       size: 30
-                  shortDesc: >-
-                    Each friendly creature within range is immune to the primed condition.
+                  shortDesc: Each friendly creature within range is immune to the primed condition.
 ---
 In addition to the standard defensive VI, you've augmented your Tech Armor to run different VI packages.
 
 At 7th level, when you activate tech armor, you can choose to run a different VI package instead. When you activate an
-alternate package, you do not gain hit points. Instead, you and any friendly creature within <me-distance length="30" /> of you gain
+alternate package, you do not gain hit points. Instead, you and any friendly creature within :distance{length="30"} of you gain
 the effect of the package for 1 hour. You may only have one tech armor active at once.
 
 Package | Effect
 --- | ---
-Defensive | This is the standard Tech Armor package. It does not affect friendly creatures within <me-distance length="30" />.
+Defensive | This is the standard Tech Armor package. It does not affect friendly creatures within :distance{length="30"}.
 Anti-biotic | Resistance to force and necrotic damage.
 Anti-tech | Resistance to fire and cold damage.
 Grounded | Resistance to lightning damage.
 Reactive | Add your powercasting modifier to Strength or Dexterity saving throws.
-Speed | Increase speed by <me-distance length="15" />. Can take the Disengage action as a bonus action.
+Speed | Increase speed by :distance{length="15"}. Can take the Disengage action as a bonus action.
 Regen | Regenerate shield points equal to your powercasting modifier on the start of each of your turns.
 Inspiring Music | Advantage on saving throws against becoming frightened or charmed.
 Brute force | Friendly creatures within your aura deal an additional 1d8 bludgeoning damage with melee attacks.

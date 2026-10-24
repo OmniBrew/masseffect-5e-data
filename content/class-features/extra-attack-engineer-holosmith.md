@@ -1,8 +1,8 @@
 ---
+name: Extra Attack
 level: 6
 klass: engineer
 subclass: holosmith
-name: Extra Attack
 mechanics:
   - type: extra-attack
     value: 2

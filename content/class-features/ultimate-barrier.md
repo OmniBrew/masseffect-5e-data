@@ -1,14 +1,15 @@
 ---
+name: Ultimate Barrier
 level: 18
 klass: vanguard
 subclass: valkyrie
-name: Ultimate Barrier
 mechanics:
   - type: augment
     value:
       model: vanguard
       id: barrier-vanguard
-    limit: [barrier]
+    limit:
+      - barrier
     merge:
       dieCount: 3
 ---

@@ -1,11 +1,10 @@
 ---
 name: Disciple
 rarity: rare
-type: shotgun
+weaponType: shotgun
 cost: 35000
 manufacturer: asari
 weight: 4
-heat: 4
 damage:
   dieCount: 2
   dieType: 4
@@ -16,9 +15,11 @@ range:
 image: https://vignette4.wikia.nocookie.net/masseffect/images/6/6a/ME3_Disciple_Shotgun.png/revision/latest?cb=20120317201011
 andromeda: false
 properties:
-  - two-handed
-  - hip-fire
-  - recoil
+  - id: two-handed
+  - id: hip-fire
+  - id: recoil
+  - id: heat
+    value: 4
 slots: 2
 ---
-On a hit, the target must make a Constitution saving throw (DC 8) or becomes <me-condition id="stunned" />.
+On a hit, the target must make a Constitution saving throw (DC 8) or becomes :condition{id="stunned"}.

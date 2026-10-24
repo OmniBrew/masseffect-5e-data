@@ -1,6 +1,7 @@
 ---
 name: Relentless Endurance
-species: [behemoth]
+species:
+  - behemoth
 mechanics:
   - type: other
     resource: {}

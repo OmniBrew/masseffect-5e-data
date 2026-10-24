@@ -1,20 +1,17 @@
 ---
+name: Elite Heavy Shoulder Mounts
 rarity: very_rare
-type: armor
+modType: armor
 cost: 60000
-manufacturer: null
 tags:
   - special
 placement: chest
 availability:
   - medium
   - heavy
-name: Elite Heavy Shoulder Mounts
-flavor: >-
-  Originally designed for Elcor battlesuits, these hydraulic
-  mounts allow you to equip and fire ranged weapons from your shoulder.
+flavor: Originally designed for Elcor battlesuits, these hydraulic mounts allow you to equip and fire ranged weapons from your shoulder.
 mechanics:
-  - type: shoulder-mounts
+  - type: me:shoulder-mounts
     slots: 4
     max: 2
 ---

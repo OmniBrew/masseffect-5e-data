@@ -1,6 +1,6 @@
 ---
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/0/01/Cerberus_dragoon_smash.png/revision/latest?cb=20121013090412
+name: Dragoon
+image: https://vignette.wikia.nocookie.net/masseffect/images/0/01/Cerberus_dragoon_smash.png/revision/latest?cb=20121013090412
 type: organic
 unit: cerberus
 alignment: ne
@@ -16,10 +16,8 @@ abilityScores:
   int: 14
   wis: 12
   cha: 13
-irv: false
 savingThrows:
   - dex
-senses: false
 size: medium
 skills:
   - acrobatics
@@ -35,6 +33,12 @@ entries:
       proficient: true
       id: m-25-hornet
       weaponId: m-25-hornet
-cr: '05000'
-shields: false
+    - name: Multiattack
+      text: The dragoon makes three Omni-whip attacks
+      id: multiattack
+  features:
+    - name: Aggressive
+      text: As a bonus action, the dragoon can move up to its speed toward a hostile creature that it can see.
+      id: aggressive
+cr: "05000"
 ---

@@ -9,19 +9,21 @@ mechanics:
     value:
       model: traits
       id: thick-frontal-plate
-      limit: [natural-weapon]
-      instances: [0]
+      limit:
+        - natural-weapon
+      instances:
+        - 0
     merge:
       value:
         damage:
           dieType: 10
   - type: bonus-action
-    shortDesc: >-
-      When you take the Dash action on your turn, you can make one unarmed strike with your thick frontal plate.
+    shortDesc: When you take the Dash action on your turn, you can make one unarmed strike with your thick frontal plate.
 prerequisite: Krogan
 prereq:
   - type: species
-    limit: [krogan]
+    limit:
+      - krogan
 ---
 You’ve mastered the Krogan headbutt and can use it as a ramming attack.
 

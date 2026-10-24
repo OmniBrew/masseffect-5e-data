@@ -1,13 +1,11 @@
 ---
+name: Frag Grenade
 subsets:
   - id: frag-grenade-i
     rarity: common
     cost: 1300
     name: Frag Grenade I
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target
-      must make a DC 11 Dexterity saving throw. A creature takes 1d12 piercing damage on a failed save, or half as
-      much damage on a successful one.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 11 Dexterity saving throw. A creature takes 1d12 piercing damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -33,10 +31,7 @@ subsets:
     rarity: common
     cost: 3600
     name: Frag Grenade II
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target
-      must make a DC 13 Dexterity saving throw. A creature takes 2d12 piercing damage on a failed save, or half as
-      much damage on a successful one.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 13 Dexterity saving throw. A creature takes 2d12 piercing damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -62,10 +57,7 @@ subsets:
     rarity: uncommon
     cost: 4900
     name: Frag Grenade III
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target
-      must make a DC 13 Dexterity saving throw. A creature takes 3d12 piercing damage on a failed save, or half as
-      much damage on a successful one.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 13 Dexterity saving throw. A creature takes 3d12 piercing damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -91,10 +83,7 @@ subsets:
     rarity: uncommon
     cost: 5900
     name: Frag Grenade IV
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target
-      must make a DC 15 Dexterity saving throw. A creature takes 3d12 piercing damage on a failed save, or half as
-      much damage on a successful one.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 15 Dexterity saving throw. A creature takes 3d12 piercing damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -120,10 +109,7 @@ subsets:
     rarity: rare
     cost: 8500
     name: Frag Grenade V
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target
-      must make a DC 15 Dexterity saving throw. A creature takes 5d12 piercing damage on a failed save, or half as
-      much damage on a successful one.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 15 Dexterity saving throw. A creature takes 5d12 piercing damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -149,10 +135,7 @@ subsets:
     rarity: rare
     cost: 9500
     name: Frag Grenade VI
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target
-      must make a DC 17 Dexterity saving throw. A creature takes 5d12 piercing damage on a failed save, or half as
-      much damage on a successful one.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 17 Dexterity saving throw. A creature takes 5d12 piercing damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -178,10 +161,7 @@ subsets:
     rarity: very_rare
     cost: 10800
     name: Frag Grenade VII
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target
-      must make a DC 17 Dexterity saving throw. A creature takes 6d12 piercing damage on a failed save, or half as
-      much damage on a successful one.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 17 Dexterity saving throw. A creature takes 6d12 piercing damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -207,10 +187,7 @@ subsets:
     rarity: very_rare
     cost: 11300
     name: Frag Grenade VIII
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target
-      must make a DC 18 Dexterity saving throw. A creature takes 6d12 piercing damage on a failed save, or half as
-      much damage on a successful one.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 18 Dexterity saving throw. A creature takes 6d12 piercing damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -236,10 +213,7 @@ subsets:
     rarity: very_rare
     cost: 12600
     name: Frag Grenade IX
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target
-      must make a DC 18 Dexterity saving throw. A creature takes 7d12 piercing damage on a failed save, or half as
-      much damage on a successful one.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 18 Dexterity saving throw. A creature takes 7d12 piercing damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -265,10 +239,7 @@ subsets:
     rarity: spectre
     cost: 14400
     name: Frag Grenade X
-    html: >-
-      Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target
-      must make a DC 19 Dexterity saving throw. A creature takes 8d12 piercing damage on a failed save, or half as
-      much damage on a successful one.
+    html: Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a DC 19 Dexterity saving throw. A creature takes 8d12 piercing damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -322,15 +293,14 @@ marks:
     rarity: Spectre
     damage: 8d12
 rarity: varies
-type: grenade
+gearType: grenade
 cost: Varies
 weight: 1
-subType: ''
-name: Frag Grenade
+subType: ""
 consumable: true
 equippable: true
 ---
-Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target must make a Dexterity saving throw.
+Target an area within :distance{length="30"}. Each creature within :distance{length="10"} of the target must make a Dexterity saving throw.
 On a failed save, a creature takes piercing damage or half as much damage on a successful one.
 
 The mark of this grenade determines its Save DC, damage, and credits.

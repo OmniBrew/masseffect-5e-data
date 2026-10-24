@@ -2,9 +2,7 @@
 name: Recon
 mechanics:
   - type: bonus-action
-    shortDesc: >-
-      Set your tactical focus. Any creature within your tactical focus loses any benefits from being
-      invisible, lightly obscured, or heavily obscured.
+    shortDesc: Set your tactical focus. Any creature within your tactical focus loses any benefits from being invisible, lightly obscured, or heavily obscured.
     range:
       short: 60
       aoe:

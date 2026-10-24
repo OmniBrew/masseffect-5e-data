@@ -1,18 +1,16 @@
 ---
 name: Kett Vakarsh
 rarity: spectre
-type: melee
+weaponType: melee
 cost: 54500
 manufacturer: kett
 weight: 7
-heat: null
 damage:
   dieCount: 1
   dieType: 8
   type: fire
 range:
   short: 5
-image: null
 andromeda: true
 properties: []
 slots: 1

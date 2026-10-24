@@ -69,7 +69,7 @@ proficiencies, as shown in the Multiclassing Proficiencies table.
 When you gain a new level in a class, you get its features for that level. You don't, however, receive the class's
 starting equipment, and a few features have additional rules when you're multiclassing: Barrier, Extra Attack, and Powercasting.
 
-#### Barrier <v-chip color="info" small>new</v-chip>
+#### Barrier :change-badge{type="new"}
 Your barrier capacity depends either on the maximum number of ticks between your classes or on your combined levels in all
 your classes. You determine your barrier capacity by adding together all your levels in the
 vanguard class and half your levels (rounded down) in the adept and sentinel classes. Use this total to determine your
@@ -108,7 +108,7 @@ sentinel grants 4 barrier ticks. Thus, they would take the maximum of these for 
 If you gain the Extra Attack class feature from more than one class, the features don't add together. You can't make
 more than two attacks with this feature unless it says you do (as the soldier's version of Extra Attack does).
 
-#### Powercasting <v-chip color="warning" text-color="black" small>change</v-chip>
+#### Powercasting :change-badge{type="change"}
 
 __Powers known and prepared__: You determine what powers you know and can prepare for each class individually as if you were a single-classed member
 of that class. If you are an adept 4/engineer 3, for example, you know six 1st-level adept powers and five adept cantrips
@@ -177,4 +177,5 @@ total to determine your tech points and memory by consulting the Multiclassing T
 |19th|45|6|
 |20th|50|6|
 
-<me-source-reference pages="56-58"></me-source-reference>
+::source-reference{pages="56-58"}
+::

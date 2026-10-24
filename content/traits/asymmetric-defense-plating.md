@@ -1,5 +1,7 @@
 ---
-species: [mobile-platform-juggernaut]
+name: Asymmetric Defense Plating
+species:
+  - mobile-platform-juggernaut
 mechanics:
   - type: ac
     bonus:
@@ -10,3 +12,5 @@ mechanics:
       type: level
       multiplier: 1
 ---
+You gain a +1 bonus to Armor Class. Additionally, your hit point maximum increases by 1, and it increases by 1
+every time you gain a level.

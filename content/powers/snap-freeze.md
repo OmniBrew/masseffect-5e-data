@@ -2,7 +2,7 @@
 name: Snap Freeze
 version: 1
 level: 3
-type: tech
+powerType: tech
 classes:
   - engineer
   - musician
@@ -12,7 +12,7 @@ classes:
 tags:
   - control
   - damage
-mechanics:
+casting:
   - castingTime:
       length: 1
       unit: action
@@ -20,7 +20,6 @@ mechanics:
       type: ranged
       wp: power
       proficient: true
-    dc: false
     damage:
       - dieCount: 6
         dieType: 4
@@ -31,7 +30,10 @@ mechanics:
       - dieCount: 6
         dieType: 12
         type: bludgeoning
-    conditions: [restrained, blinded, deafened]
+    conditions:
+      - restrained
+      - blinded
+      - deafened
     duration:
       length: 0
       unit: instant
@@ -39,7 +41,6 @@ mechanics:
     range:
       short: 90
     detonates: false
-    primes: false
   - damage:
       - dieCount: 8
       - dieCount: 8
@@ -56,23 +57,23 @@ advancements:
   - id: solid-freeze
     name: Solid Freeze
     text: The ice is rock solid. Creatures have disadvantage on their Strength checks to break it.
-    mechanics: []
+    casting: []
   - id: brittle-freeze
     name: Brittle Freeze
     text: A critical success on the Strength check completely shatters the affected creature's appendage. If legs, it falls prone and loses half its remaining hit points. If head, it immediately dies.
-    mechanics: []
+    casting: []
 ---
 Launch a globe of supercooled helium. Make a ranged power attack on a target within range, choosing a location on its
 body. The location can be body, legs, or head.
 
-__Legs__. +2 bonus to hit. The target is <me-condition id="restrained"/> for the next minute. Any creature can use its
+__Legs__. +2 bonus to hit. The target is :condition{id="restrained"} for the next minute. Any creature can use its
 action to make a Strength check against your power save DC to try and break the ice. On a success, the affected
 creature is freed but suffers 6d4 bludgeoning damage.
 
 __Body__. On a hit, the target takes 6d8 cold damage.
 
-__Head (Large or smaller creature)__. -5 penalty to hit. The creature becomes <me-condition id="blinded"/> and
-<me-condition id="deafened"/> for the next minute. Any creature can use an action to make a Strength check against your
+__Head (Large or smaller creature)__. -5 penalty to hit. The creature becomes :condition{id="blinded"} and
+:condition{id="deafened"} for the next minute. Any creature can use an action to make a Strength check against your
 power save DC to and break the ice. On a success, the affected creature is freed but suffers 6d12 bludgeoning damage.
 
 __At Higher Levels__: When you cast this power using a power slot of 4th level or higher, the damage increases

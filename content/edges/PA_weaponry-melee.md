@@ -5,7 +5,8 @@ mechanics:
     value:
       model: main-augments
       id: MA_weaponry-melee
-      limit: [attack]
+      limit:
+        - attack
     merge:
       moreInfo:
         additional:
@@ -28,5 +29,5 @@ mechanics:
                     short: 15
 type: primal-augments
 ---
-Your weapon deals an additional 1d8 necrotic damage. It gains a reach of <me-distance length="5" />.
+Your weapon deals an additional 1d8 necrotic damage. It gains a reach of :distance{length="5"}.
 This can stack with the Reach property you can give it.

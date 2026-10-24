@@ -2,7 +2,7 @@
 name: Throw
 version: 1
 level: 0
-type: biotic
+powerType: biotic
 classes:
   - adept
   - sentinel
@@ -10,7 +10,7 @@ classes:
   - explorer
 tags:
   - damage
-mechanics:
+casting:
   - castingTime:
       length: 1
       unit: action
@@ -18,12 +18,10 @@ mechanics:
       type: ranged
       wp: power
       proficient: true
-    dc: false
     damage:
       - dieCount: 1
         dieType: 8
         type: force
-    conditions: false
     duration:
       length: 0
       unit: instant
@@ -31,7 +29,6 @@ mechanics:
     range:
       short: 120
     detonates: true
-    primes: false
   - damage:
       - dieCount: 2
   - damage:
@@ -41,8 +38,8 @@ mechanics:
 advancements:
   - id: radial-blast
     name: Radial Blast
-    text: On a hit, the damage is dealt to each creature within a <me-distance length="5" adj/> radius of the target.
-    mechanics:
+    text: On a hit, the damage is dealt to each creature within a :distance{length="5" adj} radius of the target.
+    casting:
       - range:
           aoe:
             size: 5
@@ -50,11 +47,11 @@ advancements:
   - id: improved-damage
     name: Improved Damage
     text: Increase the damage die type to d12
-    mechanics:
+    casting:
       - damage:
           - dieType: 12
 ---
 Make a ranged power attack on a target you can see within range. On a hit, the target takes 1d8
-force damage. If the target is Medium or smaller, it is pushed backward <me-distance length="30" />.
+force damage. If the target is Medium or smaller, it is pushed backward :distance{length="30"}.
 
 This power's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), 17th level (4d8).

@@ -1,6 +1,7 @@
 ---
+name: Shield Interface
 rarity: spectre
-type: armor
+modType: armor
 cost: 50000
 manufacturer: alliance
 tags:
@@ -10,13 +11,9 @@ availability:
   - light
   - medium
   - heavy
-name: Shield Interface
-flavor: >-
-  Advanced VI systems monitor incoming enemy fire to redirect energy to
-  vulnerable points, maximizing the effectiveness of a suit's kinetic barrier
-  shields.
+flavor: Advanced VI systems monitor incoming enemy fire to redirect energy to vulnerable points, maximizing the effectiveness of a suit's kinetic barrier shields.
 mechanics:
-  - type: shields
+  - type: me:shields
     capacity:
       type: flat
       value: 15

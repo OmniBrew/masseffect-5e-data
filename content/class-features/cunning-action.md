@@ -1,7 +1,7 @@
 ---
+name: Cunning Action
 level: 2
 klass: infiltrator
-name: Cunning Action
 mechanics:
   - type: bonus-action
     name: Dash

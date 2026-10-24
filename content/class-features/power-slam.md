@@ -1,4 +1,5 @@
 ---
+name: Power Slam
 level: 3
 klass: sentinel
 subclass: warlord
@@ -9,7 +10,6 @@ mechanics:
     moreInfo:
       model: class-features
       id: power-slam
-name: Power Slam
 ---
 At 3rd level, when you cast an offensive power (like Incinerate or Warp) or a biotic cantrip that does damage, you can
 transfer that power onto a melee weapon you are wielding. As part of that same action, you can swing your weapon at

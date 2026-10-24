@@ -1,4 +1,5 @@
 ---
+name: Musician's Inspiration
 level: 1
 klass: musician
 mechanics:
@@ -14,21 +15,13 @@ mechanics:
     damage:
       - dieType: 6
         dieCount: 1
-        label: 'Inspiration'
+        label: Inspiration
     range:
       short: 60
-    shortDesc: >-
-      Choose one creature other than yourself within <me-distance length="60" /> of you who can hear you.
-      That creature gains one Inspiration die.
-      <br><br>
-      Once within the next 10 minutes, the target can roll the die and add the number rolled to one ability check or Attack
-      roll it makes. The target can wait until after it rolls The D20 before deciding to use the Musician's Inspiration die,
-      but must decide before the GM says whether the roll succeeds or fails. Once the Inspiration die is rolled, it is lost.
-      A creature can have only one Inspiration die at a time.
-name: Musician's Inspiration
+    shortDesc: Choose one creature other than yourself within :distance{length="60"} of you who can hear you. That creature gains one Inspiration die. <br><br> Once within the next 10 minutes, the target can roll the die and add the number rolled to one ability check or Attack roll it makes. The target can wait until after it rolls The D20 before deciding to use the Musician's Inspiration die, but must decide before the GM says whether the roll succeeds or fails. Once the Inspiration die is rolled, it is lost. A creature can have only one Inspiration die at a time.
 ---
 You can inspire others through your music. To do so, you use a Bonus Action on your turn to choose one creature other
-than yourself within <me-distance length="60" /> of you who can hear you. That creature gains one Inspiration die, a d6.
+than yourself within :distance{length="60"} of you who can hear you. That creature gains one Inspiration die, a d6.
 
 Once within the next 10 minutes, the target can roll the die and add the number rolled to one ability check or Attack
 roll it makes. The target can wait until after it rolls The D20 before deciding to use the Musician's Inspiration die,

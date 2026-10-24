@@ -1,13 +1,12 @@
 ---
+name: Eternal Watch
 level: 14
 klass: vanguard
 subclass: valkyrie
-name: Eternal Watch
 mechanics:
   - type: reaction
     name: Eternal Watch
-    shortDesc: >-
-      Expend one barrier tick and activate your Transfer Barrier.
+    shortDesc: Expend one barrier tick and activate your Transfer Barrier.
     resource:
       id: eternal-watch
       reset: off

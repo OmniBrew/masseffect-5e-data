@@ -1,4 +1,5 @@
 ---
+name: Flickering Strikes
 level: 15
 klass: explorer
 subclass: path-of-the-voidhopper
@@ -7,13 +8,13 @@ mechanics:
     value:
       model: explorer
       id: blink
-      limit: [bonus-action]
+      limit:
+        - bonus-action
     merge:
       moreInfo:
         additional:
           - model: class-features
             id: flickering-strikes
-name: Flickering Strikes
 ---
 At 15th level, your fine tuned control of your Blink allows you to drop in and out of your movement to
 better hit your targets. When you use Blink during your turns, if you use your Momentum feature to attack two

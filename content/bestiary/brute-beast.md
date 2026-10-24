@@ -1,5 +1,5 @@
 ---
-image: null
+name: Brute Beast
 type: organic
 unit: tracker
 alignment: u
@@ -15,11 +15,7 @@ abilityScores:
   int: 2
   wis: 11
   cha: 7
-irv: false
-savingThrows: false
-senses: false
 size: medium
-skills: false
 speed:
   walk: 30
 entries:
@@ -27,14 +23,25 @@ entries:
     - attack: melee
       proficient: true
       range: 5
-      dc: false
       mod: str
       damage:
-        - {dieCount: 1, dieType: 10, mod: true, type: bludgeoning}
+        - dieCount: 1
+          dieType: 10
+          mod: true
+          type: bludgeoning
       target: one
       id: gore
-cr: '00125'
+      name: Gore
+  features:
+    - name: Charge
+      text: If this creature moves at least 8m before making an attack with its Gore, it deals an additional 2d6 damage.
+      id: charge
+    - name: Powerful Build
+      text: The Brute counts as 1 size larger when determining push, lift and carryweight.
+      id: powerful-build
+cr: "00125"
 shields:
   capacity: 5
   regen: 5
+author: Helios
 ---

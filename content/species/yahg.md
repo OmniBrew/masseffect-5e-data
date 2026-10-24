@@ -1,18 +1,11 @@
 ---
 name: Yahg
 speedColor: Your speed is not reduced by wearing armor.
-alignment: >-
-  Yahg are an aggressive species that tend to focus on their own needs over others. Often chaotic, their
-  intentions are generally neutral or evil.
-size: >-
-  Yahg average around 2 meters tall (between 6' to 8') and weigh between 250 and 350 pounds. Your size is Medium.
-snippet: >-
-  The yahg are a sentient race of towering humanoids native to the world of Parnack, known for their violent and
-  aggressive nature. Consummate predators, the yahg possess unrivaled perceptiveness and mental adaptability.
-age: >-
-  Yahg have natural lifespans comparable to humans.
-bodyImg: >-
-  /images/species/yahg.png
+alignment: Yahg are an aggressive species that tend to focus on their own needs over others. Often chaotic, their intentions are generally neutral or evil.
+size: Yahg average around 2 meters tall (between 6' to 8') and weigh between 250 and 350 pounds. Your size is Medium.
+snippet: The yahg are a sentient race of towering humanoids native to the world of Parnack, known for their violent and aggressive nature. Consummate predators, the yahg possess unrivaled perceptiveness and mental adaptability.
+age: Yahg have natural lifespans comparable to humans.
+bodyImg: /images/species/yahg.png
 img: https://vignette.wikia.nocookie.net/masseffect/images/7/75/Sur%27kesh_yahg.png/revision/latest/scale-to-width-down/722?cb=20120724103813
 randomDimensions:
   height:

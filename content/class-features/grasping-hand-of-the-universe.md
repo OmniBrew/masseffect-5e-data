@@ -1,8 +1,8 @@
 ---
+name: Grasping Hand of the Universe
 level: 18
 klass: vanguard
 subclass: void-fist
-name: Grasping Hand of the Universe
 mechanics:
   - type: augment
     value:
@@ -16,6 +16,6 @@ mechanics:
           - model: class-features
             id: grasping-hand-of-the-universe
 ---
-At 18th level, your Biotic Punch's reach increases to <me-distance length="25" />. When you hit a non
-adjacent target, you can move them <me-distance length="10" /> towards you. You can also make
+At 18th level, your Biotic Punch's reach increases to :distance{length="25"}. When you hit a non
+adjacent target, you can move them :distance{length="10"} towards you. You can also make
 Trip and Shove maneuvers at that distance.

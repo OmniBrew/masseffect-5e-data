@@ -1,9 +1,7 @@
 ---
 bonuses:
   - threshold: 2
-    text: >-
-      Roll one additional weapon damage die when determining the extra damage
-      for a critical hit with a weapon attack.
+    text: Roll one additional weapon damage die when determining the extra damage for a critical hit with a weapon attack.
     mechanics:
       - type: other
         name: Maverick Armor Set Bonus (2 of 4)

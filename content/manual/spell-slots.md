@@ -22,7 +22,7 @@ Effectively, the power expands to fill the slot it is put into.
 Some powers, such as lance and first aid, have more powerful effects when cast at a higher level, as detailed in a
 power's description.
 
-### Tech Points <v-chip color="info" small>new</v-chip>
+### Tech Points :change-badge{type="new"}
 In Mass Effect 5e, certain classes can use tech points to cast powers. Tech points represent the internal power of
 the operative's omni-tool. As the operative levels, the gain more tech points, representing the time they spend
 modifying their omni-tool and optimizing subroutines.

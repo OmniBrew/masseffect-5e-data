@@ -1,6 +1,6 @@
 ---
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/1/13/Blue_Suns_Trooper.png/revision/latest/scale-to-width-down/369?cb=20100626054323
+name: Blue Suns Trooper
+image: https://vignette.wikia.nocookie.net/masseffect/images/1/13/Blue_Suns_Trooper.png/revision/latest/scale-to-width-down/369?cb=20100626054323
 type: organic
 unit: blue_suns
 alignment: nn
@@ -16,11 +16,7 @@ abilityScores:
   int: 8
   wis: 9
   cha: 8
-irv: false
-savingThrows: false
-senses: false
 size: medium
-skills: false
 speed:
   walk: 30
 entries:
@@ -33,7 +29,7 @@ entries:
       proficient: true
       id: m-23-katana
       weaponId: m-23-katana
-cr: '00250'
+cr: "00250"
 shields:
   capacity: 5
   regen: 5

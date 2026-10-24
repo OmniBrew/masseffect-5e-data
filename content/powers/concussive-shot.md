@@ -2,18 +2,17 @@
 name: Concussive Shot
 version: 1
 level: 0
-type: combat
+powerType: combat
 tags:
   - damage
   - buff
 classes:
   - soldier
   - tracker
-mechanics:
+casting:
   - castingTime:
       length: 1
       unit: attack
-    attack: false
     dc:
       save: str
       mod: dex
@@ -29,8 +28,8 @@ mechanics:
     range:
       short: 0
     detonates: true
-    primes: false
-    conditions: [prone]
+    conditions:
+      - prone
     resource:
       reset: short
       max:
@@ -55,13 +54,13 @@ advancements:
   - id: stunning-shot
     name: Stunning Shot
     text: A creature hit by concussive shot must make a Constitution saving throw instead of a Strength saving throw. On a failed save, the creature is stunned until the end of its next turn.
-    mechanics:
+    casting:
       - dc:
           save: con
   - id: improved-shot
     name: Improved Shot
     text: Increase the bonus damage of concussive shot to d12.
-    mechanics:
+    casting:
       - damage:
           - dieType: 12
 ---

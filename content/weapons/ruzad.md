@@ -1,11 +1,10 @@
 ---
 name: Ruzad
 rarity: uncommon
-type: shotgun
+weaponType: shotgun
 cost: 17000
 manufacturer: krogan
 weight: 22
-heat: 3
 damage:
   dieCount: 2
   dieType: 6
@@ -16,16 +15,19 @@ range:
 image: https://vignette.wikia.nocookie.net/masseffect/images/7/7b/MEA_Ruzad_MP.png/revision/latest?cb=20180529181034
 andromeda: false
 properties:
-  - two-handed
-  - hip-fire
-  - recoil
-  - special
-  - heavy
+  - id: two-handed
+  - id: hip-fire
+  - id: recoil
+  - id: special
+  - id: heavy
+  - id: heat
+    value: 3
+  - id: versatile
+    value:
+      dieCount: 1
+      dieType: 10
+      type: slashing
 slots: 2
-versatile:
-  dieCount: 1
-  dieType: 10
-  type: slashing
 ---
 In addition to its other properties, this weapon is also considered a melee weapon, dealing 1d10 slashing damage on a successful
 melee attack.

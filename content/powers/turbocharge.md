@@ -2,20 +2,16 @@
 name: Turbocharge
 version: 1
 level: 0
-type: combat
+powerType: combat
 classes:
   - soldier
   - tracker
 tags:
   - buff
-mechanics:
+casting:
   - castingTime:
       length: 1
       unit: bonus_action
-    attack: false
-    dc: false
-    damage: false
-    conditions: false
     duration:
       length: 1
       unit: turn
@@ -23,7 +19,6 @@ mechanics:
     range:
       short: 0
     detonates: false
-    primes: false
     resource:
       reset: short
       max:
@@ -33,11 +28,11 @@ advancements:
   - id: improved-damage
     name: Improved Damage
     text: +2 damage with the turbocharged weapon
-    mechanics: []
+    casting: []
   - id: improved-accuracy
     name: Improved Accuracy
     text: The DC of the Dexterity saving throw is increased to 18
-    mechanics: []
+    casting: []
 ---
 Activate a subroutine that temporarily vents weapon heat through your armor to improve thermal clip efficiency and
 weapon damage. Until the end of your turn, a ranged weapon you're holding gains Burst Fire, the heat cost for making

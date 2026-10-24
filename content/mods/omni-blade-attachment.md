@@ -1,14 +1,14 @@
 ---
+name: Omni-Blade Attachment
 rarity: uncommon
-type: weapon
+modType: weapon
 cost: 10000
-manufacturer: ''
+manufacturer: ""
 tags:
   - melee_attacks
 placement: barrel
 availability:
   - assault_rifle
-name: Omni-Blade Attachment
 flavor: Attach an omni-blade (bayonet) to the weapon.
 mechanics:
   - type: natural-weapon
@@ -23,7 +23,8 @@ mechanics:
         type: piercing
       range:
         short: 5
-      properties: [finesse]
+      properties:
+        - finesse
       moreInfo:
         model: mods
         id: omni-blade-attachment

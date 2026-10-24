@@ -1,9 +1,9 @@
 ---
+name: Ultimate Evolution
 level: 20
 klass: tracker
 mechanics:
   - type: companion
-name: Ultimate Evolution
 ---
 At level 20, your partnership and improvement of both your own skills and your Beast's skills has reached its apex.
 Based on your Beast choice, it gains the following benefits:
@@ -15,5 +15,3 @@ __All-Round.__ Leading the pack, your beast is exceptionally skilled at charging
 __Flier.__ Your Beast has become exceptionally skilled at its abilities. Choose two skills. Whenever your Beast makes a check with that skill, it may choose to count any roll below a 10 into a 10.
 
 __Synthetic.__ Putting the final touches on a masterpiece like this is always tough, especially with so much choice. Choose two Regimen from the list, and add them to your list of known Regimen. At the end of a long rest, you may exchange up to 3 Regimen for other Regimen. You must still fulfill the requirements for the new Regimen after giving up the old ones.
-
-

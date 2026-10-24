@@ -1,7 +1,7 @@
 ---
+name: Extra Attack (2)
 level: 11
 klass: soldier
-name: Extra Attack (2)
 mechanics:
   - type: extra-attack
     value: 3

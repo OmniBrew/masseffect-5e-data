@@ -1,11 +1,10 @@
 ---
 name: M-37 Falcon
 rarity: uncommon
-type: assault_rifle
+weaponType: assault_rifle
 cost: 14500
 manufacturer: systems-alliance
 weight: 11
-heat: 8
 damage:
   dieCount: 1
   dieType: 8
@@ -16,8 +15,10 @@ range:
 image: https://vignette2.wikia.nocookie.net/masseffect/images/8/8a/ME3_Falcon_Assault_Rifle.png/revision/latest?cb=20120317172936
 andromeda: false
 properties:
-  - double-tap
-  - two-handed
+  - id: double-tap
+  - id: two-handed
+  - id: heat
+    value: 8
 slots: 2
 ---
 Instead of making a ranged weapon attack, the target makes a Dexterity saving throw (DC 8 + DEX 

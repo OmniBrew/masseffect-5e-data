@@ -1,13 +1,11 @@
 ---
+name: Homing Grenade
 subsets:
   - id: homing-grenade-i
     rarity: common
     cost: 700
     name: Homing Grenade I
-    html: >-
-      Target a creature within <me-distance length="30" />. The target creature suffers 1d6 thunder damage. Then, each
-      other creature within <me-distance length="5" /> of the target must make a DC 10 Dexterity saving throw. A creature
-      takes 1d6 thunder damage on a failed save, or half as much damage on a successful one.
+    html: Target a creature within :distance{length="30"}. The target creature suffers 1d6 thunder damage. Then, each other creature within :distance{length="5"} of the target must make a DC 10 Dexterity saving throw. A creature takes 1d6 thunder damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -33,10 +31,7 @@ subsets:
     rarity: common
     cost: 1400
     name: Homing Grenade II
-    html: >-
-      Target a creature within <me-distance length="30" />. The target creature suffers 2d6 thunder damage. Then, each
-      other creature within <me-distance length="5" /> of the target must make a DC 11 Dexterity saving throw. A creature
-      takes 2d6 thunder damage on a failed save, or half as much damage on a successful one.
+    html: Target a creature within :distance{length="30"}. The target creature suffers 2d6 thunder damage. Then, each other creature within :distance{length="5"} of the target must make a DC 11 Dexterity saving throw. A creature takes 2d6 thunder damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -62,10 +57,7 @@ subsets:
     rarity: uncommon
     cost: 2100
     name: Homing Grenade III
-    html: >-
-      Target a creature within <me-distance length="30" />. The target creature suffers 3d6 thunder damage. Then, each
-      other creature within <me-distance length="5" /> of the target must make a DC 11 Dexterity saving throw. A creature
-      takes 3d6 thunder damage on a failed save, or half as much damage on a successful one.
+    html: Target a creature within :distance{length="30"}. The target creature suffers 3d6 thunder damage. Then, each other creature within :distance{length="5"} of the target must make a DC 11 Dexterity saving throw. A creature takes 3d6 thunder damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -91,10 +83,7 @@ subsets:
     rarity: uncommon
     cost: 3100
     name: Homing Grenade IV
-    html: >-
-      Target a creature within <me-distance length="30" />. The target creature suffers 3d6 thunder damage. Then, each
-      other creature within <me-distance length="5" /> of the target must make a DC 13 Dexterity saving throw. A creature
-      takes 3d6 thunder damage on a failed save, or half as much damage on a successful one.
+    html: Target a creature within :distance{length="30"}. The target creature suffers 3d6 thunder damage. Then, each other creature within :distance{length="5"} of the target must make a DC 13 Dexterity saving throw. A creature takes 3d6 thunder damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -120,10 +109,7 @@ subsets:
     rarity: rare
     cost: 4500
     name: Homing Grenade V
-    html: >-
-      Target a creature within <me-distance length="30" />. The target creature suffers 5d6 thunder damage. Then, each
-      other creature within <me-distance length="5" /> of the target must make a DC 13 Dexterity saving throw. A creature
-      takes 5d6 thunder damage on a failed save, or half as much damage on a successful one.
+    html: Target a creature within :distance{length="30"}. The target creature suffers 5d6 thunder damage. Then, each other creature within :distance{length="5"} of the target must make a DC 13 Dexterity saving throw. A creature takes 5d6 thunder damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -149,10 +135,7 @@ subsets:
     rarity: rare
     cost: 5500
     name: Homing Grenade VI
-    html: >-
-      Target a creature within <me-distance length="30" />. The target creature suffers 5d6 thunder damage. Then, each
-      other creature within <me-distance length="5" /> of the target must make a DC 15 Dexterity saving throw. A creature
-      takes 5d6 thunder damage on a failed save, or half as much damage on a successful one.
+    html: Target a creature within :distance{length="30"}. The target creature suffers 5d6 thunder damage. Then, each other creature within :distance{length="5"} of the target must make a DC 15 Dexterity saving throw. A creature takes 5d6 thunder damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -178,10 +161,7 @@ subsets:
     rarity: very_rare
     cost: 6200
     name: Homing Grenade VII
-    html: >-
-      Target a creature within <me-distance length="30" />. The target creature suffers 6d6 thunder damage. Then, each
-      other creature within <me-distance length="5" /> of the target must make a DC 15 Dexterity saving throw. A creature
-      takes 6d6 thunder damage on a failed save, or half as much damage on a successful one.
+    html: Target a creature within :distance{length="30"}. The target creature suffers 6d6 thunder damage. Then, each other creature within :distance{length="5"} of the target must make a DC 15 Dexterity saving throw. A creature takes 6d6 thunder damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -207,10 +187,7 @@ subsets:
     rarity: very_rare
     cost: 6700
     name: Homing Grenade VIII
-    html: >-
-      Target a creature within <me-distance length="30" />. The target creature suffers 6d6 thunder damage. Then, each
-      other creature within <me-distance length="5" /> of the target must make a DC 16 Dexterity saving throw. A creature
-      takes 6d6 thunder damage on a failed save, or half as much damage on a successful one.
+    html: Target a creature within :distance{length="30"}. The target creature suffers 6d6 thunder damage. Then, each other creature within :distance{length="5"} of the target must make a DC 16 Dexterity saving throw. A creature takes 6d6 thunder damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -236,10 +213,7 @@ subsets:
     rarity: very_rare
     cost: 7400
     name: Homing Grenade IX
-    html: >-
-      Target a creature within <me-distance length="30" />. The target creature suffers 7d6 thunder damage. Then, each
-      other creature within <me-distance length="5" /> of the target must make a DC 16 Dexterity saving throw. A creature
-      takes 7d6 thunder damage on a failed save, or half as much damage on a successful one.
+    html: Target a creature within :distance{length="30"}. The target creature suffers 7d6 thunder damage. Then, each other creature within :distance{length="5"} of the target must make a DC 16 Dexterity saving throw. A creature takes 7d6 thunder damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -265,10 +239,7 @@ subsets:
     rarity: spectre
     cost: 8600
     name: Homing Grenade X
-    html: >-
-      Target a creature within <me-distance length="30" />. The target creature suffers 8d6 thunder damage. Then, each
-      other creature within <me-distance length="5" /> of the target must make a DC 17 Dexterity saving throw. A creature
-      takes 8d6 thunder damage on a failed save, or half as much damage on a successful one.
+    html: Target a creature within :distance{length="30"}. The target creature suffers 8d6 thunder damage. Then, each other creature within :distance{length="5"} of the target must make a DC 17 Dexterity saving throw. A creature takes 8d6 thunder damage on a failed save, or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -322,16 +293,15 @@ marks:
     rarity: Spectre
     damage: 8d6
 rarity: varies
-type: grenade
+gearType: grenade
 cost: Varies
 weight: 1
-subType: ''
-name: Homing Grenade
+subType: ""
 consumable: true
 equippable: true
 ---
-Target a creature you can see within <me-distance length="30" />. The target creature suffers thunder damage (see below). Each other creature
-within <me-distance length="5" /> of the target must make a Dexterity saving throw. On a failed save, a creature suffers thunder damage
+Target a creature you can see within :distance{length="30"}. The target creature suffers thunder damage (see below). Each other creature
+within :distance{length="5"} of the target must make a Dexterity saving throw. On a failed save, a creature suffers thunder damage
 or half as much on a successful one.
 
 The mark of this grenade determines its Save DC, damage, and credits.

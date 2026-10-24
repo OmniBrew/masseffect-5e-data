@@ -59,7 +59,7 @@ bonus might be modified (doubled or halved, for example) before you apply it. If
 proficiency bonus applies more than once to the same roll or that it should be multiplied more than once, you nevertheless
 add it only once, multiply it only once, and halve it only once.
 
-::: alert
+::note
 __BUILDING KALEEM, STEP 2__
 
 Sam imagines Keleem firing tech powers from the safety of cover. She makes Kaleem an engineer and notes the engineers’
@@ -68,6 +68,7 @@ proficiencies and 1st-level class features on her character sheet.
 As a 1st-level engineer, Kaleem has 1 Hit Die, a d8, and starts with hit points equal to 8 + her Constitution modifier.
 Sam notes this and will record the final number after she determines Kaleem’s Constitution score (see step 3). Sam also
 notes the proficiency bonus for a 1st-level character, which is +2.
-:::
+::
 
-<me-source-reference pages="6-7" source="basic" />
+::source-reference{pages="6-7" source="basic"}
+::

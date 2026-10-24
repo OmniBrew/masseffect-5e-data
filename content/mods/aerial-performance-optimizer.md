@@ -1,6 +1,7 @@
 ---
+name: Aerial Performance Optimizer
 rarity: rare
-type: armor
+modType: armor
 cost: 40000
 manufacturer: elanus-risk-control-services
 tags:
@@ -10,10 +11,7 @@ availability:
   - light
   - medium
   - heavy
-name: Aerial Performance Optimizer
-flavor: >-
-  Enhance your jet pack or jump jet armor modification with an advanced aerial
-  lubricant and stabilizer.
+flavor: Enhance your jet pack or jump jet armor modification with an advanced aerial lubricant and stabilizer.
 mechanics:
   - type: global-note
     subType: action
@@ -23,4 +21,3 @@ mechanics:
       id: aerial-performance-optimizer
 ---
 Requires a Jump Jet or Jetpack mod also be installed. When you are hovering (via Jump Jets) or flying (via Jetpack), you have a +2 bonus to all attack and damage rolls.
-

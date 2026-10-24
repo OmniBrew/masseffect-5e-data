@@ -1,8 +1,8 @@
 ---
+name: Tactical Focus
 level: 3
 klass: sentinel
 subclass: bastion
-name: Tactical Focus
 mechanics:
   - type: model-choice
     options: true
@@ -12,8 +12,8 @@ mechanics:
 At 3rd level, your tactical acumen and predictive VI algorithms allow you to provide direction to your
 allies that can tilt a battle in your favor.
 
-As a bonus action, you can select an area within <me-distance length="60" /> on the ground that measures <me-distance length="15" /> on each side. This area is your tactical focus.
-It remains your tactical focus until you use this ability again or you become <me-condition id="incapacitated"/>.
+As a bonus action, you can select an area within :distance{length="60"} on the ground that measures :distance{length="15"} on each side. This area is your tactical focus.
+It remains your tactical focus until you use this ability again or you become :condition{id="incapacitated"}.
 
 When you select an area as your tactical focus, you choose one of your tactics to apply to that area. You gain three
 tactics at 3rd level. You gain an additional tactic at 7th and 14th level. Each time you complete a long rest, you can
@@ -35,7 +35,7 @@ Constitution, Intelligence, Charisma, or Wisdom), Armor Class, or Current hit po
 
 __Clear the area__.
 Pick out weak spots on your targets that force them out of your tactical focus. If an ally hit s a creature in your
-tactical focus with a weapon attack, the ally can move that creature <me-distance length="5" />.
+tactical focus with a weapon attack, the ally can move that creature :distance{length="5"}.
 
 __Heads up__.
 If an allied creature in your tactical focus must make a Dexterity saving throw it has advantage on that saving throw.

@@ -30,16 +30,12 @@ low Wisdom might be absent-minded, foolhardy, or oblivious.
 A character with high Charisma exudes confidence, which is usually mixed with a graceful or intimidating presence. A
 character with a low Charisma might come across as abrasive, inarticulate, or timid.
 
-::: alert
+::note
 __BUILDING KALEEM, STEP 4__
 Sam lets her ability scores influence the type of character Kaleem is: her high Intelligence suggests a rapid, focused
 mind, higher Strength and Constitution suggest a healthy, athletic body, and her low Charisma suggests stand-offish or
 awkward social decorum.
-:::
+::
 
-<me-source-reference pages="8-9" source="basic"></me-source-reference>
-
-
-
-
-
+::source-reference{pages="8-9" source="basic"}
+::

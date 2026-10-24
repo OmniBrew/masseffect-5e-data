@@ -1,10 +1,10 @@
 ---
+name: Terra_Angelis.exe
 rarity: spectre
-type: omni_tool_program
+gearType: omni_tool_program
 cost: 0
 weight: 0
-subType: ''
-name: Terra_Angelis.exe
+subType: ""
 installation: true
 equippable: true
 ---

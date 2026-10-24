@@ -1,10 +1,10 @@
 ---
+name: Thermal Clip
 rarity: common
-type: ammo
+gearType: ammo
 cost: 10
 weight: 0
-subType: ''
-name: Thermal Clip
+subType: ""
 consumable: true
 ---
 >It was discovered that, in an age of kinetic barriers, most firefights were won by the side who could put the most
@@ -16,7 +16,7 @@ environment.
 
 __Use.__ You use a thermal clip when you take the [Reload](/manual/combat#actions-in-combat) action.
 
-:::alert
+::note
 Because thermal clips are so easily attainable, GMs might find it more manageable to simply not keep track of
 thermal clips and assume players will always have a steady supply available to them.
-:::
+::

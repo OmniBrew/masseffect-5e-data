@@ -1,7 +1,7 @@
 ---
+name: Tactical Reload
 level: 7
 klass: soldier
-name: Tactical Reload
 mechanics:
   - type: global-note
     subType: action

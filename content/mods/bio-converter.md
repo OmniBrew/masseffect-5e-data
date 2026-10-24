@@ -1,8 +1,9 @@
 ---
+name: Bio-Converter
 rarity: spectre
-type: weapon
+modType: weapon
 cost: 33000
-manufacturer: ''
+manufacturer: ""
 tags:
   - special
 placement: magazine
@@ -12,11 +13,7 @@ availability:
   - smg
   - shotgun
   - sniper_rifle
-name: Bio-Converter
-flavor: >-
-  An experimental thermal clip replacement that vents heat into the user's armor
-  system. While painful, it is very effective at keeping weapons cool and
-  firing.
+flavor: An experimental thermal clip replacement that vents heat into the user's armor system. While painful, it is very effective at keeping weapons cool and firing.
 mechanics: []
 ---
 When this weapon's heat becomes 0, it immediately gains X heat and you take Xd4 fire damage where X is the maximum

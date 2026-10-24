@@ -1,6 +1,6 @@
 ---
-image: >-
-  https://static.wikia.nocookie.net/masseffect/images/7/7a/338px-Spacemonkey.jpg
+name: Pyjak
+image: https://static.wikia.nocookie.net/masseffect/images/7/7a/338px-Spacemonkey.jpg
 type: organic
 unit: alien
 alignment: u
@@ -16,11 +16,7 @@ abilityScores:
   int: 8
   wis: 12
   cha: 6
-irv: false
-savingThrows: false
-senses: false
 size: small
-skills: false
 speed:
   walk: 30
   climb: 15
@@ -29,12 +25,18 @@ entries:
     - attack: melee
       proficient: true
       range: 5
-      dc: false
       mod: str
       damage:
-        - {dieCount: 1, dieType: 4, mod: true, type: piercing}
+        - dieCount: 1
+          dieType: 4
+          mod: true
+          type: piercing
       target: one
       id: bite
-cr: '00000'
-shields: false
+      name: Bite
+  features:
+    - name: Pack Tactics
+      text: The pyjak has advantage on an attack roll against a creature if at least one of the pyjak's allies is within :distance{length="5"} of the creature and the ally isn't incapacitated.
+      id: pack-tactics
+cr: "00000"
 ---

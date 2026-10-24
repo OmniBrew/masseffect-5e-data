@@ -1,4 +1,5 @@
 ---
+name: Tech Barricade
 level: 2
 klass: sentinel
 subclass: warleader
@@ -22,15 +23,13 @@ mechanics:
             value: 0
         - type: other
           name: Tech Barricade
-          shortDesc: >-
-            You and adjacent allies gain half cover. If an attack misses a target behind the Barricade because of
-            this bonus, that means the barricade took a hit.
+          shortDesc: You and adjacent allies gain half cover. If an attack misses a target behind the Barricade because of this bonus, that means the barricade took a hit.
           moreInfo:
             model: class-features
             id: tech-barricade
           resource:
             reset: off
-            label: 'Hits'
+            label: Hits
             max:
               type: multi
               value:
@@ -44,7 +43,6 @@ mechanics:
         type: flat
         value: 2
       id: tech-armor
-name: Tech Barricade
 ---
 At 3rd level, when you use Tech Armor, you can instead chose to activate an omni-barricade for you and your teammates.
 When you do so, you don't gain the normal benefits of Tech Armor, but any allies adjacent to you gain the benefits of

@@ -1,4 +1,5 @@
 ---
+name: Fighting Spirit
 level: 3
 klass: soldier
 subclass: gladiator
@@ -13,13 +14,11 @@ mechanics:
             1: 5
             10: 10
             15: 15
-    shortDesc: >-
-      Gain {{ damage }} temporary hit points. Additionally, gain advantage on all weapon attack rolls until the end of your turn.
+    shortDesc: Gain {{ damage }} temporary hit points. Additionally, gain advantage on all weapon attack rolls until the end of your turn.
     resource:
       max:
         type: flat
         value: 3
-name: Fighting Spirit
 ---
 Starting at 3rd level, your intensity in battle can shield you and help you strike true. As a bonus action on
 your turn, you can give yourself advantage on weapon attack rolls until the end of the current turn. When you do so,

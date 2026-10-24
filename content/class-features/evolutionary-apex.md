@@ -1,7 +1,7 @@
 ---
+name: Evolutionary Apex
 level: 20
 klass: experiment
-name: Evolutionary Apex
 mechanics:
   - type: global-note
     subType: action

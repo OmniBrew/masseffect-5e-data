@@ -1,4 +1,5 @@
 ---
+name: Power Steal
 level: 18
 klass: engineer
 subclass: mastermind
@@ -12,8 +13,7 @@ mechanics:
         type: powercastingMod
         value: engineer
     resource: {}
-    shortDesc:  When you are targeted by a power, the creature must succeed on a powercasting check (DC {{ dc }}) or the power fails. If the power was 1st-level or higher, you copy a temporary version for 1 hour and can cast it with your tech points.
-name: Power Steal
+    shortDesc: When you are targeted by a power, the creature must succeed on a powercasting check (DC {{ dc }}) or the power fails. If the power was 1st-level or higher, you copy a temporary version for 1 hour and can cast it with your tech points.
 ---
 At 18th level, you gain the ability to clone power effects onto your omni-tool.
 

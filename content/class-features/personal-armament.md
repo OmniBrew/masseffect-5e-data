@@ -1,8 +1,8 @@
 ---
+name: Personal Armament
 level: 2
 klass: explorer
 mechanics: []
-name: Personal Armament
 ---
 While not as focused as a Soldier, your expertise in combat lends itself to expertly tweaking one of your armaments.
 At level 2, you select one weapon you currently own. By spending eight hours preparing and tinkering with the weapon,

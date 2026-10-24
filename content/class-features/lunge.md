@@ -1,4 +1,5 @@
 ---
+name: Lunge
 level: 7
 klass: soldier
 subclass: reaver-enforcer
@@ -9,7 +10,6 @@ mechanics:
     moreInfo:
       model: class-features
       id: lunge
-name: Lunge
 ---
 At 7th level, when you start your turn without a creature within melee range and your Blade Armor is active, you can
 try to lunge at a creature you can see. Make an Athletics check, opposed by your target's own Athletics check.

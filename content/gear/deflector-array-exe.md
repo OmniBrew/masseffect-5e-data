@@ -1,10 +1,10 @@
 ---
+name: Deflector_Array.exe
 rarity: rare
-type: omni_tool_program
+gearType: omni_tool_program
 cost: 0
 weight: 0
-subType: ''
-name: Deflector_Array.exe
+subType: ""
 installation: true
 equippable: true
 mechanics:
@@ -12,7 +12,8 @@ mechanics:
     bonus:
       type: flat
       value: 2
-    limit: [light]
+    limit:
+      - light
 ---
 Developed by technicians who wanted more protection while maintaining light armor, while this program is Active your
 omni-tool generates a form-fitting nano-cloud of hard light atoms around you, invisible to the naked eye. This increases

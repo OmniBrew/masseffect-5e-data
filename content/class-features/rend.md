@@ -1,4 +1,5 @@
 ---
+name: Rend
 level: 3
 klass: vanguard
 subclass: cardinal
@@ -14,19 +15,20 @@ mechanics:
         dieCount: 1
         dieType: 10
         type: slashing
-      properties: [versatile, finesse, special]
+      properties:
+        - versatile
+        - finesse
+        - special
       versatile:
         dieCount: 2
         dieType: 6
         type: slashing
-      html: >-
-        <p>On a killing blow with this weapon, you gain 1 Focus Point. You cannot raise your Focus Points past your current
-        maximum with this weapon.</p>
-        <p>Attacks with this weapon will add your current Focus Points to this melee weapon's
-        attack and damage rolls.</p>
+      html: |-
+        On a killing blow with this weapon, you gain 1 Focus Point. You cannot raise your Focus Points past your current maximum with this weapon.
+
+        Attacks with this weapon will add your current Focus Points to this melee weapon's attack and damage rolls.
       notes:
-        - '+FP to Atk & Dmg rolls'
-name: Rend
+        - +FP to Atk & Dmg rolls
 ---
 With months upon months of meditation, the Cardinal's own biotics manifest into their own set of unique blades
 that come from free hands, like omni-weapons do.
@@ -39,7 +41,7 @@ your specially crafted gauntlets that have been passed down to you from within y
 __Melee Weapon__
 
 - _Damage_: 1d10 Slashing
-- _Range_: <me-distance length="5" />
+- _Range_: :distance{length="5"}
 - _Properties_: Versatile (2d6), Finesse, Special
 
 On a killing blow with this weapon, you gain 1 Focus Point. You cannot raise your Focus Points past your current

@@ -1,4 +1,5 @@
 ---
+name: Tech Strike
 level: 3
 klass: soldier
 subclass: engi-knight
@@ -9,7 +10,6 @@ mechanics:
     moreInfo:
       model: class-features
       id: tech-strike
-name: Tech Strike
 ---
 Starting from 3rd level, once per turn during a Melee Weapon attack, spending a minimum of 1 Tech Point, you can use your omni-tool to enhance your wielded weapon's strike, limited to your Tech Point limit.
 
@@ -21,12 +21,12 @@ The Tech Strike can be upcasted, spending additional Tech Points to add 1d8 of t
 
 ### Tech Strike Programs
 
-__Frostbite Strike:__ Your attack adds 2d8 Cold Damage, and the creature's movement is reduced by <me-distance length="15" />
-for its next turn. The attack also inflicts the <me-condition id="primed" sub="cold" /> condition until the end of your next turn.
+__Frostbite Strike:__ Your attack adds 2d8 Cold Damage, and the creature's movement is reduced by :distance{length="15"}
+for its next turn. The attack also inflicts the :condition{id="primed" sub="cold"} condition until the end of your next turn.
 
 __Blazing Strike__: Your attack adds 2d8 Fire Damage, and your attack ignites the creature's wound for an extra
-1d8 fire damage on its next turn. The attack also inflicts the <me-condition id="primed" sub="fire" /> condition until the end of your next turn.
+1d8 fire damage on its next turn. The attack also inflicts the :condition{id="primed" sub="fire"} condition until the end of your next turn.
 
-__Storm Strike__: Your attack adds 2d8 Lightning Damage, then the lightning will arc to another creature within <me-distance length="5" />
-of your choosing for half of the bonus lightning damage result. The attack also inflicts the <me-condition id="primed" sub="lightning" />
+__Storm Strike__: Your attack adds 2d8 Lightning Damage, then the lightning will arc to another creature within :distance{length="5"}
+of your choosing for half of the bonus lightning damage result. The attack also inflicts the :condition{id="primed" sub="lightning"}
 condition until the end of your next turn.

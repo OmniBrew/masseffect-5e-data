@@ -1,4 +1,5 @@
 ---
+name: Shield Boost
 level: 10
 klass: engineer
 subclass: medic
@@ -11,7 +12,6 @@ mechanics:
     shortDesc: Restore 4d8 shield points to up to 5 friendly creatures you can see.
     resource:
       reset: short
-name: Shield Boost
 ---
 At 10th level, you can use your action to restore some of your party's shields.
 Choose up to 5 friendly creatures with shields you can see. Hack into their armor system and use a brute

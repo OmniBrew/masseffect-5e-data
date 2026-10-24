@@ -1,6 +1,7 @@
 ---
 name: Advanced Optics
-species: [hardware-loki]
+species:
+  - hardware-loki
 mechanics:
   - type: bonus-action
     name: Toggle Optics

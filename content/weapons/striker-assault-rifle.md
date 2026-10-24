@@ -1,11 +1,10 @@
 ---
 name: Striker Assault Rifle
 rarity: rare
-type: assault_rifle
+weaponType: assault_rifle
 cost: 36500
 manufacturer: krogan
 weight: 13
-heat: 12
 damage:
   dieCount: 1
   dieType: 12
@@ -16,8 +15,10 @@ range:
 image: https://vignette2.wikia.nocookie.net/masseffect/images/f/fb/ME3_Striker_Assault_Rifle.png/revision/latest?cb=20120411201310
 andromeda: false
 properties:
-  - recoil
-  - two-handed
+  - id: recoil
+  - id: two-handed
+  - id: heat
+    value: 12
 slots: 2
 ---
 After making a ranged attack with the Striker, you may choose to enter the Targeting condition. At 

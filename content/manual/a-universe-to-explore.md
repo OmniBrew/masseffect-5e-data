@@ -31,7 +31,7 @@ much diversity among the galaxies in Mass Effect and so much unwritten lore, you
 rules that will affect your play of the game. Ultimately, the Galaxy Master is the authority on the campaign and its setting,
 even if the setting is a published world.
 
-::: alert
+::note
 It is unlikely that your GM will have the campaign span between the two galaxies. The passengers of Andromeda's arks
 spent 600 years in cryo-sleep. But you could certainly spend part of your campaign in the Milky Way and take a 600-year nap!
-:::
+::

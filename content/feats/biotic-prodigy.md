@@ -2,7 +2,7 @@
 name: Biotic Prodigy
 new: true
 mechanics:
-  - type: advancements-choice
+  - type: me:advancements-choice
     options: true
     limit:
       valueLookup:
@@ -12,17 +12,20 @@ mechanics:
     value:
       model: traits
       id: innate-biotics
-      limit: [powers]
-      instances: [2]
+      limit:
+        - powers
+      instances:
+        - 2
     merge:
       resource:
         resource:
           id: biotic-prodigy
-          label: '@ 2nd Level / long rest'
+          label: "@ 2nd Level / long rest"
 prerequisite: Asari
 prereq:
   - type: species
-    limit: [asari]
+    limit:
+      - asari
 ---
 Your innate biotics have been honed to be even more potent.
 

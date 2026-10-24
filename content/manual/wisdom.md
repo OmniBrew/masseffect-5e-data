@@ -17,4 +17,5 @@ in certain kinds of Wisdom checks (see [Appendix > Skills](/appendix/skills)).
 Adepts, vanguards, and sentinels use Wisdom as their powercasting ability, which helps determine the saving
 throw DCs of powers they cast.
 
-<me-source-reference pages="82"></me-source-reference>
+::source-reference{pages="82"}
+::

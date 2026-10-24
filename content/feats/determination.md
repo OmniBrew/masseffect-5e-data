@@ -11,7 +11,10 @@ mechanics:
 prerequisite: Human, Batarian, or Quarian
 prereq:
   - type: species
-    limit: [human, batarian, quarian]
+    limit:
+      - human
+      - batarian
+      - quarian
 ---
 You are filled with an immense determination that can turn events in your favor.
 

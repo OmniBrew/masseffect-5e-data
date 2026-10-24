@@ -1,8 +1,8 @@
 ---
+name: Biotic Recovery
 level: 3
 klass: vanguard
 subclass: nemesis
-name: Biotic Recovery
 mechanics:
   - type: power-resource-recovery
     bonus:
@@ -12,7 +12,7 @@ mechanics:
       min: 1
       ceil: true
     limit: slots
-    label: 'Biotic Recovery: Nemesis'
+    label: "Biotic Recovery: Nemesis"
     maxSlot: 3
 ---
 At 3rd level, you have learned to regain some of your biotic energy by meditating and calming your mind. Once per day when you finish

@@ -1,4 +1,5 @@
 ---
+name: Combat Analytics
 level: 7
 klass: soldier
 subclass: migrant-marine
@@ -9,7 +10,6 @@ mechanics:
     moreInfo:
       model: class-features
       id: combat-analytics
-name: Combat Analytics
 ---
 At 7th level, your scanning suite provides you with feedback against your enemies' fighting style, letting you better
 protect from their advances. Whenever an enemy you have marked with Tactical Sweep hits an attack against you, or

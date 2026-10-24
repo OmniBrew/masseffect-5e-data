@@ -1,6 +1,6 @@
 ---
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/0/0c/ME3_Cerberus_Turret.png/revision/latest/scale-to-width-down/350?cb=20120322141943
+name: Turret
+image: https://vignette.wikia.nocookie.net/masseffect/images/0/0c/ME3_Cerberus_Turret.png/revision/latest/scale-to-width-down/350?cb=20120322141943
 type: synthetic
 unit: mech
 alignment: nn
@@ -26,10 +26,7 @@ irv:
     - bludgeoning
   vul:
     - lightning
-savingThrows: false
-senses: false
 size: small
-skills: false
 speed:
   walk: 0
 entries:
@@ -37,14 +34,25 @@ entries:
     - attack: ranged
       proficient: true
       range: 150
-      dc: false
       mod: int
       damage:
-        - {dieCount: 2, dieType: 6, mod: true, type: piercing}
-        - {dieCount: 2, dieType: 6, mod: true, type: radiant}
+        - dieCount: 2
+          dieType: 6
+          mod: true
+          type: piercing
+        - dieCount: 2
+          dieType: 6
+          mod: true
+          type: radiant
       target: one
       id: mass-accelerator-machinegun
-cr: '01000'
+      name: Mass Accelerator Machinegun
+      hit: " The turret can make a burst fire attack instead"
+  features:
+    - name: Stationary
+      text: The turret automatically fails Strength and Dexterity saving throws and skill checks.
+      id: stationary
+cr: "01000"
 shields:
   capacity: 10
   regen: 0

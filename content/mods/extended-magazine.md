@@ -1,8 +1,9 @@
 ---
+name: Extended Magazine
 rarity: rare
-type: weapon
+modType: weapon
 cost: 20000
-manufacturer: ''
+manufacturer: ""
 tags:
   - additional_heat
 placement: magazine
@@ -12,10 +13,9 @@ availability:
   - smg
   - shotgun
   - sniper_rifle
-name: Extended Magazine
 flavor: Increases magazine capacity, allowing more shots before reload.
 mechanics:
-  - type: weapon-heat-increase
+  - type: me:weapon-heat-increase
     multiplier: 1
 ---
 The weapon gains additional heat equal to its base heat.

@@ -2,7 +2,7 @@
 name: Ballistic Blades
 version: 1
 level: 0
-type: combat
+powerType: combat
 tags:
   - damage
 classes:
@@ -11,7 +11,7 @@ classes:
   - vanguard
   - tracker
   - explorer
-mechanics:
+casting:
   - castingTime:
       unit: attack
     duration:
@@ -27,7 +27,6 @@ mechanics:
       wp: weapon
       proficient: true
       mod: dex
-    dc: false
     damage:
       - dieCount: 2
         dieType: 12
@@ -36,7 +35,6 @@ mechanics:
     range:
       short: 30
     detonates: false
-    primes: false
   - damage:
       - dieCount: 4
   - damage:
@@ -46,10 +44,8 @@ mechanics:
 advancements:
   - id: bleeding-blades
     name: Bleeding Blades
-    text: >-
-      On a hit, the target takes an additional 3d12 damage at the start of its next turn due to
-      blood loss. This damage bypasses shields.
-    mechanics:
+    text: On a hit, the target takes an additional 3d12 damage at the start of its next turn due to blood loss. This damage bypasses shields.
+    casting:
       - damage:
           - {}
           - dieCount: 3
@@ -57,10 +53,8 @@ advancements:
             type: bleeding
   - id: exploding-blades
     name: Exploding blades
-    text: >-
-      On a hit, the target takes an additional 1d12 thunder damage and must pass a Constitution
-      saving throw (DC 8 + proficiency bonus) or becomes stunned until the end of your next turn.
-    mechanics:
+    text: On a hit, the target takes an additional 1d12 thunder damage and must pass a Constitution saving throw (DC 8 + proficiency bonus) or becomes stunned until the end of your next turn.
+    casting:
       - damage:
           - {}
           - dieCount: 1

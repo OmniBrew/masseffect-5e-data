@@ -1,10 +1,10 @@
 ---
+name: Hacking Tools
 rarity: common
-type: tool
+gearType: tool
 cost: 5000
 weight: 1
-subType: ''
-name: Hacking Tools
+subType: ""
 ---
 A port-cable fabricator (includes schematics for all 238 Human USB standards!), a library of
 security counter-measure scripts, and an air-gapped computer interface.

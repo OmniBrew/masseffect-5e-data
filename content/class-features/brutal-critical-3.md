@@ -1,13 +1,14 @@
 ---
+name: Brutal Critical (3)
 level: 17
 klass: vanguard
-name: Brutal Critical (3)
 mechanics:
   - type: augment
     value:
       model: vanguard
       id: brutal-critical-1
-    limit: [global-note]
+    limit:
+      - global-note
     merge:
       moreInfo:
         id: brutal-critical-3

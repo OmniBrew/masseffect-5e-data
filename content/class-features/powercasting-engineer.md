@@ -1,4 +1,5 @@
 ---
+name: Powercasting
 level: 1
 klass: engineer
 mechanics:
@@ -8,10 +9,49 @@ mechanics:
     prepared:
       levelMultiplier: 1
       modBonus: true
-    points: [2,4,5,7,11,13,15,17,20,23,26,26,30,30,34,34,39,42,45,50]
-    limit: [1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,6,6]
+    points:
+      - 2
+      - 4
+      - 5
+      - 7
+      - 11
+      - 13
+      - 15
+      - 17
+      - 20
+      - 23
+      - 26
+      - 26
+      - 30
+      - 30
+      - 34
+      - 34
+      - 39
+      - 42
+      - 45
+      - 50
+    limit:
+      - 1
+      - 1
+      - 1
+      - 1
+      - 2
+      - 2
+      - 2
+      - 2
+      - 3
+      - 3
+      - 3
+      - 3
+      - 4
+      - 4
+      - 4
+      - 4
+      - 5
+      - 5
+      - 6
+      - 6
     mod: int
-name: Powercasting
 ---
 ### Preparing and casting powers
 The Engineer table shows how many tech points you have to cast your powers of 1st level and higher. To cast one of these

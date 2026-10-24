@@ -1,22 +1,24 @@
 ---
+name: Pick your Poison
 level: 2
 klass: engineer
 subclass: chemist
 mechanics:
   - type: model-choice
-    label: 'Choose one power'
+    label: Choose one power
     model: powers
     options: true
     limits:
       - attr: id
-        value: [fuel-spill,noxious-gas]
+        value:
+          - fuel-spill
+          - noxious-gas
     hide: true
     append:
       klass: engineer
       merge:
         notes:
-          - 'Up to 3 active areas'
-name: Pick your Poison
+          - Up to 3 active areas
 ---
 When you first pick this subclass at 2nd level, choose one of the following powers: Noxious Gas or Fuel Spill.
 

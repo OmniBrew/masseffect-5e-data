@@ -1,8 +1,9 @@
 ---
+name: Cryo Ammo
 rarity: rare
-type: weapon
+modType: weapon
 cost: 20000
-manufacturer: ''
+manufacturer: ""
 tags:
   - damage_augment
   - primes
@@ -13,17 +14,16 @@ availability:
   - smg
   - shotgun
   - sniper_rifle
-name: Cryo Ammo
 flavor: Fire supercooled projectiles.
 mechanics:
-  - type: weapon-augment
+  - type: me:weapon-augment
     damageType: cold
     primes: cold
     primesLength: until the end of its next turn
     notes:
       - type: tooltip
         tooltipText: "Hit: reduce the target's movement speed by 1/2 until the end of its next turn"
-        text: 'Movement: 1/2'
+        text: "Movement: 1/2"
     toggle: true
     name: Cryo Ammo
 ---

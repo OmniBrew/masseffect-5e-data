@@ -1,11 +1,10 @@
 ---
 name: Scorpion
 rarity: rare
-type: heavy_pistol
+weaponType: heavy_pistol
 cost: 33500
 manufacturer: special-tasks-group
 weight: 4
-heat: 6
 damage:
   dieCount: 1
   dieType: 6
@@ -16,8 +15,10 @@ range:
 image: https://vignette3.wikia.nocookie.net/masseffect/images/4/40/ME3_Scorpion_Heavy_Pistol.png/revision/latest?cb=20120317185843
 andromeda: false
 properties:
-  - special
-  - double-tap
+  - id: special
+  - id: double-tap
+  - id: heat
+    value: 6
 slots: 1
 ---
 Missed shots adhere to nearby surfaces and do 1d4 thunder damage to the target.

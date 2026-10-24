@@ -1,6 +1,7 @@
 ---
+name: Ablative Coating
 rarity: spectre
-type: armor
+modType: armor
 cost: 50000
 manufacturer: alliance
 tags:
@@ -10,10 +11,7 @@ availability:
   - light
   - medium
   - heavy
-name: Ablative Coating
-flavor: >-
-  Ablative coating is designed to chip away when impacted, redirecting the
-  energy of incoming projectiles away from the body.
+flavor: Ablative coating is designed to chip away when impacted, redirecting the energy of incoming projectiles away from the body.
 mechanics:
   - type: resistance
     value: piercing

@@ -1,19 +1,11 @@
 ---
+name: Recon Mine
 subsets:
   - id: recon-mine-i
     rarity: common
     cost: 3000
     name: Recon Mine I
-    html: >-
-      Launch a recon mine to a target location you can see within <me-distance length="30" />. It first sticks to the target
-      then scans creatures within a <me-distance length="30" adj/> cone. Each creature within the cone or enters the cone
-      suffers a -1 penalty to its AC and cannot benefit from being invisible. A creature can only be affected by this
-      penalty once per combat. A creature can spot the mine with a DC 10 Wisdom (Perception) check and disarm it with a
-      DC 11 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates; you may detonate
-      the mine with a bonus action; and, the mine has an AC 10 and detonates when hit by a weapon attack roll. When
-      the mine detonates, each creature within a <me-distance length="5" adj/>-radius sphere centred on the mine must
-      make a DC 13 Dexterity saving throw. A creature suffers 2d4 thunder damage on a failed save or half as much
-      damage on a successful one.
+    html: Launch a recon mine to a target location you can see within :distance{length="30"}. It first sticks to the target then scans creatures within a :distance{length="30" adj} cone. Each creature within the cone or enters the cone suffers a -1 penalty to its AC and cannot benefit from being invisible. A creature can only be affected by this penalty once per combat. A creature can spot the mine with a DC 10 Wisdom (Perception) check and disarm it with a DC 11 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates; you may detonate the mine with a bonus action; and, the mine has an AC 10 and detonates when hit by a weapon attack roll. When the mine detonates, each creature within a :distance{length="5" adj}-radius sphere centred on the mine must make a DC 13 Dexterity saving throw. A creature suffers 2d4 thunder damage on a failed save or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -39,16 +31,7 @@ subsets:
     rarity: common
     cost: 3500
     name: Recon Mine II
-    html: >-
-      Launch a recon mine to a target location you can see within <me-distance length="30" />. It first sticks to the target
-      then scans creatures within a <me-distance length="30" adj/> cone. Each creature within the cone or enters the cone
-      suffers a -1 penalty to its AC and cannot benefit from being invisible. A creature can only be affected by this
-      penalty once per combat. A creature can spot the mine with a DC 10 Wisdom (Perception) check and disarm it with a
-      DC 13 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates; you may detonate
-      the mine with a bonus action; and, the mine has an AC 10 and detonates when hit by a weapon attack roll. When
-      the mine detonates, each creature within a <me-distance length="5" adj/>-radius sphere centred on the mine must
-      make a DC 13 Dexterity saving throw. A creature suffers 2d4 thunder damage on a failed save or half as much
-      damage on a successful one.
+    html: Launch a recon mine to a target location you can see within :distance{length="30"}. It first sticks to the target then scans creatures within a :distance{length="30" adj} cone. Each creature within the cone or enters the cone suffers a -1 penalty to its AC and cannot benefit from being invisible. A creature can only be affected by this penalty once per combat. A creature can spot the mine with a DC 10 Wisdom (Perception) check and disarm it with a DC 13 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates; you may detonate the mine with a bonus action; and, the mine has an AC 10 and detonates when hit by a weapon attack roll. When the mine detonates, each creature within a :distance{length="5" adj}-radius sphere centred on the mine must make a DC 13 Dexterity saving throw. A creature suffers 2d4 thunder damage on a failed save or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -74,16 +57,7 @@ subsets:
     rarity: uncommon
     cost: 4000
     name: Recon Mine III
-    html: >-
-      Launch a recon mine to a target location you can see within <me-distance length="30" />. It first sticks to the target
-      then scans creatures within a <me-distance length="30" adj/> cone. Each creature within the cone or enters the cone
-      suffers a -1 penalty to its AC and cannot benefit from being invisible. A creature can only be affected by this
-      penalty once per combat. A creature can spot the mine with a DC 10 Wisdom (Perception) check and disarm it with a
-      DC 13 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates; you may detonate
-      the mine with a bonus action; and, the mine has an AC 10 and detonates when hit by a weapon attack roll. When
-      the mine detonates, each creature within a <me-distance length="5" adj/>-radius sphere centred on the mine must
-      make a DC 13 Dexterity saving throw. A creature suffers 4d4 thunder damage on a failed save or half as much
-      damage on a successful one.
+    html: Launch a recon mine to a target location you can see within :distance{length="30"}. It first sticks to the target then scans creatures within a :distance{length="30" adj} cone. Each creature within the cone or enters the cone suffers a -1 penalty to its AC and cannot benefit from being invisible. A creature can only be affected by this penalty once per combat. A creature can spot the mine with a DC 10 Wisdom (Perception) check and disarm it with a DC 13 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates; you may detonate the mine with a bonus action; and, the mine has an AC 10 and detonates when hit by a weapon attack roll. When the mine detonates, each creature within a :distance{length="5" adj}-radius sphere centred on the mine must make a DC 13 Dexterity saving throw. A creature suffers 4d4 thunder damage on a failed save or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -109,16 +83,7 @@ subsets:
     rarity: uncommon
     cost: 4500
     name: Recon Mine IV
-    html: >-
-      Launch a recon mine to a target location you can see within <me-distance length="30" />. It first sticks to the target
-      then scans creatures within a <me-distance length="30" adj/> cone. Each creature within the cone or enters the cone
-      suffers a -1 penalty to its AC and cannot benefit from being invisible. A creature can only be affected by this
-      penalty once per combat. A creature can spot the mine with a DC 10 Wisdom (Perception) check and disarm it with a
-      DC 15 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates; you may detonate
-      the mine with a bonus action; and, the mine has an AC 10 and detonates when hit by a weapon attack roll. When
-      the mine detonates, each creature within a <me-distance length="5" adj/>-radius sphere centred on the mine must
-      make a DC 13 Dexterity saving throw. A creature suffers 4d4 thunder damage on a failed save or half as much
-      damage on a successful one.
+    html: Launch a recon mine to a target location you can see within :distance{length="30"}. It first sticks to the target then scans creatures within a :distance{length="30" adj} cone. Each creature within the cone or enters the cone suffers a -1 penalty to its AC and cannot benefit from being invisible. A creature can only be affected by this penalty once per combat. A creature can spot the mine with a DC 10 Wisdom (Perception) check and disarm it with a DC 15 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates; you may detonate the mine with a bonus action; and, the mine has an AC 10 and detonates when hit by a weapon attack roll. When the mine detonates, each creature within a :distance{length="5" adj}-radius sphere centred on the mine must make a DC 13 Dexterity saving throw. A creature suffers 4d4 thunder damage on a failed save or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -144,16 +109,7 @@ subsets:
     rarity: rare
     cost: 7000
     name: Recon Mine V
-    html: >-
-      Launch a recon mine to a target location you can see within <me-distance length="30" />. It first sticks to the target
-      then scans creatures within a <me-distance length="30" adj/> cone. Each creature within the cone or enters the cone
-      suffers a -2 penalty to its AC and cannot benefit from being invisible. A creature can only be affected by this
-      penalty once per combat. A creature can spot the mine with a DC 10 Wisdom (Perception) check and disarm it with a
-      DC 15 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates; you may detonate
-      the mine with a bonus action; and, the mine has an AC 10 and detonates when hit by a weapon attack roll. When
-      the mine detonates, each creature within a <me-distance length="5" adj/>-radius sphere centred on the mine must
-      make a DC 13 Dexterity saving throw. A creature suffers 6d4 thunder damage on a failed save or half as much
-      damage on a successful one.
+    html: Launch a recon mine to a target location you can see within :distance{length="30"}. It first sticks to the target then scans creatures within a :distance{length="30" adj} cone. Each creature within the cone or enters the cone suffers a -2 penalty to its AC and cannot benefit from being invisible. A creature can only be affected by this penalty once per combat. A creature can spot the mine with a DC 10 Wisdom (Perception) check and disarm it with a DC 15 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates; you may detonate the mine with a bonus action; and, the mine has an AC 10 and detonates when hit by a weapon attack roll. When the mine detonates, each creature within a :distance{length="5" adj}-radius sphere centred on the mine must make a DC 13 Dexterity saving throw. A creature suffers 6d4 thunder damage on a failed save or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -179,16 +135,7 @@ subsets:
     rarity: rare
     cost: 7500
     name: Recon Mine VI
-    html: >-
-      Launch a recon mine to a target location you can see within <me-distance length="30" />. It first sticks to the target
-      then scans creatures within a <me-distance length="30" adj/> cone. Each creature within the cone or enters the cone
-      suffers a -2 penalty to its AC and cannot benefit from being invisible. A creature can only be affected by this
-      penalty once per combat. A creature can spot the mine with a DC 10 Wisdom (Perception) check and disarm it with a
-      DC 17 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates; you may detonate
-      the mine with a bonus action; and, the mine has an AC 10 and detonates when hit by a weapon attack roll. When
-      the mine detonates, each creature within a <me-distance length="5" adj/>-radius sphere centred on the mine must
-      make a DC 13 Dexterity saving throw. A creature suffers 6d4 thunder damage on a failed save or half as much
-      damage on a successful one.
+    html: Launch a recon mine to a target location you can see within :distance{length="30"}. It first sticks to the target then scans creatures within a :distance{length="30" adj} cone. Each creature within the cone or enters the cone suffers a -2 penalty to its AC and cannot benefit from being invisible. A creature can only be affected by this penalty once per combat. A creature can spot the mine with a DC 10 Wisdom (Perception) check and disarm it with a DC 17 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates; you may detonate the mine with a bonus action; and, the mine has an AC 10 and detonates when hit by a weapon attack roll. When the mine detonates, each creature within a :distance{length="5" adj}-radius sphere centred on the mine must make a DC 13 Dexterity saving throw. A creature suffers 6d4 thunder damage on a failed save or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -214,16 +161,7 @@ subsets:
     rarity: very_rare
     cost: 9000
     name: Recon Mine VII
-    html: >-
-      Launch a recon mine to a target location you can see within <me-distance length="30" />. It first sticks to the target
-      then scans creatures within a <me-distance length="30" adj/> cone. Each creature within the cone or enters the cone
-      suffers a -3 penalty to its AC and cannot benefit from being invisible. A creature can only be affected by this
-      penalty once per combat. A creature can spot the mine with a DC 10 Wisdom (Perception) check and disarm it with a
-      DC 17 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates; you may detonate
-      the mine with a bonus action; and, the mine has an AC 10 and detonates when hit by a weapon attack roll. When
-      the mine detonates, each creature within a <me-distance length="5" adj/>-radius sphere centred on the mine must
-      make a DC 13 Dexterity saving throw. A creature suffers 6d4 thunder damage on a failed save or half as much
-      damage on a successful one.
+    html: Launch a recon mine to a target location you can see within :distance{length="30"}. It first sticks to the target then scans creatures within a :distance{length="30" adj} cone. Each creature within the cone or enters the cone suffers a -3 penalty to its AC and cannot benefit from being invisible. A creature can only be affected by this penalty once per combat. A creature can spot the mine with a DC 10 Wisdom (Perception) check and disarm it with a DC 17 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates; you may detonate the mine with a bonus action; and, the mine has an AC 10 and detonates when hit by a weapon attack roll. When the mine detonates, each creature within a :distance{length="5" adj}-radius sphere centred on the mine must make a DC 13 Dexterity saving throw. A creature suffers 6d4 thunder damage on a failed save or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -249,16 +187,7 @@ subsets:
     rarity: very_rare
     cost: 10000
     name: Recon Mine VIII
-    html: >-
-      Launch a recon mine to a target location you can see within <me-distance length="30" />. It first sticks to the target
-      then scans creatures within a <me-distance length="30" adj/> cone. Each creature within the cone or enters the cone
-      suffers a -3 penalty to its AC and cannot benefit from being invisible. A creature can only be affected by this
-      penalty once per combat. A creature can spot the mine with a DC 10 Wisdom (Perception) check and disarm it with a
-      DC 18 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates; you may detonate
-      the mine with a bonus action; and, the mine has an AC 10 and detonates when hit by a weapon attack roll. When
-      the mine detonates, each creature within a <me-distance length="5" adj/>-radius sphere centred on the mine must
-      make a DC 13 Dexterity saving throw. A creature suffers 7d4 thunder damage on a failed save or half as much
-      damage on a successful one.
+    html: Launch a recon mine to a target location you can see within :distance{length="30"}. It first sticks to the target then scans creatures within a :distance{length="30" adj} cone. Each creature within the cone or enters the cone suffers a -3 penalty to its AC and cannot benefit from being invisible. A creature can only be affected by this penalty once per combat. A creature can spot the mine with a DC 10 Wisdom (Perception) check and disarm it with a DC 18 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates; you may detonate the mine with a bonus action; and, the mine has an AC 10 and detonates when hit by a weapon attack roll. When the mine detonates, each creature within a :distance{length="5" adj}-radius sphere centred on the mine must make a DC 13 Dexterity saving throw. A creature suffers 7d4 thunder damage on a failed save or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -284,16 +213,7 @@ subsets:
     rarity: very_rare
     cost: 11000
     name: Recon Mine IX
-    html: >-
-      Launch a recon mine to a target location you can see within <me-distance length="30" />. It first sticks to the target
-      then scans creatures within a <me-distance length="30" adj/> cone. Each creature within the cone or enters the cone
-      suffers a -3 penalty to its AC and cannot benefit from being invisible. A creature can only be affected by this
-      penalty once per combat. A creature can spot the mine with a DC 10 Wisdom (Perception) check and disarm it with a
-      DC 18 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates; you may detonate
-      the mine with a bonus action; and, the mine has an AC 10 and detonates when hit by a weapon attack roll. When
-      the mine detonates, each creature within a <me-distance length="5" adj/>-radius sphere centred on the mine must
-      make a DC 13 Dexterity saving throw. A creature suffers 8d4 thunder damage on a failed save or half as much
-      damage on a successful one.
+    html: Launch a recon mine to a target location you can see within :distance{length="30"}. It first sticks to the target then scans creatures within a :distance{length="30" adj} cone. Each creature within the cone or enters the cone suffers a -3 penalty to its AC and cannot benefit from being invisible. A creature can only be affected by this penalty once per combat. A creature can spot the mine with a DC 10 Wisdom (Perception) check and disarm it with a DC 18 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates; you may detonate the mine with a bonus action; and, the mine has an AC 10 and detonates when hit by a weapon attack roll. When the mine detonates, each creature within a :distance{length="5" adj}-radius sphere centred on the mine must make a DC 13 Dexterity saving throw. A creature suffers 8d4 thunder damage on a failed save or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -319,16 +239,7 @@ subsets:
     rarity: spectre
     cost: 13000
     name: Recon Mine X
-    html: >-
-      Launch a recon mine to a target location you can see within <me-distance length="30" />. It first sticks to the target
-      then scans creatures within a <me-distance length="30" adj/> cone. Each creature within the cone or enters the cone
-      suffers a -4 penalty to its AC and cannot benefit from being invisible. A creature can only be affected by this
-      penalty once per combat. A creature can spot the mine with a DC 10 Wisdom (Perception) check and disarm it with a
-      DC 19 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates; you may detonate
-      the mine with a bonus action; and, the mine has an AC 10 and detonates when hit by a weapon attack roll. When
-      the mine detonates, each creature within a <me-distance length="5" adj/>-radius sphere centred on the mine must
-      make a DC 13 Dexterity saving throw. A creature suffers 8d4 thunder damage on a failed save or half as much
-      damage on a successful one.
+    html: Launch a recon mine to a target location you can see within :distance{length="30"}. It first sticks to the target then scans creatures within a :distance{length="30" adj} cone. Each creature within the cone or enters the cone suffers a -4 penalty to its AC and cannot benefit from being invisible. A creature can only be affected by this penalty once per combat. A creature can spot the mine with a DC 10 Wisdom (Perception) check and disarm it with a DC 19 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates; you may detonate the mine with a bonus action; and, the mine has an AC 10 and detonates when hit by a weapon attack roll. When the mine detonates, each creature within a :distance{length="5" adj}-radius sphere centred on the mine must make a DC 13 Dexterity saving throw. A creature suffers 8d4 thunder damage on a failed save or half as much damage on a successful one.
     mechanics:
       - type: action
         layout: attack
@@ -382,25 +293,24 @@ marks:
     rarity: Spectre
     damage: 8d4
 rarity: varies
-type: grenade
+gearType: grenade
 cost: Varies
 weight: 1
-subType: ''
-name: Recon Mine
+subType: ""
 consumable: true
 equippable: true
 ---
-Launch a recon mine to a location of your choice within <me-distance length="30" />. It first sticks to the target
-location then scans creatures within a <me-distance length="30" adj/> cone, relaying tactical weak points about the creature's
+Launch a recon mine to a location of your choice within :distance{length="30"}. It first sticks to the target
+location then scans creatures within a :distance{length="30" adj} cone, relaying tactical weak points about the creature's
 armor and location. After your turn ends, any hostile creature that walks through the scanning cone suffers a penalty to
-its AC and cannot benefit from being <me-condition id="invisible"/>. Each creature can only be affected by this penalty once.
+its AC and cannot benefit from being :condition{id="invisible"}. Each creature can only be affected by this penalty once.
 
 A creature can spot the mine with a successful DC 10 Wisdom (Perception) check.
 
 To disarm the mine, a creature must pass an Intelligence (Electronics) check. If the check fails, the mine detonates, and
 the creature that made the check automatically fails its saving throw. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
 
-When the mine detonates, each creature within a <me-distance length="5" adj/>-radius sphere centred on the mine must
+When the mine detonates, each creature within a :distance{length="5" adj}-radius sphere centred on the mine must
 make a DC 13 Dexterity saving throw. A creature suffers thunder damage (see below) on a failed save
 or half as much damage on a successful one.
 
@@ -418,5 +328,3 @@ VII|Very Rare|-3|17|6d4|9,000 credits
 VIII|Very Rare|-3|18|7d4|10,000 credits
 IX|Very Rare|-3|18|8d4|11,000 credits
 X|Spectre|-4|19|8d4|13,000 credits
-
-

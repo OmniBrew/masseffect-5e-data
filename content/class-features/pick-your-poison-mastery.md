@@ -1,4 +1,5 @@
 ---
+name: Pick your Poison Mastery
 level: 14
 klass: engineer
 subclass: chemist
@@ -9,7 +10,6 @@ mechanics:
     moreInfo:
       model: class-features
       id: pick-your-poison-mastery
-name: Pick your Poison Mastery
 ---
 At 14th level, your mastery of Noxious Gas and/or Fuel Spill show. Depending on your Pick your Poison choice,
 that power improves in these respective ways:

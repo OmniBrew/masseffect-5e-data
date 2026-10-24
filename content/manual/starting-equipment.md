@@ -23,4 +23,5 @@ generation to generation until your character finally took up the mantle and fol
 |Vanguard|7d8 x 1,000 credits|
 
 
-<me-source-reference pages="43" source="basic"></me-source-reference>
+::source-reference{pages="43" source="basic"}
+::

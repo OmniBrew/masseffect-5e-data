@@ -5,7 +5,8 @@ mechanics:
     value:
       model: main-augments
       id: MA_weaponry-ranged
-      limit: [attack]
+      limit:
+        - attack
     merge:
       damage:
         - type: slashing
@@ -13,7 +14,8 @@ mechanics:
     value:
       model: main-augments
       id: MA_weaponry-melee
-      limit: [attack]
+      limit:
+        - attack
     merge:
       damage:
         - type: slashing

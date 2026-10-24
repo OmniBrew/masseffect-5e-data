@@ -1,8 +1,8 @@
 ---
+name: Integrated Weaponry
 level: 6
 klass: engineer
 subclass: armorer
-name: Integrated Weaponry
 mechanics:
   - type: global-note
     subType: action

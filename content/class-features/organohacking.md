@@ -1,8 +1,8 @@
 ---
+name: Organohacking
 level: 14
 klass: experiment
 subclass: cybernetic
-name: Organohacking
 mechanics:
   - type: global-note
     subType: action

@@ -1,6 +1,6 @@
 ---
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/2/2f/Virmire_geth_rocket_drone.png/revision/latest/scale-to-width-down/640?cb=20091209133938
+name: Rocket Drone
+image: https://vignette.wikia.nocookie.net/masseffect/images/2/2f/Virmire_geth_rocket_drone.png/revision/latest/scale-to-width-down/640?cb=20091209133938
 type: synthetic
 unit: mech
 alignment: nn
@@ -24,10 +24,7 @@ irv:
     - psychic
   vul:
     - lightning
-savingThrows: false
-senses: false
 size: small
-skills: false
 speed:
   fly: 25
 entries:
@@ -35,12 +32,14 @@ entries:
     - attack: ranged
       proficient: true
       range: 75
-      dc: false
       mod: dex
       damage:
-        - {dieCount: 2, dieType: 8, mod: true, type: thunder}
+        - dieCount: 2
+          dieType: 8
+          mod: true
+          type: thunder
       target: one
       id: distortion-rocket
-cr: '00500'
-shields: false
+      name: Distortion Rocket
+cr: "00500"
 ---

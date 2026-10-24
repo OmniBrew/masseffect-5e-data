@@ -7,8 +7,8 @@ mechanics:
   - type: model-choice
     options: true
     model: traits
-    set: [four-eyes]
+    set:
+      - four-eyes
 ---
 - Your one ability score of your choice by 1, to a maximum of 20.
 - Gain the Four Eyes trait.
-

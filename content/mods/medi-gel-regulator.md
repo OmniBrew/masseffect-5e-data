@@ -1,6 +1,7 @@
 ---
+name: Medi-gel Regulator
 rarity: spectre
-type: armor
+modType: armor
 cost: 60000
 manufacturer: alliance
 tags:
@@ -10,7 +11,6 @@ availability:
   - light
   - medium
   - heavy
-name: Medi-gel Regulator
 flavor: Circulates medi-gel through your body, increasing vitality.
 mechanics:
   - type: hp

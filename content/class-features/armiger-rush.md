@@ -1,4 +1,5 @@
 ---
+name: Armiger Rush
 level: 3
 klass: soldier
 subclass: armiger
@@ -8,8 +9,7 @@ mechanics:
     klass: soldier
     merge:
       notes:
-        - 'Cast w/ 1 Fuel'
-name: Armiger Rush
+        - Cast w/ 1 Fuel
 ---
 At 3rd level, you learn the Havoc Strike combat power. If you already know it, instead learn one advancement to it.
 If you already know one advancement of it, you know both advancements and can use either of them when you cast this

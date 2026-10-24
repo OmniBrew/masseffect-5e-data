@@ -1,21 +1,17 @@
 ---
-author: Helios
 name: Recon Scan
+author: Helios
 version: 1
 level: 0
-type: combat
+powerType: combat
 classes:
   - tracker
 tags:
   - debuff
-mechanics:
+casting:
   - castingTime:
       length: 1
       unit: attack
-    attack: false
-    dc: false
-    damage: false
-    conditions: false
     duration:
       length: 1
       unit: minute
@@ -26,7 +22,6 @@ mechanics:
         type: sphere
         size: 150
     detonates: false
-    primes: false
     resource:
       reset: long
       max:
@@ -35,19 +30,12 @@ mechanics:
 advancements:
   - id: combat-scan
     name: Combat Scan
-    text: >-
-      You tweak your radar to be more precise. You may still use Recon Scan in the standard way. Alternatively, you may use
-      this advancement to target 1 creature within range. On a success, you learn up to three of the following things of your choice about the creature:
-      damage Vulnerabilities it has, if any; damage Resistances, if it has any; its Armor Class, whether it can cast biotic, tech or combat powers, its movement speed, and the types it has.
-    mechanics: []
+    text: "You tweak your radar to be more precise. You may still use Recon Scan in the standard way. Alternatively, you may use this advancement to target 1 creature within range. On a success, you learn up to three of the following things of your choice about the creature: damage Vulnerabilities it has, if any; damage Resistances, if it has any; its Armor Class, whether it can cast biotic, tech or combat powers, its movement speed, and the types it has."
+    casting: []
   - id: trackers-senses
     name: Tracker's Senses
-    text: >-
-      After scanning the area, the pulse doesn't only scan living creatures, but will highlight footprints, no matter
-      how faint, and reveal them to the caster. When they do, you have advantage on Wisdom (Survival) checks to
-      follow creatures whose footprints are revealed by this, and you are able to identify any known species'
-      footprints among them, sentient or not, synthetic or organic.
-    mechanics: []
+    text: After scanning the area, the pulse doesn't only scan living creatures, but will highlight footprints, no matter how faint, and reveal them to the caster. When they do, you have advantage on Wisdom (Survival) checks to follow creatures whose footprints are revealed by this, and you are able to identify any known species' footprints among them, sentient or not, synthetic or organic.
+    casting: []
 ---
 Using a specially built radar, you sent a powered sonar pulse out in an area around you. When you do so, you learn the
 exact location of all Small and larger creatures and their numbers. Creatures that are revealed by the scan appear as

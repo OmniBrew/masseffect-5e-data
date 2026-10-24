@@ -1,5 +1,5 @@
 ---
-title: 'Reputation: Paragon & Renegade'
+title: "Reputation: Paragon & Renegade"
 ---
 Reputation in ME5e is the measure of your operative’s _actions_, whereas alignment in ME5e is the
 representation of your character’s _ideals_ or _moral attitudes_ (your character wants to be good or evil,
@@ -99,5 +99,3 @@ DC of a reputation benefit. The DC = __8 + your proficiency bonus + your Charism
 #### Benefits
 
 [List of ME5e Reputation Benefits](/appendix/benefits)
-
-

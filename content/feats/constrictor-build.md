@@ -9,7 +9,8 @@ mechanics:
 prerequisite: Yahg
 prereq:
   - type: species
-    limit: [yahg]
+    limit:
+      - yahg
 ---
 Squeezing the life out of an enemy is just as satisfying as taking them down at range.
 
@@ -20,4 +21,3 @@ attempt to grapple the creature.
 - At the start of each of your turns, you can deal 1d4 bludgeoning damage to one creature
 grappled by you (no action required).
 - Your movement is not halved when grappling a creature your size or smaller.
-

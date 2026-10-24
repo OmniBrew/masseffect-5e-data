@@ -1,9 +1,9 @@
 ---
+name: The Right Cantrip for the Job
 level: 10
 klass: explorer
-name: The Right Cantrip for the Job
 mechanics:
-  - type: advancements-choice
+  - type: me:advancements-choice
     options: true
     limit:
       valueLookup:

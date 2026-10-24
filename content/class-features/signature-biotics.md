@@ -1,22 +1,25 @@
 ---
+name: Signature Biotics
 level: 18
 klass: adept
-name: Signature Biotics
 mechanics:
   - type: model-choice
-    label: 'Choose two powers'
+    label: Choose two powers
     model: powers
     options: true
     known: true
     limits:
       - attr: level
-        value: [1,2]
+        value:
+          - 1
+          - 2
     hide: true
     isolated: true
     selections: 2
     append:
-      type: 'power-resource'
-      levels: [2]
+      type: power-resource
+      levels:
+        - 2
       resource:
         reset: short
         id: signature-biotics

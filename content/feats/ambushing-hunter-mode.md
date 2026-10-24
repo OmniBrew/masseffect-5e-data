@@ -7,19 +7,18 @@ mechanics:
       id: ambushing-hunter-mode
       whenOn:
         - type: speed-bonus
-          value: [walk]
+          value:
+            - walk
           bonus:
             type: flat
             value: 5
     resource: {}
-    shortDesc: >-
-      Become <me-condition id="invisible" /> for 1 minute or until you make an attack or deal damage. Additionally, for the next minute,
-      your movement speed increases by <me-distance length="5" /> and, once per turn, you deal {{ profBonus }}d6 additional damage
-      with a weapon attack when the attack has advantage or a friendly creature is within <me-distance length="5" abbr /> of the target.
+    shortDesc: Become :condition{id="invisible"} for 1 minute or until you make an attack or deal damage. Additionally, for the next minute, your movement speed increases by :distance{length="5"} and, once per turn, you deal {{ profBonus }}d6 additional damage with a weapon attack when the attack has advantage or a friendly creature is within :distance{length="5" abbr} of the target.
 prerequisite: Geth
 prereq:
   - type: species
-    limit: [geth]
+    limit:
+      - geth
 ---
 Geth were designed as lethal weapons and can activate subroutines to enhance their lethality.
 

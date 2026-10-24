@@ -1,8 +1,9 @@
 ---
+name: Phasic Ammo
 rarity: rare
-type: weapon
+modType: weapon
 cost: 15000
-manufacturer: ''
+manufacturer: ""
 tags:
   - special
 placement: ammo
@@ -12,12 +13,9 @@ availability:
   - smg
   - shotgun
   - sniper_rifle
-name: Phasic Ammo
-flavor: >-
-  Fire projectiles that vibrate rapidly, allowing them to bypass kinetic
-  barriers.
+flavor: Fire projectiles that vibrate rapidly, allowing them to bypass kinetic barriers.
 mechanics:
-  - type: weapon-augment
+  - type: me:weapon-augment
     hitBonus: -2
     notes:
       - type: text
@@ -26,7 +24,3 @@ mechanics:
     name: Phasic Ammo
 ---
 You may use a bonus action to toggle the following effect on or off: -2 on ranged weapon damage rolls, but all damage done bypasses shields.
-
-
-
-

@@ -1,8 +1,8 @@
 ---
+name: Blast Zone
 level: 10
 klass: adept
 subclass: fury
-name: Blast Zone
 mechanics:
   - type: global-note
     value: Blast Zone

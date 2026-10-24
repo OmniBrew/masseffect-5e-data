@@ -1,14 +1,15 @@
 ---
+name: Void Body
 level: 3
 klass: vanguard
 subclass: void-fist
-name: Void Body
 mechanics:
   - type: ac
     bonus:
       type: mod
       value: wis
-    limit: [light]
+    limit:
+      - light
   - type: skill-check
     effect:
       type: null

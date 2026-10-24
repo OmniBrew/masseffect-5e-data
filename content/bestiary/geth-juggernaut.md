@@ -1,6 +1,6 @@
 ---
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/a/a4/Geth_Destroyer_ME2.png/revision/latest/scale-to-width-down/350?cb=20100625040647
+name: Geth Juggernaut
+image: https://vignette.wikia.nocookie.net/masseffect/images/a/a4/Geth_Destroyer_ME2.png/revision/latest/scale-to-width-down/350?cb=20100625040647
 type: synthetic
 unit: geth
 alignment: ln
@@ -26,10 +26,7 @@ irv:
     - bludgeoning
     - piercing
     - slashing
-savingThrows: false
-senses: false
 size: large
-skills: false
 speed:
   walk: 35
 entries:
@@ -37,17 +34,27 @@ entries:
     - attack: melee
       proficient: true
       range: 5
-      dc: false
       mod: str
       damage:
-        - {dieCount: 2, dieType: 8, mod: true, type: bludgeoning}
+        - dieCount: 2
+          dieType: 8
+          mod: true
+          type: bludgeoning
       target: one
       id: bash
+      name: Bash
     - ref: weapon
       proficient: true
       id: geth-plasma-smg
       weaponId: geth-plasma-smg
-cr: '08000'
+    - name: Multiattack
+      text: The geth juggernaut makes two Bash attacks.
+      id: multiattack
+  features:
+    - name: Aggressive
+      text: As a bonus action, the geth juggernaut can move up to its speed toward a hostile creature that it can see.
+      id: aggressive
+cr: "08000"
 shields:
   capacity: 20
   regen: 5

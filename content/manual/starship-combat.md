@@ -78,6 +78,3 @@ creature. The creature gains advantage the next time it takes an action with the
 #### Defer to VI - Anywhere
 Use your Action to defer to the ship’s onboard VI. You may have it take any of the Starship System actions. When you do
 so, roll a d20 to make the check or attack. You cannot add any modifiers or bonuses to the roll.
-
-
-

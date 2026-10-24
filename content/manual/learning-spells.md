@@ -15,7 +15,6 @@ takes a superior intellect. More programs cause more confusion, and without the 
 tech users are limited in the number of powers they can bring into combat. This limit increases as tech users level, detailed
 in the class's description.
 
-### Advancing Powers <v-chip color="info" small>new</v-chip>
+### Advancing Powers :change-badge{type="new"}
 The class progression tables indicate when a class learns a new power. In Mass Effect 5e, characters can choose
 to augment a power they've already learned rather than learning a new one. You may only have one advancement of a power at a time.
-

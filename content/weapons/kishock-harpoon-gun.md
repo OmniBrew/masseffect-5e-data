@@ -1,11 +1,10 @@
 ---
 name: Kishock Harpoon Gun
 rarity: rare
-type: sniper_rifle
+weaponType: sniper_rifle
 cost: 40500
 manufacturer: batarian-state-arms
 weight: 15
-heat: 1
 damage:
   dieCount: 3
   dieType: 6
@@ -16,7 +15,9 @@ range:
 image: https://vignette4.wikia.nocookie.net/masseffect/images/d/db/ME3_Kishock_Harpoon_Gun.png/revision/latest?cb=20120411201323
 andromeda: false
 properties:
-  - two-handed
+  - id: two-handed
+  - id: heat
+    value: 1
 slots: 2
 ---
 A target hit by this weapon makes a Constitution (DC 13) saving throw. On a failed save, the target 

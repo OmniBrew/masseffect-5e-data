@@ -1,4 +1,5 @@
 ---
+name: Skill Proficiencies
 species:
   - human
 mechanics:
@@ -6,3 +7,4 @@ mechanics:
     options: true
     selections: 2
 ---
+Your choice of two skill proficiencies.

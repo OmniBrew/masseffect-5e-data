@@ -1,19 +1,118 @@
 ---
+name: Powercasting
 level: 1
 klass: vanguard
 mechanics:
   - type: powercasting-slots
     multiclassConversion: 0.5
-    known: [0,2,3,3,4,4,5,5,6,6,6,7,8,8,9,9,10,10,11,11]
-    prepared: false
+    known:
+      - 0
+      - 2
+      - 3
+      - 3
+      - 4
+      - 4
+      - 5
+      - 5
+      - 6
+      - 6
+      - 6
+      - 7
+      - 8
+      - 8
+      - 9
+      - 9
+      - 10
+      - 10
+      - 11
+      - 11
     slots:
-      1: [0,2,3,4,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7]
-      2: [0,0,0,0,0,0,0,0,2,2,3,3,4,4,5,5,6,6,6,6]
-      3: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,2,2]
+      1:
+        - 0
+        - 2
+        - 3
+        - 4
+        - 6
+        - 7
+        - 7
+        - 7
+        - 7
+        - 7
+        - 7
+        - 7
+        - 7
+        - 7
+        - 7
+        - 7
+        - 7
+        - 7
+        - 7
+        - 7
+      2:
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 2
+        - 2
+        - 3
+        - 3
+        - 4
+        - 4
+        - 5
+        - 5
+        - 6
+        - 6
+        - 6
+        - 6
+      3:
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 1
+        - 1
+        - 2
+        - 2
     mod: wis
   - type: cantrips
-    known: [4,4,4,5,5,5,5,5,5,6,6,6,6,6,6,6,6,6,6,6]
-name: Powercasting
+    known:
+      - 4
+      - 4
+      - 4
+      - 5
+      - 5
+      - 5
+      - 5
+      - 5
+      - 5
+      - 6
+      - 6
+      - 6
+      - 6
+      - 6
+      - 6
+      - 6
+      - 6
+      - 6
+      - 6
+      - 6
 ---
 ### Cantrips
 At 1st level, you know four cantrips of your choice from the vanguard power list. You learn additional vanguard cantrips of

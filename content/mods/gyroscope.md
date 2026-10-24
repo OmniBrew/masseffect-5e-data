@@ -1,19 +1,18 @@
 ---
+name: Gyroscope
 rarity: rare
-type: weapon
+modType: weapon
 cost: 10000
-manufacturer: ''
+manufacturer: ""
 tags:
   - special
 placement: grip
 availability:
   - melee
-name: Gyroscope
-flavor: >-
-  A small device that uses mass effect fields to stabilize the weapon when in
-  flight.
+flavor: A small device that uses mass effect fields to stabilize the weapon when in flight.
 mechanics:
   - type: adjust-weapon-props
-    add: [thrown]
+    add:
+      - thrown
 ---
 The weapon gains the Thrown property and gains +2 to hit with a ranged weapon attack.

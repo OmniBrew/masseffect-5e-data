@@ -1,6 +1,7 @@
 ---
+name: Shield Modulator
 rarity: rare
-type: armor
+modType: armor
 cost: 25000
 manufacturer: armax-arsenal
 tags:
@@ -10,12 +11,9 @@ availability:
   - light
   - medium
   - heavy
-name: Shield Modulator
-flavor: >-
-  A series of ultra-efficient storage cells augment the existing power in the
-  operation of the wearer's kinetic barrier.
+flavor: A series of ultra-efficient storage cells augment the existing power in the operation of the wearer's kinetic barrier.
 mechanics:
-  - type: shields
+  - type: me:shields
     capacity:
       type: flat
       value: 10

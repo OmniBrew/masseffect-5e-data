@@ -1,8 +1,8 @@
 ---
+name: Relentless Biotic Assault
 level: 14
 klass: adept
 subclass: fury
-name: Relentless Biotic Assault
 mechanics:
   - type: augment
     value:

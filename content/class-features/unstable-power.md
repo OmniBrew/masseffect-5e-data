@@ -1,8 +1,8 @@
 ---
+name: Unstable Power
 level: 10
 klass: vanguard
 subclass: ravager
-name: Unstable Power
 mechanics:
   - type: global-note
     subType: defenses

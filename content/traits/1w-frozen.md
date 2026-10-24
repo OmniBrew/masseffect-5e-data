@@ -4,7 +4,8 @@ species:
   - adaptation-frozen
 mechanics:
   - type: saving-throw
-    value: [con]
+    value:
+      - con
     effect:
       type: advantage
       note: to resist exhaustion due to extreme cold

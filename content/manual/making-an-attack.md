@@ -70,7 +70,7 @@ a target beyond the long range.
 
 #### Ranged Attacks in Close Combat
 Aiming a ranged attack is more difficult when a foe is next to you. When you make a ranged attack with a weapon, a power,
-or some other means, you have disadvantage on the attack roll if you are within <me-distance length="5" /> of a hostile creature who can
+or some other means, you have disadvantage on the attack roll if you are within :distance{length="5"} of a hostile creature who can
 see you and who isn't incapacitated.
 
 
@@ -80,14 +80,14 @@ Used in hand-to-hand combat, a melee attack allows you to attack a foe within yo
 handheld weapon such as a sword, a warhammer, or an omni-tool. A typical monster makes a melee attack when it strikes
 with its claws, horns, teeth, tentacles, or other body part. A few powers also involve making a melee attack.
 
-Most creatures have a 2-meter reach and can thus attack targets within <me-distance length="5" /> of them when making a melee attack. Certain
-creatures (typically those larger than Medium) have melee attacks with a greater reach than <me-distance length="5" />, as noted in their descriptions.
+Most creatures have a 2-meter reach and can thus attack targets within :distance{length="5"} of them when making a melee attack. Certain
+creatures (typically those larger than Medium) have melee attacks with a greater reach than :distance{length="5"}, as noted in their descriptions.
 
 Instead of using a weapon to make a melee weapon attack, you can use an unarmed strike: a punch, kick, head-butt, or similar
 forceful blow. On a hit, an unarmed strike deals bludgeoning damage equal to 1 + your
 Strength modifier. You are proficient with your unarmed strikes and your unarmed strikes count as weapons.
 
-#### Gun strikes <v-chip color="info" x-small>new</v-chip>
+#### Gun strikes :change-badge{type="new"}
 Instead of using a melee weapon to make a melee weapon attack, you can use your ranged weapon, hitting a target with the butt of
 the gun. On a hit, a gun strike deals bludgeoning damage equal to 1d4 + your Strength modifier. You are proficient with
 gun strikes if you are proficient with the type of ranged weapon.
@@ -104,7 +104,7 @@ You can avoid provoking an opportunity attack by taking the Disengage action. Yo
 attack when someone or something moves you without using your movement, action, or reaction. For example, you don't provoke
 an opportunity attack if an explosion hurls you out of a foe's reach or if an adept lifts you off the ground with Pull.
 
-### Two-Weapon Fighting <v-chip color="warning" x-small>change</v-chip>
+### Two-Weapon Fighting :change-badge{type="change"}
 When you take the Attack action and attack with a light weapon that you're holding in one hand, you can use a
 bonus action to attack with a different light weapon that you're holding in the other hand. You don't add your
 ability modifier to the damage of the bonus attack, unless that modifier is negative.
@@ -138,7 +138,8 @@ away from you. If you're able to make multiple attacks with the Attack action, t
 
 The target must be no more than one size larger than you and must be within your reach. Instead of making an attack roll,
 you make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check
-(the target chooses the ability to use). If you win the contest, you either knock the target prone or push it <me-distance length="5" />
+(the target chooses the ability to use). If you win the contest, you either knock the target prone or push it :distance{length="5"}
 away from you.
 
-<me-source-reference pages="94-96"></me-source-reference>
+::source-reference{pages="94-96"}
+::

@@ -1,4 +1,5 @@
 ---
+name: Cyclonic Shields
 level: 5
 klass: explorer
 subclass: path-of-cyber
@@ -10,11 +11,8 @@ mechanics:
       model: class-features
       id: cyclonic-shields
   - type: reaction
-    name: 'Cyclonic Shields + Tech Ace'
-    shortDesc: >-
-      When your Barrier reduces the damage of an incoming attack to 0, you may use your reaction to cast your
-      Tech Ace against your attacker.
-name: Cyclonic Shields
+    name: Cyclonic Shields + Tech Ace
+    shortDesc: When your Barrier reduces the damage of an incoming attack to 0, you may use your reaction to cast your Tech Ace against your attacker.
 ---
 At 5th level, your shields don't take double damage from Lightning damage. When your Barrier reduces the damage of an
 incoming attack to 0, you may use your reaction to cast your Tech Ace against your attacker.

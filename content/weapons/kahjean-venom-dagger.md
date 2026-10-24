@@ -1,23 +1,21 @@
 ---
 name: Kahjean Venom Dagger
 rarity: rare
-type: melee
+weaponType: melee
 cost: 32500
 manufacturer: ""
 weight: 2
-heat: null
 damage:
   dieCount: 1
   dieType: 4
   type: piercing
 range:
   short: 5
-image: null
 andromeda: false
 properties:
-  - finesse
-  - light
-  - thrown
+  - id: finesse
+  - id: light
+  - id: thrown
 slots: 1
 ---
 When you hit with an attack using this weapon, the target must make a DC 11 Constitution saving 

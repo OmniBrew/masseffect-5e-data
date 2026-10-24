@@ -1,20 +1,17 @@
 ---
-placement: arms
-type: medium
+name: GUARDIAN Gauntlets
+coverage: piece
+slot: arms
+armorType: medium
 cost: 40800
 manufacturer: hahne-kedar
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/0/07/ME3_hahne_kedar_arms.png/revision/latest/scale-to-width-down/130?cb=20120311003749
+image: https://vignette.wikia.nocookie.net/masseffect/images/0/07/ME3_hahne_kedar_arms.png/revision/latest/scale-to-width-down/130?cb=20120311003749
 tags:
   - special
 andromeda: false
-set: false
 rarity: rare
-name: GUARDIAN Gauntlets
-flavor: >-
-  Arm gauntlets that contain power cells that fuel a miniature version of a
-  starship's standard GARDIAN point defense lasers.
-  - type: thermal-clip-capacity
+flavor: |-
+  Arm gauntlets that contain power cells that fuel a miniature version of a starship's standard GARDIAN point defense lasers. - type: thermal-clip-capacity
     value: 2
   - type: medi-gel-capacity
     value: 2

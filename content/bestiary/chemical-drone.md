@@ -1,5 +1,5 @@
 ---
-image: null
+name: Chemical Drone
 type: synthetic
 unit: mech
 alignment: nn
@@ -20,25 +20,27 @@ irv:
     - poisoned
   damImm:
     - acid
-savingThrows: false
-senses: false
 size: tiny
-skills: false
 speed:
   walk: 12
 entries:
   features:
     - mod: int
       list:
-        - {id: noxious-gas, perDay: 1}
-        - {id: fuel-spill, perDay: 1}
+        - id: noxious-gas
+          perDay: 1
+        - id: fuel-spill
+          perDay: 1
       id: innate-powercasting
+      name: Innate Powercasting
+      text: The chemical drone's innate powercasting ability is Intelligence (power save DC 10, +2 to hit with power attacks). Three times per day, it can innately cast noxious gas or fuel spill.
   actions:
     - ref: weapon
       proficient: true
       weaponId: omni-torch
-cr: '00500'
+cr: "00500"
 shields:
   capacity: 5
   regen: 5
+author: Helios
 ---

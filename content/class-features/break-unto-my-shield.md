@@ -1,8 +1,8 @@
 ---
+name: Break Unto My Shield
 level: 10
 klass: vanguard
 subclass: valkyrie
-name: Break Unto My Shield
 mechanics:
   - type: augment
     value:

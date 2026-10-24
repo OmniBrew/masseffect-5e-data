@@ -1,6 +1,6 @@
 ---
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/c/cf/ME3_Geth_Trooper.png/revision/latest/scale-to-width-down/238?cb=20120315171310
+name: Geth Trooper
+image: https://vignette.wikia.nocookie.net/masseffect/images/c/cf/ME3_Geth_Trooper.png/revision/latest/scale-to-width-down/238?cb=20120315171310
 type: synthetic
 unit: geth
 alignment: ln
@@ -24,10 +24,7 @@ irv:
     - psychic
   vul:
     - lightning
-savingThrows: false
-senses: false
 size: medium
-skills: false
 speed:
   walk: 30
 entries:
@@ -35,16 +32,21 @@ entries:
     - attack: melee
       proficient: true
       range: 5
-      dc: false
       mod: str
       damage:
-        - {dieCount: 1, dieType: 6, mod: true, type: bludgeoning}
+        - dieCount: 1
+          dieType: 6
+          mod: true
+          type: bludgeoning
       target: one
       id: weapon-strike
+      name: Weapon Strike
     - ref: weapon
       proficient: true
       id: geth-pulse-rifle
       weaponId: geth-pulse-rifle
-cr: '02000'
-shields: false
+    - name: Multiattack
+      text: The geth trooper makes two Geth Pulse Rifle attacks.
+      id: multiattack
+cr: "02000"
 ---

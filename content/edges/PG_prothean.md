@@ -8,8 +8,8 @@ mechanics:
   - type: model-choice
     options: true
     model: traits
-    set: [all-seeing-eyes]
+    set:
+      - all-seeing-eyes
 ---
 - Your Wisdom score increases by 1, to a maximum of 20.
 - Gain the All-Seeing Eyes trait.
-

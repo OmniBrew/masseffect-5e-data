@@ -1,4 +1,5 @@
 ---
+name: Tech Obliteration
 level: 10
 klass: soldier
 subclass: engi-knight
@@ -7,7 +8,8 @@ mechanics:
     value:
       model: soldier
       id: tech-avenger
-      limit: [global-note]
+      limit:
+        - global-note
     merge:
       moreInfo:
         additional:
@@ -17,7 +19,8 @@ mechanics:
     value:
       model: soldier
       id: tech-strike
-      limit: [global-note]
+      limit:
+        - global-note
     merge:
       moreInfo:
         additional:
@@ -27,7 +30,8 @@ mechanics:
     value:
       model: soldier
       id: tech-avenger
-      limit: [other]
+      limit:
+        - other
     merge:
       toggle:
         options:
@@ -48,7 +52,6 @@ mechanics:
         additional:
           - model: class-features
             id: tech-obliteration
-name: Tech Obliteration
 ---
 At 10th level, your onboard AI has improved your omni-tool's power output for your strikes. Your Tech Strike damage dice will now double on critical hits.
 

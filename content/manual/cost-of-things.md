@@ -65,4 +65,5 @@ The following tables provided an assortment of costs for commonplace things. The
 |Hireling (Unskilled)|200 per day|
 
 
-<me-source-reference pages="72-73"></me-source-reference>
+::source-reference{pages="72-73"}
+::

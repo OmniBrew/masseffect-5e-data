@@ -1,6 +1,7 @@
 ---
+name: Auxiliary Shield Emitters
 rarity: uncommon
-type: armor
+modType: armor
 cost: 8000
 manufacturer: kassa-fabrication
 tags:
@@ -10,10 +11,9 @@ availability:
   - light
   - medium
   - heavy
-name: Auxiliary Shield Emitters
 flavor: Micro-capacitors that release energy to speed up shield regeneration.
 mechanics:
-  - type: shields
+  - type: me:shields
     regen:
       type: flat
       value: 5

@@ -10,4 +10,4 @@ The target must be no more than one size larger than you and must be within your
 Instead of making an attack roll, you make a Strength (Athletics) check contested by the
 target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).
 You succeed automatically if the target is incapacitated. If you succeed,
-you either knock the target prone or push it <me-distance length="5" /> away from you.
+you either knock the target prone or push it :distance{length="5"} away from you.

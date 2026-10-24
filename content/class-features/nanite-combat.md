@@ -16,16 +16,20 @@ mechanics:
       proficient: true
       bonus:
         type: modComparison
-        value: [dex,str]
+        value:
+          - dex
+          - str
     damage:
       - dieCount: 1
         dieType: 8
         type: bludgeoning
         bonus:
           type: modComparison
-          value: [dex,str]
+          value:
+            - dex
+            - str
     notes:
-      - '* - while note wearing armor or wielding a riot shield'
+      - "* - while note wearing armor or wielding a riot shield"
     moreInfo:
       model: class-features
       id: nanite-combat

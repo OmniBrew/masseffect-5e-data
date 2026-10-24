@@ -1,4 +1,5 @@
 ---
+name: Blink
 level: 6
 klass: explorer
 mechanics:
@@ -8,7 +9,6 @@ mechanics:
     moreInfo:
       model: class-features
       id: blink
-name: Blink
 ---
 You learn how to use your biotic power to blink short distances. At 6th level you can use your movement action to
 blink. If you do, you only move half of your movement rate, but your movement does not provoke attack of opportunities

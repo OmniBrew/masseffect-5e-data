@@ -2,22 +2,19 @@
 name: Klaive
 author: Helios
 rarity: uncommon
-type: melee
+weaponType: melee
 cost: 6500
-manufacturer: null
 weight: 6
-heat: null
 damage:
   dieCount: 2
   dieType: 6
   type: slashing
 range:
   short: 5
-image: null
 andromeda: false
 properties:
-  - two-handed
-  - finesse
+  - id: two-handed
+  - id: finesse
 slots: 2
 ---
 The experienced Incubi stride into battle wielding strange-looking, two-handed razorblades into battle, known as

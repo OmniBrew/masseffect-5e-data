@@ -2,7 +2,7 @@
 name: Shotguns
 mechanics:
   - type: other
-    name: 'Weapon of Choice: Shotguns'
+    name: "Weapon of Choice: Shotguns"
     damage:
       - dieCount: 1
         dieType:
@@ -12,13 +12,11 @@ mechanics:
             3: 8
             10: 10
             18: 12
-        label: 'Superiority Die'
-    shortDesc: >-
-      When you attack with a shotgun, add {{ damage }} to the attack or damage roll. If you choose the damage roll, the
-      creature has disadvantage on CON saves to maintain powers.
+        label: Superiority Die
+    shortDesc: When you attack with a shotgun, add {{ damage }} to the attack or damage roll. If you choose the damage roll, the creature has disadvantage on CON saves to maintain powers.
     resource:
       reset: short
-      label: 'd8s / short rest'
+      label: d8s / short rest
       max:
         type: progressive
         limit: soldier
@@ -27,7 +25,7 @@ mechanics:
           10: 5
           18: 6
   - type: reaction
-    name: 'Shotgun (parry)'
+    name: Shotgun (parry)
     damage:
       - dieCount: 1
         dieType:
@@ -37,12 +35,11 @@ mechanics:
             3: 8
             10: 10
             18: 12
-        label: 'Superiority Die'
-    shortDesc: >-
-      When you are hit by a melee attack and holding a shotgun, add {{ damage }} to your AC. If the attack still hits, take half damage.
+        label: Superiority Die
+    shortDesc: When you are hit by a melee attack and holding a shotgun, add {{ damage }} to your AC. If the attack still hits, take half damage.
     resource:
       reset: short
-      label: 'd8s / short rest'
+      label: d8s / short rest
       max:
         type: progressive
         limit: soldier

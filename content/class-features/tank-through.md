@@ -9,8 +9,7 @@ mechanics:
     mod: con
   - type: reaction
     name: Tank Through
-    shortDesc: >-
-      Halve an attack's damage aimed against you.
+    shortDesc: Halve an attack's damage aimed against you.
 ---
 At 15th level, your nanomachines can resist wounds that would kill off most normal people. You can chose to use your
 reaction to halve an attack's damage aimed against you.

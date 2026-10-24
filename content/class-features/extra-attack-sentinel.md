@@ -1,7 +1,7 @@
 ---
+name: Extra Attack
 level: 5
 klass: sentinel
-name: Extra Attack
 mechanics:
   - type: extra-attack
     value: 2
@@ -15,4 +15,3 @@ mechanics:
 At 5th level, you’ve mastered harmonizing your weapon attacks and powers. You can attack twice,
 instead of once, whenever you take the Attack action on your turn. Additionally, you can cast a biotic cantrip
 in place of one of those attacks.
-

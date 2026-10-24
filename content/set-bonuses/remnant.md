@@ -1,10 +1,7 @@
 ---
 bonuses:
   - threshold: 3
-    text: >-
-      When you roll a Hit Die to regain hit points, the minimum number of hit
-      points you regain from the roll equals twice your Constitution modifier
-      (minimum of 2).
+    text: When you roll a Hit Die to regain hit points, the minimum number of hit points you regain from the roll equals twice your Constitution modifier (minimum of 2).
     mechanics:
       - type: min-hit-die-roll
         bonus:
@@ -12,9 +9,7 @@ bonuses:
           value: con
           min: 2
   - threshold: 4
-    text: >-
-      You may jumpstart your shields any number of times. Each time you do, roll
-      a d20. On a roll of 8 or less, your shields malfunction
+    text: You may jumpstart your shields any number of times. Each time you do, roll a d20. On a roll of 8 or less, your shields malfunction
     mechanics:
       - type: augment
         value:

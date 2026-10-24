@@ -38,14 +38,15 @@ Some creatures have darkvision and some gear can provide darkvision. Within a sp
 can see in darkness as if the darkness were dim light, so areas of darkness are only lightly obscured as far as that
 creature is concerned. However, the creature can't discern color in darkness, only shades of gray.
 
-### Truesight <v-chip color="warning" text-color="black" small>change</v-chip>
+### Truesight :change-badge{type="change"}
 A creature with truesight can, out to a specific range, see in normal darkness, see invisible creatures and objects that
 are hidden by technological means (such as tactical cloak).
 
-### Infrared vision <v-chip color="info" small>new</v-chip>
+### Infrared vision :change-badge{type="new"}
 A creature with infrared vision, out to a specific range, can see in darkness, is unaffected by lightly or heavily obscured
 areas, and see invisible and hidden creatures and objects that give off heat.
 
 However, the creature cannot see beyond intense heat sources and is effectively blind when looking at an intense heat source.
 
-<me-source-reference pages="86-87"></me-source-reference>
+::source-reference{pages="86-87"}
+::

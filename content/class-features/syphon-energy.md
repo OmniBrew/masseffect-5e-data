@@ -1,8 +1,8 @@
 ---
+name: Syphon Energy
 level: 14
 klass: engineer
 subclass: holosmith
-name: Syphon Energy
 mechanics:
   - type: global-note
     subType: action

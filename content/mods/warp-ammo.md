@@ -1,8 +1,9 @@
 ---
+name: Warp Ammo
 rarity: rare
-type: weapon
+modType: weapon
 cost: 20000
-manufacturer: ''
+manufacturer: ""
 tags:
   - damage_augment
   - ignore_resistance
@@ -14,15 +15,14 @@ availability:
   - smg
   - shotgun
   - sniper_rifle
-name: Warp Ammo
 flavor: Fire tiny dark matter charges.
 mechanics:
-  - type: weapon-augment
+  - type: me:weapon-augment
     damageType: necrotic
     detonates: true
     notes:
       - type: text
-        text: 'Hit: -2 barrier ticks, cannot be reduced by barrier'
+        text: "Hit: -2 barrier ticks, cannot be reduced by barrier"
     toggle: true
     name: Warp Ammo
 ---

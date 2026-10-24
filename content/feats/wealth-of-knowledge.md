@@ -1,4 +1,5 @@
 ---
+name: Wealth of Knowledge
 new: true
 mechanics:
   - type: asi
@@ -7,6 +8,11 @@ mechanics:
   - type: other
     resource:
       reset: short
-    shortDesc: >-
-      You have advantage on the first Intelligence-based skill check you make after a short rest.
+    shortDesc: You have advantage on the first Intelligence-based skill check you make after a short rest.
+note: +1 Intelligence, advantage on Intelligence based skill checks
+prerequisite: Intelligence 13 or higher
 ---
+Your grasp of random factoids knows no bounds.
+
+- Increase your Intelligence score by 1, to a maximum of 20.
+- You have advantage on the first Intelligence-based skill check you make after a short rest.

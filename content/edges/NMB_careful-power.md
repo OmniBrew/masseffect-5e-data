@@ -3,11 +3,10 @@ name: Careful Power
 mechanics:
   - type: other
     resource:
-      reset: 'off'
+      reset: off
       displayType: barrier-ticks
-      label: 'Barrier Ticks'
-    shortDesc: >-
-      Up to {{ powercastingMod:vanguard }} creatures succeed on their saving throw against a power you cast.
+      label: Barrier Ticks
+    shortDesc: Up to {{ powercastingMod:vanguard }} creatures succeed on their saving throw against a power you cast.
 type: metabiotics
 ---
 When you cast a power that forces other creatures to make a saving throw, you can protect some of those creatures from

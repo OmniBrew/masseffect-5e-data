@@ -2,9 +2,7 @@
 name: Mountains
 mechanics:
   - type: speed-note
-    note: >-
-      Your climbing speed now equals your movement speed (or is increased by <me-distance length="10" abbr /> instead
-      of <me-distance length="5" /> if you already had one.)
+    note: Your climbing speed now equals your movement speed (or is increased by :distance{length="10" abbr} instead of :distance{length="5"} if you already had one.)
   - type: fall-damage
     reduce:
       bonus:

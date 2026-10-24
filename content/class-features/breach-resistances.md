@@ -1,4 +1,5 @@
 ---
+name: Breach Resistances
 level: 7
 klass: sentinel
 subclass: warlord
@@ -12,7 +13,6 @@ mechanics:
         additional:
           - model: class-features
             id: breach-resistances
-name: Breach Resistances
 ---
 At 7th level, the added force of your melee strikes from your Power Slam sunders armor under it's blows. While you
 have Tech Armor active, whenever you hit an enemy with a power and melee attack from Power Slam, you ignore their

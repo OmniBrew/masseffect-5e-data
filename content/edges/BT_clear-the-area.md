@@ -2,9 +2,7 @@
 name: Clear the area
 mechanics:
   - type: bonus-action
-    shortDesc: >-
-      Set your tactical focus. If an ally hit s a creature in your tactical focus with a weapon attack, the ally
-      can move that creature <me-distance length="5" />.
+    shortDesc: Set your tactical focus. If an ally hit s a creature in your tactical focus with a weapon attack, the ally can move that creature :distance{length="5"}.
     range:
       short: 60
       aoe:
@@ -16,4 +14,4 @@ mechanics:
 type: bastion-tactics
 ---
 Pick out weak spots on your targets that force them out of your tactical focus. If an ally hit s a creature in your
-tactical focus with a weapon attack, the ally can move that creature <me-distance length="5" />.
+tactical focus with a weapon attack, the ally can move that creature :distance{length="5"}.

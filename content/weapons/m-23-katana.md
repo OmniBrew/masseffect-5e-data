@@ -1,11 +1,10 @@
 ---
 name: M-23 Katana
 rarity: common
-type: shotgun
+weaponType: shotgun
 cost: 10000
 manufacturer: ariake-technologies
 weight: 9
-heat: 5
 damage:
   dieCount: 2
   dieType: 6
@@ -16,8 +15,10 @@ range:
 image: https://vignette1.wikia.nocookie.net/masseffect/images/a/a2/ME3_Katana_Shotgun.png/revision/latest?cb=20120317200552
 andromeda: false
 properties:
-  - two-handed
-  - hip-fire
-  - recoil
+  - id: two-handed
+  - id: hip-fire
+  - id: recoil
+  - id: heat
+    value: 5
 slots: 2
 ---

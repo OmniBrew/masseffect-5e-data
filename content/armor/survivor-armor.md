@@ -1,30 +1,28 @@
 ---
-placement: body_armor
-type: medium
+name: Survivor Armor
+coverage: suit
+armorType: medium
 cost: 30600
 manufacturer: devlon-industries
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/0/08/Medium-human-Explorer.png/revision/latest/scale-to-width-down/160?cb=20100209161746
+image: https://vignette.wikia.nocookie.net/masseffect/images/0/08/Medium-human-Explorer.png/revision/latest/scale-to-width-down/160?cb=20100209161746
 tags:
   - ac
 andromeda: false
-set: false
 rarity: uncommon
-name: Survivor Armor
 flavor: A simple set of armor made by Devlon Industries providing moderate protection.
 mechanics:
-  - type: shields
+  - type: me:shields
     capacity:
       type: flat
       value: 5
     regen:
       type: flat
       value: 5
-  - type: thermal-clip-capacity
+  - type: me:thermal-clip-capacity
     value: 10
-  - type: medi-gel-capacity
+  - type: me:medi-gel-capacity
     value: 4
-  - type: grenade-capacity
+  - type: me:grenade-capacity
     value: 2
   - type: ac
     bonus:

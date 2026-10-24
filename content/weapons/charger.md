@@ -1,11 +1,10 @@
 ---
 name: Charger
 rarity: common
-type: smg
+weaponType: smg
 cost: 8000
 manufacturer: elanus-risk-control-services
 weight: 4
-heat: 4
 damage:
   dieCount: 2
   dieType: 4
@@ -16,6 +15,8 @@ range:
 image: https://vignette.wikia.nocookie.net/masseffect/images/f/f8/MEA_Charger_MP.png/revision/latest?cb=20180528214708
 andromeda: false
 properties:
-  - burst-fire
+  - id: burst-fire
+  - id: heat
+    value: 4
 slots: 1
 ---

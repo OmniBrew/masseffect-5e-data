@@ -1,32 +1,38 @@
 ---
+name: The Right Cantrip for the Job
 level: 1
 klass: explorer
-name: The Right Cantrip for the Job
 mechanics:
   - type: model-choice
-    label: 'Choose a Biotic Cantrip'
+    label: Choose a Biotic Cantrip
     model: powers
     options: true
     hide: true
     limits:
       - attr: level
-        value: [0]
+        value:
+          - 0
       - attr: classes
-        value: [explorer]
+        value:
+          - explorer
       - attr: type
-        value: [biotic]
+        value:
+          - biotic
   - type: model-choice
-    label: 'Choose a Combat Cantrip'
+    label: Choose a Combat Cantrip
     model: powers
     options: true
     hide: true
     limits:
       - attr: level
-        value: [0]
+        value:
+          - 0
       - attr: classes
-        value: [explorer]
+        value:
+          - explorer
       - attr: type
-        value: [combat]
+        value:
+          - combat
 ---
 Your expertise in multiple fields allows you to creatively apply your powers, and if you can't, you can quickly find
 one that does fit to your situation.

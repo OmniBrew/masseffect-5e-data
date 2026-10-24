@@ -1,27 +1,22 @@
 ---
-placement: legs
-type: heavy
+name: HyperGuardian Greaves
+coverage: piece
+slot: legs
+armorType: heavy
 cost: 54400
 manufacturer: kassa-fabrication
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/4/40/MEA_HyperGuardian_Legs.png/revision/latest/scale-to-width-down/350?cb=20180505031245
+image: https://vignette.wikia.nocookie.net/masseffect/images/4/40/MEA_HyperGuardian_Legs.png/revision/latest/scale-to-width-down/350?cb=20180505031245
 tags:
   - special
   - set_bonus
 andromeda: false
 set: hyper-guardian
 rarity: uncommon
-name: HyperGuardian Greaves
-flavor: >-
-  HyperGuardian hardsuits were built by Kassa Fabrication as a civilian-friendly
-  alternative to the Colossus line intended for private security in heavy-fire
-  situations or extreme environmental conditions. The Initiative considered the
-  bulky and unbreakable HyperGuardian a perfect choice for protecting vulnerable
-  new colonies.
+flavor: HyperGuardian hardsuits were built by Kassa Fabrication as a civilian-friendly alternative to the Colossus line intended for private security in heavy-fire situations or extreme environmental conditions. The Initiative considered the bulky and unbreakable HyperGuardian a perfect choice for protecting vulnerable new colonies.
 mechanics:
-  - type: thermal-clip-capacity
+  - type: me:thermal-clip-capacity
     value: 2
-  - type: grenade-capacity
+  - type: me:grenade-capacity
     value: 2
 ---
 - You are considered proficient with this armor even if you lack proficiency with heavy

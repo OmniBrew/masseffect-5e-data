@@ -1,7 +1,7 @@
 ---
+name: Evasion
 level: 7
 klass: infiltrator
-name: Evasion
 mechanics:
   - type: global-note
     subType: defenses

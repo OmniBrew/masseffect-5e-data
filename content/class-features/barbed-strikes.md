@@ -1,4 +1,5 @@
 ---
+name: Barbed Strikes
 level: 10
 klass: soldier
 subclass: reaver-enforcer
@@ -15,10 +16,7 @@ mechanics:
             type: proficiency
   - type: bonus-action
     value: Barbed Strikes
-    shortDesc: >-
-       When you hit two attacks against the same target during a round, you deal damage equal to
-       Blade Armor's dice roll to the target, without adding modifiers (such as your Strength or Brawler damage).
-name: Barbed Strikes
+    shortDesc: When you hit two attacks against the same target during a round, you deal damage equal to Blade Armor's dice roll to the target, without adding modifiers (such as your Strength or Brawler damage).
 ---
 At 10th level, you can use Blade Armor a number of times equal to your proficiency modifier between short rests.
 

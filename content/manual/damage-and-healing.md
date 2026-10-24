@@ -42,7 +42,7 @@ For example, if you score a critical hit with a monomolecular blade, roll 2d10 f
 add your relevant ability modifier. If the attack involves other damage dice, such as from the infiltrator's Sneak Attack feature,
 you roll those dice twice as well.
 
-#### Damage Types <v-chip color="warning" text-color="black" small>change</v-chip>
+#### Damage Types :change-badge{type="change"}
 Different attacks, damaging powers, and other harmful effects deal different types of damage. Damage types have no rules
 of their own, but other rules, such as damage resistance, rely on the types.
 
@@ -182,4 +182,5 @@ still absorb damage directed at you while you're in that state, but only true he
 
 Unless a feature that grants you temporary hit points has a duration, they last until they're depleted or you finish a long rest.
 
-<me-source-reference pages="96-98"></me-source-reference>
+::source-reference{pages="96-98"}
+::

@@ -1,7 +1,6 @@
 ---
-title: 'Overview'
+title: Overview
 ---
-
 As your character goes on missions and overcomes challenges, he or she gains experience, represented by experience
 points. A character who reaches a specified experience point total advances in capability. This advancement is called
 __gaining a level__.
@@ -52,7 +51,8 @@ what other improvements you gain at each level.
 |305,000|19th|+6|
 |355,000|20th|+6|
 
-<me-source-reference pages="56" />
+::source-reference{pages="56"}
+::
 
 ### Tiers of Play
 
@@ -77,4 +77,5 @@ At the __fourth tier__ (levels 17–20), characters achieve the pinnacle of thei
 (or villainous) archetypes in their own right. They begin collecting __spectre__ level equipment, the very best the galaxy
 can offer. The fate of the entire universe might hang in the balance during their adventures.
 
-<me-source-reference pages="12" source="basic" />
+::source-reference{pages="12" source="basic"}
+::

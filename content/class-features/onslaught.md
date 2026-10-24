@@ -1,14 +1,15 @@
 ---
+name: Onslaught
 level: 10
 klass: vanguard
 subclass: shock-trooper
-name: Onslaught
 mechanics:
   - type: augment
     value:
       model: vanguard
       id: biotic-bull-rush
-    limit: [powers]
+    limit:
+      - powers
     merge:
       merge:
         damage:

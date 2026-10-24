@@ -1,6 +1,6 @@
 ---
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/e/e0/Info_Drone.png/revision/latest/scale-to-width-down/531?cb=20100908213419
+name: Defense Drone
+image: https://vignette.wikia.nocookie.net/masseffect/images/e/e0/Info_Drone.png/revision/latest/scale-to-width-down/531?cb=20100908213419
 type: synthetic
 unit: mech
 alignment: nn
@@ -24,10 +24,7 @@ irv:
     - psychic
   vul:
     - lightning
-savingThrows: false
-senses: false
 size: small
-skills: false
 speed:
   fly: 30
 entries:
@@ -35,13 +32,20 @@ entries:
     - attack: melee
       proficient: true
       range: 5
-      dc: false
       mod: str
       damage:
-        - {dieCount: 1, dieType: 8, mod: true, type: bludgeoning}
+        - dieCount: 1
+          dieType: 8
+          mod: true
+          type: bludgeoning
       target: one
       id: bash
-cr: '00500'
+      name: Bash
+  reactions:
+    - name: Guard
+      text: When a creature the defense drone can see attacks a target other than itself that is within :distance{length="5"} of it, it can use its reaction to impose disadvantage on the attack roll.
+      id: guard
+cr: "00500"
 shields:
   capacity: 5
   regen: 5

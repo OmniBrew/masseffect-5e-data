@@ -1,8 +1,8 @@
 ---
+name: VI Response
 level: 14
 klass: engineer
 subclass: armorer
-name: VI Response
 mechanics:
   - type: bonus-action
     name: Reload (Integrated Weaponry)

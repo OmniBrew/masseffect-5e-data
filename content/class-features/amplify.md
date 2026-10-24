@@ -1,4 +1,5 @@
 ---
+name: Amplify
 level: 10
 klass: vanguard
 subclass: cardinal
@@ -22,7 +23,7 @@ mechanics:
       primes: force
       resource:
         reset: off
-        label: 'Focus Points'
+        label: Focus Points
         id: cardinal-focus-points
         max:
           type: progressive
@@ -35,7 +36,6 @@ mechanics:
             18: 6
       notes:
         - Costs 2 focus points
-name: Amplify
 ---
 Your energies now adversely affect your victim's fortitude, allowing for other comrades to go in for the kill with ease.
 

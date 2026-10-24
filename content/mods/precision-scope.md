@@ -1,8 +1,9 @@
 ---
+name: Precision Scope
 rarity: uncommon
-type: weapon
+modType: weapon
 cost: 10000
-manufacturer: ''
+manufacturer: ""
 tags:
   - increased_range
   - attack_bonus
@@ -11,10 +12,9 @@ availability:
   - assault_rifle
   - heavy_pistol
   - smg
-name: Precision Scope
 flavor: Simple 4x optical scope to enhance stability while zoomed.
 mechanics:
-  - type: weapon-augment
+  - type: me:weapon-augment
     hitBonus: 1
     shortRangeMultiplier: 2
     longRangeMultiplier: 2

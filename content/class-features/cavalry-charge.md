@@ -1,4 +1,5 @@
 ---
+name: Cavalry Charge
 level: 14
 klass: tracker
 subclass: outrider
@@ -8,11 +9,7 @@ mechanics:
       model: tracker
       id: leading-the-charge
     merge:
-      shortDesc: >-
-        After you roll Initiative, choose {{ chaMod }} creatures (min 1). Until the
-        end of their next turn, those creatures have their movement speed doubled the first time they move and gain the
-        benefits of your Shock Calvary feature. Use your DC when determining the saving throws caused by Shock Calvary.
-name: Cavalry Charge
+      shortDesc: After you roll Initiative, choose {{ chaMod }} creatures (min 1). Until the end of their next turn, those creatures have their movement speed doubled the first time they move and gain the benefits of your Shock Calvary feature. Use your DC when determining the saving throws caused by Shock Calvary.
 ---
 Starting at 14th level, your capabilities of overwhelming the enemy with a sudden charge extends to your allies.
 Creatures have had their movement speed increased by Leading the Charge gain the effects of Shock Cavalry for as

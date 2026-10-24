@@ -1,4 +1,5 @@
 ---
+name: Skill Proficiency
 species:
   - human-variant
   - turian-non-hierarchy
@@ -7,3 +8,4 @@ mechanics:
     options: true
     selections: 1
 ---
+Your choice of skill proficiency.

@@ -1,4 +1,5 @@
 ---
+name: Amplified Venom
 level: 13
 klass: infiltrator
 subclass: poisoner
@@ -14,7 +15,6 @@ mechanics:
             id: amplified-venom
   - type: immunity
     value: poison
-name: Amplified Venom
 ---
 At 13th level, your toxins are imperceptible to normal analysis. If you kill someone using Poison damage or a
 poison outside of combat, that target doesn't show signs of being poisoned.

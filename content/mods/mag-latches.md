@@ -1,6 +1,7 @@
 ---
+name: Mag Latches
 rarity: rare
-type: armor
+modType: armor
 cost: 50000
 manufacturer: any
 tags:
@@ -10,14 +11,14 @@ availability:
   - light
   - medium
   - heavy
-name: Mag Latches
 flavor: Powerful magnets keep you grounded.
 mechanics:
   - type: condition-immunity
     value: lifted
     note: when you are on a metal surface
   - type: saving-throw
-    against: [lifted]
+    against:
+      - lifted
     effect:
       type: advantage
 ---

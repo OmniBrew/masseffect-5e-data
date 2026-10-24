@@ -1,8 +1,9 @@
 ---
+name: Beam Emitter
 rarity: spectre
-type: weapon
+modType: weapon
 cost: 52000
-manufacturer: ''
+manufacturer: ""
 tags:
   - augmentation
 placement: ammo
@@ -12,20 +13,20 @@ availability:
   - smg
   - shotgun
   - sniper_rifle
-name: Beam Emitter
-flavor: >-
-  The weapon now fires a sustained energy beam that accurately deals rapid
-  damage to the target.
+flavor: The weapon now fires a sustained energy beam that accurately deals rapid damage to the target.
 mechanics:
   - type: attack-augment
     attackLimit:
       model: weapon
-    augmentTypes: [hit]
+    augmentTypes:
+      - hit
     bonus:
       type: flat
       value: 2
   - type: adjust-weapon-props
-    remove: [burst-fire, double-tap]
+    remove:
+      - burst-fire
+      - double-tap
 ---
 +2 on ranged attack rolls made with this weapon. It loses the Burst Fire and Double Tap properties and its damage type
 becomes radiant. After successfully hitting a target with a ranged attack with this weapon, you may use your bonus

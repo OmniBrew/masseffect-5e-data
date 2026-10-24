@@ -9,4 +9,3 @@ bonuses:
           value: 2
 max: 2
 ---
-

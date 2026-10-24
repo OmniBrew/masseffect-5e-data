@@ -4,27 +4,35 @@ new: true
 mechanics:
   - type: asi-choice
     options: true
-    limit: [str, dex]
+    limit:
+      - str
+      - dex
     amount: 1
     selections: 1
   - type: skill-choice
-    limit: [acrobatics, athletics]
+    limit:
+      - acrobatics
+      - athletics
     options: true
     selections: 1
   - type: speed-bonus
-    value: [walk]
+    value:
+      - walk
     bonus:
       type: flat
       value: 5
   - type: skill-check
-    value: [acrobatics, athletics]
+    value:
+      - acrobatics
+      - athletics
     effect:
       type: advantage
       note: to escape being grappled
 prerequisite: Volus
 prereq:
   - type: species
-    limit: [volus]
+    limit:
+      - volus
 ---
 You are uncommonly nimble for your species. You gain the following benefits:
 

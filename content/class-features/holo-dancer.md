@@ -1,4 +1,5 @@
 ---
+name: Holo-Dancer
 level: 3
 klass: musician
 subclass: techno
@@ -22,11 +23,7 @@ mechanics:
       max:
         type: mod
         value: cha
-    shortDesc: >-
-      Use your Musician's Inspiration to create {{ dc }} clone(s) that occupy the same space you do. When an attacker
-      targets you, before they roll an attack, they must roll a d{{dc + 1}}. If the attack rolls a 1, the attack proceeds
-      as normal. If they roll any other number, they targeted one of your Holo Dancers. The Dancer absorbs the attack and vanishes.
-name: Holo-Dancer
+    shortDesc: Use your Musician's Inspiration to create {{ dc }} clone(s) that occupy the same space you do. When an attacker targets you, before they roll an attack, they must roll a d{{dc + 1}}. If the attack rolls a 1, the attack proceeds as normal. If they roll any other number, they targeted one of your Holo Dancers. The Dancer absorbs the attack and vanishes.
 ---
 At 3rd level, you can use you Omni-tool to create a holographic copy of yourself to enhance your performances. You can
 spend a use of Inspiration to activate this feature as a bonus action. You create one clone at 3rd level,

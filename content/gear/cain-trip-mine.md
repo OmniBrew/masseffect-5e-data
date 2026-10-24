@@ -1,16 +1,11 @@
 ---
+name: Cain Trip Mine
 subsets:
   - id: cain-trip-mine-i
     rarity: common
     cost: 3300
     name: Cain Trip Mine I
-    html: >-
-      Launch a Cain Trip Mine to a point you can see within <me-distance length="60" />. The mine affixes to a solid surface and projects
-      a <me-distance length="15" adj />-long tripwire beam. When a creature or object passes through the tripwire, the mine detonates and
-      each creature within a <me-distance length="10" adj/>-radius sphere centred on the mine must
-      make a DC 15 Dexterity saving throw. A creature suffers 1d12 thunder damage on a failed save or half as much damage on a successful one.
-      The mine can be found with a DC 13 Wisdom (Perception) check and disarmed with a DC 11 Intelligence (Electronics) check. If a creature
-      fails to disarm the mine, it detonates. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
+    html: Launch a Cain Trip Mine to a point you can see within :distance{length="60"}. The mine affixes to a solid surface and projects a :distance{length="15" adj}-long tripwire beam. When a creature or object passes through the tripwire, the mine detonates and each creature within a :distance{length="10" adj}-radius sphere centred on the mine must make a DC 15 Dexterity saving throw. A creature suffers 1d12 thunder damage on a failed save or half as much damage on a successful one. The mine can be found with a DC 13 Wisdom (Perception) check and disarmed with a DC 11 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
     mechanics:
       - type: action
         layout: attack
@@ -36,13 +31,7 @@ subsets:
     rarity: common
     cost: 4600
     name: Cain Trip Mine II
-    html: >-
-      Launch a Cain Trip Mine to a point you can see within <me-distance length="60" />. The mine affixes to a solid surface and projects
-      a <me-distance length="15" adj />-long tripwire beam. When a creature or object passes through the tripwire, the mine detonates and
-      each creature within a <me-distance length="10" adj/>-radius sphere centred on the mine must
-      make a DC 15 Dexterity saving throw. A creature suffers 2d12 thunder damage on a failed save or half as much damage on a successful one.
-      The mine can be found with a DC 13 Wisdom (Perception) check and disarmed with a DC 13 Intelligence (Electronics) check. If a creature
-      fails to disarm the mine, it detonates. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
+    html: Launch a Cain Trip Mine to a point you can see within :distance{length="60"}. The mine affixes to a solid surface and projects a :distance{length="15" adj}-long tripwire beam. When a creature or object passes through the tripwire, the mine detonates and each creature within a :distance{length="10" adj}-radius sphere centred on the mine must make a DC 15 Dexterity saving throw. A creature suffers 2d12 thunder damage on a failed save or half as much damage on a successful one. The mine can be found with a DC 13 Wisdom (Perception) check and disarmed with a DC 13 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
     mechanics:
       - type: action
         layout: attack
@@ -68,13 +57,7 @@ subsets:
     rarity: uncommon
     cost: 5900
     name: Cain Trip Mine III
-    html: >-
-      Launch a Cain Trip Mine to a point you can see within <me-distance length="60" />. The mine affixes to a solid surface and projects
-      a <me-distance length="15" adj />-long tripwire beam. When a creature or object passes through the tripwire, the mine detonates and
-      each creature within a <me-distance length="10" adj/>-radius sphere centred on the mine must
-      make a DC 15 Dexterity saving throw. A creature suffers 3d12 thunder damage on a failed save or half as much damage on a successful one.
-      The mine can be found with a DC 13 Wisdom (Perception) check and disarmed with a DC 13 Intelligence (Electronics) check. If a creature
-      fails to disarm the mine, it detonates. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
+    html: Launch a Cain Trip Mine to a point you can see within :distance{length="60"}. The mine affixes to a solid surface and projects a :distance{length="15" adj}-long tripwire beam. When a creature or object passes through the tripwire, the mine detonates and each creature within a :distance{length="10" adj}-radius sphere centred on the mine must make a DC 15 Dexterity saving throw. A creature suffers 3d12 thunder damage on a failed save or half as much damage on a successful one. The mine can be found with a DC 13 Wisdom (Perception) check and disarmed with a DC 13 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
     mechanics:
       - type: action
         layout: attack
@@ -100,13 +83,7 @@ subsets:
     rarity: uncommon
     cost: 7200
     name: Cain Trip Mine IV
-    html: >-
-      Launch a Cain Trip Mine to a point you can see within <me-distance length="60" />. The mine affixes to a solid surface and projects
-      a <me-distance length="15" adj />-long tripwire beam. When a creature or object passes through the tripwire, the mine detonates and
-      each creature within a <me-distance length="10" adj/>-radius sphere centred on the mine must
-      make a DC 15 Dexterity saving throw. A creature suffers 4d12 thunder damage on a failed save or half as much damage on a successful one.
-      The mine can be found with a DC 13 Wisdom (Perception) check and disarmed with a DC 15 Intelligence (Electronics) check. If a creature
-      fails to disarm the mine, it detonates. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
+    html: Launch a Cain Trip Mine to a point you can see within :distance{length="60"}. The mine affixes to a solid surface and projects a :distance{length="15" adj}-long tripwire beam. When a creature or object passes through the tripwire, the mine detonates and each creature within a :distance{length="10" adj}-radius sphere centred on the mine must make a DC 15 Dexterity saving throw. A creature suffers 4d12 thunder damage on a failed save or half as much damage on a successful one. The mine can be found with a DC 13 Wisdom (Perception) check and disarmed with a DC 15 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
     mechanics:
       - type: action
         layout: attack
@@ -132,13 +109,7 @@ subsets:
     rarity: rare
     cost: 8500
     name: Cain Trip Mine V
-    html: >-
-      Launch a Cain Trip Mine to a point you can see within <me-distance length="60" />. The mine affixes to a solid surface and projects
-      a <me-distance length="15" adj />-long tripwire beam. When a creature or object passes through the tripwire, the mine detonates and
-      each creature within a <me-distance length="10" adj/>-radius sphere centred on the mine must
-      make a DC 15 Dexterity saving throw. A creature suffers 5d12 thunder damage on a failed save or half as much damage on a successful one.
-      The mine can be found with a DC 13 Wisdom (Perception) check and disarmed with a DC 15 Intelligence (Electronics) check. If a creature
-      fails to disarm the mine, it detonates. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
+    html: Launch a Cain Trip Mine to a point you can see within :distance{length="60"}. The mine affixes to a solid surface and projects a :distance{length="15" adj}-long tripwire beam. When a creature or object passes through the tripwire, the mine detonates and each creature within a :distance{length="10" adj}-radius sphere centred on the mine must make a DC 15 Dexterity saving throw. A creature suffers 5d12 thunder damage on a failed save or half as much damage on a successful one. The mine can be found with a DC 13 Wisdom (Perception) check and disarmed with a DC 15 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
     mechanics:
       - type: action
         layout: attack
@@ -164,13 +135,7 @@ subsets:
     rarity: rare
     cost: 9800
     name: Cain Trip Mine VI
-    html: >-
-      Launch a Cain Trip Mine to a point you can see within <me-distance length="60" />. The mine affixes to a solid surface and projects
-      a <me-distance length="15" adj />-long tripwire beam. When a creature or object passes through the tripwire, the mine detonates and
-      each creature within a <me-distance length="10" adj/>-radius sphere centred on the mine must
-      make a DC 15 Dexterity saving throw. A creature suffers 6d12 thunder damage on a failed save or half as much damage on a successful one.
-      The mine can be found with a DC 13 Wisdom (Perception) check and disarmed with a DC 17 Intelligence (Electronics) check. If a creature
-      fails to disarm the mine, it detonates. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
+    html: Launch a Cain Trip Mine to a point you can see within :distance{length="60"}. The mine affixes to a solid surface and projects a :distance{length="15" adj}-long tripwire beam. When a creature or object passes through the tripwire, the mine detonates and each creature within a :distance{length="10" adj}-radius sphere centred on the mine must make a DC 15 Dexterity saving throw. A creature suffers 6d12 thunder damage on a failed save or half as much damage on a successful one. The mine can be found with a DC 13 Wisdom (Perception) check and disarmed with a DC 17 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
     mechanics:
       - type: action
         layout: attack
@@ -196,13 +161,7 @@ subsets:
     rarity: very_rare
     cost: 11100
     name: Cain Trip Mine VII
-    html: >-
-      Launch a Cain Trip Mine to a point you can see within <me-distance length="60" />. The mine affixes to a solid surface and projects
-      a <me-distance length="15" adj />-long tripwire beam. When a creature or object passes through the tripwire, the mine detonates and
-      each creature within a <me-distance length="10" adj/>-radius sphere centred on the mine must
-      make a DC 15 Dexterity saving throw. A creature suffers 7d12 thunder damage on a failed save or half as much damage on a successful one.
-      The mine can be found with a DC 13 Wisdom (Perception) check and disarmed with a DC 17 Intelligence (Electronics) check. If a creature
-      fails to disarm the mine, it detonates. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
+    html: Launch a Cain Trip Mine to a point you can see within :distance{length="60"}. The mine affixes to a solid surface and projects a :distance{length="15" adj}-long tripwire beam. When a creature or object passes through the tripwire, the mine detonates and each creature within a :distance{length="10" adj}-radius sphere centred on the mine must make a DC 15 Dexterity saving throw. A creature suffers 7d12 thunder damage on a failed save or half as much damage on a successful one. The mine can be found with a DC 13 Wisdom (Perception) check and disarmed with a DC 17 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
     mechanics:
       - type: action
         layout: attack
@@ -228,13 +187,7 @@ subsets:
     rarity: very_rare
     cost: 12400
     name: Cain Trip Mine VIII
-    html: >-
-      Launch a Cain Trip Mine to a point you can see within <me-distance length="60" />. The mine affixes to a solid surface and projects
-      a <me-distance length="15" adj />-long tripwire beam. When a creature or object passes through the tripwire, the mine detonates and
-      each creature within a <me-distance length="10" adj/>-radius sphere centred on the mine must
-      make a DC 15 Dexterity saving throw. A creature suffers 8d12 thunder damage on a failed save or half as much damage on a successful one.
-      The mine can be found with a DC 13 Wisdom (Perception) check and disarmed with a DC 18 Intelligence (Electronics) check. If a creature
-      fails to disarm the mine, it detonates. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
+    html: Launch a Cain Trip Mine to a point you can see within :distance{length="60"}. The mine affixes to a solid surface and projects a :distance{length="15" adj}-long tripwire beam. When a creature or object passes through the tripwire, the mine detonates and each creature within a :distance{length="10" adj}-radius sphere centred on the mine must make a DC 15 Dexterity saving throw. A creature suffers 8d12 thunder damage on a failed save or half as much damage on a successful one. The mine can be found with a DC 13 Wisdom (Perception) check and disarmed with a DC 18 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
     mechanics:
       - type: action
         layout: attack
@@ -260,13 +213,7 @@ subsets:
     rarity: very_rare
     cost: 13700
     name: Cain Trip Mine IX
-    html: >-
-      Launch a Cain Trip Mine to a point you can see within <me-distance length="60" />. The mine affixes to a solid surface and projects
-      a <me-distance length="15" adj />-long tripwire beam. When a creature or object passes through the tripwire, the mine detonates and
-      each creature within a <me-distance length="10" adj/>-radius sphere centred on the mine must
-      make a DC 15 Dexterity saving throw. A creature suffers 9d12 thunder damage on a failed save or half as much damage on a successful one.
-      The mine can be found with a DC 13 Wisdom (Perception) check and disarmed with a DC 18 Intelligence (Electronics) check. If a creature
-      fails to disarm the mine, it detonates. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
+    html: Launch a Cain Trip Mine to a point you can see within :distance{length="60"}. The mine affixes to a solid surface and projects a :distance{length="15" adj}-long tripwire beam. When a creature or object passes through the tripwire, the mine detonates and each creature within a :distance{length="10" adj}-radius sphere centred on the mine must make a DC 15 Dexterity saving throw. A creature suffers 9d12 thunder damage on a failed save or half as much damage on a successful one. The mine can be found with a DC 13 Wisdom (Perception) check and disarmed with a DC 18 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
     mechanics:
       - type: action
         layout: attack
@@ -292,13 +239,7 @@ subsets:
     rarity: spectre
     cost: 13700
     name: Cain Trip Mine X
-    html: >-
-      Launch a Cain Trip Mine to a point you can see within <me-distance length="60" />. The mine affixes to a solid surface and projects
-      a <me-distance length="15" adj />-long tripwire beam. When a creature or object passes through the tripwire, the mine detonates and
-      each creature within a <me-distance length="10" adj/>-radius sphere centred on the mine must
-      make a DC 15 Dexterity saving throw. A creature suffers 10d12 thunder damage on a failed save or half as much damage on a successful one.
-      The mine can be found with a DC 13 Wisdom (Perception) check and disarmed with a DC 19 Intelligence (Electronics) check. If a creature
-      fails to disarm the mine, it detonates. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
+    html: Launch a Cain Trip Mine to a point you can see within :distance{length="60"}. The mine affixes to a solid surface and projects a :distance{length="15" adj}-long tripwire beam. When a creature or object passes through the tripwire, the mine detonates and each creature within a :distance{length="10" adj}-radius sphere centred on the mine must make a DC 15 Dexterity saving throw. A creature suffers 10d12 thunder damage on a failed save or half as much damage on a successful one. The mine can be found with a DC 13 Wisdom (Perception) check and disarmed with a DC 19 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
     mechanics:
       - type: action
         layout: attack
@@ -352,23 +293,22 @@ marks:
     rarity: Spectre
     damage: 10d12
 rarity: varies
-type: grenade
+gearType: grenade
 cost: Varies
 weight: 1
-subType: ''
-name: Cain Trip Mine
+subType: ""
 consumable: true
 equippable: true
 ---
-Launch a Cain Trip Mine to a point you can see within <me-distance length="60" />. The mine affixes to a solid surface and projects
-a <me-distance length="15" adj />-long tripwire beam. When a creature or object passes through the tripwire, the mine detonates.
+Launch a Cain Trip Mine to a point you can see within :distance{length="60"}. The mine affixes to a solid surface and projects
+a :distance{length="15" adj}-long tripwire beam. When a creature or object passes through the tripwire, the mine detonates.
 
 A creature can spot the mine with a successful DC 13 Wisdom (Perception) check.
 
 To disarm the mine, a creature must pass an Intelligence (Electronics) check. If the check fails, the mine detonates, and
 the creature that made the check automatically fails its saving throw. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.
 
-When the mine detonates, each creature within a <me-distance length="10" adj/>-radius sphere centred on the mine must
+When the mine detonates, each creature within a :distance{length="10" adj}-radius sphere centred on the mine must
 make a DC 15 Dexterity saving throw. A creature suffers thunder damage (see below) on a failed save
 or half as much damage on a successful one.
 

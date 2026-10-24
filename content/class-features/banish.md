@@ -10,8 +10,7 @@ mechanics:
       max:
         type: flat
         value: 3
-    shortDesc: >-
-      You may attack two additional times on top of your regular Attack(s)
+    shortDesc: You may attack two additional times on top of your regular Attack(s)
 ---
 The prey could be hurt, it could be staggering, or it could be on its last legs, but you need to take it down now.
 The teachings given to you have allowed you to temporarily overcharge your weapon to burst down the prey before

@@ -7,7 +7,7 @@ mechanics:
   - type: natural-armor
     base: 13
     mod: con
-  - type: shields
+  - type: me:shields
     capacity:
       type: level
       value: soldier
@@ -16,10 +16,7 @@ mechanics:
     additive: false
   - type: other
     name: Nano Shielding
-    shortDesc: >-
-      You have a special shield capacity equal to your Soldier level that is not vulnerable to Lightning damage
-      and melee weapons do not bypass it. Every turn at the beginning of your turn, you recover {{ profBonus }}
-      shield points, even if you attacked in the previous round.
+    shortDesc: You have a special shield capacity equal to your Soldier level that is not vulnerable to Lightning damage and melee weapons do not bypass it. Every turn at the beginning of your turn, you recover {{ profBonus }} shield points, even if you attacked in the previous round.
 ---
 At 7th level, your nanomachines emit an electromagnetic field strong enough to project a shield around you. You gain a
 special kind of shield, with shield points equal to your Soldier level. These shields are not considered

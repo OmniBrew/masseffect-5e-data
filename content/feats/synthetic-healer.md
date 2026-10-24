@@ -3,7 +3,9 @@ name: Synthetic Healer
 new: true
 mechanics:
   - type: skill-check
-    value: [engineering, electronics]
+    value:
+      - engineering
+      - electronics
     effect:
       type: advantage
       note: to stabilize a synthetic creature
@@ -26,13 +28,12 @@ mechanics:
           type: flat
           value: 4
         type: hp
-    shortDesc: >-
-      Restore 1d6 + 4 hit points to a synthetic creature, plus additional hit
-      points equal to its level
+    shortDesc: Restore 1d6 + 4 hit points to a synthetic creature, plus additional hit points equal to its level
 prerequisite: Intelligence 13 or higher
 prereq:
   - type: mod
-    limit: [intelligence]
+    limit:
+      - intelligence
     value: 13
 ---
 You’ve practiced in repairing and patching synthetics, gaining the following benefits:
@@ -44,4 +45,3 @@ conductive Epoxy.
 - As an action, you can spend one epoxy to tend to a synthetic creature and restore
 1d6 + 4 hit points to it, plus additional hit points equal to the creature's level.
 The creature can't regain hit points from this feat again until it finishes a short or long rest.
-

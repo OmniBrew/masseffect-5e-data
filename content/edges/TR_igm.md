@@ -13,4 +13,3 @@ You are now able to mount a second gun on your mount. When firing, both these gu
 The V.I. of the mount has improved, making the to hit bonus +6
 
 Alternatively, you may mount a Heavy Weapon on your beast. If you command it to use this heavy weapon, it costs you both your Attacks. Otherwise, it fires the weapon the same way
-

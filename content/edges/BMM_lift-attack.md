@@ -3,9 +3,9 @@ name: Lift Attack
 mechanics:
   - type: other
     resource:
-      reset: 'off'
+      reset: off
       displayType: barrier-ticks
-      label: 'Barrier Ticks'
+      label: Barrier Ticks
     dc:
       base: 8
       proficient: true
@@ -15,14 +15,10 @@ mechanics:
       save: dex
     damage:
       - dieCount:
-          type: barrierDieCount
+          type: me:barrier-die-count
         dieType:
-          type: barrierDieType
-    shortDesc: >-
-      When you hit a creature with a melee attack, you can expend one barrier tick to lift it.
-      Add <strong>{{ damage }}</strong> to the attack’s damage roll. If the target is Medium or smaller,
-      it must succeed on a <strong>DC {{ dc }} DEX</strong> save
-      or become lifted until the end of your next turn.
+          type: me:barrier-die-type
+    shortDesc: When you hit a creature with a melee attack, you can expend one barrier tick to lift it. Add <strong>{{ damage }}</strong> to the attack’s damage roll. If the target is Medium or smaller, it must succeed on a <strong>DC {{ dc }} DEX</strong> save or become lifted until the end of your next turn.
 type: maneuvers
 ---
 When you hit a creature with a melee attack, you can expend one barrier tick to attempt to lift a Medium or smaller size

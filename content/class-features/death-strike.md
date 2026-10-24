@@ -1,8 +1,8 @@
 ---
+name: Death Strike
 level: 17
 klass: infiltrator
 subclass: shadow
-name: Death Strike
 mechanics:
   - type: global-note
     subType: action

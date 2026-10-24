@@ -4,17 +4,29 @@ species:
   - military-doctrine-engineering-corps
 mechanics:
   - type: tool-choice
-    limit: [armorsmiths-workbench, tailors-tools, tinkers-tools, weaponsmiths-workbench]
+    limit:
+      - armorsmiths-workbench
+      - tailors-tools
+      - tinkers-tools
+      - weaponsmiths-workbench
     options: true
     selections: 1
   - type: skill-choice
     profType: skill
-    limit: [electronics, engineering, investigation, science]
+    limit:
+      - electronics
+      - engineering
+      - investigation
+      - science
     options: true
     selections: 1
   - type: expertise-choice
     profType: skill
-    limit: [electronics, engineering, investigation, science]
+    limit:
+      - electronics
+      - engineering
+      - investigation
+      - science
     options: true
     selections: 1
 ---

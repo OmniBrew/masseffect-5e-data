@@ -1,8 +1,8 @@
 ---
+name: Lock On
 level: 15
 klass: soldier
 subclass: legionnaire
-name: Lock On
 mechanics:
   - type: global-note
     subType: action

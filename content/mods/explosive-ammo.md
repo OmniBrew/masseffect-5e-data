@@ -1,8 +1,9 @@
 ---
+name: Explosive Ammo
 rarity: rare
-type: weapon
+modType: weapon
 cost: 15000
-manufacturer: ''
+manufacturer: ""
 tags:
   - extra_damage
 placement: ammo
@@ -12,10 +13,9 @@ availability:
   - smg
   - shotgun
   - sniper_rifle
-name: Explosive Ammo
 flavor: Fire exploding projectiles
 mechanics:
-  - type: weapon-augment
+  - type: me:weapon-augment
     addDamage:
       - dieCount: 1
         dieType: 8

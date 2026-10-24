@@ -1,6 +1,6 @@
 ---
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/9/92/Eclipse_Operative.png/revision/latest?cb=20100704072730
+name: Eclipse Operative
+image: https://vignette.wikia.nocookie.net/masseffect/images/9/92/Eclipse_Operative.png/revision/latest?cb=20100704072730
 type: organic
 unit: eclipse
 alignment: nn
@@ -16,10 +16,8 @@ abilityScores:
   int: 16
   wis: 14
   cha: 12
-irv: false
 savingThrows:
   - int
-senses: false
 size: medium
 skills:
   - electronics
@@ -30,21 +28,34 @@ entries:
     - uses: 1
       perDay: true
       id: tech-armor
+      name: Tech Armor
+      text: As a bonus action, the operative can activate its Tech Armor. It immediately gains 10 temporary hit points. While the operative has at least 1 of these temporary hit points remaining, it has +2 AC.
     - mod: int
       list:
-        - {id: incinerate, perDay: 5, level: 2}
+        - id: incinerate
+          perDay: 5
+          level: 2
       id: innate-powercasting
+      name: Innate Powercasting
+      text: "The eclipse operative's innate powercasting ability is Intelligence (power save DC 13, +5 to hit with power attacks). It can innately cast the following powers:"
   actions:
     - ref: weapon
       proficient: true
       id: m-9-tempest
       weaponId: m-9-tempest
-    - dc: false
-      save: false
-      uses: 2
+    - uses: 2
       perDay: true
       id: summon-combat-drone
-cr: '03000'
+      name: Summon Combat Drone
+      text: The operative summons a Combat Drone.
+    - name: Repair
+      text: The operative uses its action to repair a friendly, synthetic target within :distance{length="5"} for 1d8 hit points.
+      id: repair
+  reactions:
+    - name: Tech Armor
+      text: As a reaction to taking damage, the operative can activate its tech armor.
+      id: tech-armor
+cr: "03000"
 shields:
   capacity: 10
   regen: 10

@@ -1,14 +1,16 @@
 ---
+name: Melee Prowess
 level: 9
 klass: infiltrator
 subclass: shadow
-name: Melee Prowess
 mechanics:
   - type: attack-augment
     attackLimit:
       type: melee
       model: weapon
-    augmentTypes: [damage, hit]
+    augmentTypes:
+      - damage
+      - hit
     bonus:
       type: flat
       value: 1

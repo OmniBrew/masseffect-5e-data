@@ -1,6 +1,7 @@
 ---
+name: Revive AI
 rarity: rare
-type: armor
+modType: armor
 cost: 35000
 manufacturer: sirta-foundation
 tags:
@@ -10,10 +11,7 @@ availability:
   - light
   - medium
   - heavy
-name: Revive AI
-flavor: >-
-  This AI monitors your vitals and attempts to stabilize you if become
-  incapacitated.
+flavor: This AI monitors your vitals and attempts to stabilize you if become incapacitated.
 mechanics:
   - type: other
     name: Revive AI (mod)

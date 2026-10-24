@@ -42,9 +42,9 @@ The larger the object, the farther the range.
 #### Distance of Indoctrination
 Size of tech | Range
 --- | ---
-Tiny | <me-distance length="30" />
-Small | <me-distance length="100" />
-Medium | <me-distance length="250" />
-Large | <me-distance length="600" />
-Huge | <me-distance length="6" large />
-Gargantuan |  <me-distance length="60" large />
+Tiny | :distance{length="30"}
+Small | :distance{length="100"}
+Medium | :distance{length="250"}
+Large | :distance{length="600"}
+Huge | :distance{length="6" large}
+Gargantuan |  :distance{length="60" large}

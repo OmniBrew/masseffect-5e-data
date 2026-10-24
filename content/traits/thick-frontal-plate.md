@@ -9,7 +9,6 @@ mechanics:
       damageModOverride: con
       type: natural-melee
       name: Thick Frontal Plate
-      notes:
       properties: []
       range:
         short: 5

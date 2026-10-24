@@ -10,12 +10,12 @@ mechanics:
       reset: short
       max:
         type: proficiency
-    shortDesc: >-
-      At the end of your turn, if you are in the air, you can hover until the start of your next turn. 
+    shortDesc: "At the end of your turn, if you are in the air, you can hover until the start of your next turn. "
 prerequisite: Awakened Collector
 prereq:
   - type: species
-    limit: [awakened-collector]
+    limit:
+      - awakened-collector
 ---
 You’ve strengthened your wings to allow you to maneuver more deftly and hover for short periods.
 

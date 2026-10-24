@@ -2,7 +2,7 @@
 name: Backlash
 version: 1
 level: 2
-type: biotic
+powerType: biotic
 tags:
   - protection
 classes:
@@ -10,7 +10,7 @@ classes:
   - sentinel
   - vanguard
   - explorer
-mechanics:
+casting:
   - castingTime:
       length: 1
       unit: reaction
@@ -24,9 +24,6 @@ mechanics:
         value: 15
       id: backlash
       label: false
-    attack: false
-    dc: false
-    damage: false
     duration:
       length: 1
       unit: minute
@@ -34,7 +31,6 @@ mechanics:
     range:
       short: 0
     detonates: false
-    primes: false
   - resource:
       max:
         value: 25
@@ -48,7 +44,7 @@ advancements:
   - id: durable
     name: Durable
     text: Increase the aegis's hit points to 30.
-    mechanics:
+    casting:
       - resource:
           max:
             value: 30
@@ -63,9 +59,8 @@ advancements:
             value: 60
   - id: counterstrike
     name: Counterstrike
-    text: >-
-      If you cast Backlash as a reaction against a melee attack, gain an attack of opportunity against the attacking creature.
-    mechanics: []
+    text: If you cast Backlash as a reaction against a melee attack, gain an attack of opportunity against the attacking creature.
+    casting: []
 ---
 Generate a frontal biotic aegis barrier with 15 hit points. If a creature you can see hits you with an attack while the
 aegis is active, including the triggering attack, split the damage equally between yourself and the aegis. If the attack

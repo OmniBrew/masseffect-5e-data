@@ -1,11 +1,10 @@
 ---
 name: Dhan
 rarity: spectre
-type: shotgun
+weaponType: shotgun
 cost: 63500
 manufacturer: kett
 weight: 18
-heat: 2
 damage:
   dieCount: 3
   dieType: 8
@@ -16,9 +15,11 @@ range:
 image: https://vignette.wikia.nocookie.net/masseffect/images/6/60/MEA_Dhan_MP.png/revision/latest?cb=20180607231027
 andromeda: true
 properties:
-  - two-handed
-  - hip-fire
-  - heavy
-  - recoil
+  - id: two-handed
+  - id: hip-fire
+  - id: heavy
+  - id: recoil
+  - id: heat
+    value: 2
 slots: 2
 ---

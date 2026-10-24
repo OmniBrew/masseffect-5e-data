@@ -1,10 +1,10 @@
 ---
+name: Omni-gel
 rarity: common
-type: omni_gel
+gearType: omni_gel
 cost: 1000
 weight: 1
-subType: ''
-name: Omni-gel
+subType: ""
 consumable: true
 ---
 Omni-gel is a technological material that can be obtained by breaking down unwanted items, such as weapons, armor, and

@@ -1,8 +1,8 @@
 ---
+name: Master Flash Forge
 level: 18
 klass: engineer
 subclass: holosmith
-name: Master Flash Forge
 mechanics:
   - type: augment
     value:

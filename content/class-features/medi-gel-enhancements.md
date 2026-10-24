@@ -1,8 +1,8 @@
 ---
+name: Medi-gel Enhancements
 level: 6
 klass: engineer
 subclass: medic
-name: Medi-gel Enhancements
 ---
 At 6th level, you can spend 6 hours in a lab, or similar environment, using drugs to enhance the capabilities of standard medi-gel. It
 takes 2 hours to craft a single enhancement, but you can apply that benefit to any number of medi-gel cartridges. To craft

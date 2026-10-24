@@ -32,4 +32,4 @@ type: main-augments
 Your body has integrated weapons located somewhere. This can vary from a bionic arm that you are now used to enough
 to swing, or blades that only now you've grown used to. Choose a physical damage type: Bludgeoning, Slashing, or Piercing.
 This is the base damage of your weapon. You make attack rolls with this weapon using your Constitution Modifier. It
-deals 1d8 + your Constitution Modifier damage, and has a range of <me-distance length="50" abbr/>/<me-distance length="100" abbr />.
+deals 1d8 + your Constitution Modifier damage, and has a range of :distance{length="50" abbr}/[:distance{length="100" abbr}].

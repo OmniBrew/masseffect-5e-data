@@ -1,15 +1,15 @@
 ---
+name: Power Magnifier
 rarity: uncommon
-type: weapon
+modType: weapon
 cost: 12000
-manufacturer: ''
+manufacturer: ""
 tags:
   - extra_damage
 placement: body
 availability:
   - heavy_pistol
   - smg
-name: Power Magnifier
 flavor: Generator designed to enhance the effectiveness of tech or biotic attacks.
 mechanics: []
 ---

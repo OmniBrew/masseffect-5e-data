@@ -5,7 +5,12 @@ species: unshackled-ai
 abilityScoreIncrease: +1 to one ability score that isn't Intelligence
 mechanics:
   - type: asi-choice
-    limit: [str, dex, con, wis, cha]
+    limit:
+      - str
+      - dex
+      - con
+      - wis
+      - cha
     options: true
   - type: speed
     speed: walk

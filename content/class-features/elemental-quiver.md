@@ -1,4 +1,5 @@
 ---
+name: Elemental Quiver
 level: 10
 klass: engineer
 subclass: bowman
@@ -9,7 +10,6 @@ mechanics:
     moreInfo:
       model: class-features
       id: elemental-quiver
-name: Elemental Quiver
 ---
 At 10th level, you can blend other powers into your arrows. The power with which you have selected your
 Engineer's Eficiency now affects some properties of your arrows. These choices are made per arrow,

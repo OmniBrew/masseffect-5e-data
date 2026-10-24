@@ -1,7 +1,7 @@
 ---
+name: Recharge (1d6)
 level: 11
 klass: engineer
-name: Recharge (1d6)
 mechanics:
   - type: augment
     value:

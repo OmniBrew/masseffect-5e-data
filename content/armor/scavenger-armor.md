@@ -1,38 +1,32 @@
 ---
-placement: body_armor
-type: light
+name: Scavenger Armor
+coverage: suit
+armorType: light
 cost: 50000
 manufacturer: hahne-kedar
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/4/41/MEA_Scavenger_Armor.png/revision/latest/scale-to-width-down/350?cb=20180512010824
+image: https://vignette.wikia.nocookie.net/masseffect/images/4/41/MEA_Scavenger_Armor.png/revision/latest/scale-to-width-down/350?cb=20180512010824
 tags:
   - item_capacity
   - set_bonus
 andromeda: false
 set: scavenger
 rarity: rare
-name: Scavenger Armor
-flavor: >-
-  The Auto-Recycling Technical and Combat Interface Armor-a name only slightly
-  less awkward in the original turian-is better known as the Scavenger Hardsuit.
-  Originally built by Armax Arsenal in the Milky Way, the Scavenger incorporates
-  quarian technology that allows the user to better analyze, interface, and
-  integrate foreign components.
+flavor: The Auto-Recycling Technical and Combat Interface Armor-a name only slightly less awkward in the original turian-is better known as the Scavenger Hardsuit. Originally built by Armax Arsenal in the Milky Way, the Scavenger incorporates quarian technology that allows the user to better analyze, interface, and integrate foreign components.
 mechanics:
-  - type: shields
+  - type: me:shields
     capacity:
       type: flat
       value: 5
     regen:
       type: flat
       value: 5
-  - type: thermal-clip-capacity
+  - type: me:thermal-clip-capacity
     value: 18
-  - type: medi-gel-capacity
+  - type: me:medi-gel-capacity
     value: 8
-  - type: grenade-capacity
+  - type: me:grenade-capacity
     value: 8
-  - type: weapon-slots
+  - type: me:weapon-slots
     value: 2
 ---
 - +6 grenade capacity.

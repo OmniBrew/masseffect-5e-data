@@ -1,11 +1,10 @@
 ---
 name: Arc Pistol
 rarity: uncommon
-type: heavy_pistol
+weaponType: heavy_pistol
 cost: 13500
 manufacturer: quarian
 weight: 4
-heat: 18
 damage:
   dieCount: 1
   dieType: 6
@@ -16,9 +15,11 @@ range:
 image: https://vignette1.wikia.nocookie.net/masseffect/images/e/e8/ME3_Arc_Heavy_Pistol.png/revision/latest?cb=20120317185747
 andromeda: false
 properties:
-  - arc
-  - light
-  - special
+  - id: arc
+  - id: light
+  - id: special
+  - id: heat
+    value: 18
 slots: 1
 ---
 Use a bonus action to charge the weapon before firing, consuming 2 heat. On a hit, it deals an 

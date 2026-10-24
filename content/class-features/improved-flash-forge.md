@@ -1,8 +1,8 @@
 ---
+name: Improved Flash Forge
 level: 10
 klass: engineer
 subclass: holosmith
-name: Improved Flash Forge
 mechanics:
   - type: augment
     value:

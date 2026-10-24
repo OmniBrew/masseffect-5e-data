@@ -9,13 +9,12 @@ mechanics:
     resource:
       displayType: hit-dice
       label: false
-    shortDesc: >-
-      Whenever you take the Dodge action in combat, you can spend one Hit Die to heal
-      yourself equal to the roll + {{ conMod }}
+    shortDesc: Whenever you take the Dodge action in combat, you can spend one Hit Die to heal yourself equal to the roll + {{ conMod }}
 prerequisite: Vorcha
 prereq:
   - type: species
-    limit: [vorcha]
+    limit:
+      - vorcha
 ---
 You have adapted to quickly regenerate minor wounds, given a brief reprieve from injury.
 

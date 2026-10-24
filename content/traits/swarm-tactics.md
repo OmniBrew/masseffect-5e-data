@@ -1,6 +1,7 @@
 ---
 name: Swarm Tactics
-species: [hardware-loki]
+species:
+  - hardware-loki
 mechanics: []
 ---
 Your underlying LOKI programming is built on swarming enemies with superior numbers. Once per turn, you have advantage on

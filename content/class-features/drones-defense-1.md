@@ -1,8 +1,8 @@
 ---
+name: Drone's Defense
 level: 10
 klass: engineer
 subclass: drone-jockey
-name: Drone's Defense
 mechanics:
   - type: companion
 ---

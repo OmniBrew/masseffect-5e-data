@@ -1,12 +1,15 @@
 ---
+name: Careful Eyes
 level: 9
 klass: infiltrator
 subclass: sniper
-name: Careful Eyes
 mechanics:
   - type: skill-choice
     options: true
-    limit: [perception, investigation, survival]
+    limit:
+      - perception
+      - investigation
+      - survival
   - type: bonus-action
     name: Search
     baseGroup: true

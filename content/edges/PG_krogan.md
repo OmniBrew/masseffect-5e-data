@@ -8,8 +8,8 @@ mechanics:
   - type: model-choice
     options: true
     model: traits
-    set: [blood-rage]
+    set:
+      - blood-rage
 ---
 - Your Constitution score increases by 1, to a maximum of 20.
 - Gain the Blood Rage trait.
-

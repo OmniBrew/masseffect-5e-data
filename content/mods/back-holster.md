@@ -1,6 +1,7 @@
 ---
+name: Back Holster
 rarity: common
-type: armor
+modType: armor
 cost: 6000
 manufacturer: any
 tags:
@@ -10,10 +11,9 @@ availability:
   - light
   - medium
   - heavy
-name: Back Holster
 flavor: A back holster designed to hold a larger weapon.
 mechanics:
-  - type: weapon-slots
+  - type: me:weapon-slots
     value: 2
 ---
 Gain 2 additional weapon slots. If using the Variant: Encumbrance rule, increase your Carry Weight by 10.

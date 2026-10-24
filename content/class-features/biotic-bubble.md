@@ -1,4 +1,5 @@
 ---
+name: Biotic Bubble
 level: 6
 klass: adept
 subclass: justicar
@@ -15,16 +16,9 @@ mechanics:
       aoe:
         type: sphere
         size: 20
-    shortDesc: >-
-      Push out a Biotic Bubble for 1 minute or until you leave it's area. It occupies an <me-distance length="20" adj /> burst, centred
-      around you. Allies inside of the Bubble recharge their shields at the end of every turn, even if they don't
-      fulfill the requisites for recharging shields.
-      <br>
-      When you cast powers while inside the Biotic Bubble,
-      you add your Powercasting Modifier to their damage rolls. This benefit only applies to you.
-name: Biotic Bubble
+    shortDesc: Push out a Biotic Bubble for 1 minute or until you leave it's area. It occupies an :distance{length="20" adj} burst, centred around you. Allies inside of the Bubble recharge their shields at the end of every turn, even if they don't fulfill the requisites for recharging shields. <br> When you cast powers while inside the Biotic Bubble, you add your Powercasting Modifier to their damage rolls. This benefit only applies to you.
 ---
-At 6th level, as an action, you can push out a Biotic Bubble. It occupies an <me-distance length="20" adj /> burst, centred
+At 6th level, as an action, you can push out a Biotic Bubble. It occupies an :distance{length="20" adj} burst, centred
 around you. Allies inside of the Bubble recharge their shields at the end of every turn, even if they don't
 fulfill the requisites for recharging shields.
 

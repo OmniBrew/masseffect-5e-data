@@ -1,4 +1,5 @@
 ---
+name: Shield Feedback
 level: 10
 klass: sentinel
 subclass: artillerist
@@ -7,7 +8,8 @@ mechanics:
     value:
       model: sentinel
       id: tech-armor
-      limit: [bonus-action]
+      limit:
+        - bonus-action
     merge:
       moreInfo:
         additional:
@@ -27,7 +29,6 @@ mechanics:
                 moreInfo:
                   model: class-features
                   id: shield-feedback
-name: Shield Feedback
 ---
 At 10th level, you can redirect some power from your cannon back into your omni-tool and shields. When you use your
 action to cast a power, your shield recovers an amount of shield points equal to the level of the power. If you cast

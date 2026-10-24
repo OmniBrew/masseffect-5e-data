@@ -2,7 +2,7 @@
 name: Damping
 version: 1
 level: 1
-type: tech
+powerType: tech
 tags:
   - debuff
   - control
@@ -12,35 +12,30 @@ classes:
   - infiltrator
   - sentinel
   - explorer
-mechanics:
+casting:
   - castingTime:
       length: 1
       unit: action
-    attack: false
     dc:
       base: 8
       proficient: true
       note: the target saves with its powercasting ability
-    damage: false
     duration:
       length: 0
       unit: instant
     concentration: false
     range:
       short: 90
-      aoe: false
     detonates: false
-    primes: false
 advancements:
   - id: cooldown
     name: Cooldown
     text: If creature that fails its saving throw casts a tech or biotic power, it cannot cast another tech or biotic power until the end of its next turn.
-    mechanics: []
+    casting: []
   - id: power-damping
     name: Power Damping
     text: Creatures have disadvantage on the saving throw against this power.
-    mechanics: []
-
+    casting: []
 ---
 Target a creature you can see within range and cause interference with their biotic implant and omni-tool, reducing their
 ability to use them effectively. The creature must make a saving throw using its powercasting ability or it suffers a penalty

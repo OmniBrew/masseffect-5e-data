@@ -1,11 +1,10 @@
 ---
 name: Pathfinder Deep Impact
 rarity: rare
-type: shotgun
+weaponType: shotgun
 cost: 37000
 manufacturer: andromeda-initiative
 weight: 13
-heat: 6
 damage:
   dieCount: 2
   dieType: 6
@@ -16,9 +15,11 @@ range:
 image: https://vignette.wikia.nocookie.net/masseffect/images/7/77/Pathfinder-Deep_Impact.png/revision/latest?cb=20180224220127
 andromeda: false
 properties:
-  - two-handed
-  - hip-fire
-  - recoil
+  - id: two-handed
+  - id: hip-fire
+  - id: recoil
+  - id: heat
+    value: 6
 slots: 2
 ---
 Whenever you make an attack roll with this weapon and miss, you gain a stacking +1 bonus to 

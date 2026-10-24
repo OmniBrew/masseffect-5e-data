@@ -1,4 +1,5 @@
 ---
+name: Steady Aim
 level: 3
 klass: infiltrator
 subclass: sniper
@@ -21,7 +22,6 @@ mechanics:
       max:
         type: flat
         value: 3
-name: Steady Aim
 ---
 At the 3rd level, your aim with a sniper rifle becomes deadly. As a bonus action on your turn, you can overclock
 your targeting system to take careful aim at a creature you can see that is within range of a sniper rifle you're wielding.

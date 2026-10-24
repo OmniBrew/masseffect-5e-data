@@ -1,11 +1,11 @@
 ---
+name: Tracker Affinity Improvement
 level: 6
 klass: tracker
 mechanics:
   - type: model-choice
     options: true
     model: tracker-affinity-advancement
-name: Tracker Affinity Improvement
 ---
 Your affinity with your chosen area improves. At 6th level, you gain the following benefit, befitting the area you chose at 1st level.
 
@@ -22,7 +22,3 @@ Plains|Your walking speed increases by a further 4m, and you can take the Dash a
 Swamps|Any creature that starts its turn within 6m of you gains a swimming speed equal to yours, as your adept swimming creates a slipstream for allies to move through more easily
 Urban|You do not provoke attacks of opportunity when moving out of range of enemies.
 Volcanic|You gain fire resistance, and can move through areas of burning fire without taking damage.
-
-
-
-

@@ -1,4 +1,5 @@
 ---
+name: Powercasting
 level: 1
 klass: musician
 mechanics:
@@ -8,10 +9,49 @@ mechanics:
     prepared:
       levelMultiplier: 1
       modBonus: true
-    points: [2,3,4,5,7,9,11,14,16,19,22,25,27,27,30,30,34,34,40,40]
-    limit: [1,1,1,1,2,2,2,2,2,3,3,3,3,3,4,4,4,4,4,4]
+    points:
+      - 2
+      - 3
+      - 4
+      - 5
+      - 7
+      - 9
+      - 11
+      - 14
+      - 16
+      - 19
+      - 22
+      - 25
+      - 27
+      - 27
+      - 30
+      - 30
+      - 34
+      - 34
+      - 40
+      - 40
+    limit:
+      - 1
+      - 1
+      - 1
+      - 1
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 3
+      - 3
+      - 3
+      - 3
+      - 3
+      - 4
+      - 4
+      - 4
+      - 4
+      - 4
+      - 4
     mod: cha
-name: Powercasting
 ---
 ### Preparing and casting powers
 The Musician table shows how many tech points you have to cast your powers of 1st level and higher. To cast one of

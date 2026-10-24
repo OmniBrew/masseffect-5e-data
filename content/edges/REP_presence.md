@@ -17,4 +17,3 @@ mechanics:
 When you make Charisma (Intimidation) check and roll a 9 or lower, you can treat the roll as a 10.
 
 You may use this benefit between long rests a number of times equal to your Charisma modifier (minimum of once).
-

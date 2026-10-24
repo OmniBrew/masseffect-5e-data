@@ -6,7 +6,9 @@ bonuses:
       - type: attack-augment
         attackLimit:
           model: weapon
-        augmentTypes: [damage, hit]
+        augmentTypes:
+          - damage
+          - hit
         bonus:
           type: flat
           value: 1

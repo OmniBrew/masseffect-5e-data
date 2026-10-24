@@ -35,15 +35,15 @@ Increases one ability score by 1-5|5|33000
 Condition Immunity|1 condition|35000
 reroll any 1 on your (biotic, tech, or melee) damage rolls|1 damage type|20000
 Damage immunity|1 damage type|55000
-Darkvision up to certain distance. Can be toggled as bonus action.|<me-distance length="30" />|2000
+Darkvision up to certain distance. Can be toggled as bonus action.|:distance{length="30"}|2000
 Increase grenade capacity|2|3000
 Increase Heavy Weapon charges|1|5000
 Additional hit die when expending medi-gel|1 die|12000
-Infrared vision up to certain distance. Can be toggled as bonus action.|<me-distance length="30" />|4000
+Infrared vision up to certain distance. Can be toggled as bonus action.|:distance{length="30"}|4000
 Increase Medi-gel capacity|2|2000
 While you're wearing it, any critical hit against you becomes a normal hit.|-|20000
 Ignore movement penalties of difficult terrain.|-|10000
-If an effect moves you against your will along the ground, you can use your reaction to reduce the distance you are moved by up to <me-distance length="10" />.|-|5000
+If an effect moves you against your will along the ground, you can use your reaction to reduce the distance you are moved by up to :distance{length="10"}.|-|5000
 Resistance to piercing damage|-|50000
 Resistance to cold, fire, force, lightning, or necrotic damage|1 damage type|20000
 Resistance to acid, poison, psychic, radiant, or thunder|1 damage type|15000
@@ -51,12 +51,12 @@ Resistance to bludgeoning or slashing|1 damage type|25000
 Once per short rest, as a reaction to taking damage, you may jump-start your shield regen and immediately gain shield points equal to your regen amount.|-|15000
 Increase shield regen|5|8000
 Additional shield points (regen remains base 5)|5|10000
-Increase speed|<me-distance length="5" />|3000
+Increase speed|:distance{length="5"}|3000
 you gain a +X bonus to power attack rolls and to the saving throw DCs of your powers.|1|20000
 You regain 1d4 worth of power slots or tech points when you take a short rest.|1 die|30000
 Advantage on saving throws|1 saving throw type|35000
 Advantage on a saving throw against one condition|1 condition|15000
 Instantly stabilize a companion|1 per long rest|20000
 Increase thermal clip capacity|4|1000
-Truesight up to certain distance. Can be toggled as bonus action.|<me-distance length="30" />|12000
+Truesight up to certain distance. Can be toggled as bonus action.|:distance{length="30"}|12000
 Additional weapon slot|1 for small weapons, 2 for large weapons|3000

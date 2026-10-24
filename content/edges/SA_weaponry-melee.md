@@ -5,7 +5,8 @@ mechanics:
     value:
       model: main-augments
       id: MA_weaponry-melee
-      limit: [attack]
+      limit:
+        - attack
     merge:
       moreInfo:
         additional:
@@ -16,9 +17,7 @@ mechanics:
         - {}
         - type: tooltip
           text: shields*
-          tooltipText: >-
-            Deals the same damage to shields that it would deal
-            to health (efectively dealing the same damage to both shields and health)
+          tooltipText: Deals the same damage to shields that it would deal to health (efectively dealing the same damage to both shields and health)
       damage:
         - {}
         - dieCount: 1

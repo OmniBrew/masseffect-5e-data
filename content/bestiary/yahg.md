@@ -1,6 +1,6 @@
 ---
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/3/34/ME3_Yahg.png/revision/latest/scale-to-width-down/230?cb=20120322212821
+name: Yahg
+image: https://vignette.wikia.nocookie.net/masseffect/images/3/34/ME3_Yahg.png/revision/latest/scale-to-width-down/230?cb=20120322212821
 type: organic
 unit: alien
 alignment: ce
@@ -41,21 +41,39 @@ entries:
     - attack: melee
       proficient: true
       range: 5
-      dc: false
       mod: str
       damage:
-        - {dieCount: 2, dieType: 10, mod: true, type: piercing}
+        - dieCount: 2
+          dieType: 10
+          mod: true
+          type: piercing
       target: one
       id: bite
+      name: Bite
     - attack: melee
       proficient: true
       range: 10
-      dc: false
       mod: str
       damage:
-        - {dieCount: 2, dieType: 8, mod: true, type: slashing}
+        - dieCount: 2
+          dieType: 8
+          mod: true
+          type: slashing
       target: one
       id: claw
-cr: '08000'
-shields: false
+      name: Claw
+    - name: Multiattack
+      text: "The yahg makes three attacks: one with its bite and two with its claws."
+      id: multiattack
+  features:
+    - name: Assassinate
+      text: During its first turn, the yahg has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the yahg scores against a surprised creature is a critical hit.
+      id: assassinate
+    - name: Avoidance
+      text: If the yahg subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.
+      id: avoidance
+    - name: Sneak Attack
+      text: The yahg  deals an extra 13 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within :distance{length="5"} of an ally of the yahg that isn't incapacitated and the yahg doesn't have disadvantage on the attack roll.
+      id: sneak-attack
+cr: "08000"
 ---

@@ -14,4 +14,4 @@ moving to attack the next nearest creature after you kill your current target. I
 you attack one at random.
 
 You are in a blind range until you die, are incapacitated, or start your turn with no creatures within
-<me-distance length="60" /> of you that you can see or hear.
+:distance{length="60"} of you that you can see or hear.

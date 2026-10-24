@@ -2,7 +2,7 @@
 name: Electric Slash
 version: 1
 level: 2
-type: tech
+powerType: tech
 tags:
   - damage
 classes:
@@ -10,18 +10,16 @@ classes:
   - musician
   - infiltrator
   - tracker
-mechanics:
+casting:
   - castingTime:
       length: 1
       unit: action
-    attack: false
     dc:
       save: con
     damage:
       - dieCount: 6
         dieType: 6
         type: lightning
-    conditions: false
     duration:
       length: 0
       unit: instant
@@ -32,7 +30,6 @@ mechanics:
         type: cone
         size: 20
     detonates: true
-    primes: false
   - damage:
       - dieCount: 8
   - damage:
@@ -45,14 +42,15 @@ advancements:
   - id: shield-restore
     name: Shield Restore
     text: If you are wearing armor, gain shield points equal to half of your damage roll.
-    mechanics: []
+    casting: []
   - id: paralyze
     name: Paralyze
     text: Creatures that fail the saving throw are paralyzed until the end of their next turn.
-    mechanics:
-      - conditions: [paralyzed]
+    casting:
+      - conditions:
+          - paralyzed
 ---
-Fabricate an electrified whip that lashes out in front of you in an <me-distance length="20" adj /> cone. Each creature must make a Constitution saving
+Fabricate an electrified whip that lashes out in front of you in an :distance{length="20" adj} cone. Each creature must make a Constitution saving
 throw. On a failed save, a creature takes 6d6 lightning damage or half as much damage on a successful one.
 
 __At Higher Levels__: When you cast this power using a power slot of 3rd level or higher, the damage increases by 2d6 for

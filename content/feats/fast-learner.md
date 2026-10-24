@@ -8,7 +8,10 @@ mechanics:
 prerequisite: Human, Batarian, or Salarian
 prereq:
   - type: species
-    limit: [human, batarian, salarian]
+    limit:
+      - human
+      - batarian
+      - salarian
 ---
 You are extremely apt to learn new skills. You gain the following benefits:
 

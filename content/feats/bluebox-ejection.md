@@ -2,10 +2,11 @@
 name: Blue Box Ejection
 new: true
 mechanics: []
-prerequisite: Unshackled AI 
+prerequisite: Unshackled AI
 prereq:
   - type: species
-    limit: [unshackled-ai]
+    limit:
+      - unshackled-ai
 ---
 You have taken the necessary precautions to protect your blue box, should your hardware fail.
 Gain the following (if you have selected the Hologram hardware, your Emitter gains the following instead):
@@ -19,5 +20,3 @@ death saving throw failures, your blue box is irreparable and you die.
 - You can be reinstalled in a replacement hardware with 8 hours of work and a DC 15 Intelligence 
 (Electronics) check. The cost and/or availability of the replacement hardware is at the GM’s 
 discretion.
-
-

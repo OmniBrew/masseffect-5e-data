@@ -1,6 +1,7 @@
 ---
+name: Chest Holster - Grenades
 rarity: uncommon
-type: armor
+modType: armor
 cost: 6000
 manufacturer: elkoss-combine
 tags:
@@ -10,10 +11,9 @@ availability:
   - light
   - medium
   - heavy
-name: Chest Holster - Grenades
 flavor: A holster designed to hold combat grenades.
 mechanics:
-  - type: grenade-capacity
+  - type: me:grenade-capacity
     value: 4
 ---
 Increase your grenade capacity by 4

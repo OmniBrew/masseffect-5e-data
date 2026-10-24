@@ -1,6 +1,6 @@
 ---
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/1/1c/ME3_Cerberus_Assault_Trooper.png/revision/latest/scale-to-width-down/514?cb=20120322151133
+name: Assault Trooper
+image: https://vignette.wikia.nocookie.net/masseffect/images/1/1c/ME3_Cerberus_Assault_Trooper.png/revision/latest/scale-to-width-down/514?cb=20120322151133
 type: organic
 unit: cerberus
 alignment: nn
@@ -16,19 +16,20 @@ abilityScores:
   int: 10
   wis: 10
   cha: 10
-irv: false
 savingThrows:
   - dex
-senses: false
 size: medium
-skills: false
 speed:
   walk: 30
 entries:
   features:
     - list:
-        - {id: frag-grenade, mark: iii, uses: 2}
+        - id: frag-grenade
+          mark: iii
+          uses: 2
       id: grenades
+      name: Grenades
+      text: The assault trooper has the following grenades equipped. It can use a grenade as an action.
   actions:
     - ref: weapon
       proficient: true
@@ -38,6 +39,5 @@ entries:
       proficient: true
       id: m-25-hornet
       weaponId: m-25-hornet
-cr: '01000'
-shields: false
+cr: "01000"
 ---

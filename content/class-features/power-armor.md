@@ -1,8 +1,8 @@
 ---
+name: Power Armor
 level: 2
 klass: engineer
 subclass: armorer
-name: Power Armor
 mechanics:
   - type: armor
     value: heavy

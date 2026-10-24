@@ -1,4 +1,5 @@
 ---
+name: Neural Dampening
 level: 9
 klass: explorer
 subclass: path-of-eezo
@@ -15,7 +16,6 @@ mechanics:
     moreInfo:
       model: class-features
       id: neural-dampening
-name: Neural Dampening
 ---
 At 9th level, you gain resistance to Psychic, Necrotic and Force damage, and an enemy that deals Psychic, Necrotic or
 Force damage to you must make a saving throw vs your powercasting modifier or take half of the damage it dealt to you.

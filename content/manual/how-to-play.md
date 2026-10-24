@@ -113,4 +113,5 @@ There’s one more general rule you need to know at the outset. Whenever you div
 end up with a fraction, even if the fraction is one-half or greater.
 
 
-<me-source-reference pages="3-4" source="basic"></me-source-reference>
+::source-reference{pages="3-4" source="basic"}
+::

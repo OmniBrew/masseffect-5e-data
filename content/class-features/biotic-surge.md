@@ -1,16 +1,13 @@
 ---
+name: Biotic Surge
 level: 6
 klass: adept
 subclass: disruptor
 mechanics:
   - type: other
-    shortDesc: >-
-      When you force multiple creatures to make saving throws against the damage of one of your powers, you can
-      increase the power's damage by rolling two more of its damage dice. This increase occurs only on the
-      turn you cast the power.
+    shortDesc: When you force multiple creatures to make saving throws against the damage of one of your powers, you can increase the power's damage by rolling two more of its damage dice. This increase occurs only on the turn you cast the power.
     resource:
       reset: short
-name: Biotic Surge
 ---
 Starting at 6th level, you can empower your biotics that unleash harm on groups of foes. When you force multiple
 creatures to make saving throws against the damage of one of your powers, you can increase the power's damage by rolling

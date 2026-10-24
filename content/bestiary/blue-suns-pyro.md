@@ -1,6 +1,6 @@
 ---
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/c/c2/Blue_Suns_Pyro_2.png/revision/latest/scale-to-width-down/347?cb=20100621035042
+name: Blue Suns Pyro
+image: https://vignette.wikia.nocookie.net/masseffect/images/c/c2/Blue_Suns_Pyro_2.png/revision/latest/scale-to-width-down/347?cb=20100621035042
 type: organic
 unit: blue_suns
 alignment: nn
@@ -16,16 +16,21 @@ abilityScores:
   int: 11
   wis: 12
   cha: 10
-irv: false
-savingThrows: false
-senses: false
 size: medium
 skills:
   - survival
 speed:
   walk: 30
-entries: {}
-cr: '01000'
+entries:
+  features:
+    - name: Aggressive
+      text: As a bonus action, the pyro can move up to its speed toward a hostile creature that it can see.
+      id: aggressive
+  actions:
+    - name: M-451 Firestorm
+      text: Creatures within a :distance{length="15" adj} cone must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 14 (4d6) fire damage, or half as much damage on a successful one.
+      id: m-451-firestorm
+cr: "01000"
 shields:
   capacity: 10
   regen: 0

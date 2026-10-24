@@ -22,7 +22,7 @@ has 6 thermal clip slots, and 2 medi-gel slots. Leg armor has 2 thermal clip slo
 Because body armor is a combination of chest, legs, and arms, it's resulting totals are 10 thermal clip, 4 medi-gel, and 2 grenade slots.
 An armor piece will indicate if it has an increase in any of these capacities.
 
-### Mix & Match <v-chip color="info" small>new</v-chip>
+### Mix & Match :change-badge{type="new"}
 Unlike D&D 5th edition, armor in Mass Effect 5e can be mixed between armor placements on the body. There are 4 armor placements:
 __Head__, __Chest__, __Arms__, and __Legs__.
 
@@ -59,7 +59,7 @@ as GMs might allow this type of tinkering in exchange for time, credits, and/or 
 
 __Heavier Armor__. Heavier armor interferes with the wearer’s ability to move quickly, stealthily, and freely. If the
 Armor Bonuses and Limitations table shows “Str 12” or “Str 16” in the Strength column for an armor type, the armor
-reduces the wearer’s speed by <me-distance length="10" /> unless the wearer has a Strength score equal to or higher than the listed score.
+reduces the wearer’s speed by :distance{length="10"} unless the wearer has a Strength score equal to or higher than the listed score.
 
 For simplicity's sake, you cannot mix armor *within* placements. I.e., you cannot have a heavy piece of on your right arm
 and a light piece of armor on your left.
@@ -83,7 +83,7 @@ gauntlets, and helmet are all part of the Colossus set.
 If an armor piece is part of a set and has a set bonus, each armor piece will indicate the bonus you receive from wearing
 a certain number of items in that set. _Note: You only receive the benefit once per set_ and the benefit ends immediately if you fall below the threshold.
 
-:::alert
+::note
 __SET BONUS EXAMPLE__
 
 Medium armor with a set bonus of...
@@ -94,9 +94,9 @@ If you are wearing the head and chest pieces, you gain +0 AC from the helmet and
 using the Armor / AC table). In addition you gain +1 AC from wearing 2 pieces of the set. Note, you _do not_ gain +1 AC
 for the head _and_ +1 AC for the chest. As soon as you remove either the helmet or the chest
 apiece, you loose the +1 AC bonus from the set.
-:::
+::
 
-### Environmental Protection <v-chip color="info" small>new</v-chip>
+### Environmental Protection :change-badge{type="new"}
 All armor provides basic environmental protection from the vacuum of space or hazardous atmospheres. Armor supplies enough
 air and heat to the wearer for 8 hours of activity or 16 hours if the operative remains motionless. Your GM may require
 that your character wear a helmet to gain this benefit, or they may use the __bubble rule__ and claim that all armor suits
@@ -121,4 +121,5 @@ the total time would be:
 
 (0 minutes (head) + 1 minute (arms) + 5 minutes (legs) + 10 minutes (chest)) / 4 = 4 minutes
 
-<me-source-reference pages="62-63"></me-source-reference>
+::source-reference{pages="62-63"}
+::

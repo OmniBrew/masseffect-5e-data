@@ -2,18 +2,17 @@
 name: Beehive
 version: 1
 level: 0
-type: combat
+powerType: combat
 tags:
   - damage
 classes:
   - infiltrator
   - soldier
   - explorer
-mechanics:
+casting:
   - castingTime:
       length: 1
       unit: attack
-    attack: false
     dc:
       save: dex
       mod: dex
@@ -32,7 +31,6 @@ mechanics:
         type: cone
         size: 15
     detonates: false
-    primes: false
     resource:
       reset: short
       id: beehive
@@ -46,16 +44,16 @@ advancements:
   - id: anti-flesh
     name: Anti-flesh
     text: Deals twice as much damage to organic creatures with no shield points.
-    mechanics: []
+    casting: []
   - id: remote-deploy
     name: Remote Deploy
     text: As an action, you can set up your Beehive in a separate location. Once it is deployed you can use an Attack action to fire it. You can also fire it as a reaction whenever a creature enters this power's cone.
-    mechanics:
+    casting:
       - altCasting:
           - length: 1
             unit: action
 ---
-Draw and fire your antipersonnel cannon, colloquially called "the beehive". It ejects superheated shrapnel in a <me-distance length="15" adj/> cone,
+Draw and fire your antipersonnel cannon, colloquially called "the beehive". It ejects superheated shrapnel in a :distance{length="15" adj} cone,
 originating from you. Each creature caught in the blast must make Dexterity saving throw. The DC of this saving throw is
 8 + your proficiency bonus + your Dexterity modifier. On a failed save, a creature takes 3d6 piercing damage or half as
 much damage on a successful one.

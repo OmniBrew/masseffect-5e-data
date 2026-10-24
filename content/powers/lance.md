@@ -2,7 +2,7 @@
 name: Lance
 version: 1
 level: 1
-type: biotic
+powerType: biotic
 tags:
   - damage
 classes:
@@ -10,7 +10,7 @@ classes:
   - sentinel
   - vanguard
   - explorer
-mechanics:
+casting:
   - castingTime:
       length: 1
       unit: action
@@ -18,12 +18,10 @@ mechanics:
       type: ranged
       wp: power
       proficient: true
-    dc: false
     damage:
       - dieCount: 3
         dieType: 8
         type: force
-    conditions: false
     duration:
       length: 0
       unit: instant
@@ -31,7 +29,6 @@ mechanics:
     range:
       short: 150
     detonates: true
-    primes: false
   - damage:
       - dieCount: 5
   - damage:
@@ -44,41 +41,41 @@ advancements:
   - id: anti-shield
     name: Anti-shield
     text: Lance deals an additional 2d4 lightning damage. This damage increases by 2d4 for each power slot level above the first.
-    mechanics:
+    casting:
       - damage:
           - {}
           - dieCount: 2
             dieType: 4
             type: lightning
-            addTo: 'base'
+            addTo: base
       - damage:
           - {}
           - dieCount: 4
             dieType: 4
             type: lightning
-            addTo: 'base'
+            addTo: base
       - damage:
           - {}
           - dieCount: 6
             dieType: 4
             type: lightning
-            addTo: 'base'
+            addTo: base
       - damage:
           - {}
           - dieCount: 8
             dieType: 4
             type: lightning
-            addTo: 'base'
+            addTo: base
       - damage:
           - {}
           - dieCount: 10
             dieType: 4
             type: lightning
-            addTo: 'base'
+            addTo: base
   - id: improved-damage
     name: Improved Damage
     text: Increase the damage die type to d12.
-    mechanics:
+    casting:
       - damage:
           - dieType: 12
 ---

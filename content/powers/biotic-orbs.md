@@ -2,14 +2,14 @@
 name: Biotic Orbs
 version: 1
 level: 2
-type: biotic
+powerType: biotic
 tags:
   - damage
   - buff
 classes:
   - adept
   - vanguard
-mechanics:
+casting:
   - castingTime:
       length: 1
       unit: action
@@ -17,7 +17,6 @@ mechanics:
       type: ranged
       wp: power
       proficient: true
-    dc: false
     damage:
       - dieCount: 2
         dieType: 10
@@ -28,9 +27,7 @@ mechanics:
     concentration: true
     range:
       short: 90
-      aoe: false
     detonates: true
-    primes: false
     resource:
       displayType: counter
       reset: cast
@@ -52,17 +49,15 @@ mechanics:
 advancements:
   - id: improved-orbs
     name: Improved Orbs
-    text: >-
-      You may expend 2 orbs to cast a power using your highest available power slot.
-    mechanics: []
+    text: You may expend 2 orbs to cast a power using your highest available power slot.
+    casting: []
   - id: retribution
     name: Retribution
-    text: >-
-      As a reaction to taking damage, you may expend all of your remaining biotic orbs. For each expended orb, make a ranged power attack on a target you can see within range. You can direct all attacks to hit one creature or several.
-    mechanics: []
+    text: As a reaction to taking damage, you may expend all of your remaining biotic orbs. For each expended orb, make a ranged power attack on a target you can see within range. You can direct all attacks to hit one creature or several.
+    casting: []
 ---
 Summon 3 biotic orbs that float around you, fueling your biotic energies. As an action, you may expend an orb and make a
-ranged power attack on a creature within <me-distance length="90" />. On a hit, deal 2d10 force damage.
+ranged power attack on a creature within :distance{length="90"}. On a hit, deal 2d10 force damage.
 
 As an action, you may expend 3 orbs to cast a power using your highest available power slot. Casting a power in this way
 does not consume the power slot.

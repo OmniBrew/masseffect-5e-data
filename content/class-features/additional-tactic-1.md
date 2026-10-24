@@ -1,8 +1,8 @@
 ---
+name: Additional Tactic
 level: 7
 klass: sentinel
 subclass: bastion
-name: Additional Tactic
 mechanics:
   - type: model-choice
     options: true

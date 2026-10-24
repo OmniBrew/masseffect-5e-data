@@ -1,8 +1,8 @@
 ---
+name: Biotic Furor
 level: 6
 klass: experiment
 subclass: biotic
-name: Biotic Furor
 mechanics:
   - type: global-note
     subType: action

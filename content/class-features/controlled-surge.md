@@ -1,8 +1,8 @@
 ---
+name: Controlled Surge
 level: 14
 klass: vanguard
 subclass: ravager
-name: Controlled Surge
 mechanics:
   - type: global-note
     subType: action

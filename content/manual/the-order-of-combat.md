@@ -93,4 +93,5 @@ described later in this chapter, is the most common type of reaction.
 When you take a reaction, you can't take another one until the start of your next turn. If the reaction interrupts
 another creature's turn, that creature can continue its turn right after the reaction.
 
-<me-source-reference pages="90-91"></me-source-reference>
+::source-reference{pages="90-91"}
+::

@@ -1,7 +1,7 @@
 ---
+name: Elusive
 level: 18
 klass: infiltrator
-name: Elusive
 mechanics:
   - type: global-note
     subType: defenses

@@ -1,24 +1,20 @@
 ---
-placement: arms
-type: medium
+name: Serrice Adaptor Gauntlets
+coverage: piece
+slot: arms
+armorType: medium
 cost: 45050
 manufacturer: serrice-council
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/6/6a/ME3_serrice_council_arms.png/revision/latest/scale-to-width-down/130?cb=20120312132501
+image: https://vignette.wikia.nocookie.net/masseffect/images/6/6a/ME3_serrice_council_arms.png/revision/latest/scale-to-width-down/130?cb=20120312132501
 tags:
   - resistance
 andromeda: false
-set: false
 rarity: uncommon
-name: Serrice Adaptor Gauntlets
-flavor: >-
-  A pair of gauntlets that have micro fabricators in their frames. These can
-  spread omni-gel through the rest of the hardsuit, inuring the combatant to a
-  type of damage.
+flavor: A pair of gauntlets that have micro fabricators in their frames. These can spread omni-gel through the rest of the hardsuit, inuring the combatant to a type of damage.
 mechanics:
-  - type: thermal-clip-capacity
+  - type: me:thermal-clip-capacity
     value: 2
-  - type: medi-gel-capacity
+  - type: me:medi-gel-capacity
     value: 2
   - type: other
     name: Serrice Adaptor Gauntlets

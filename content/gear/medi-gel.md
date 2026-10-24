@@ -1,10 +1,10 @@
 ---
 name: Medi-gel
 rarity: varies
-type: medi_gel
+gearType: medi_gel
 cost: Varies
 weight: 0
-subType: ''
+subType: ""
 consumable: true
 equippable: true
 subsets:
@@ -12,7 +12,7 @@ subsets:
     rarity: common
     cost: 200
     name: Standard Medi-gel
-    html: You may administer this medi-gel to yourself or a willing creature within <me-distance length="5" /> to regain 2d4 + 2 hit points. Administering the medi-gel takes an action.
+    html: You may administer this medi-gel to yourself or a willing creature within :distance{length="5"} to regain 2d4 + 2 hit points. Administering the medi-gel takes an action.
     mechanics:
       - type: action
         layout: attack
@@ -34,7 +34,7 @@ subsets:
     rarity: uncommon
     cost: 500
     name: Enhanced Medi-gel
-    html: You may administer this medi-gel to yourself or a willing creature within <me-distance length="5" /> to regain 4d4 + 4 hit points. Administering the medi-gel takes an action.
+    html: You may administer this medi-gel to yourself or a willing creature within :distance{length="5"} to regain 4d4 + 4 hit points. Administering the medi-gel takes an action.
     mechanics:
       - type: action
         layout: attack
@@ -56,7 +56,7 @@ subsets:
     rarity: rare
     cost: 1500
     name: Superior Medi-gel
-    html: You may administer this medi-gel to yourself or a willing creature within <me-distance length="5" /> to regain 8d4 + 8 hit points. Administering the medi-gel takes an action.
+    html: You may administer this medi-gel to yourself or a willing creature within :distance{length="5"} to regain 8d4 + 8 hit points. Administering the medi-gel takes an action.
     mechanics:
       - type: action
         layout: attack
@@ -78,7 +78,7 @@ subsets:
     rarity: spectre
     cost: military
     name: Ultimate Medi-gel
-    html: You may administer this medi-gel to yourself or a willing creature within <me-distance length="5" /> to regain 10d4 + 20 hit points. Administering the medi-gel takes an action.
+    html: You may administer this medi-gel to yourself or a willing creature within :distance{length="5"} to regain 10d4 + 20 hit points. Administering the medi-gel takes an action.
     mechanics:
       - type: action
         layout: attack
@@ -102,7 +102,7 @@ EMTs, and military personnel, produced by the Sirta Foundation. It heals various
 injuries against infection and allowing for rapid healing by having the gel grip tight to flesh until subjected to a frequency
 of ultrasound. It is sealable against liquids - most notably blood - as well as contaminants and gases.
 
-__Use__. When you use this item, you or a willing, organic creature within <me-distance length="5" /> regains hit points equal to the medi-gel's potency.
+__Use__. When you use this item, you or a willing, organic creature within :distance{length="5"} regains hit points equal to the medi-gel's potency.
 
 Type|Rarity|Credits|HP Regained
 ---|---|---|---

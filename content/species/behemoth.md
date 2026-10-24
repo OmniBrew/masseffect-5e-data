@@ -1,5 +1,5 @@
 ---
-name: 'Variant: Behemoth'
+name: "Variant: Behemoth"
 type: variant
 species: kett
 mechanics:

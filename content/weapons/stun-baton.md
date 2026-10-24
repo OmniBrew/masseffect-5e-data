@@ -1,23 +1,21 @@
 ---
 name: Stun Baton
 rarity: uncommon
-type: melee
+weaponType: melee
 cost: 13500
 manufacturer: cerberus
 weight: 2
-heat: null
 damage:
   dieCount: 1
   dieType: 6
   type: bludgeoning
 range:
   short: 5
-image: null
 andromeda: false
 properties:
-  - light
+  - id: light
 slots: 1
-addDamages:
+additionalDamage:
   - dieCount: 1
     dieType: 4
     type: lightning

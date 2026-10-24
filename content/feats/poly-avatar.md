@@ -8,11 +8,13 @@ mechanics:
     model: species
     limits:
       - attr: species
-        value: [prothean]
+        value:
+          - prothean
 prerequisite: Prothean
 prereq:
   - type: species
-    limit: [prothean]
+    limit:
+      - prothean
 ---
 Choose (or work with your GM to create) a second avatar from the Avatar trait. You gain all features of that avatar,
 in addition to your current one.

@@ -1,4 +1,5 @@
 ---
+name: Tactical Cloak
 level: 1
 klass: infiltrator
 mechanics:
@@ -16,11 +17,30 @@ mechanics:
           18: 5
     progressionColumn:
       label: Tactical Cloak Uses
-      values: [2,2,2,2,2,3,3,3,3,3,4,4,4,4,4,4,4,5,5,5]
+      values:
+        - 2
+        - 2
+        - 2
+        - 2
+        - 2
+        - 3
+        - 3
+        - 3
+        - 3
+        - 3
+        - 4
+        - 4
+        - 4
+        - 4
+        - 4
+        - 4
+        - 4
+        - 5
+        - 5
+        - 5
       order: 11
-name: Tactical Cloak
 ---
-As an action, you activate your tactical cloak, becoming <me-condition id="invisible"/>. Tactical cloak lasts 1 minute or
+As an action, you activate your tactical cloak, becoming :condition{id="invisible"}. Tactical cloak lasts 1 minute or
 until you make an attack, cast a power, use a grenade or mine, or fire a heavy weapon.
 
 Once you have used tactical cloak the maximum number of times for your Infiltrator level,

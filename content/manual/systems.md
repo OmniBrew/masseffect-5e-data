@@ -106,4 +106,3 @@ Months|Effect
 3|Roll a d20. On a 10 or less, the system breaks and cannot be used in any way. It must be replaced.
 4|Roll a d20. On a 15 or less, the system breaks and cannot be used in any way. It must be replaced.
 5|The system breaks and cannot be used in any way. It must be replaced.
-

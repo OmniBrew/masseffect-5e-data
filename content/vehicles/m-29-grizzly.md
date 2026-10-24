@@ -1,4 +1,5 @@
 ---
+name: M29 Grizzly
 type: transport
 subtype: land
 size: huge
@@ -27,6 +28,6 @@ weapons:
     damage: 70 (2d6[x10]) thunder damage.
 cr: 14
 cost: military
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/e/e5/M-29_Grizzly_on_Feros.png/revision/latest/scale-to-width-down/640?cb=20100831073900
+image: https://vignette.wikia.nocookie.net/masseffect/images/e/e5/M-29_Grizzly_on_Feros.png/revision/latest/scale-to-width-down/640?cb=20100831073900
 ---
+The M29 "Grizzly" Infantry Fighting Vehicle (IFV) was the standard "battle taxi" of Systems Alliance Marines for nearly thirty years.

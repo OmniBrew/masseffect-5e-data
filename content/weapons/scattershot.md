@@ -1,11 +1,10 @@
 ---
 name: Scattershot
 rarity: rare
-type: shotgun
+weaponType: shotgun
 cost: 39000
 manufacturer: remnant
 weight: 20
-heat: 4
 damage:
   dieCount: 2
   dieType: 8
@@ -16,11 +15,13 @@ range:
 image: https://vignette.wikia.nocookie.net/masseffect/images/7/70/MEA_Scattershot_MP.png/revision/latest?cb=20180607232101
 andromeda: true
 properties:
-  - two-handed
-  - heavy
-  - hip-fire
-  - special
-  - vented
+  - id: two-handed
+  - id: heavy
+  - id: hip-fire
+  - id: special
+  - id: vented
+  - id: heat
+    value: 4
 slots: 2
 ---
 The Scattershot does not use thermal clips. Instead, use a d4 to track the "heat". Whenever you make 

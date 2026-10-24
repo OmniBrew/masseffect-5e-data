@@ -1,10 +1,12 @@
 ---
+name: Primal Biotics
 level: 20
 klass: vanguard
-name: Primal Biotics
 mechanics:
   - type: asi-maximum
-    abilities: [str,con]
+    abilities:
+      - str
+      - con
     max: 24
   - type: asi
     ability: str

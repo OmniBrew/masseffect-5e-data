@@ -1,8 +1,8 @@
 ---
+name: Devastating Critical
 level: 15
 klass: soldier
 subclass: weapon-master
-name: Devastating Critical
 mechanics:
   - type: global-note
     subType: action

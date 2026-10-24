@@ -1,19 +1,78 @@
 ---
+name: Powercasting
 level: 3
 klass: soldier
 subclass: engi-knight
 mechanics:
   - type: powercasting-points
     multiclassConversion: 0.33
-    known: [0,0,2,3,3,3,4,5,5,6,7,7,8,9,9,10,10,10,11,12]
-    prepared: false
-    points: [0,0,2,3,3,3,6,6,8,10,10,10,12,12,12,14,16,16,20,20]
-    limit: [0,0,1,1,1,1,1,1,2,2,2,2,2,2,2,2,3,3,3,3]
+    known:
+      - 0
+      - 0
+      - 2
+      - 3
+      - 3
+      - 3
+      - 4
+      - 5
+      - 5
+      - 6
+      - 7
+      - 7
+      - 8
+      - 9
+      - 9
+      - 10
+      - 10
+      - 10
+      - 11
+      - 12
+    points:
+      - 0
+      - 0
+      - 2
+      - 3
+      - 3
+      - 3
+      - 6
+      - 6
+      - 8
+      - 10
+      - 10
+      - 10
+      - 12
+      - 12
+      - 12
+      - 14
+      - 16
+      - 16
+      - 20
+      - 20
+    limit:
+      - 0
+      - 0
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 3
+      - 3
+      - 3
+      - 3
     mod: int
   - type: use-class-for-power-list
     klass: engineer
-  - type: prevent-advancements
-name: Powercasting
+  - type: me:prevent-advancements
 ---
 ### Casting powers
 The Engi Knight Powers table shows how many Tech Points you have to cast your powers of 1st level or higher. To cast one

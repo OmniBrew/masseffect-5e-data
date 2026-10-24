@@ -1,6 +1,6 @@
 ---
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/e/e0/Rachni_Worker.png/revision/latest?cb=20100824223955
+name: Rachni Worker
+image: https://vignette.wikia.nocookie.net/masseffect/images/e/e0/Rachni_Worker.png/revision/latest?cb=20100824223955
 type: organic
 unit: rachni
 alignment: u
@@ -16,32 +16,32 @@ abilityScores:
   int: 1
   wis: 7
   cha: 3
-irv: false
 savingThrows:
   - wis
 senses:
   blindsight: 10
 size: small
-skills: false
 speed:
   walk: 35
 entries:
   actions:
-    - dc: false
-      save: false
-      recharge:
-        - '4'
-        - '6'
+    - recharge:
+        - "4"
+        - "6"
       id: acid-splash
+      name: Acid Splash
+      text: The rachni worker spits acid at one target within :distance{length="30"} or two targets within :distance{length="30"} if both targets are within :distance{length="5"} of each other. A target must succeed on a DC 13 Dexterity saving throw or take 3 (1d6) acid damage.
     - attack: melee
       proficient: true
       range: 5
-      dc: false
       mod: str
       damage:
-        - {dieCount: 1, dieType: 6, mod: true, type: piercing}
+        - dieCount: 1
+          dieType: 6
+          mod: true
+          type: piercing
       target: one
       id: bite
-cr: '00125'
-shields: false
+      name: Bite
+cr: "00125"
 ---

@@ -1,4 +1,5 @@
 ---
+name: Give Command
 level: 3
 klass: tracker
 subclass: beast-master
@@ -12,7 +13,6 @@ mechanics:
   - type: model-choice
     options: true
     model: commands
-name: Give Command
 ---
 As a commander of man and beast, you are able to give orders to not only your beast, but also your allies.
 
@@ -24,4 +24,5 @@ If a command requires a saving throw from the target, the DC is 8 + your profici
 
 You regain all Command dice at the end of a short rest.
 
-<me-edge-list id="commands" />
+::edge-list{type="commands"}
+::

@@ -8,7 +8,8 @@ mechanics:
     base: 16
     mod: con
   - type: speed-bonus
-    value: [walk]
+    value:
+      - walk
     bonus:
       type: flat
       value: 15
@@ -16,9 +17,7 @@ mechanics:
     note: Your long jump and high jump distance is tripled
   - type: other
     name: Nanite Apothesis (regen)
-    shortDesc: >-
-      Whenever you are conscious and below half your hit point maximum, regain {{ 5 + conMod }} hit points per turn
-      until you are at or above half of your hit points.
+    shortDesc: Whenever you are conscious and below half your hit point maximum, regain {{ 5 + conMod }} hit points per turn until you are at or above half of your hit points.
   - type: other
     name: Nanite Apothesis (unarmed strikes)
     shortDesc: Your unarmed strikes deal an extra 1d8 fire, lightning, or force damage. You can change the damage type when you take a long rest.
@@ -32,7 +31,8 @@ mechanics:
               value:
                 model: soldier
                 id: nanite-combat
-                limit: [attack]
+                limit:
+                  - attack
               merge:
                 damage:
                   - {}
@@ -52,7 +52,8 @@ mechanics:
               value:
                 model: soldier
                 id: nanite-combat
-                limit: [attack]
+                limit:
+                  - attack
               merge:
                 damage:
                   - {}
@@ -72,7 +73,8 @@ mechanics:
               value:
                 model: soldier
                 id: nanite-combat
-                limit: [attack]
+                limit:
+                  - attack
               merge:
                 damage:
                   - {}

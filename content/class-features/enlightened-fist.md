@@ -1,14 +1,15 @@
 ---
+name: Enlightened Fist
 level: 6
 klass: vanguard
 subclass: void-fist
-name: Enlightened Fist
 mechanics:
   - type: attack-augment
     attackLimit:
       type: melee
       model: power
-    augmentTypes: [damage]
+    augmentTypes:
+      - damage
     bonus:
       type: mod
       value: wis

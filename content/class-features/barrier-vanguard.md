@@ -1,14 +1,54 @@
 ---
+name: Barrier
 level: 1
 klass: vanguard
 mechanics:
-  - type: barrier
+  - type: me:barrier
     multiclassConversion: 1
-    ticks: [3,3,3,4,4,4,5,5,5,6,6,6,7,7,7,8,8,9,9,10]
-    uses: [2,2,3,3,3,4,4,4,4,4,4,5,5,5,5,5,6,6,6,6]
+    ticks:
+      - 3
+      - 3
+      - 3
+      - 4
+      - 4
+      - 4
+      - 5
+      - 5
+      - 5
+      - 6
+      - 6
+      - 6
+      - 7
+      - 7
+      - 7
+      - 8
+      - 8
+      - 9
+      - 9
+      - 10
+    uses:
+      - 2
+      - 2
+      - 3
+      - 3
+      - 3
+      - 4
+      - 4
+      - 4
+      - 4
+      - 4
+      - 4
+      - 5
+      - 5
+      - 5
+      - 5
+      - 5
+      - 6
+      - 6
+      - 6
+      - 6
     dieCount: 1
     dieType: 8
-name: Barrier
 ---
 As an action or bonus action, you create a biotic barrier around you that reduces incoming damage and fuels certain
 biotic abilities. You gain barrier ticks equal to the Barrier Ticks column shown on your class progression table. Your total

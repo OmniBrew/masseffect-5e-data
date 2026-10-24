@@ -1,7 +1,7 @@
 ---
 name: Amplifier Plates
 rarity: rare
-type: armor
+modType: armor
 cost: 12000
 manufacturer: elanus-risk-control-services
 tags:
@@ -16,7 +16,8 @@ mechanics:
   - type: attack-augment
     attackLimit:
       model: power
-    augmentTypes: [damage]
+    augmentTypes:
+      - damage
     bonus:
       type: flat
       value: 1

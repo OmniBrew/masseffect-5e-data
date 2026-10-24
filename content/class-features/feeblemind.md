@@ -1,8 +1,8 @@
 ---
+name: Feeblemind
 level: 14
 klass: experiment
 subclass: reaper
-name: Feeblemind
 mechanics:
   - type: global-note
     subType: action
@@ -11,14 +11,16 @@ mechanics:
       model: class-features
       id: feeblemind
   - type: skill-check
-    value: [intimidation]
+    value:
+      - intimidation
     effect:
       type: advantage
   - type: augment
     value:
       model: experiment
       id: reaper-scar
-      limit: [attack-augment]
+      limit:
+        - attack-augment
     merge:
       bonus:
         value: 4
@@ -26,7 +28,8 @@ mechanics:
     value:
       model: experiment
       id: reaper-scar
-      limit: [global-note]
+      limit:
+        - global-note
     merge:
       moreInfo:
         additional:

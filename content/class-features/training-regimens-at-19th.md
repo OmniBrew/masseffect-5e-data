@@ -1,4 +1,5 @@
 ---
+name: Training Regimens
 level: 19
 klass: tracker
 mechanics:
@@ -6,9 +7,6 @@ mechanics:
     options: true
     model: training-regimens
     selections: 1
-name: Training Regimens
 noFeatureDisplay: true
 ---
 Choose an additional training regimen.
-
-

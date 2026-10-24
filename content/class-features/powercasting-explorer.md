@@ -1,4 +1,5 @@
 ---
+name: Powercasting
 level: 1
 klass: explorer
 mechanics:
@@ -9,10 +10,49 @@ mechanics:
       levelMultiplier: 0.5
       modBonus: true
     slots:
-      1: [2,4,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7]
-      2: [0,0,0,0,2,3,4,5,6,6,6,6,6,6,6,6,6,6,6,6]
+      1:
+        - 2
+        - 4
+        - 6
+        - 7
+        - 7
+        - 7
+        - 7
+        - 7
+        - 7
+        - 7
+        - 7
+        - 7
+        - 7
+        - 7
+        - 7
+        - 7
+        - 7
+        - 7
+        - 7
+        - 7
+      2:
+        - 0
+        - 0
+        - 0
+        - 0
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 6
+        - 6
+        - 6
+        - 6
+        - 6
+        - 6
+        - 6
+        - 6
+        - 6
+        - 6
+        - 6
     mod: int
-name: Powercasting
 ---
 ### Power Slots
 The Explorer table shows how many power slots you have. The table also shows what the level of those slots is; all of

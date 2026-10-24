@@ -1,8 +1,8 @@
 ---
+name: Bombardment
 level: 18
 klass: vanguard
 subclass: nemesis
-name: Bombardment
 mechanics:
   - type: global-note
     subType: power

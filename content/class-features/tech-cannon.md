@@ -1,4 +1,5 @@
 ---
+name: Tech Cannon
 level: 3
 klass: sentinel
 subclass: artillerist
@@ -7,7 +8,8 @@ mechanics:
     value:
       model: sentinel
       id: tech-armor
-      limit: [bonus-action]
+      limit:
+        - bonus-action
     merge:
       name: Activate Tech Armor/Cannon
       shortDesc: When you would activate your tech armor, you may activate tech cannon instead.
@@ -34,7 +36,8 @@ mechanics:
                 value:
                   model: sentinel
                   id: tech-armor
-                  limit: [bonus-action]
+                  limit:
+                    - bonus-action
                 merge:
                   shortDesc: Tech Armor active for 1 minute.
               - type: resource
@@ -78,7 +81,6 @@ mechanics:
                 moreInfo:
                   model: class-features
                   id: tech-cannon
-name: Tech Cannon
 ---
 At 3rd level, you can choose to create a Tech Cannon instead of Tech Armor. When you chose to do so, you don't gain the
 Temporary Hit Points your armor would give you. Instead, your power slots are treated as one level higher when you

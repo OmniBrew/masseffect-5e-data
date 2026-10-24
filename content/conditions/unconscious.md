@@ -5,4 +5,4 @@ name: Unconscious
 * The creature drops whatever it's holding and falls prone.
 * The creature automatically fails Strength and Dexterity saving throws.
 * Attack rolls against the creature have advantage.
-* Any attack that hits the creature is a critical hit if the attacker is within <me-distance length="5" /> of the creature.
+* Any attack that hits the creature is a critical hit if the attacker is within :distance{length="5"} of the creature.

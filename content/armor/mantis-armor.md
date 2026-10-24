@@ -1,38 +1,32 @@
 ---
-placement: body_armor
-type: light
+name: Mantis Armor
+coverage: suit
+armorType: light
 cost: 27200
 manufacturer: hahne-kedar
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/9/9c/Medium-human-Mantis.png/revision/latest/scale-to-width-down/160?cb=20100209162437
+image: https://vignette.wikia.nocookie.net/masseffect/images/9/9c/Medium-human-Mantis.png/revision/latest/scale-to-width-down/160?cb=20100209162437
 tags:
   - special
 andromeda: false
-set: false
 rarity: uncommon
-name: Mantis Armor
-flavor: >-
-  Hahne-Kedar's line of armor that utilizes arm-length, serrated switchblades in
-  the greaves meant to hook targets. Don't cut yourself!
+flavor: Hahne-Kedar's line of armor that utilizes arm-length, serrated switchblades in the greaves meant to hook targets. Don't cut yourself!
 mechanics:
-  - type: shields
+  - type: me:shields
     capacity:
       type: flat
       value: 5
     regen:
       type: flat
       value: 5
-  - type: thermal-clip-capacity
+  - type: me:thermal-clip-capacity
     value: 10
-  - type: medi-gel-capacity
+  - type: me:medi-gel-capacity
     value: 4
-  - type: grenade-capacity
+  - type: me:grenade-capacity
     value: 2
   - type: reaction
     name: Mantis Armor
-    shortDesc: >-
-      When you hit a target with a melee weapon attack, deal an additional 1d6 slashing damage. Then,
-      you may attempt to grapple the target with advantage on the roll.
+    shortDesc: When you hit a target with a melee weapon attack, deal an additional 1d6 slashing damage. Then, you may attempt to grapple the target with advantage on the roll.
     damage:
       - dieType: 6
         dieCount: 1

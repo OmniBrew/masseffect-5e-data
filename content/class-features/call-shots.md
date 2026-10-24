@@ -1,4 +1,5 @@
 ---
+name: Call the Shots
 level: 10
 klass: sentinel
 subclass: bastion
@@ -8,11 +9,7 @@ mechanics:
       max:
         type: powercastingMod
         min: 1
-    shortDesc: >-
-      Until the start of your next turn, each friendly creature within your tactical focus adds a d6 to every
-      attack roll or saving throw it makes. Each hostile creatures within your tactical focus subtract a d6 from every
-      attack roll or saving throw it makes.
-name: Call the Shots
+    shortDesc: Until the start of your next turn, each friendly creature within your tactical focus adds a d6 to every attack roll or saving throw it makes. Each hostile creatures within your tactical focus subtract a d6 from every attack roll or saving throw it makes.
 ---
 Starting at 10th level, you can use your action to focus all of your attention on your tactical focus, calling out
 threats, troop movements, and enemy weaknesses.

@@ -1,4 +1,5 @@
 ---
+name: Bend Luck
 level: 6
 klass: adept
 subclass: blackstar
@@ -11,14 +12,11 @@ mechanics:
         value: adept
         min: 1
         multiplier: 0.5
-    shortDesc: >-
-      when another creature you can see makes an attack roll, an ability check, or a saving throw, roll 1d4 and
-      apply the number rolled as a bonus or penalty (your choice) to the creature's roll.
+    shortDesc: when another creature you can see makes an attack roll, an ability check, or a saving throw, roll 1d4 and apply the number rolled as a bonus or penalty (your choice) to the creature's roll.
     damage:
       - dieCount: 1
         dieType: 4
-        label: 'Bend Luck'
-name: Bend Luck
+        label: Bend Luck
 ---
 You've mastered the art of using small mass effect fields to slightly alter the outcome of other creature's actions.
 It might be a small burst under the muzzle of a gun to throw off the attacker's aim or a negative field around a

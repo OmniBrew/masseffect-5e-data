@@ -5,7 +5,8 @@ mechanics:
     attackLimit:
       model: weapon
       special: twf
-    augmentTypes: [damage]
+    augmentTypes:
+      - damage
     abilityMod: true
 type: fighting-styles
 ---

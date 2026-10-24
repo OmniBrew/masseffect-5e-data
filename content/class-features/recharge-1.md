@@ -1,7 +1,7 @@
 ---
+name: Recharge (1d4)
 level: 7
 klass: engineer
-name: Recharge (1d4)
 mechanics:
   - type: power-resource-recovery
     dieCount: 1
@@ -10,7 +10,7 @@ mechanics:
       type: mod
       value: int
     limit: points
-    label: 'Engineer Recharge'
+    label: Engineer Recharge
 ---
 Beginning at 7th level, you've created a small reserve battery for your omni-tool, allowing you to regain some spent
 tech points. Once per long rest, you can spend 1 minute cycling the power of your omni-tool gaining tech points equal to

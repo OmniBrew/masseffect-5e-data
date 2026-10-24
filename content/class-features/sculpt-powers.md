@@ -1,8 +1,8 @@
 ---
+name: Sculpt Powers
 level: 10
 klass: sentinel
 subclass: guardian
-name: Sculpt Powers
 mechanics:
   - type: global-note
     subType: power

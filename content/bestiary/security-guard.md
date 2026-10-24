@@ -1,6 +1,6 @@
 ---
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/1/1a/Eclipse_Security_Guard.png/revision/latest?cb=20100720085554
+name: Security Guard
+image: https://vignette.wikia.nocookie.net/masseffect/images/1/1a/Eclipse_Security_Guard.png/revision/latest?cb=20100720085554
 type: organic
 unit: eclipse
 alignment: nn
@@ -16,11 +16,7 @@ abilityScores:
   int: 8
   wis: 8
   cha: 12
-irv: false
-savingThrows: false
-senses: false
 size: medium
-skills: false
 speed:
   walk: 30
 entries:
@@ -29,6 +25,5 @@ entries:
       proficient: true
       id: m-3-predator
       weaponId: m-3-predator
-cr: '00000'
-shields: false
+cr: "00000"
 ---

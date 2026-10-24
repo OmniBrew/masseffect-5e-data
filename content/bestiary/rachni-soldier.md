@@ -1,6 +1,6 @@
 ---
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/4/4f/Codex_ME_-_Rachni.png/revision/latest?cb=20140820042133
+name: Rachni Soldier
+image: https://vignette.wikia.nocookie.net/masseffect/images/4/4f/Codex_ME_-_Rachni.png/revision/latest?cb=20140820042133
 type: organic
 unit: rachni
 alignment: u
@@ -16,7 +16,6 @@ abilityScores:
   int: 2
   wis: 11
   cha: 4
-irv: false
 savingThrows:
   - con
   - wis
@@ -33,22 +32,38 @@ entries:
     - attack: ranged
       proficient: true
       range: 50
-      dc: false
       mod: dex
       damage:
-        - {dieCount: 2, dieType: 6, mod: true, type: acid}
-        - {dieCount: 2, dieType: 6, mod: true, type: necrotic}
+        - dieCount: 2
+          dieType: 6
+          mod: true
+          type: acid
+        - dieCount: 2
+          dieType: 6
+          mod: true
+          type: necrotic
       target: one
       id: acid-spit
+      name: Acid Spit
+      hit: " This damage bypasses shields"
     - attack: melee
       proficient: true
       range: 10
-      dc: false
       mod: str
       damage:
-        - {dieCount: 1, dieType: 4, mod: true, type: acid}
+        - dieCount: 1
+          dieType: 4
+          mod: true
+          type: acid
       target: one
       id: impale
-cr: '01000'
-shields: false
+      name: Impale
+  features:
+    - name: Ambusher
+      text: The rachni soldier has advantage on attack rolls against any creature it has surprised.
+      id: ambusher
+    - name: Grappler
+      text: The rachni soldier has advantage on attack rolls against any creature grappled by it.
+      id: grappler
+cr: "01000"
 ---

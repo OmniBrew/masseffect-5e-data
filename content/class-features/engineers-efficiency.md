@@ -1,15 +1,18 @@
 ---
+name: Engineer's Efficiency
 level: 3
 klass: engineer
-name: Engineer's Efficiency
 mechanics:
   - type: model-choice
-    label: 'Choose one power'
+    label: Choose one power
     model: powers
     options: true
     limits:
       - attr: id
-        value: [cryo-blast,incinerate,overload]
+        value:
+          - cryo-blast
+          - incinerate
+          - overload
     hide: true
     append:
       klass: engineer
@@ -19,7 +22,7 @@ mechanics:
         value:
           3: 1
           11: 2
-  - type: advancements-choice
+  - type: me:advancements-choice
     options: true
     limit:
       valueLookup:

@@ -33,4 +33,5 @@ from 1 to 30.
 |28 - 29|+9|
 |30|+10|
 
-<me-source-reference pages="76"></me-source-reference>
+::source-reference{pages="76"}
+::

@@ -1,4 +1,5 @@
 ---
+name: Musician's Touch
 level: 2
 klass: musician
 mechanics:
@@ -9,7 +10,6 @@ mechanics:
     effect:
       type: null
       note: Use Performance instead of Deception, Intimidation, or Persuasion (Musicians' Touch)
-name: Musician's Touch
 ---
 Music is your life, and you make sure the rest of the galaxy knows it.
 

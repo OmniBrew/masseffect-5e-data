@@ -1,10 +1,11 @@
 ---
+name: Unmatched Biotics
 level: 20
 klass: adept
-name: Unmatched Biotics
 mechanics:
   - type: asi-maximum
-    abilities: [wis]
+    abilities:
+      - wis
     max: 24
   - type: asi
     ability: wis

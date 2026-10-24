@@ -1,11 +1,10 @@
 ---
 name: Venom Shotgun
 rarity: spectre
-type: shotgun
+weaponType: shotgun
 cost: 61000
 manufacturer: special-tasks-group
 weight: 13
-heat: 4
 damage:
   dieCount: 2
   dieType: 10
@@ -16,10 +15,12 @@ range:
 image: https://vignette1.wikia.nocookie.net/masseffect/images/7/76/ME3_Venom_Shotgun.png/revision/latest?cb=20121029075317
 andromeda: false
 properties:
-  - two-handed
-  - hip-fire
-  - special
-  - recoil
+  - id: two-handed
+  - id: hip-fire
+  - id: special
+  - id: recoil
+  - id: heat
+    value: 4
 slots: 2
 ---
 Use a bonus action to charge the weapon before firing, consuming 2 heat. It deals an additional  

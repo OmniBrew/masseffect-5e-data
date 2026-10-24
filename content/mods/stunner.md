@@ -1,15 +1,15 @@
 ---
+name: Stunner
 rarity: rare
-type: weapon
+modType: weapon
 cost: 25000
-manufacturer: ''
+manufacturer: ""
 tags:
   - melee_attacks
 placement: barrel
 availability:
   - heavy_pistol
   - smg
-name: Stunner
 flavor: Small attachment to muzzle, causing shock damage to meleed targets.
 mechanics:
   - type: natural-weapon
@@ -26,7 +26,7 @@ mechanics:
         short: 5
       properties: []
       notes:
-        - 'Hit: auto-fails CON save to maintain powers'
+        - "Hit: auto-fails CON save to maintain powers"
       moreInfo:
         model: mods
         id: stunner

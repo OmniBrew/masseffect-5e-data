@@ -1,6 +1,6 @@
 ---
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/e/ea/Defense_Drone.png/revision/latest/scale-to-width-down/606?cb=20120407052056
+name: Assault Drone
+image: https://vignette.wikia.nocookie.net/masseffect/images/e/ea/Defense_Drone.png/revision/latest/scale-to-width-down/606?cb=20120407052056
 type: synthetic
 unit: mech
 alignment: nn
@@ -24,10 +24,7 @@ irv:
     - psychic
   vul:
     - lightning
-savingThrows: false
-senses: false
 size: small
-skills: false
 speed:
   fly: 30
 entries:
@@ -35,13 +32,16 @@ entries:
     - attack: ranged
       proficient: true
       range: 50
-      dc: false
       mod: dex
       damage:
-        - {dieCount: 1, dieType: 10, mod: true, type: radiant}
+        - dieCount: 1
+          dieType: 10
+          mod: true
+          type: radiant
       target: one
       id: pulse-cannon
-cr: '00500'
+      name: Pulse Cannon
+cr: "00500"
 shields:
   capacity: 5
   regen: 5

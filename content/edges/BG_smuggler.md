@@ -6,5 +6,4 @@ mechanics:
   - type: skill
     value: vehicle-handling
 type: subgrounds
-
 ---

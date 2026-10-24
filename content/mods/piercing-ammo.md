@@ -1,8 +1,9 @@
 ---
+name: Piercing Ammo
 rarity: rare
-type: weapon
+modType: weapon
 cost: 20000
-manufacturer: ''
+manufacturer: ""
 tags:
   - ignore_resistance
 placement: ammo
@@ -10,10 +11,9 @@ availability:
   - assault_rifle
   - heavy_pistol
   - sniper_rifle
-name: Piercing Ammo
 flavor: Capacitor boosts kinetic coil generators, increasing shot penetration.
 mechanics:
-  - type: weapon-augment
+  - type: me:weapon-augment
     notes:
       - type: text
         text: ignores piercing resistance

@@ -11,9 +11,7 @@ mechanics:
         type: mod
         value: cha
         min: 1
-    shortDesc: >-
-      When another friendly creature you can see makes and attack roll or saving throw, add 1d4 to the roll
-      if the creature can hear you.
+    shortDesc: When another friendly creature you can see makes and attack roll or saving throw, add 1d4 to the roll if the creature can hear you.
 ---
 Whenever a friendly creature you can see makes an attack roll or saving throw,
 you may use your reaction to issue a special warning or command. The creature can add a d4 to its roll,

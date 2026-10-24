@@ -3,9 +3,9 @@ name: Disarming Attack
 mechanics:
   - type: other
     resource:
-      reset: 'off'
+      reset: off
       displayType: barrier-ticks
-      label: 'Barrier Ticks'
+      label: Barrier Ticks
     dc:
       base: 8
       proficient: true
@@ -15,13 +15,10 @@ mechanics:
       save: str
     damage:
       - dieCount:
-          type: barrierDieCount
+          type: me:barrier-die-count
         dieType:
-          type: barrierDieType
-    shortDesc: >-
-      When you hit a creature with a melee attack, you can expend one barrier tick to disarm the target.
-      Add <strong>{{ damage }}</strong> to the attack’s damage roll, and the target must succeed on a <strong>DC {{ dc }} STR</strong> save
-      or drop an object you choose.
+          type: me:barrier-die-type
+    shortDesc: When you hit a creature with a melee attack, you can expend one barrier tick to disarm the target. Add <strong>{{ damage }}</strong> to the attack’s damage roll, and the target must succeed on a <strong>DC {{ dc }} STR</strong> save or drop an object you choose.
 type: maneuvers
 ---
 When you hit a creature with a melee attack, you can expend one barrier tick to disarm the target, forcing it to drop

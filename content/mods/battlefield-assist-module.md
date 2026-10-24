@@ -1,6 +1,7 @@
 ---
+name: Battlefield Assist Module
 rarity: spectre
-type: armor
+modType: armor
 cost: 38000
 manufacturer: devlon-industries
 tags:
@@ -10,16 +11,11 @@ availability:
   - light
   - medium
   - heavy
-name: Battlefield Assist Module
-flavor: >-
-  A special VI that reroutes all power to your armor's defenses when vital signs
-  are low.
+flavor: A special VI that reroutes all power to your armor's defenses when vital signs are low.
 mechanics:
   - type: other
     name: Battlefield Assist Module
-    shortDesc: >-
-      At the start of your turn, if you have less than one-quarter of your hit points remaining, you can use a bonus
-      action to gain +2 AC and resistance to a damage type of your choice for 1 minute.
+    shortDesc: At the start of your turn, if you have less than one-quarter of your hit points remaining, you can use a bonus action to gain +2 AC and resistance to a damage type of your choice for 1 minute.
     toggle:
       id: battlefield-assist-module-toggle
       whenOn:

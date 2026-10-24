@@ -5,7 +5,8 @@ mechanics:
     value:
       model: main-augments
       id: MA_weaponry-ranged
-      limit: [attack]
+      limit:
+        - attack
     merge:
       resource:
         reset: short
@@ -31,17 +32,15 @@ mechanics:
                 value:
                   model: main-augments
                   id: MA_weaponry-ranged
-                  limit: [attack]
+                  limit:
+                    - attack
                 merge:
                   damage:
                     - type: lightning
                   notes:
                     - type: tooltip
                       text: Arc
-                      tooltipText: >-
-                        On a hit, deals half of the damage dealt to 1 additional creature within <me-distance length="5" />
-                        of the hit target. If there is more than one creature within <me-distance length="5" /> of the
-                        initial target, choose the second target randomly.
+                      tooltipText: On a hit, deals half of the damage dealt to 1 additional creature within :distance{length="5"} of the hit target. If there is more than one creature within :distance{length="5"} of the initial target, choose the second target randomly.
                       isHtml: true
           - id: integrated-weaponry-toggle-force
             name: Force
@@ -50,7 +49,8 @@ mechanics:
                 value:
                   model: main-augments
                   id: MA_weaponry-ranged
-                  limit: [attack]
+                  limit:
+                    - attack
                 merge:
                   damage:
                     - type: force
@@ -61,7 +61,8 @@ mechanics:
                 value:
                   model: main-augments
                   id: MA_weaponry-ranged
-                  limit: [attack]
+                  limit:
+                    - attack
                 merge:
                   damage:
                     - type: radiant

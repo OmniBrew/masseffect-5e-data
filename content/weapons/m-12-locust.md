@@ -1,11 +1,10 @@
 ---
 name: M-12 Locust
 rarity: rare
-type: smg
+weaponType: smg
 cost: 37500
 manufacturer: kassa-fabrication
 weight: 2
-heat: 3
 damage:
   dieCount: 3
   dieType: 4
@@ -16,8 +15,10 @@ range:
 image: https://vignette2.wikia.nocookie.net/masseffect/images/f/fb/ME3_Locust_Smg.png/revision/latest?cb=20120317184530
 andromeda: false
 properties:
-  - hip-fire
-  - burst-fire
-  - light
+  - id: hip-fire
+  - id: burst-fire
+  - id: light
+  - id: heat
+    value: 3
 slots: 1
 ---

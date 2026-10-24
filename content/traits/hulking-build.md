@@ -4,7 +4,9 @@ species:
   - yahg
 mechanics:
   - type: skill-check
-    value: [athletics,acrobatics]
+    value:
+      - athletics
+      - acrobatics
     effect:
       type: advantage
       note: to avoid/escape grapples if the grappler is your size or smaller

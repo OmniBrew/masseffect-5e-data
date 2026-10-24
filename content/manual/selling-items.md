@@ -19,4 +19,5 @@ larger community first.
 On the borderlands, many people conduct transactions through barter. Like gems and art objects, trade goods - bars of
 raw metal, chemicals, livestock, omni-gel, and so on - retain their full value in the market and can be used as currency.
 
-<me-source-reference pages="62"></me-source-reference>
+::source-reference{pages="62"}
+::

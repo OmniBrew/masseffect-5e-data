@@ -1,8 +1,8 @@
 ---
+name: Expertise
 level: 3
 klass: sentinel
 subclass: guardian
-name: Expertise
 mechanics:
   - type: expertise-choice
     options: true

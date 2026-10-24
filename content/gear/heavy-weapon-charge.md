@@ -1,10 +1,10 @@
 ---
+name: Heavy Weapon Charge
 rarity: uncommon
-type: ammo
+gearType: ammo
 cost: Military
 weight: 1
-subType: ''
-name: Heavy Weapon Charge
+subType: ""
 consumable: true
 ---
 A heavy weapon charge is a generic term that can refer to a missile, energy source, or
@@ -13,4 +13,3 @@ by the general public. They must be bought at your local black market dealer or 
 
 __Use.__ Each heavy weapon has a maximum number of charges it can hold at one time. Loading new charges into a weapon
 requires 1 heavy weapon charge and the Reload action.
-

@@ -9,19 +9,20 @@ mechanics:
     value:
       model: traits
       id: electrogenesis
-      limit: [action]
+      limit:
+        - action
     merge:
       damage:
         - dieCount: 1
           dieType: 4
           mod: con
           type: shields
-      shortDesc: >-
-        Touch one creature to restore 1d4 + {{ conMod }} shield points and stabilize or end the stunned condition on it.
+      shortDesc: Touch one creature to restore 1d4 + {{ conMod }} shield points and stabilize or end the stunned condition on it.
 prerequisite: Angara
 prereq:
   - type: species
-    limit: [angara]
+    limit:
+      - angara
 ---
 You have trained with amplifying your electrogenesis to provide a boost to kinetic barrier devices.
 

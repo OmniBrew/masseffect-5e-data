@@ -1,6 +1,7 @@
 ---
 name: Perfect Disguise
-species: [hardware-loki]
+species:
+  - hardware-loki
 mechanics:
   - type: skill
     value: deception

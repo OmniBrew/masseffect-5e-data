@@ -4,7 +4,8 @@ mechanics:
   - type: attack-augment
     attackLimit:
       type: melee
-    augmentTypes: [damage]
+    augmentTypes:
+      - damage
     bonus:
       type: proficiency
 type: fighting-styles

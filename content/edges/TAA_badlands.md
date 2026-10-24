@@ -2,7 +2,8 @@
 name: Badlands
 mechanics:
   - type: skill-check
-    value: [survival]
+    value:
+      - survival
     effect:
       type:
         bonus:

@@ -1,27 +1,25 @@
 ---
-placement: body_armor
-type: medium
+name: Stock Medium Armor
+coverage: suit
+armorType: medium
 cost: 17850
 manufacturer: hahne-kedar
-image: null
 tags: []
 andromeda: false
-set: false
 rarity: common
-name: Stock Medium Armor
 flavor: A cheap and simple set of medium armor.
 mechanics:
-  - type: shields
+  - type: me:shields
     capacity:
       type: flat
       value: 5
     regen:
       type: flat
       value: 5
-  - type: thermal-clip-capacity
+  - type: me:thermal-clip-capacity
     value: 10
-  - type: medi-gel-capacity
+  - type: me:medi-gel-capacity
     value: 4
-  - type: grenade-capacity
+  - type: me:grenade-capacity
     value: 2
 ---

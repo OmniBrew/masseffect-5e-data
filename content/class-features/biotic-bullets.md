@@ -1,4 +1,5 @@
 ---
+name: Biotic Bullets
 level: 3
 klass: vanguard
 subclass: warp-gunner
@@ -12,7 +13,6 @@ mechanics:
   - type: weapon-choice
     profType: weapon
     options: true
-name: Biotic Bullets
 ---
 At 3rd level, you have gained the ability to permeate the bullets of your thermal clip with biotic energies.
 Every time you reload your weapon, and whenever you finish a short rest, half of your Heat from that reload (rounded up)

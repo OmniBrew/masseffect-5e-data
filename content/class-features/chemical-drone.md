@@ -1,10 +1,10 @@
 ---
+name: Chemical Drone
 level: 2
 klass: engineer
 subclass: chemist
 mechanics:
   - type: companion
-name: Chemical Drone
 ---
 Additionally when you pick this subclass at 2nd level, the chemical drone is added to your list of drones available
 for summoning as per your Drone ability.

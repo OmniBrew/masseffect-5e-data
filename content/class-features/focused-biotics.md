@@ -1,8 +1,8 @@
 ---
+name: Focused Biotics
 level: 10
 klass: adept
 subclass: blackstar
-name: Focused Biotics
 mechanics:
   - type: global-note
     subType: power

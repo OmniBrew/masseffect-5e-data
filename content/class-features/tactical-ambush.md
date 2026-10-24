@@ -1,8 +1,8 @@
 ---
+name: Tactical Ambush
 level: 9
 klass: infiltrator
 subclass: saboteur
-name: Tactical Ambush
 mechanics:
   - type: global-note
     subType: power

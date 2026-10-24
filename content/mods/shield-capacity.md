@@ -1,6 +1,7 @@
 ---
+name: Shield Capacity
 rarity: uncommon
-type: armor
+modType: armor
 cost: 10000
 manufacturer: armax-arsenal
 tags:
@@ -10,12 +11,9 @@ availability:
   - light
   - medium
   - heavy
-name: Shield Capacity
-flavor: >-
-  Micro-harmonic oscillators to reduce stress on the kinetic barriers ensuring
-  suit integrity when faced with incoming projectiles.
+flavor: Micro-harmonic oscillators to reduce stress on the kinetic barriers ensuring suit integrity when faced with incoming projectiles.
 mechanics:
-  - type: shields
+  - type: me:shields
     capacity:
       type: flat
       value: 5

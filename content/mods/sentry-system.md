@@ -1,6 +1,7 @@
 ---
+name: Sentry System
 rarity: uncommon
-type: armor
+modType: armor
 cost: 10000
 manufacturer: alliance
 tags:
@@ -10,13 +11,9 @@ availability:
   - light
   - medium
   - heavy
-name: Sentry System
-flavor: >-
-  A software application that optimizes an armor suit's microframe computer.
-  When the Sentry system is running, more power can be devoted to shield
-  management.
+flavor: A software application that optimizes an armor suit's microframe computer. When the Sentry system is running, more power can be devoted to shield management.
 mechanics:
-  - type: shields
+  - type: me:shields
     capacity:
       type: flat
       value: 5

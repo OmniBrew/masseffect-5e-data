@@ -2,7 +2,7 @@
 name: Guidance
 version: 1
 level: 1
-type: tech
+powerType: tech
 classes:
   - engineer
   - musician
@@ -11,14 +11,10 @@ classes:
   - explorer
 tags:
   - buff
-mechanics:
+casting:
   - castingTime:
       length: 1
       unit: bonus_action
-    attack: false
-    dc: false
-    damage: false
-    conditions: false
     duration:
       length: 10
       unit: minute
@@ -26,16 +22,15 @@ mechanics:
     range:
       short: 90
     detonates: false
-    primes: false
 advancements:
   - id: multi-tap
     name: Multi-Tap
     text: Guidance can be active on up to 3 different targets.
-    mechanics: []
+    casting: []
   - id: improved-tap
     name: Improved Tap
     text: Increase the die type to d10
-    mechanics: []
+    casting: []
 ---
 Tap into the VI of a willing creature. Once within the next 10 minutes, the target can roll a d6 and add the number
 rolled to one ability check, saving throw, or attack roll of its choice. It can roll the die before or after making the roll.

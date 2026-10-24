@@ -1,4 +1,5 @@
 ---
+name: Shot in the Heel
 level: 7
 klass: tracker
 subclass: bloodhound
@@ -11,15 +12,12 @@ mechanics:
         type: powercastingMod
         value: tracker
       save: dex
-    shortDesc: >-
-      When you hit a creature with an attack while you a hidden, it must succeed on a Dexterity saving throw
-      or have its speed reduced to 0 until the start of its next turn.
+    shortDesc: When you hit a creature with an attack while you a hidden, it must succeed on a Dexterity saving throw or have its speed reduced to 0 until the start of its next turn.
     resource:
       displayType: checkbox
       reset: short
       max:
         type: proficiency
-name: Shot in the Heel
 ---
 Starting at 7th level, you gain the ability to stop your target in its tracks.
 

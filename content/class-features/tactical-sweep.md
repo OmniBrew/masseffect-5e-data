@@ -1,4 +1,5 @@
 ---
+name: Tactical Sweep
 level: 3
 klass: soldier
 subclass: migrant-marine
@@ -8,11 +9,9 @@ mechanics:
     klass: soldier
     merge:
       notes:
-        - 'Targets up to {{ intMod }} targets'
+        - Targets up to {{ intMod }} targets
   - type: bonus-action
-    shortDesc: >-
-      Choose a creature targeted by your tactical scan and receive the bonuses of the power against that creature.
-name: Tactical Sweep
+    shortDesc: Choose a creature targeted by your tactical scan and receive the bonuses of the power against that creature.
 ---
 At 3rd level, you learn the Tactical Scan combat power. If you already know the Tactical Scan combat power, you
 instead learn one advancement for it. Instead of only one target, you can target up to your Intelligence modifier

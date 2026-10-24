@@ -1,16 +1,16 @@
 ---
+name: Hologram
 level: 3
 klass: soldier
 subclass: holo-operative
 mechanics:
   - type: bonus-action
     name: Hologram
-name: Hologram
 ---
-At 3rd level, you can create a lifelike hologram of yourself within <me-distance length="15" /> of your current
+At 3rd level, you can create a lifelike hologram of yourself within :distance{length="15"} of your current
 location as a bonus action. The hologram stays active until you dismiss it (no action required), it is hit or you try
-and create another hologram. On your turn, you can command your hologram to move <me-distance length="25" /> in any
-direction (no action required). If your hologram is more than <me-distance length="25" /> from you at the end
+and create another hologram. On your turn, you can command your hologram to move :distance{length="25"} in any
+direction (no action required). If your hologram is more than :distance{length="25"} from you at the end
 of your turn, it is automatically dismissed.
 
 The hologram has an AC of 14+Your Proficiency Modifier, has 1 hit point, and is immune to all

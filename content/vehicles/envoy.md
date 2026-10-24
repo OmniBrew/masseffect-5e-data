@@ -1,6 +1,6 @@
 ---
+name: Envoy-class Frigate
 type: starship
-subtype: false
 size: frigate
 ac: 13
 hp: 1350
@@ -32,3 +32,8 @@ weapons:
 cr: 6+
 cost: 1350000
 ---
+The envoy-class frigate is a popular civilian frigate used by private companies to transport high-ranking political
+officials and corporate executives.
+
+__Additional Systems__: The envoy-class frigate has a _Luxury Kitchen_, _Rec Room_, _GARDIAN_ system, and 2
+additional system slots.

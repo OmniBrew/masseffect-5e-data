@@ -1,13 +1,13 @@
 ---
+name: Personal Shield Generator
 subsets:
   - id: personal-shield-generator-i-a
     rarity: common
     cost: 15000
     name: Personal Shield Generator I.a
-    html: >-
-      Provides 10 shield capacity and 5 shield regen.
+    html: Provides 10 shield capacity and 5 shield regen.
     mechanics:
-      - type: shields
+      - type: me:shields
         capacity:
           type: flat
           value: 10
@@ -19,10 +19,9 @@ subsets:
     rarity: uncommon
     cost: 23000
     name: Personal Shield Generator I.b
-    html: >-
-      Provides 10 shield capacity and 10 shield regen.
+    html: Provides 10 shield capacity and 10 shield regen.
     mechanics:
-      - type: shields
+      - type: me:shields
         capacity:
           type: flat
           value: 10
@@ -34,10 +33,9 @@ subsets:
     rarity: uncommon
     cost: 25000
     name: Personal Shield Generator II.a
-    html: >-
-      Provides 15 shield capacity and 5 shield regen.
+    html: Provides 15 shield capacity and 5 shield regen.
     mechanics:
-      - type: shields
+      - type: me:shields
         capacity:
           type: flat
           value: 15
@@ -49,10 +47,9 @@ subsets:
     rarity: rare
     cost: 33000
     name: Personal Shield Generator II.b
-    html: >-
-      Provides 15 shield capacity and 10 shield regen.
+    html: Provides 15 shield capacity and 10 shield regen.
     mechanics:
-      - type: shields
+      - type: me:shields
         capacity:
           type: flat
           value: 15
@@ -64,10 +61,9 @@ subsets:
     rarity: rare
     cost: 41000
     name: Personal Shield Generator II.c
-    html: >-
-      Provides 15 shield capacity and 15 shield regen.
+    html: Provides 15 shield capacity and 15 shield regen.
     mechanics:
-      - type: shields
+      - type: me:shields
         capacity:
           type: flat
           value: 15
@@ -79,10 +75,9 @@ subsets:
     rarity: rare
     cost: 35000
     name: Personal Shield Generator III.a
-    html: >-
-      Provides 20 shield capacity and 5 shield regen.
+    html: Provides 20 shield capacity and 5 shield regen.
     mechanics:
-      - type: shields
+      - type: me:shields
         capacity:
           type: flat
           value: 20
@@ -94,10 +89,9 @@ subsets:
     rarity: rare
     cost: 43000
     name: Personal Shield Generator III.b
-    html: >-
-      Provides 20 shield capacity and 10 shield regen.
+    html: Provides 20 shield capacity and 10 shield regen.
     mechanics:
-      - type: shields
+      - type: me:shields
         capacity:
           type: flat
           value: 20
@@ -109,10 +103,9 @@ subsets:
     rarity: very_rare
     cost: 51000
     name: Personal Shield Generator III.c
-    html: >-
-      Provides 20 shield capacity and 15 shield regen.
+    html: Provides 20 shield capacity and 15 shield regen.
     mechanics:
-      - type: shields
+      - type: me:shields
         capacity:
           type: flat
           value: 20
@@ -124,10 +117,9 @@ subsets:
     rarity: very_rare
     cost: 45000
     name: Personal Shield Generator IV.a
-    html: >-
-      Provides 25 shield capacity and 5 shield regen.
+    html: Provides 25 shield capacity and 5 shield regen.
     mechanics:
-      - type: shields
+      - type: me:shields
         capacity:
           type: flat
           value: 25
@@ -139,10 +131,9 @@ subsets:
     rarity: very_rare
     cost: 53000
     name: Personal Shield Generator IV.b
-    html: >-
-      Provides 25 shield capacity and 10 shield regen.
+    html: Provides 25 shield capacity and 10 shield regen.
     mechanics:
-      - type: shields
+      - type: me:shields
         capacity:
           type: flat
           value: 25
@@ -154,10 +145,9 @@ subsets:
     rarity: spectre
     cost: 61000
     name: Personal Shield Generator IV.c
-    html: >-
-      Provides 25 shield capacity and 15 shield regen.
+    html: Provides 25 shield capacity and 15 shield regen.
     mechanics:
-      - type: shields
+      - type: me:shields
         capacity:
           type: flat
           value: 25
@@ -169,10 +159,9 @@ subsets:
     rarity: spectre
     cost: 55000
     name: Personal Shield Generator V.a
-    html: >-
-      Provides 30 shield capacity and 5 shield regen.
+    html: Provides 30 shield capacity and 5 shield regen.
     mechanics:
-      - type: shields
+      - type: me:shields
         capacity:
           type: flat
           value: 30
@@ -184,10 +173,9 @@ subsets:
     rarity: spectre
     cost: 63000
     name: Personal Shield Generator V.b
-    html: >-
-      Provides 30 shield capacity and 10 shield regen.
+    html: Provides 30 shield capacity and 10 shield regen.
     mechanics:
-      - type: shields
+      - type: me:shields
         capacity:
           type: flat
           value: 30
@@ -199,10 +187,9 @@ subsets:
     rarity: spectre
     cost: 71000
     name: Personal Shield Generator V.c
-    html: >-
-      Provides 30 shield capacity and 15 shield regen.
+    html: Provides 30 shield capacity and 15 shield regen.
     mechanics:
-      - type: shields
+      - type: me:shields
         capacity:
           type: flat
           value: 30
@@ -211,11 +198,10 @@ subsets:
           value: 15
         additive: false
 rarity: varies
-type: device
+gearType: device
 cost: Varies
 weight: 1
-subType: ''
-name: Personal Shield Generator
+subType: ""
 equippable: true
 ---
 A personal shield generator that can provide shields when operators aren't wearing armor. If you are wearing multiple items

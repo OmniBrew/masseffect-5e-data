@@ -4,13 +4,12 @@ new: true
 mechanics:
   - type: reaction
     resource: {}
-    shortDesc: >-
-      When you cast one of your innate biotics powers, you may sustain it for its full duration without
-      concentration.
+    shortDesc: When you cast one of your innate biotics powers, you may sustain it for its full duration without concentration.
 prerequisite: Asari
 prereq:
   - type: species
-    limit: [asari]
+    limit:
+      - asari
 ---
 Your innate biotics are extensions of your limbs, and you no longer think twice about them,
 and can utilize them almost without thinking.

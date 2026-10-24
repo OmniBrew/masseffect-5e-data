@@ -2,7 +2,7 @@
 name: Sabotage
 version: 1
 level: 1
-type: tech
+powerType: tech
 classes:
   - engineer
   - musician
@@ -10,17 +10,14 @@ classes:
 tags:
   - debuff
   - control
-mechanics:
+casting:
   - castingTime:
       length: 1
       unit: action
-    attack: false
     dc:
       base: 8
       proficient: true
       save: int
-    damage: false
-    conditions: false
     duration:
       length: 1
       unit: hour
@@ -28,16 +25,15 @@ mechanics:
     range:
       short: 90
     detonates: false
-    primes: false
 advancements:
   - id: primed
     name: Primed
     text: After the weapon fires, it vents its heat and the attacking creature becomes primed (fire) until the start of its next turn.
-    mechanics: []
+    casting: []
   - id: backfire
     name: Backfire
     text: After the weapon fires, it deals 2d6 thunder damage to the attacking creature.
-    mechanics:
+    casting:
       - damage:
           - dieCount: 2
             dieType: 6

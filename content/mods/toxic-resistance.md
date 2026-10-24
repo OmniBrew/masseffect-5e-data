@@ -1,6 +1,7 @@
 ---
+name: Toxic Resistance
 rarity: uncommon
-type: armor
+modType: armor
 cost: 37500
 manufacturer: batarian-state-arms
 tags:
@@ -11,17 +12,15 @@ availability:
   - light
   - medium
   - heavy
-name: Toxic Resistance
-flavor: >-
-  Specially-sealed body armor and biotoxin blood filters provide increased
-  protection against radiation, gases, and a host of other toxins.
+flavor: Specially-sealed body armor and biotoxin blood filters provide increased protection against radiation, gases, and a host of other toxins.
 mechanics:
   - type: resistance
     value: acid
   - type: resistance
     value: poison
   - type: saving-throw
-    against: [poisoned]
+    against:
+      - poisoned
     effect:
       type: advantage
 ---

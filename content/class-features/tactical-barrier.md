@@ -1,7 +1,7 @@
 ---
+name: Tactical Barrier
 level: 7
 klass: vanguard
-name: Tactical Barrier
 mechanics:
   - type: global-note
     subType: defenses

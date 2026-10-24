@@ -1,8 +1,8 @@
 ---
+name: Disrupting Attack
 level: 10
 klass: engineer
 subclass: mastermind
-name: Disrupting Attack
 mechanics:
   - type: global-note
     subType: action

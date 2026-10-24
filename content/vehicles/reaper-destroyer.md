@@ -1,6 +1,6 @@
 ---
+name: Reaper Destroyer
 type: starship
-subtype: false
 size: cruiser
 ac: 20
 hp: 2900
@@ -26,6 +26,9 @@ weapons:
     damage: 1100 (2d10[x100]) radiant damage.
 cr: 17+
 cost: none
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/6/68/Rannoch_Destroyer_Shot.png/revision/latest/scale-to-width-down/422?cb=20120714191503
+image: https://vignette.wikia.nocookie.net/masseffect/images/6/68/Rannoch_Destroyer_Shot.png/revision/latest/scale-to-width-down/422?cb=20120714191503
 ---
+Destroyers are a type of Reaper that appear during their galaxy-wide invasion in 2186. They are approximately :distance{length="400"}
+in height; smaller than a Reaper of Sovereign's class, which measure over two kilometers in height. Destroyers make up
+the majority of the Reaper fleet and are believed to be created using harvested species that are not used to
+build Reaper Capital Ships.

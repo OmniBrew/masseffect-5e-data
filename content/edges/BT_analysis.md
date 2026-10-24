@@ -2,11 +2,7 @@
 name: Analysis
 mechanics:
   - type: bonus-action
-    shortDesc: >-
-      Set your tactical focus and choose a hostile creature within it. Now, and at the start of each of your turns, you
-      learn if the creature is your equal, superior, or inferior in regard to one of the following characteristics
-      of your choice: One ability score (Strength, Dexterity, Constitution, Intelligence, Charisma, or Wisdom),
-      Armor Class, or Current hit points.
+    shortDesc: "Set your tactical focus and choose a hostile creature within it. Now, and at the start of each of your turns, you learn if the creature is your equal, superior, or inferior in regard to one of the following characteristics of your choice: One ability score (Strength, Dexterity, Constitution, Intelligence, Charisma, or Wisdom), Armor Class, or Current hit points."
     range:
       short: 60
       aoe:

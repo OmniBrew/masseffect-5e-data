@@ -1,4 +1,5 @@
 ---
+name: Improved Commander
 level: 10
 klass: tracker
 subclass: beast-master
@@ -7,10 +8,9 @@ mechanics:
     value:
       model: tracker
       id: give-command
-      limit: [global-note]
+      limit:
+        - global-note
     merge:
-      value: 'Command Dice (1d10)'
-name: Improved Commander
+      value: Command Dice (1d10)
 ---
 Starting at 10th level, the size of your Command Dice increases to d10.
-

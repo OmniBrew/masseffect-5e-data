@@ -1,6 +1,7 @@
 ---
+name: Hip Caddy - Grenades
 rarity: common
-type: armor
+modType: armor
 cost: 3000
 manufacturer: armax-arsenal
 tags:
@@ -10,10 +11,9 @@ availability:
   - light
   - medium
   - heavy
-name: Hip Caddy - Grenades
 flavor: A simple device designed to hold combat grenades.
 mechanics:
-  - type: grenade-capacity
+  - type: me:grenade-capacity
     value: 2
 ---
 Increase your grenade capacity by 2

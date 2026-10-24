@@ -1,8 +1,8 @@
 ---
+name: Extra Attack
 level: 6
 klass: engineer
 subclass: mastermind
-name: Extra Attack
 mechanics:
   - type: extra-attack
     value: 2

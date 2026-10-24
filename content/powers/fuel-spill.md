@@ -1,9 +1,9 @@
 ---
-author: Helios
 name: Fuel Spill
+author: Helios
 version: 1
 level: 1
-type: tech
+powerType: tech
 classes:
   - tracker
   - sentinel
@@ -12,11 +12,10 @@ classes:
   - explorer
 tags:
   - debuff
-mechanics:
+casting:
   - castingTime:
       length: 1
       unit: action
-    attack: false
     dc:
       base: 8
       proficient: true
@@ -25,7 +24,6 @@ mechanics:
       - dieCount: 2
         dieType: 6
         type: fire
-    conditions: false
     duration:
       length: 10
       unit: minute
@@ -36,7 +34,6 @@ mechanics:
         type: sphere
         size: 15
     detonates: false
-    primes: false
   - damage:
       - dieCount: 4
     range:
@@ -65,9 +62,8 @@ mechanics:
 advancements:
   - id: corrosive-fuel
     name: Corrosive Fuel
-    text: >-
-      When casting the power, creatures that are in the area take 3d6 acid damage on a fail, or half as much on a success.
-    mechanics:
+    text: When casting the power, creatures that are in the area take 3d6 acid damage on a fail, or half as much on a success.
+    casting:
       - damage:
           - {}
           - dieCount: 3
@@ -75,11 +71,8 @@ advancements:
             type: acid
   - id: dense-oil
     name: Dense Oil
-    text: >-
-      Creatures that fail the saving throw now become restrained by the fuel, as its density hinders movement.
-      If a creature moves into the area for the first time, they must make a Dexterity saving throw or become restrained.
-      To escape, a creature must now use its action to make a Strength check against your power saving DC.
-    mechanics: []
+    text: Creatures that fail the saving throw now become restrained by the fuel, as its density hinders movement. If a creature moves into the area for the first time, they must make a Dexterity saving throw or become restrained. To escape, a creature must now use its action to make a Strength check against your power saving DC.
+    casting: []
 ---
 You use your omni-tool to launch a canister that creates a pool of slick, slippery and flammable fuel within range.
 All creatures in the area must make a Dexterity saving throw. On a failed save, they become doused in the fuel.

@@ -1,10 +1,10 @@
 ---
+name: In for the Kill
 level: 14
 klass: tracker
 subclass: bloodhound
 mechanics:
   - type: companion
-name: In for the Kill
 ---
 Once you've found your prey, it's all about finishing what you started.
 

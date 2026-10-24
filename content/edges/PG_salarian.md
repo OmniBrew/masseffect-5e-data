@@ -8,8 +8,9 @@ mechanics:
   - type: model-choice
     options: true
     model: traits
-    set: [amphibious,photographic-memory]
+    set:
+      - amphibious
+      - photographic-memory
 ---
 - Your Intelligence score increases by 1, to a maximum of 20.
 - Gain the Amphibious and Photographic Memory traits.
-

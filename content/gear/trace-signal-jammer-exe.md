@@ -1,10 +1,10 @@
 ---
+name: Trace_Signal_Jammer.exe
 rarity: uncommon
-type: omni_tool_program
+gearType: omni_tool_program
 cost: 0
 weight: 0
-subType: ''
-name: Trace_Signal_Jammer.exe
+subType: ""
 installation: true
 equippable: true
 mechanics:

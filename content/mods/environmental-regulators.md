@@ -1,6 +1,7 @@
 ---
+name: Environmental Regulators
 rarity: rare
-type: armor
+modType: armor
 cost: 62500
 manufacturer: devlon-industries
 tags:
@@ -10,10 +11,7 @@ availability:
   - light
   - medium
   - heavy
-name: Environmental Regulators
-flavor: >-
-  Temperature controls use liquid nitrogen and plasma to keep your suit at a
-  constant temperature.
+flavor: Temperature controls use liquid nitrogen and plasma to keep your suit at a constant temperature.
 mechanics:
   - type: resistance
     value: fire

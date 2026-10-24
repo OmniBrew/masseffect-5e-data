@@ -1,8 +1,8 @@
 ---
+name: Combat Training
 level: 2
 klass: adept
 subclass: commando
-name: Combat Training
 mechanics:
   - type: weapon-choice
     options: true

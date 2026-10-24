@@ -1,6 +1,6 @@
 ---
-image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/8/8f/SwarmME3.jpg/revision/latest/scale-to-width-down/350?cb=20121201212516
+name: Seeker Swarm
+image: https://vignette.wikia.nocookie.net/masseffect/images/8/8f/SwarmME3.jpg/revision/latest/scale-to-width-down/350?cb=20121201212516
 type: organic
 unit: collector
 alignment: le
@@ -16,12 +16,9 @@ abilityScores:
   int: 10
   wis: 8
   cha: 5
-irv: false
 savingThrows:
   - dex
-senses: false
 size: small
-skills: false
 speed:
   fly: 30
 entries:
@@ -29,12 +26,14 @@ entries:
     - attack: melee
       proficient: true
       range: 5
-      dc: false
       mod: dex
       damage:
-        - {dieCount: 1, dieType: 4, mod: true, type: poison}
+        - dieCount: 1
+          dieType: 4
+          mod: true
+          type: poison
       target: one
       id: sting
-cr: '00125'
-shields: false
+      name: Sting
+cr: "00125"
 ---

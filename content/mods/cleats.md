@@ -1,6 +1,7 @@
 ---
+name: Cleats
 rarity: uncommon
-type: armor
+modType: armor
 cost: 15000
 manufacturer: cerberus-skunkworks
 tags:
@@ -10,7 +11,6 @@ availability:
   - light
   - medium
   - heavy
-name: Cleats
 flavor: Copper microfilaments in your boots ground you and abate electrical shock.
 mechanics:
   - type: resistance
