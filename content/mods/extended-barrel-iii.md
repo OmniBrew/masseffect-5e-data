@@ -3,7 +3,6 @@ name: Extended Barrel III
 rarity: spectre
 modType: weapon
 cost: 25000
-manufacturer: ""
 tags:
   - extra_damage
 placement: barrel

@@ -23,7 +23,6 @@ rarity: rare
 gearType: heavy_weapon
 cost: 82000
 weight: 24
-subType: ""
 charges: 4
 equippable: true
 ---

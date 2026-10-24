@@ -22,7 +22,6 @@ rarity: uncommon
 gearType: omni_tool_program
 cost: 0
 weight: 0
-subType: ""
 installation: false
 equippable: true
 ---

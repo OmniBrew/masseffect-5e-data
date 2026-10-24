@@ -3,7 +3,6 @@ name: Omni-Taser
 rarity: common
 weaponType: melee
 cost: 5500
-manufacturer: ""
 weight: 0
 damage:
   dieCount: 1

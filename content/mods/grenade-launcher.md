@@ -3,7 +3,6 @@ name: Grenade Launcher
 rarity: spectre
 modType: weapon
 cost: 48000
-manufacturer: ""
 tags:
   - augmentation
 placement: ammo

@@ -3,7 +3,6 @@ name: Explosive Ammo
 rarity: rare
 modType: weapon
 cost: 15000
-manufacturer: ""
 tags:
   - extra_damage
 placement: ammo

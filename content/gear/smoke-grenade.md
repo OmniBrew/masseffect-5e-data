@@ -4,7 +4,6 @@ rarity: common
 gearType: grenade
 cost: 250
 weight: 1
-subType: ""
 mechanics:
   - type: action
     resource:

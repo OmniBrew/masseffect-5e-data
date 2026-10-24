@@ -3,7 +3,6 @@ name: Collector SMG
 rarity: spectre
 weaponType: smg
 cost: 59000
-manufacturer: ""
 weight: 7
 damage:
   dieCount: 2

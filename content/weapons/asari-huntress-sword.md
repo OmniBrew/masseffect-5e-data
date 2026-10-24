@@ -3,7 +3,6 @@ name: Asari Huntress Sword
 rarity: rare
 weaponType: melee
 cost: 34500
-manufacturer: ""
 weight: 2
 damage:
   dieCount: 1

@@ -3,7 +3,6 @@ name: Single Fire System
 rarity: uncommon
 modType: weapon
 cost: 15000
-manufacturer: ""
 tags:
   - augmentation
 placement: ammo

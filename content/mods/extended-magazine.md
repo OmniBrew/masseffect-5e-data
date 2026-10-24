@@ -3,7 +3,6 @@ name: Extended Magazine
 rarity: rare
 modType: weapon
 cost: 20000
-manufacturer: ""
 tags:
   - additional_heat
 placement: magazine

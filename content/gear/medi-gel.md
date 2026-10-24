@@ -4,7 +4,6 @@ rarity: varies
 gearType: medi_gel
 cost: Varies
 weight: 0
-subType: ""
 consumable: true
 equippable: true
 subsets:

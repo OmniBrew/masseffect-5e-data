@@ -3,7 +3,6 @@ name: Omni-Blade Attachment
 rarity: uncommon
 modType: weapon
 cost: 10000
-manufacturer: ""
 tags:
   - melee_attacks
 placement: barrel

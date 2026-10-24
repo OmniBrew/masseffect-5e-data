@@ -3,7 +3,6 @@ name: Ultralight Materials II
 rarity: rare
 modType: weapon
 cost: 20000
-manufacturer: ""
 tags:
   - reduced_weight
 placement: body

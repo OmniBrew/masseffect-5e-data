@@ -3,7 +3,6 @@ name: Sticky Grenade Launcher
 rarity: spectre
 modType: weapon
 cost: 65000
-manufacturer: ""
 tags:
   - augmentation
 placement: ammo

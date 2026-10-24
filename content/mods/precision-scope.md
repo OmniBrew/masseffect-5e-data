@@ -3,7 +3,6 @@ name: Precision Scope
 rarity: uncommon
 modType: weapon
 cost: 10000
-manufacturer: ""
 tags:
   - increased_range
   - attack_bonus

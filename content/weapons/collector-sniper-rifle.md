@@ -3,7 +3,6 @@ name: Collector Sniper Rifle
 rarity: rare
 weaponType: sniper_rifle
 cost: 36500
-manufacturer: ""
 weight: 18
 damage:
   dieCount: 1

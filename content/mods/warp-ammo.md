@@ -3,7 +3,6 @@ name: Warp Ammo
 rarity: rare
 modType: weapon
 cost: 20000
-manufacturer: ""
 tags:
   - damage_augment
   - ignore_resistance

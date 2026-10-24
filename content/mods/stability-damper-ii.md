@@ -3,7 +3,6 @@ name: Stability Damper II
 rarity: rare
 modType: weapon
 cost: 12500
-manufacturer: ""
 tags:
   - attack_bonus
 placement: body

@@ -3,7 +3,6 @@ name: Stability Damper III
 rarity: spectre
 modType: weapon
 cost: 25000
-manufacturer: ""
 tags:
   - attack_bonus
 placement: body

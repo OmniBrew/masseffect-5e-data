@@ -3,7 +3,6 @@ name: Heat Sink
 rarity: spectre
 modType: weapon
 cost: 40000
-manufacturer: ""
 tags:
   - additional_heat
 placement: magazine

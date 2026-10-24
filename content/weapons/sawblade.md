@@ -3,7 +3,6 @@ name: Sawblade
 rarity: rare
 weaponType: melee
 cost: 35500
-manufacturer: ""
 weight: 4
 damage:
   dieCount: 1

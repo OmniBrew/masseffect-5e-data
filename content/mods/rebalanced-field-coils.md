@@ -3,7 +3,6 @@ name: Rebalanced Field Coils
 rarity: rare
 modType: weapon
 cost: 18000
-manufacturer: ""
 tags:
   - extra_damage
 placement: magazine

@@ -3,7 +3,6 @@ name: Concentration Mod
 rarity: rare
 modType: weapon
 cost: 12000
-manufacturer: ""
 tags:
   - special
 placement: body

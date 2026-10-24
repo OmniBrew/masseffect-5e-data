@@ -3,7 +3,6 @@ name: High-Caliber Barrel II
 rarity: rare
 modType: weapon
 cost: 19500
-manufacturer: ""
 tags:
   - extra_damage
   - special

@@ -3,7 +3,6 @@ name: Vintage Heat Sink
 rarity: uncommon
 modType: weapon
 cost: 13000
-manufacturer: ""
 tags:
   - special
 placement: magazine

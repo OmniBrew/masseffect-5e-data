@@ -3,7 +3,6 @@ name: Energy Channel
 rarity: spectre
 modType: weapon
 cost: 32000
-manufacturer: ""
 tags:
   - extra_damage
   - special

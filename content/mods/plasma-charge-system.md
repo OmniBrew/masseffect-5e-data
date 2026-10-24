@@ -3,7 +3,6 @@ name: Plasma Charge System
 rarity: spectre
 modType: weapon
 cost: 69000
-manufacturer: ""
 tags:
   - augmentation
 placement: ammo

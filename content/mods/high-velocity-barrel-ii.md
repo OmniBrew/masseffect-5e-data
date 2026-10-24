@@ -3,7 +3,6 @@ name: High-Velocity Barrel II
 rarity: rare
 modType: weapon
 cost: 50000
-manufacturer: ""
 tags:
   - damage_reroll
 placement: barrel

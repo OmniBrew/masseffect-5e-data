@@ -4,7 +4,6 @@ rarity: common
 gearType: shield
 cost: 5000
 weight: 5
-subType: ""
 equippable: true
 mechanics:
   - type: ac

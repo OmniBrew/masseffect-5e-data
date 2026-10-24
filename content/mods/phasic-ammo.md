@@ -3,7 +3,6 @@ name: Phasic Ammo
 rarity: rare
 modType: weapon
 cost: 15000
-manufacturer: ""
 tags:
   - special
 placement: ammo

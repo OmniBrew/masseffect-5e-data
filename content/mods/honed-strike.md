@@ -3,7 +3,6 @@ name: Honed Strike
 rarity: uncommon
 modType: weapon
 cost: 5000
-manufacturer: ""
 tags:
   - extra_damage
 placement: strike

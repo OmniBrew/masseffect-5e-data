@@ -3,7 +3,6 @@ name: Long Barrel
 rarity: uncommon
 modType: weapon
 cost: 8000
-manufacturer: ""
 tags:
   - increased_range
 placement: barrel

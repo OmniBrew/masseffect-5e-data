@@ -3,7 +3,6 @@ name: Cranial Trauma System
 rarity: uncommon
 modType: weapon
 cost: 8000
-manufacturer: ""
 tags:
   - special
 placement: barrel

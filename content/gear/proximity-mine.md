@@ -256,7 +256,6 @@ rarity: varies
 gearType: grenade
 cost: Varies
 weight: 1
-subType: ""
 consumable: true
 ---
 Place a proximity mine within :distance{length="5"}. On your turn, you may use a bonus action to arm or

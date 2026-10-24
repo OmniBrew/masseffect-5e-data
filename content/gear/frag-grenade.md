@@ -296,7 +296,6 @@ rarity: varies
 gearType: grenade
 cost: Varies
 weight: 1
-subType: ""
 consumable: true
 equippable: true
 ---

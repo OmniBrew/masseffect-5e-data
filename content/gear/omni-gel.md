@@ -4,7 +4,6 @@ rarity: common
 gearType: omni_gel
 cost: 1000
 weight: 1
-subType: ""
 consumable: true
 ---
 Omni-gel is a technological material that can be obtained by breaking down unwanted items, such as weapons, armor, and

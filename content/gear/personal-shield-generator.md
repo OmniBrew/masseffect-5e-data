@@ -201,7 +201,6 @@ rarity: varies
 gearType: device
 cost: Varies
 weight: 1
-subType: ""
 equippable: true
 ---
 A personal shield generator that can provide shields when operators aren't wearing armor. If you are wearing multiple items

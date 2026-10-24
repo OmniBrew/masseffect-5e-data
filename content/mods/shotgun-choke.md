@@ -3,7 +3,6 @@ name: Shotgun Choke
 rarity: rare
 modType: weapon
 cost: 12500
-manufacturer: ""
 tags:
   - increased_range
   - extra_damage

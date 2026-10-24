@@ -3,7 +3,6 @@ name: Thermal Scope
 rarity: uncommon
 modType: weapon
 cost: 20000
-manufacturer: ""
 tags:
   - special
 placement: body

@@ -3,7 +3,6 @@ name: High-Caliber Barrel III
 rarity: spectre
 modType: weapon
 cost: 32000
-manufacturer: ""
 tags:
   - extra_damage
   - special

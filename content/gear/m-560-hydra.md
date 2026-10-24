@@ -27,7 +27,6 @@ rarity: spectre
 gearType: heavy_weapon
 cost: 76000
 weight: 24
-subType: ""
 charges: 1
 equippable: true
 ---

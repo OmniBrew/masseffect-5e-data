@@ -4,7 +4,6 @@ author: Helios
 rarity: common
 weaponType: melee
 cost: 9000
-manufacturer: ""
 weight: 0
 damage:
   dieCount: 1

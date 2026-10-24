@@ -3,7 +3,6 @@ name: Beam Emitter
 rarity: spectre
 modType: weapon
 cost: 52000
-manufacturer: ""
 tags:
   - augmentation
 placement: ammo

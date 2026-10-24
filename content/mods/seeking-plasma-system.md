@@ -3,7 +3,6 @@ name: Seeking Plasma System
 rarity: spectre
 modType: weapon
 cost: 75000
-manufacturer: ""
 tags:
   - augmentation
 placement: ammo

@@ -3,7 +3,6 @@ name: Burst Fire System
 rarity: uncommon
 modType: weapon
 cost: 13000
-manufacturer: ""
 tags:
   - augmentation
 placement: ammo

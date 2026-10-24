@@ -3,7 +3,6 @@ name: Omni-Hammer
 rarity: common
 weaponType: melee
 cost: 8500
-manufacturer: ""
 weight: 0
 damage:
   dieCount: 1

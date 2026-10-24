@@ -4,7 +4,6 @@ rarity: uncommon
 gearType: ammo
 cost: Military
 weight: 1
-subType: ""
 consumable: true
 ---
 A heavy weapon charge is a generic term that can refer to a missile, energy source, or

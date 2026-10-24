@@ -3,7 +3,6 @@ name: High-Caliber Barrel I
 rarity: uncommon
 modType: weapon
 cost: 12000
-manufacturer: ""
 tags:
   - extra_damage
   - special

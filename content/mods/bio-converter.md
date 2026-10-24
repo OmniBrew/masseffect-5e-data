@@ -3,7 +3,6 @@ name: Bio-Converter
 rarity: spectre
 modType: weapon
 cost: 33000
-manufacturer: ""
 tags:
   - special
 placement: magazine

@@ -3,7 +3,6 @@ name: Omni-Torch
 rarity: common
 weaponType: melee
 cost: 6500
-manufacturer: ""
 weight: 0
 damage:
   dieCount: 1

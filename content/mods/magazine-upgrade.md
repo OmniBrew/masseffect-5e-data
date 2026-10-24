@@ -3,7 +3,6 @@ name: Magazine Upgrade
 rarity: uncommon
 modType: weapon
 cost: 8000
-manufacturer: ""
 tags:
   - additional_heat
 placement: magazine

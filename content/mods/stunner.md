@@ -3,7 +3,6 @@ name: Stunner
 rarity: rare
 modType: weapon
 cost: 25000
-manufacturer: ""
 tags:
   - melee_attacks
 placement: barrel

@@ -3,7 +3,6 @@ name: Electrical Conduits
 rarity: rare
 modType: weapon
 cost: 15000
-manufacturer: ""
 tags:
   - augmentation
 placement: ammo

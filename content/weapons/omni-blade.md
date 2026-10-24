@@ -3,7 +3,6 @@ name: Omni-Blade
 rarity: common
 weaponType: melee
 cost: 7500
-manufacturer: ""
 weight: 0
 damage:
   dieCount: 1

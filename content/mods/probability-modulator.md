@@ -3,7 +3,6 @@ name: Probability Modulator
 rarity: spectre
 modType: weapon
 cost: 42000
-manufacturer: ""
 tags:
   - special
 placement: strike
