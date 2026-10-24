@@ -22,7 +22,6 @@ irv:
     - deafened
     - grappled
     - paralyzed
-    - petrified
     - poisoned
     - stunned
   damImm:
@@ -55,7 +54,7 @@ entries:
       dc: false
       mod: str
       damage:
-        - {dieCount: '3', dieType: '8', mod: true, type: bludgeoning}
+        - {dieCount: 3, dieType: 8, mod: true, type: bludgeoning}
       target: one
       id: smash
     - attack: ranged
@@ -64,7 +63,7 @@ entries:
       dc: false
       mod: dex
       damage:
-        - {dieCount: '5', dieType: '8', mod: true, type: radiant}
+        - {dieCount: 5, dieType: 8, mod: true, type: radiant}
       target: one
       id: mass-accelerator-cannon
     - dc: false

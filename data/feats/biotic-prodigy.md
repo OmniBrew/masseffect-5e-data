@@ -10,7 +10,7 @@ mechanics:
         id: innate-biotics
   - type: augment
     value:
-      model: trait
+      model: traits
       id: innate-biotics
       limit: [powers]
       instances: [2]

@@ -2,7 +2,7 @@
 image: null
 type: organic
 unit: tracker
-alignment: tracker
+alignment: u
 profBonus: 2
 ac: 14
 hp:
@@ -31,7 +31,7 @@ entries:
       dc: false
       mod: dex
       damage:
-        - {dieCount: '1', dieType: '4', mod: true, type: slashing}
+        - {dieCount: 1, dieType: 4, mod: true, type: slashing}
       target: one
       id: claw
 cr: '00125'

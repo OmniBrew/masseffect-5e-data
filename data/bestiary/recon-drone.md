@@ -45,7 +45,7 @@ entries:
       dc: false
       mod: dex
       damage:
-        - {dieCount: '1', dieType: '4', mod: true, type: radiant}
+        - {dieCount: 1, dieType: 4, mod: true, type: radiant}
       target: one
       id: pulse-rifle
 cr: '00125'

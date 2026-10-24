@@ -31,7 +31,7 @@ startingEquipment:
       items: [m-3-predator,m-4-shuriken,m-8-avenger,m-92-mantis,m-23-katana]
       count: 1
   - choices:
-      items: [omni-blade,omni-hamer]
+      items: [omni-blade,omni-hammer]
       count: 1
   - has:
       - stock-light-armor

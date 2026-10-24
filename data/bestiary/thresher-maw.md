@@ -56,8 +56,8 @@ entries:
       dc: false
       mod: str
       damage:
-        - {dieCount: '3', dieType: '12', mod: true, type: bludgeoning}
-        - {dieCount: '2', dieType: '12', mod: true, type: acid}
+        - {dieCount: 3, dieType: 12, mod: true, type: bludgeoning}
+        - {dieCount: 2, dieType: 12, mod: true, type: acid}
       target: one
       id: grasp
     - attack: melee
@@ -66,7 +66,7 @@ entries:
       dc: false
       mod: str
       damage:
-        - {dieCount: '4', dieType: '6', mod: true, type: bludgeoning}
+        - {dieCount: 4, dieType: 6, mod: true, type: bludgeoning}
       target: one
       id: tail
     - attack: ranged

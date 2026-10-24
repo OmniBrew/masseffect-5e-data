@@ -38,7 +38,7 @@ entries:
       dc: false
       mod: dex
       damage:
-        - {dieCount: '1', dieType: '10', mod: true, type: radiant}
+        - {dieCount: 1, dieType: 10, mod: true, type: radiant}
       target: one
       id: pulse-cannon
     - dc: false

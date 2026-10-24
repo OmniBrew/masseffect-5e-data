@@ -20,7 +20,7 @@ mechanics:
     dc:
       base: 10
       proficient: false
-      save: CON
+      save: con
     damage:
       - dieType: 4
         dieCount: 2

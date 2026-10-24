@@ -2,24 +2,30 @@
 name: Fire
 type: primers
 mechanics:
-  - range:
-      aoe:
-        size: 10
-        type: sphere
-    damage:
-      dieCount: 1
-      dieType: 6
-      type: fire
-    shortDesc: >-
-      Each creature within a <me-distance length="10" adj /> radius, including the primed target, catch fire,
-      taking {{ damage }} damage . Each creature continues to burn for 1 minute, taking {{ damage }} damage at the start of its
-      turn. A creature that is on fire can use its action put out the fire.
-  - damage:
-      dieCount: 3
-  - damage:
-      dieCount: 4
-  - damage:
-      dieCount: 5
+  - type: me:primer-detonation
+    levels:
+      - 1
+      - 5
+      - 11
+      - 17
+    tiers:
+      - range:
+          aoe:
+            size: 10
+            type: sphere
+        damage:
+          - dieCount: 1
+            dieType: 6
+            type: fire
+        shortDesc: Each creature within a <me-distance length="10" adj /> radius, including the primed target, catch fire,
+          taking {{ damage }} damage . Each creature continues to burn for 1 minute, taking {{ damage }} damage at the
+          start of its turn. A creature that is on fire can use its action put out the fire.
+      - damage:
+          - dieCount: 2
+      - damage:
+          - dieCount: 3
+      - damage:
+          - dieCount: 4
 ---
 Each creature within a <me-distance length="10" adj /> radius, including the primed target, catch fire,
 taking 1d6 fire damage. Each creature continues to burn for 1 minute, taking 1d6 fire damage at the start of its

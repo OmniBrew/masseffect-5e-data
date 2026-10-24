@@ -39,7 +39,7 @@ entries:
       dc: false
       mod: str
       damage:
-        - {dieCount: '5', dieType: '12', mod: true, type: bludgeoning}
+        - {dieCount: 5, dieType: 12, mod: true, type: bludgeoning}
       target: one
       id: clobber
     - attack: melee
@@ -48,7 +48,7 @@ entries:
       dc: false
       mod: str
       damage:
-        - {dieCount: '3', dieType: '8', mod: true, type: bludgeoning}
+        - {dieCount: 3, dieType: 8, mod: true, type: bludgeoning}
       target: one
       id: smash
 cr: '10000'

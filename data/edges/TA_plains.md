@@ -2,7 +2,7 @@
 name: Plains
 mechanics:
   - type: speed-bonus
-    value: [walking]
+    value: [walk]
     bonus:
       type: flat
       value: 4

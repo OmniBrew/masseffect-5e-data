@@ -6,7 +6,7 @@ weight: 0
 subType: ''
 name: Terra_Angelis.exe
 installation: true
-equippable: ture
+equippable: true
 ---
 _Can only be used by humans_
 

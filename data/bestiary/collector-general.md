@@ -49,7 +49,7 @@ entries:
       dc: false
       mod: str
       damage:
-        - {dieCount: '3', dieType: '8', mod: true, type: bludgeoning}
+        - {dieCount: 3, dieType: 8, mod: true, type: bludgeoning}
       target: one
       id: bash
   legendary:

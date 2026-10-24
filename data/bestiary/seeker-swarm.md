@@ -32,7 +32,7 @@ entries:
       dc: false
       mod: dex
       damage:
-        - {dieCount: '1', dieType: '4', mod: true, type: poison}
+        - {dieCount: 1, dieType: 4, mod: true, type: poison}
       target: one
       id: sting
 cr: '00125'

@@ -38,7 +38,7 @@ entries:
       dc: false
       mod: dex
       damage:
-        - {dieCount: '1', dieType: '10', mod: true, type: piercing}
+        - {dieCount: 1, dieType: 10, mod: true, type: piercing}
       target: one
       id: arm-cannon
     - attack: melee
@@ -47,7 +47,7 @@ entries:
       dc: false
       mod: str
       damage:
-        - {dieCount: '1', dieType: '8', mod: true, type: bludgeoning}
+        - {dieCount: 1, dieType: 8, mod: true, type: bludgeoning}
       target: one
       id: bash
     - attack: melee
@@ -56,8 +56,8 @@ entries:
       dc: false
       mod: str
       damage:
-        - {dieCount: '1', dieType: '6', mod: true, type: piercing}
-        - {dieCount: '3', dieType: '6', mod: true, type: necrotic}
+        - {dieCount: 1, dieType: 6, mod: true, type: piercing}
+        - {dieCount: 3, dieType: 6, mod: true, type: necrotic}
       target: one
       id: reaper-infection
 cr: '06000'

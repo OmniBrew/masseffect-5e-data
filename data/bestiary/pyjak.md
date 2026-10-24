@@ -32,7 +32,7 @@ entries:
       dc: false
       mod: str
       damage:
-        - {dieCount: '1', dieType: '4', mod: true, type: piercing}
+        - {dieCount: 1, dieType: 4, mod: true, type: piercing}
       target: one
       id: bite
 cr: '00000'

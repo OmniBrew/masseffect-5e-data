@@ -6,7 +6,7 @@ mechanics:
     limit:
       - starship-system-helm
       - starship-system-navigation
-      - vehicle
+      - vehicles
     selections: 2
   - type: skill
     value: perception

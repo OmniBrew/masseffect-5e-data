@@ -44,7 +44,7 @@ entries:
       dc: false
       mod: str
       damage:
-        - {dieCount: '2', dieType: '10', mod: true, type: piercing}
+        - {dieCount: 2, dieType: 10, mod: true, type: piercing}
       target: one
       id: bite
     - attack: melee
@@ -53,7 +53,7 @@ entries:
       dc: false
       mod: str
       damage:
-        - {dieCount: '2', dieType: '8', mod: true, type: slashing}
+        - {dieCount: 2, dieType: 8, mod: true, type: slashing}
       target: one
       id: claw
 cr: '08000'

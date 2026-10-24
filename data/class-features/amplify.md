@@ -12,7 +12,7 @@ mechanics:
   - type: powers
     value: overload
     provider:
-      model: subclass
+      model: subclasses
       id: cardinal
     castAt: 2
     mod: wis

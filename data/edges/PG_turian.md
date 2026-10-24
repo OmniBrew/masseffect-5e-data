@@ -7,7 +7,7 @@ mechanics:
   - type: model-choice
     options: true
     model: traits
-    set: [thilium-skin]
+    set: [thulium-skin]
 ---
 - Increase your Dexterity or Constitution score by 1, to a maximum of 20.
 - Gain the Thulium Skin trait.

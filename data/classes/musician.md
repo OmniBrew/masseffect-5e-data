@@ -27,7 +27,7 @@ startingEquipment:
       items: [omni-blade,omni-hammer,riot-shield]
       count: 1
   - choices:
-      items: [m-3-predator,m-92-mantis,m-23-katana,m-6-shuriken]
+      items: [m-3-predator,m-92-mantis,m-23-katana,m-4-shuriken]
       count: 1
   - choices:
       items: [stock-light-armor]

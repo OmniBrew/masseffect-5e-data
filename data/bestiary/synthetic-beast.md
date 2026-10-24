@@ -2,9 +2,10 @@
 image: null
 type: synthetic
 unit: tracker
-alignment: tracker
+alignment: u
 profBonus: 2
-ac: variable
+ac: 12
+acNote: 10 + Dex, plus the armor chosen with Custom Armor
 hp:
   dieCount: 1
   dieType: 8
@@ -37,7 +38,7 @@ entries:
       dc: false
       mod: str
       damage:
-        - {dieCount: '1', dieType: '6', mod: true, type: bludgeoning}
+        - {dieCount: 1, dieType: 6, mod: true, type: bludgeoning}
       target: one
       id: maul
 cr: '00125'

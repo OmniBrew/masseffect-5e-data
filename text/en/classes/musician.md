@@ -15,7 +15,7 @@ profs:
     text: Charisma, Wisdom
 startingEquipment:
   - text: (a) Omni-Blade (b) Omni-Hammer or (c) Riot Shield
-  - text: (a) M-3 Predator or (b) M-92 Mantis or (c) M-23 Katana or (d) M-6 Shuriken
+  - text: (a) M-3 Predator or (b) M-92 Mantis or (c) M-23 Katana or (d) M-4 Shuriken
   - text: Light Stock Armor
 ---
 As old as stories themselves, Musicians are beings who dedicate their lives to inspiring others. Their outlooks vary:

@@ -38,7 +38,7 @@ entries:
       dc: false
       mod: dex
       damage:
-        - {dieCount: '2', dieType: '8', mod: true, type: thunder}
+        - {dieCount: 2, dieType: 8, mod: true, type: thunder}
       target: one
       id: distortion-rocket
 cr: '00500'

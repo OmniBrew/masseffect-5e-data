@@ -39,7 +39,7 @@ entries:
       dc: false
       mod: str
       damage:
-        - {dieCount: '3', dieType: '12', mod: true, type: piercing}
+        - {dieCount: 3, dieType: 12, mod: true, type: piercing}
       target: one
       id: bite
     - attack: melee
@@ -48,7 +48,7 @@ entries:
       dc: false
       mod: str
       damage:
-        - {dieCount: '4', dieType: '10', mod: true, type: piercing}
+        - {dieCount: 4, dieType: 10, mod: true, type: piercing}
       target: one
       id: impale
 cr: '18000'

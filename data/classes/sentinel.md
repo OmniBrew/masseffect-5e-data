@@ -29,7 +29,7 @@ startingEquipment:
       items: [m-3-predator,m-4-shuriken,m-8-avenger]
       count: 1
   - choices:
-      items: [omni-blade,omni-hamer,monomolecular-blade,riot-shield]
+      items: [omni-blade,omni-hammer,monomolecular-blade,riot-shield]
       count: 1
   - has:
       - stock-light-armor

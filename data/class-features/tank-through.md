@@ -7,7 +7,7 @@ mechanics:
   - type: natural-armor
     base: 15
     mod: con
-  - type: type
+  - type: reaction
     name: Tank Through
     shortDesc: >-
       Halve an attack's damage aimed against you.

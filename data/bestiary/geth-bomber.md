@@ -18,7 +18,6 @@ abilityScores:
   cha: 8
 irv:
   conImm:
-    - petrified
     - poisoned
   damImm:
     - poison

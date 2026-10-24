@@ -26,7 +26,6 @@ irv:
     - invisible
     - lifted
     - paralyzed
-    - petrified
     - poisoned
     - restrained
     - stunned
@@ -61,8 +60,8 @@ entries:
       dc: false
       mod: dex
       damage:
-        - {dieCount: '3', dieType: '12', mod: true, type: piercing}
-        - {dieCount: '3', dieType: '12', mod: true, type: radiant}
+        - {dieCount: 3, dieType: 12, mod: true, type: piercing}
+        - {dieCount: 3, dieType: 12, mod: true, type: radiant}
       target: one
       id: mass-accelerator-machinegun
     - dc: false
