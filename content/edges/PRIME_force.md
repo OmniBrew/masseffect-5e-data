@@ -13,7 +13,7 @@ mechanics:
           - dieCount: 2
             dieType: 6
             type: force
-        shortDesc: Detonated creature suffers {{ damage }} damage, is knocked back :distance{length="15"}, and becomes becomes :condition{id="prone"}.
+        shortDesc: Detonated creature suffers {{ damage }}, is knocked back :distance{length="15"}, and becomes becomes :condition{id="prone"}.
       - damage:
           - dieCount: 3
       - damage:

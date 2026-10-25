@@ -11,7 +11,7 @@ mechanics:
         bonus:
           type: hp
           multiplier: 0.5
-    shortDesc: Instead of making a death saving throw, regain {{ damage }} hit points and you may stand up. Then, you may draw any weapon you are carrying, choose a target a creature within that weapon's normal range, and make 2 attacks with the weapon.
+    shortDesc: Instead of making a death saving throw, regain {{ roll }} hit points and you may stand up. Then, you may draw any weapon you are carrying, choose a target a creature within that weapon's normal range, and make 2 attacks with the weapon.
 ---
 Starting at 7th level, you can overcome grievous injuries. When you would make a death
 saving throw, you can instead spring back to your feet with a burst of adrenaline. You immediately stand up (if you so

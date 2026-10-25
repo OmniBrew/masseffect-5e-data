@@ -8,7 +8,7 @@ mechanics:
     value: wis
   - type: other
     name: Won't Quit
-    shortDesc: If you have less than half of your hit points remaining and have at least 1 hit point, at the beginning of your turn you regenerate {{ damage }}.
+    shortDesc: If you have less than half of your hit points remaining and have at least 1 hit point, at the beginning of your turn you regenerate {{ roll }} hit points.
     damage:
       - dieType: 10
         dieCount: 1

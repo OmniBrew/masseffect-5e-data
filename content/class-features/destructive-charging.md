@@ -16,7 +16,7 @@ mechanics:
         bonus:
           type: mod
           value: con
-    shortDesc: When your hologram is destroyed because it took damage, you can recharge your shields by {{ damage }}. If this would bring you above your shield's max value, the overflowing shield points are instead transformed into temporary health points, which persist for 1 hour.
+    shortDesc: When your hologram is destroyed because it took damage, you can recharge your shields by {{ roll }}. If this would bring you above your shield's max value, the overflowing shield points are instead transformed into temporary health points, which persist for 1 hour.
 ---
 At 15th level, when your hologram is destroyed, you can recharge your shields by taking advantage of the freed up
 RAM from your omni-tool. When your hologram is destroyed because it took damage, you can recharge your

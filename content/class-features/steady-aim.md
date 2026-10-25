@@ -6,7 +6,7 @@ subclass: sniper
 mechanics:
   - type: bonus-action
     layout: simple
-    shortDesc: For the next minute, you ignore 3/4-cover and deal {{ damage }} additional damage with sniper rifles.
+    shortDesc: For the next minute, you ignore 3/4-cover and deal {{ roll }} additional damage with sniper rifles.
     damage:
       - dieCount: 0
         bonus:

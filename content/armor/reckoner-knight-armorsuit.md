@@ -29,7 +29,7 @@ mechanics:
   - type: attack-augment
     attackLimit:
       model: weapon
-      weaponTypes:
+      modelTypes:
         - melee
     augmentTypes:
       - damage

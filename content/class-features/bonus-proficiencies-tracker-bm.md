@@ -4,7 +4,7 @@ level: 3
 klass: tracker
 subclass: beast-master
 mechanics:
-  - type: prof-choice
+  - type: skill-choice
     options: true
     limit:
       - intimidation

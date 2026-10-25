@@ -15,7 +15,7 @@ mechanics:
       - attr: classes
         value:
           - explorer
-      - attr: type
+      - attr: powerType
         value:
           - biotic
     append:
@@ -32,7 +32,7 @@ mechanics:
       - attr: classes
         value:
           - explorer
-      - attr: type
+      - attr: powerType
         value:
           - combat
     append:

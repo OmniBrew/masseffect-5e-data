@@ -17,7 +17,7 @@ mechanics:
           - dieCount: 1
             dieType: 6
             type: fire
-        shortDesc: Each creature within a :distance{length="10" adj} radius, including the primed target, catch fire, taking {{ damage }} damage . Each creature continues to burn for 1 minute, taking {{ damage }} damage at the start of its turn. A creature that is on fire can use its action put out the fire.
+        shortDesc: Each creature within a :distance{length="10" adj} radius, including the primed target, catch fire, taking {{ damage }}. Each creature continues to burn for 1 minute, taking {{ damage }} at the start of its turn. A creature that is on fire can use its action put out the fire.
       - damage:
           - dieCount: 2
       - damage:

@@ -16,7 +16,7 @@ mechanics:
         dc:
           base: 15
           save: con
-        shortDesc: Each creature within :distance{length="10"} of the detonated creature suffers {{ damage }} damage must succeed on DC 15 Constitution saving throw or become :condition{id="poisoned"} for 1 hour.
+        shortDesc: Each creature within :distance{length="10"} of the detonated creature suffers {{ damage }} must succeed on DC 15 Constitution saving throw or become :condition{id="poisoned"} for 1 hour.
       - damage:
           - dieCount: 4
       - damage:

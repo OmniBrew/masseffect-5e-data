@@ -15,7 +15,7 @@ mechanics:
       - attr: classes
         value:
           - explorer
-      - attr: type
+      - attr: powerType
         value:
           - biotic
   - type: model-choice
@@ -30,7 +30,7 @@ mechanics:
       - attr: classes
         value:
           - explorer
-      - attr: type
+      - attr: powerType
         value:
           - combat
 ---

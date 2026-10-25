@@ -9,7 +9,7 @@ mechanics:
     model: powers
     options: true
     limits:
-      - attr: type
+      - attr: powerType
         value:
           - biotic
       - attr: level
@@ -27,7 +27,7 @@ mechanics:
     model: powers
     options: true
     limits:
-      - attr: type
+      - attr: powerType
         value:
           - biotic
       - attr: level
