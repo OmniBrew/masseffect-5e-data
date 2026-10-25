@@ -6,7 +6,7 @@ mechanics:
   - type: asi
     ability: cha
     amount: 1
-  - type: prof-choice
+  - type: skill-choice
     options: true
     limit:
       - performance

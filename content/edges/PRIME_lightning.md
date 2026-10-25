@@ -17,7 +17,7 @@ mechanics:
           aoe:
             size: 10
             type: sphere
-        shortDesc: Each creature within a :distance{length="10" adj} radius, including the primed target, suffers {{ damage }} damage.
+        shortDesc: Each creature within a :distance{length="10" adj} radius, including the primed target, suffers {{ damage }}.
       - damage:
           - dieCount: 4
       - damage:

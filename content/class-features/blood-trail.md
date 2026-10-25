@@ -4,12 +4,19 @@ level: 13
 klass: infiltrator
 subclass: stalker
 mechanics:
-  - type: global-note
-    subType: action
-    value: Blood Trail
-    moreInfo:
-      model: class-features
-      id: blood-trail
+  - type: attack-augment
+    ask: Did the target take damage since the end of your last turn?
+    attackLimit:
+      model: weapon
+      type: ranged
+    augmentTypes:
+      - hit
+    bonus:
+      type: flat
+      value: 2
+    addDamage:
+      - dieCount: 1
+        dieType: 8
 ---
 When a creature is freshly wounded, you can almost taste the the meal of a fresh kill, pushing you to bring the
 prey down as soon as possible.

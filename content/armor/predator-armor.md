@@ -25,12 +25,7 @@ mechanics:
     value: 4
   - type: me:grenade-capacity
     value: 2
-  - type: global-note
-    subType: defenses
-    value: Null Critical
-    moreInfo:
-      model: armor
-      id: predator-armor
+  - type: critical-immunity
 ---
 - +4 thermal clip capacity.
 - Any critical hit against you becomes a normal hit

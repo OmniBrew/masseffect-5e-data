@@ -13,11 +13,7 @@ mechanics:
     bonus:
       type: mod
       value: wis
-  - type: global-note
-    subType: action
-    value: Biotic Punch
-    moreInfo:
-      model: class-features
-      id: enlightened-fist
+  - type: power-attack
+    value: biotic-punch
 ---
 At 6th level, you can use the Biotic Punch cantrip as an attack. You add your Wisdom modifier to the damage of all melee power attacks.

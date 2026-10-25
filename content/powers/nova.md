@@ -61,7 +61,7 @@ advancements:
     text: Increase the damage die to d12.
     casting:
       - damage:
-          dieType: 12
+          - dieType: 12
   - id: half-blast
     name: Half blast
     text: When you cast nova, it consumes half of your remaining barrier ticks (rounded up) but deals damage as if you had used all of your remaining barrier ticks.

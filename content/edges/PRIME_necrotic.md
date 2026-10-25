@@ -16,7 +16,7 @@ mechanics:
         dc:
           base: 13
           save: con
-        shortDesc: Detonated creature suffers {{ damage }} damage and must succeed on a DC 13 Constitution saving throw or becomes :condition{id="stunned"} until the end of its next turn.
+        shortDesc: Detonated creature suffers {{ damage }} and must succeed on a DC 13 Constitution saving throw or becomes :condition{id="stunned"} until the end of its next turn.
       - damage:
           - dieCount: 2
       - damage:

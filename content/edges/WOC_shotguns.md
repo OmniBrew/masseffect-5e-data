@@ -13,7 +13,7 @@ mechanics:
             10: 10
             18: 12
         label: Superiority Die
-    shortDesc: When you attack with a shotgun, add {{ damage }} to the attack or damage roll. If you choose the damage roll, the creature has disadvantage on CON saves to maintain powers.
+    shortDesc: When you attack with a shotgun, add {{ roll }} to the attack or damage roll. If you choose the damage roll, the creature has disadvantage on CON saves to maintain powers.
     resource:
       reset: short
       label: d8s / short rest
@@ -36,7 +36,7 @@ mechanics:
             10: 10
             18: 12
         label: Superiority Die
-    shortDesc: When you are hit by a melee attack and holding a shotgun, add {{ damage }} to your AC. If the attack still hits, take half damage.
+    shortDesc: When you are hit by a melee attack and holding a shotgun, add {{ roll }} to your AC. If the attack still hits, take half damage.
     resource:
       reset: short
       label: d8s / short rest

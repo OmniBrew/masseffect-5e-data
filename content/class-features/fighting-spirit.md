@@ -14,7 +14,7 @@ mechanics:
             1: 5
             10: 10
             15: 15
-    shortDesc: Gain {{ damage }} temporary hit points. Additionally, gain advantage on all weapon attack rolls until the end of your turn.
+    shortDesc: Gain {{ roll }} temporary hit points. Additionally, gain advantage on all weapon attack rolls until the end of your turn.
     resource:
       max:
         type: flat

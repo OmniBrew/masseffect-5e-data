@@ -13,10 +13,16 @@ andromeda: false
 rarity: uncommon
 flavor: A set of spiked, clawed gauntlets that give the appearance of their wearer possessing demonic hands.
 mechanics:
-  - type: global-note
-    subType: action
-    attack: melee
-    value: +1 slashing dmg
+  - type: attack-augment
+    attackLimit:
+      type: melee
+    augmentTypes:
+      - damage
+    addDamage:
+      - type: slashing
+        bonus:
+          type: flat
+          value: 1
   - type: skill-check
     value: intimidation
     effect:

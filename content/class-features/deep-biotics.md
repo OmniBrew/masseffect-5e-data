@@ -16,7 +16,7 @@ mechanics:
       - attr: classes
         value:
           - explorer
-      - attr: type
+      - attr: powerType
         value:
           - biotic
   - type: global-note

@@ -25,11 +25,6 @@ mechanics:
     value: 6
   - type: me:medi-gel-capacity
     value: 2
-  - type: global-note
-    subType: defenses
-    value: Null Critical
-    moreInfo:
-      model: armor
-      id: kett-chestplate
+  - type: critical-immunity
 ---
 - Any critical hit against you becomes a normal hit.

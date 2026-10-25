@@ -47,7 +47,7 @@ advancements:
     text: Your attack does not pull anymore, instead you'll temporarily attach to your enemy with your Justice hook and send a high powered shock through your omni-tool. The damage type of this attack changes to lightning and loses your equipped weapon's damage. If this attack hits an organic creature, that creature must succeed on a Constitution saving throw (DC = 8 + Dexterity modifier + Proficiency bonus) or become stunned until the end of their next turn.
     casting:
       - damage:
-          type: lightning
+          - type: lightning
         dc:
           base: 8
           proficient: true

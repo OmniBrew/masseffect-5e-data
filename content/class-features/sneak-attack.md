@@ -3,12 +3,23 @@ name: Sneak Attack
 level: 1
 klass: infiltrator
 mechanics:
-  - type: global-note
-    subType: action
-    value: Sneak Attack
-    moreInfo:
-      model: class-features
-      id: sneak-attack
+  - type: other
+    damage:
+      - dieCount:
+          type: progressive
+          limit: infiltrator
+          value:
+            1: 1
+            3: 2
+            5: 3
+            7: 4
+            9: 5
+            11: 6
+            13: 7
+            15: 8
+            17: 9
+            19: 10
+        dieType: 6
     progressionColumn:
       label: Sneak Attack Damage
       values:

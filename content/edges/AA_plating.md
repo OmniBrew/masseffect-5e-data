@@ -9,12 +9,7 @@ mechanics:
     value: bludgeoning
   - type: resistance
     value: psychic
-  - type: global-note
-    subType: defenses
-    value: Critical Immunity
-    moreInfo:
-      model: edges
-      id: AA_plating
+  - type: critical-immunity
 type: apex-augments
 ---
 You become resistant to Slashing, Piercing, Bludgeoning and Psychic damage. You are

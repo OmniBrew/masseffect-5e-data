@@ -68,7 +68,7 @@ mechanics:
                   proficient: ture
                   save: dex
                   mod: int
-                shortDesc: Spend 1 Tech Point. All creatures within :distance{length="10"} of you must succeed on a {{ dc }} DEX Save or take {{ damage }} fire damage and be :condition{id="primed" sub="fire"} until the end of your next turn. Half damage on a success.
+                shortDesc: Spend 1 Tech Point. All creatures within :distance{length="10"} of you must succeed on a {{ dc }} DEX Save or take {{ roll }} fire damage and be :condition{id="primed" sub="fire"} until the end of your next turn. Half damage on a success.
           - whenOn:
               - {}
               - {}
