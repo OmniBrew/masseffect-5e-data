@@ -132,6 +132,7 @@ attack_types:
 background_title: Background | Backgrounds
 background_intro:
   - The sample backgrounds presented here provide both concrete benefits (features, proficiencies, and languages) and roleplaying suggestions.
+benefits_title: Reputation Benefits
 bestiary_title: Bestiary | Bestiary
 bookmarks_title: Bookmarks
 bonus_formulas:
@@ -319,6 +320,11 @@ homepage:
     - title: Contributors Welcome!
       text: Want to get involved? We're always open to content suggestions, feedback, and ideas from the community. Come join the conversation!
       button: Collaborate
+legal:
+  acceptable_use: Acceptable Use Policy
+  cookies: Cookie Policy
+  privacy: Privacy Policy
+  terms: Terms of Service
 level: level
 level_title: Level | Levels
 level_nth: "{nth} level"
@@ -695,6 +701,12 @@ settings:
   units: Units
   mode: Mode
   language: Language
+shell:
+  all_results: See all results
+  result_count: "{n} result | {n} results"
+  search_description: Search rules, powers, equipment and more
+  search_placeholder: Search Mass Effect 5e…
+  switch_units: Switch between metric and imperial units
 shields_title: Shields
 shield: no shields | 1 shield | {n} shields
 size_title: Size
@@ -764,6 +776,7 @@ tags:
   augmentation: Augmentation
   buff: Buff
   control: Control
+  damage: Damage
   damage_augment: Damage Augment
   damage_reroll: Damage Reroll
   debuff: Debuff
