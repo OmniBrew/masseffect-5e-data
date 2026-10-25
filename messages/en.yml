@@ -70,6 +70,7 @@ alignments:
   ce: chaotic evil
   u: unaligned
   tracker: same as the Tracker
+all_title: All
 aoe_types:
   sphere: sphere
   cone: cone
@@ -136,6 +137,14 @@ attack_types:
 background_title: Background | Backgrounds
 background_intro:
   - The sample backgrounds presented here provide both concrete benefits (features, proficiencies, and languages) and roleplaying suggestions.
+benefits:
+  balanced: Balanced
+  paragon: Paragon
+  prereq_min: "{side} ≥ {min}"
+  prereq_min_over: "{side} ≥ {min} and {side} ≥ {other}"
+  prereq_within: Paragon = (Renegade ± {within})
+  renegade: Renegade
+  threshold: Threshold
 benefits_title: Reputation Benefits
 bestiary_title: Bestiary | Bestiary
 bookmarks_title: Bookmarks
@@ -180,6 +189,8 @@ character:
 casting_time_title: Casting Time
 change: change
 changelog_title: Changelog
+charges_title: Charges
+choose_subclass: Choose a subclass
 conditions_intro: "All of the conditions which can affect a character or object are listed below. Note that there are a few new conditions in this system in order to maintain consistency with the Mass Effect setting: Frozen, Lifted, Primed"
 conditions_title: Conditions
 character_builder_title: Character Builder
@@ -260,6 +271,7 @@ dice_formulas:
 digit_separator: ","
 duration_title: Duration
 equipment_title: Equipment | Equipment
+expanded_class_options_title: Expanded Class Options
 faction_title: Faction
 feat_title: Feat | Feats
 feat_intro:
@@ -453,11 +465,22 @@ measurements:
   ftlu:
     full: faster than light units
     abbr: ftlu
+mechanics:
+  asi_choice_any: +{amount} to one ability score of your choice | +{amount} to {number} different ability scores of your choice
+  asi_choice_limit: +{amount} to your choice of {abilities} | +{amount} to {number} of {abilities}
+  expertise: expertise
+  falling_damage: falling damage
+  immunities_title: Immunities
+  options: no options | {n} option | {n} options
+  skill_choice_any: one skill of your choice | {number} skills of your choice
+  skill_choice_limit: "{number} of {skills}"
+  speed_note: Your base {type} speed is {distance} ({note}).
 meta:
   about: Learn more about the Mass Effect 5e creators and contributors.
   armor: These pre-made armor pieces are available as mass produced alternatives to custom modding.
   assets: Mass Effect 5e is more than a rule set. We have also created character sheets, spell cards, and other great tabletop assets.
   backgrounds: Backgrounds provide additional flavor and benefits to your character.
+  benefits: Information about Paragon and Renegade benefits
   bestiary: Give your player's a unique challenge with over 100 custom made Mass Effect enemies!
   bookmarks: Keep your favorite weapons, enemies, and spells close at hand with our nifty bookmark tool.
   changelog: Keep up-to-date with all the Mass Effect 5e system rule additions and updates.
@@ -584,6 +607,7 @@ npc:
   rest_recharge:
     short: Recharges after a Short or Long Rest
     long: Recharges after a Long Rest
+  save_dc: DC {dc} {ability} saving throw
   shields_w_regen: "{capacity} (regen {n})"
   slots: "{n} slot | {n} slots"
   target_types:
@@ -663,7 +687,10 @@ random_hw_titles:
   calc_weight: Base Weight + (Height Modifier Roll x Weight Modifier Roll)
   base_height: Base Height
   base_weight: Base Weight
+  height: Height
   height_mod: Height Modifier
+  roll: Roll
+  weight: Weight
   weight_mod: Weight Modifier
   length: Length
 range_title: Range
@@ -718,6 +745,10 @@ shields_title: Shields
 shield: no shields | 1 shield | {n} shields
 size_title: Size
 sizes:
+  carrier: carrier
+  cruiser: cruiser
+  dreadnought: dreadnought
+  frigate: frigate
   tiny: tiny
   small: small
   medium: medium
@@ -726,6 +757,12 @@ sizes:
   gargantuan: gargantuan
 skills_title: Skills
 slot: no slots | {n} slot | {n} slots
+species_groups:
+  andromeda: Andromeda
+  expanded: Ancient and Expanded Species
+  lesser_known: Milky Way's Lesser Known Operatives
+  primary: Milky Way
+  villainous: Fringe Species
 species_title: Species | Species
 speed_title: Speed
 speed_trait: Your base {type} speed is {distance}.
@@ -753,6 +790,7 @@ speeds:
 starting_credits: Starting Credits
 starting_equipment_title: Starting Equipment
 starting_equipment_info: "You start with the following equipment, in addition to the equipment granted by your background:"
+starting_wealth_title: Starting Wealth
 string_numbers:
   - zero
   - one
@@ -768,6 +806,7 @@ string_numbers:
 subclass_title: Subclass | Subclasses
 subclass_feature_titles:
   adept: Subclass Feature
+  default: Subclass Feature
   engineer: Subclass Feature
   infiltrator: Subclass Feature
   sentinel: Subclass Feature
@@ -845,10 +884,25 @@ type_level_title: Type/Level
 variants_title: Variants
 varies: varies
 varies_title: Varies
+vehicle_groups:
+  starship: Starships
+  transport: Transports
 vehicle_title: Vehicle | Vehicles
 vehicle_types:
   starship: Starship
   transport: Transport
+vehicles:
+  cargo: Cargo Capacity
+  cargo_tonnes: "{n} tonne | {n} tonnes"
+  combined: Combined
+  crew: Crew
+  crew_range: "min: {min}, max: {max}"
+  description: Description
+  hull_points: Hull Points
+  shield_points: Shield Points
+  system_crew: "{n} crew"
+  systems: Systems
+  weapons: Weapons
 version: VERSION
 weapon: weapon
 weapon_item_subtitle: "{rarity} {weaponType}"
