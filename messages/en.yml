@@ -134,6 +134,42 @@ attack_types:
   ranged_weapon: Ranged Weapon Attack
   melee_power: Melee Power Attack
   ranged_power: Ranged Power Attack
+auth:
+  account: Account
+  back_to_sign_in: Back to sign in
+  callback_failed: Sign-in didn't finish. Try again.
+  code: Verification code
+  code_sent: "We sent a code to {email}."
+  confirm: Confirm
+  email: Email
+  forgot_password: Forgot your password?
+  google: Continue with Google
+  new_password: New password
+  or: or
+  password: Password
+  password_hint: At least 8 characters
+  profile_saved: Profile saved.
+  profile_title: Profile
+  profile_username: Display name
+  required_text: Sign in with your N7 World account (email or Google) to use this page.
+  required_title: Sign in to continue
+  resend_code: Resend code
+  reset_password: Reset password
+  save: Save
+  send_code: Send code
+  sign_in: Sign in
+  sign_out: Sign out
+  sign_up: Create account
+  signed_in_as: "Signed in as {email}"
+  signing_in: Signing you in…
+  errors:
+    code_expired: That code has expired. Send a new one.
+    code_mismatch: That code is wrong. Check the email and try again.
+    too_many: Too many attempts. Wait a few minutes and try again.
+    unknown: "Something went wrong: {message}"
+    user_exists: An account with this email already exists. Sign in instead.
+    weak_password: Passwords need at least 8 characters.
+    wrong_password: Incorrect email or password.
 background_title: Background | Backgrounds
 background_intro:
   - The sample backgrounds presented here provide both concrete benefits (features, proficiencies, and languages) and roleplaying suggestions.
