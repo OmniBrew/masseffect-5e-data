@@ -65,4 +65,5 @@ jobs:
         if: github.event_name == 'push' && github.ref == 'refs/heads/master'
         env:
           WEBHOOK: ${{ secrets.AMPLIFY_BETA_WEBHOOK }}
-        run: curl -fsS -X POST -H 'Content-Type: application/json' -d '{}' "$WEBHOOK"
+        run: |
+          curl -fsS -X POST -H 'Content-Type: application/json' -d '{}' "$WEBHOOK"
