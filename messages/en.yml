@@ -32,11 +32,15 @@ ability_score_increase_title: Ability Score Increase
 about_title: About
 aboutpage:
   about_me5e_title: About Mass Effect 5e
-  about_text: Mass Effect 5e is a fan-made, D&D 5th Edition, homebrew project that started in early 2016. The core ruleset and website were created by Luke A with guidance from Hugh T. Luke continues to maintain the website, actively develops new features and changes, and filters community-made content.
+  about_text: "Mass Effect 5e is a fan-made, D&D 5th Edition homebrew project that started in early 2016. The core ruleset was created by Luke Aeschleman with collaboration and editing by Hugh Thompson. Luke continues to maintain the website, but is no longer responsible for content changes or updates. Instead, this has become a \"living homebrew\", in which the community provides feedback and the following Discord moderators assess and make changes as necessary."
+  bug_report: "Please report using the {channel} channel on {discord}"
   bug_text: Found a bug or error on the website, please report it!
+  bug_title: Found a bug?
   contributors_title: Contributors
   contributors_text: Mass Effect 5e has had dozens of people who've contributed in a variety of ways, both large and small. The following list represents the people who've contributed to the project in a major way, be it helping moderate the discord server or subreddit, site and character sheet design, or being actively involved in the development of the game. Not everyone on this list is still actively involved and these people are presented in no particular order.
+  current_title: Content Developers & Discord Moderators
   former_contributors_title: Former Contributors
+  races_shoutout: "Special shout-out to StrayChowChow for letting us use the descriptions and traits from {races}! If you can't convince your group to play in a sci-fi setting and want to bring a little Mass Effect to your D&D 5e game, you should definitely check it out!"
   shoutouts_title: Shout Outs
   shoutouts_text: In addition to the above, the system has had many contributors who've added invaluable feedback, shared ideas, created assets, playtested, and much more. If we've missed anyone, it was not on purpose!
   image_attributions_title: Image Attributions
@@ -66,6 +70,7 @@ alignments:
   ce: chaotic evil
   u: unaligned
   tracker: same as the Tracker
+all_title: All
 aoe_types:
   sphere: sphere
   cone: cone
@@ -132,6 +137,15 @@ attack_types:
 background_title: Background | Backgrounds
 background_intro:
   - The sample backgrounds presented here provide both concrete benefits (features, proficiencies, and languages) and roleplaying suggestions.
+benefits:
+  balanced: Balanced
+  paragon: Paragon
+  prereq_min: "{side} ≥ {min}"
+  prereq_min_over: "{side} ≥ {min} and {side} ≥ {other}"
+  prereq_within: Paragon = (Renegade ± {within})
+  renegade: Renegade
+  threshold: Threshold
+benefits_title: Reputation Benefits
 bestiary_title: Bestiary | Bestiary
 bookmarks_title: Bookmarks
 bonus_formulas:
@@ -175,6 +189,9 @@ character:
 casting_time_title: Casting Time
 change: change
 changelog_title: Changelog
+charges_title: Charges
+choose_subclass: Choose a subclass
+conditions_intro: "All of the conditions which can affect a character or object are listed below. Note that there are a few new conditions in this system in order to maintain consistency with the Mass Effect setting: Frozen, Lifted, Primed"
 conditions_title: Conditions
 character_builder_title: Character Builder
 character_title: Character | Characters
@@ -254,6 +271,7 @@ dice_formulas:
 digit_separator: ","
 duration_title: Duration
 equipment_title: Equipment | Equipment
+expanded_class_options_title: Expanded Class Options
 faction_title: Faction
 feat_title: Feat | Feats
 feat_intro:
@@ -319,6 +337,11 @@ homepage:
     - title: Contributors Welcome!
       text: Want to get involved? We're always open to content suggestions, feedback, and ideas from the community. Come join the conversation!
       button: Collaborate
+legal:
+  acceptable_use: Acceptable Use Policy
+  cookies: Cookie Policy
+  privacy: Privacy Policy
+  terms: Terms of Service
 level: level
 level_title: Level | Levels
 level_nth: "{nth} level"
@@ -442,11 +465,22 @@ measurements:
   ftlu:
     full: faster than light units
     abbr: ftlu
+mechanics:
+  asi_choice_any: +{amount} to one ability score of your choice | +{amount} to {number} different ability scores of your choice
+  asi_choice_limit: +{amount} to your choice of {abilities} | +{amount} to {number} of {abilities}
+  expertise: expertise
+  falling_damage: falling damage
+  immunities_title: Immunities
+  options: no options | {n} option | {n} options
+  skill_choice_any: one skill of your choice | {number} skills of your choice
+  skill_choice_limit: "{number} of {skills}"
+  speed_note: Your base {type} speed is {distance} ({note}).
 meta:
   about: Learn more about the Mass Effect 5e creators and contributors.
   armor: These pre-made armor pieces are available as mass produced alternatives to custom modding.
   assets: Mass Effect 5e is more than a rule set. We have also created character sheets, spell cards, and other great tabletop assets.
   backgrounds: Backgrounds provide additional flavor and benefits to your character.
+  benefits: Information about Paragon and Renegade benefits
   bestiary: Give your player's a unique challenge with over 100 custom made Mass Effect enemies!
   bookmarks: Keep your favorite weapons, enemies, and spells close at hand with our nifty bookmark tool.
   changelog: Keep up-to-date with all the Mass Effect 5e system rule additions and updates.
@@ -573,6 +607,7 @@ npc:
   rest_recharge:
     short: Recharges after a Short or Long Rest
     long: Recharges after a Long Rest
+  save_dc: DC {dc} {ability} saving throw
   shields_w_regen: "{capacity} (regen {n})"
   slots: "{n} slot | {n} slots"
   target_types:
@@ -652,7 +687,10 @@ random_hw_titles:
   calc_weight: Base Weight + (Height Modifier Roll x Weight Modifier Roll)
   base_height: Base Height
   base_weight: Base Weight
+  height: Height
   height_mod: Height Modifier
+  roll: Roll
+  weight: Weight
   weight_mod: Weight Modifier
   length: Length
 range_title: Range
@@ -695,10 +733,22 @@ settings:
   units: Units
   mode: Mode
   language: Language
+shell:
+  all_results: See all results
+  home: Home
+  not_found: This page doesn't exist.
+  result_count: "{n} result | {n} results"
+  search_description: Search rules, powers, equipment and more
+  search_placeholder: Search Mass Effect 5e…
+  switch_units: Switch between metric and imperial units
 shields_title: Shields
 shield: no shields | 1 shield | {n} shields
 size_title: Size
 sizes:
+  carrier: carrier
+  cruiser: cruiser
+  dreadnought: dreadnought
+  frigate: frigate
   tiny: tiny
   small: small
   medium: medium
@@ -707,6 +757,12 @@ sizes:
   gargantuan: gargantuan
 skills_title: Skills
 slot: no slots | {n} slot | {n} slots
+species_groups:
+  andromeda: Andromeda
+  expanded: Ancient and Expanded Species
+  lesser_known: Milky Way's Lesser Known Operatives
+  primary: Milky Way
+  villainous: Fringe Species
 species_title: Species | Species
 speed_title: Speed
 speed_trait: Your base {type} speed is {distance}.
@@ -734,6 +790,7 @@ speeds:
 starting_credits: Starting Credits
 starting_equipment_title: Starting Equipment
 starting_equipment_info: "You start with the following equipment, in addition to the equipment granted by your background:"
+starting_wealth_title: Starting Wealth
 string_numbers:
   - zero
   - one
@@ -749,6 +806,7 @@ string_numbers:
 subclass_title: Subclass | Subclasses
 subclass_feature_titles:
   adept: Subclass Feature
+  default: Subclass Feature
   engineer: Subclass Feature
   infiltrator: Subclass Feature
   sentinel: Subclass Feature
@@ -764,6 +822,7 @@ tags:
   augmentation: Augmentation
   buff: Buff
   control: Control
+  damage: Damage
   damage_augment: Damage Augment
   damage_reroll: Damage Reroll
   debuff: Debuff
@@ -825,10 +884,25 @@ type_level_title: Type/Level
 variants_title: Variants
 varies: varies
 varies_title: Varies
+vehicle_groups:
+  starship: Starships
+  transport: Transports
 vehicle_title: Vehicle | Vehicles
 vehicle_types:
   starship: Starship
   transport: Transport
+vehicles:
+  cargo: Cargo Capacity
+  cargo_tonnes: "{n} tonne | {n} tonnes"
+  combined: Combined
+  crew: Crew
+  crew_range: "min: {min}, max: {max}"
+  description: Description
+  hull_points: Hull Points
+  shield_points: Shield Points
+  system_crew: "{n} crew"
+  systems: Systems
+  weapons: Weapons
 version: VERSION
 weapon: weapon
 weapon_item_subtitle: "{rarity} {weaponType}"
