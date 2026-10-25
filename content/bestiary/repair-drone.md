@@ -30,6 +30,7 @@ speed:
 entries:
   features:
     - mod: int
+      ref: power
       list:
         - id: first-aid
           perDay: 3

@@ -4,7 +4,7 @@ image: https://vignette.wikia.nocookie.net/masseffect/images/8/8a/Thorian_charbo
 type: organic
 unit: thorian
 alignment: le
-profBonus: 2
+profBonus: 6
 ac: 19
 hp:
   dieCount: 40
@@ -28,7 +28,7 @@ speed:
 entries:
   features:
     - name: Indoctrination
-      text: Unless a thorian controller is incapacitated, it is a source of indoctrination to all creatures within 1[:distance{length="0"}] of it. See the indoctrination condition.
+      text: Unless the thorian is incapacitated, it is a source of indoctrination to all creatures within :distance{length="2500"} of it. See the indoctrination condition.
       id: indoctrination
     - name: Root Structure
       text: One a thorian reaches maturity, it's roots grow at a rate of :distance{length="5" num-only} to :distance{length="10"} per year. Over time, these roots create vast tunnel systems and caverns that act as the thorian's lair.

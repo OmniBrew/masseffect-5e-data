@@ -223,28 +223,28 @@ subsets:
             type: sphere
 marks:
   - mark: I
-    rarity: Common
+    rarity: common
   - mark: II
-    rarity: Common
+    rarity: common
   - mark: III
-    rarity: Uncommon
+    rarity: uncommon
   - mark: IV
-    rarity: Uncommon
+    rarity: uncommon
   - mark: V
-    rarity: Rare
+    rarity: rare
   - mark: VI
-    rarity: Rare
+    rarity: rare
   - mark: VII
-    rarity: Very Rare
+    rarity: very_rare
   - mark: VIII
-    rarity: Very Rare
+    rarity: very_rare
   - mark: IX
-    rarity: Very Rare
+    rarity: very_rare
   - mark: X
-    rarity: Spectre
+    rarity: spectre
 rarity: varies
 gearType: grenade
-cost: Varies
+cost: varies
 weight: 1
 consumable: true
 equippable: true

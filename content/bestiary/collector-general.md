@@ -34,6 +34,7 @@ entries:
   features:
     - mod: wis
       casterLevel: "12"
+      ref: power
       list:
         - dark-channel
         - pull

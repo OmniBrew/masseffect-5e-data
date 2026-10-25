@@ -199,7 +199,7 @@ subsets:
         additive: false
 rarity: varies
 gearType: device
-cost: Varies
+cost: varies
 weight: 1
 equippable: true
 ---

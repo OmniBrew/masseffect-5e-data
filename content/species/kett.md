@@ -30,7 +30,7 @@ randomDimensions:
         dieCount: 1
         dieType: 4
         divisor: 2
-galaxy: milky_way
+galaxy: andromeda
 group: andromeda
 subspecies: exaltation
 mechanics:

@@ -46,6 +46,7 @@ entries:
       name: "Variant: Cryo-Shield"
       text: Gain all the benefits of Omni-Shield. In addition, a creature hit by the Cryo-Shield take 1d8 cold damage and must succeed on a DC 13 Strength saving throw or become Frozen until the end its next turn.
     - mod: wis
+      ref: power
       list:
         - id: incinerate
           perDay: at_will

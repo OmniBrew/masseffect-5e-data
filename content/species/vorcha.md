@@ -51,7 +51,7 @@ resources. Even as their population grows, the vorcha constantly fight each othe
 necessities. This incessant warfare has made each generation of vorcha stronger and more aggressive than that which
 preceded it, but their continual lack of resources has kept vorcha society extremely primitive.
 
-### Non-differentiated cells
+### Regenerative Cells
 The vorcha are known for a rather unique biology: they have clusters of non-differentiated cells, similar to those found
 on the planarian worm of Earth. These cells allow the vorcha limited regenerative abilities, as well as the ability to
 adapt quickly to its environment, such as developing thicker skin after being burned or increased musculature to survive

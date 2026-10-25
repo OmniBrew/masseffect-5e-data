@@ -34,7 +34,7 @@ cr: 11+
 cost: military
 image: https://vignette.wikia.nocookie.net/masseffect/images/1/11/Mass_Effect_Normandy_SR2.png/revision/latest/scale-to-width-down/640?cb=20091227112049
 ---
-The SSV Normandy SR-1 (__S__ystems Alliance __S__pace __V__ehicle __Normandy__ __S__tealth __R__econnaissance-1) was a
+The SSV Normandy SR-1 (**S**ystems Alliance **S**pace **V**ehicle **Normandy** **S**tealth **R**econnaissance-1) was a
 Systems Alliance starship. She is a prototype "deep scout" frigate, first of the eponymous Normandy class, co-developed
 by the Alliance and the Turian Hierarchy with the sponsorship of the Citadel Council. She is optimized for solo
 reconnaissance missions deep within unstable regions, using state-of-the-art stealth technology powered by an experimental drive core.

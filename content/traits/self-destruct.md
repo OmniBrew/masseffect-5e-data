@@ -47,7 +47,7 @@ d8|Effect|Replacement Cost
 2|Damage to auxiliary CPUs. You have disadvantage on Intelligence checks and saving throws.|1,000 credits
 3|Damage to power modulators. You have disadvantage on all ability checks.|2,000 credits
 4|Loss of 1 arm. You cannot perform tasks or take actions that would require two hands.|2,000 credits
-5|Loss of 1 leg. Your speed becomes 6 meters, you cannot take the Dash action, and you have disadvantage on Dexterity saving throws.|2,000 credits
+5|Loss of 1 leg. Your speed becomes :distance{length="15"}, you cannot take the Dash action, and you have disadvantage on Dexterity saving throws.|2,000 credits
 6|Loss of one leg and one arm. Combined effects of 4 and 5 on this table.|4,000 credits
-7|Loss of lower body. Your speed becomes 2 meters, you cannot take the Dash action, and you automatically fail Dexterity saving throws.|5,000 credits
+7|Loss of lower body. Your speed becomes :distance{length="5"}, you cannot take the Dash action, and you automatically fail Dexterity saving throws.|5,000 credits
 8|Loss of both arms. You cannot wield weapons or cast powers.|4,000 credits

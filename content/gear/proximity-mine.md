@@ -223,38 +223,38 @@ subsets:
             type: sphere
 marks:
   - mark: I
-    rarity: Common
+    rarity: common
     damage: 1d8
   - mark: II
-    rarity: Common
+    rarity: common
     damage: 2d8
   - mark: III
-    rarity: Uncommon
+    rarity: uncommon
     damage: 3d8
   - mark: IV
-    rarity: Uncommon
+    rarity: uncommon
     damage: 4d8
   - mark: V
-    rarity: Rare
+    rarity: rare
     damage: 5d8
   - mark: VI
-    rarity: Rare
+    rarity: rare
     damage: 6d8
   - mark: VII
-    rarity: Very Rare
+    rarity: very_rare
     damage: 7d8
   - mark: VIII
-    rarity: Very Rare
+    rarity: very_rare
     damage: 8d8
   - mark: IX
-    rarity: Very Rare
+    rarity: very_rare
     damage: 9d8
   - mark: X
-    rarity: Spectre
+    rarity: spectre
     damage: 10d8
 rarity: varies
 gearType: grenade
-cost: Varies
+cost: varies
 weight: 1
 consumable: true
 ---

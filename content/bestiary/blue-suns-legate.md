@@ -38,6 +38,7 @@ entries:
       name: Leadership
       text: For 1 minute, the legate can utter a special command or warning whenever a non-hostile creature that it can see within :distance{length="30"} of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the legate. A creature can benefit from only one Leadership die at a time. This effect ends if the legate is incapacitated.
     - mod: int
+      ref: power
       list:
         - id: target-painting
           perDay: 3

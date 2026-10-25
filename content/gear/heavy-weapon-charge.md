@@ -2,7 +2,7 @@
 name: Heavy Weapon Charge
 rarity: uncommon
 gearType: ammo
-cost: Military
+cost: military
 weight: 1
 consumable: true
 ---

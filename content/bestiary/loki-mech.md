@@ -34,6 +34,7 @@ speed:
 entries:
   features:
     - mod: int
+      ref: power
       list:
         - id: shocking-grasp
           perDay: 5

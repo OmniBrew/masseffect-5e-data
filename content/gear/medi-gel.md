@@ -2,7 +2,7 @@
 name: Medi-gel
 rarity: varies
 gearType: medi_gel
-cost: Varies
+cost: varies
 weight: 0
 consumable: true
 equippable: true

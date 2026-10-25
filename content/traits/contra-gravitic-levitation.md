@@ -17,7 +17,7 @@ mechanics:
     note: if contra-gravitic levitation device is functional
 ---
 When not in water, you use a contra-gravitic levitation pack to move. It provides a
-walking speed of 12 meters and you hover 1 meter from the ground, providing the following benefits:
+walking speed of :distance{length="30"} and you hover :distance{length="2.5"} from the ground, providing the following benefits:
 - You are immune to becoming prone
 - You reduce falling damage by 4d6
 - You ignore any penalties caused by difficult terrain.

@@ -29,6 +29,7 @@ entries:
       name: Tech Armor
       text: As a bonus action, the engineer can activate its Tech Armor. It immediately gains 10 temporary hit points. While the engineer has at least 1 of these temporary hit points remaining, it has +2 AC.
     - mod: int
+      ref: power
       list:
         - id: incinerate
           perDay: 3
