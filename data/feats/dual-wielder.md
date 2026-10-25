@@ -1,4 +1,0 @@
----
-mechanics:
-  - type: dual-wielder
----

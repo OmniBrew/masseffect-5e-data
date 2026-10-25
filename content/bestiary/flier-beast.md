@@ -1,0 +1,47 @@
+---
+name: Flier Beast
+type: organic
+unit: tracker
+alignment: u
+profBonus: 2
+ac: 14
+hp:
+  dieCount: 1
+  dieType: 8
+abilityScores:
+  str: 10
+  dex: 16
+  con: 10
+  int: 4
+  wis: 14
+  cha: 6
+savingThrows: []
+size: small
+skills:
+  - perception
+speed:
+  fly: 60
+entries:
+  actions:
+    - attack: melee
+      proficient: true
+      range: 5
+      mod: dex
+      damage:
+        - dieCount: 1
+          dieType: 4
+          mod: true
+          type: slashing
+      target: one
+      id: claw
+      name: Claw
+  features:
+    - name: Flyby
+      text: This Beast does not provoke attacks of opportunity when flying out of an enemy's reach.
+      id: flyby
+cr: "00125"
+shields:
+  capacity: 5
+  regen: 5
+author: Helios
+---

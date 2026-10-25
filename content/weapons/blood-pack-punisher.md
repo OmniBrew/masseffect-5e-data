@@ -1,0 +1,25 @@
+---
+name: Blood Pack Punisher
+rarity: rare
+weaponType: smg
+cost: 37500
+manufacturer: blood-pack
+weight: 4
+damage:
+  dieCount: 3
+  dieType: 4
+  type: piercing
+range:
+  short: 15
+  long: 45
+image: https://vignette1.wikia.nocookie.net/masseffect/images/1/17/ME3_Blood_Pack_Punisher_Smg.png/revision/latest?cb=20120809190511
+andromeda: false
+properties:
+  - id: hip-fire
+  - id: burst-fire
+  - id: recoil
+  - id: heat
+    value: 6
+slots: 1
+---
++1 to hit targets within normal range

@@ -1,0 +1,25 @@
+---
+name: Force
+type: primers
+mechanics:
+  - type: me:primer-detonation
+    levels:
+      - 1
+      - 5
+      - 11
+      - 17
+    tiers:
+      - damage:
+          - dieCount: 2
+            dieType: 6
+            type: force
+        shortDesc: Detonated creature suffers {{ damage }} damage, is knocked back :distance{length="15"}, and becomes becomes :condition{id="prone"}.
+      - damage:
+          - dieCount: 3
+      - damage:
+          - dieCount: 4
+      - damage:
+          - dieCount: 5
+---
+When a creature that is primed: force detonates, it suffers 2d6 force damage, is knocked back
+:distance{length="15"} and becomes :condition{id="prone"}. The force damage increases by 1d6 at 5th (3d6), 11th (4d6), and 17th (5d6) level.

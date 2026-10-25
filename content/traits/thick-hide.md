@@ -1,0 +1,12 @@
+---
+name: Thick Hide
+species:
+  - elcor
+mechanics:
+  - type: natural-armor
+    base: 13
+    mod: con
+---
+When you aren’t wearing armor, your AC is 13 + your Constitution modifier. You can use your natural armor to
+determine your AC if the armor you wear would leave you with a lower AC. A held shield’s benefits apply
+as normal while you use your natural armor.

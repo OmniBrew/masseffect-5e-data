@@ -1,0 +1,27 @@
+---
+name: Explosive Ammo
+rarity: rare
+modType: weapon
+cost: 15000
+tags:
+  - extra_damage
+placement: ammo
+availability:
+  - assault_rifle
+  - heavy_pistol
+  - smg
+  - shotgun
+  - sniper_rifle
+flavor: Fire exploding projectiles
+mechanics:
+  - type: me:weapon-augment
+    addDamage:
+      - dieCount: 1
+        dieType: 8
+        type: thunder
+        addTo: all
+    heatConsumption: 2
+    toggle: true
+    name: Explosive Ammo
+---
+You may use a bonus action to toggle the following effect on or off: Successful ranged attacks deal an additional 1d8 thunder damage, but each attack drains 2 heat.

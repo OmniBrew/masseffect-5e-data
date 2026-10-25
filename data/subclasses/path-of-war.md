@@ -1,4 +1,0 @@
----
-klass: explorer
-author: Spagheddy
----

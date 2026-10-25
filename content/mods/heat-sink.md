@@ -1,0 +1,20 @@
+---
+name: Heat Sink
+rarity: spectre
+modType: weapon
+cost: 40000
+tags:
+  - additional_heat
+placement: magazine
+availability:
+  - assault_rifle
+  - heavy_pistol
+  - smg
+  - shotgun
+  - sniper_rifle
+flavor: Greatly improves your weapons cooling capacity.
+mechanics:
+  - type: me:weapon-heat-increase
+    multiplier: 2
+---
+The weapon gains additional heat equal to double its base heat.

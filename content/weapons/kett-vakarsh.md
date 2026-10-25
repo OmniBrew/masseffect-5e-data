@@ -1,0 +1,19 @@
+---
+name: Kett Vakarsh
+rarity: spectre
+weaponType: melee
+cost: 54500
+manufacturer: kett
+weight: 7
+damage:
+  dieCount: 1
+  dieType: 8
+  type: fire
+range:
+  short: 5
+andromeda: true
+properties: []
+slots: 1
+---
+When you hit a target with this weapon it becomes primed (fire) until the end of your next 
+turn.

@@ -1,0 +1,36 @@
+---
+name: Single Fire System
+rarity: uncommon
+modType: weapon
+cost: 15000
+tags:
+  - augmentation
+placement: ammo
+availability:
+  - assault_rifle
+  - heavy_pistol
+  - smg
+  - shotgun
+  - sniper_rifle
+flavor: Augment the weapons firing system to single fire.
+mechanics:
+  - type: attack-augment
+    attackLimit:
+      model: weapon
+    augmentTypes:
+      - hit
+    bonus:
+      type: flat
+      value: 2
+  - type: attack-augment
+    attackLimit:
+      model: weapon
+    augmentTypes:
+      - damage
+    dieIncrease: 1
+  - type: adjust-weapon-props
+    remove:
+      - burst-fire
+      - double-tap
+---
+The weapon loses the Burst Fire and Double Tap properties. +2 bonus to weapon attack rolls. Increase any damage done by 1 die type, d12s become a +1 bonus to damage.

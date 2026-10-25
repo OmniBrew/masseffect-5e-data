@@ -1,0 +1,60 @@
+name: Validate content
+
+# Checks every change against the rules engine's schemas (OmniBrew/omnibrew).
+# Free: public repos get unlimited GitHub Actions minutes.
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          path: content
+
+      # Validate against OmniBrew/omnibrew main, or against an omnibrew branch with
+      # the same name as this one, so engine and content changes can be tested together.
+      - name: Pick the omnibrew branch
+        id: engine
+        env:
+          BRANCH: ${{ github.head_ref || github.ref_name }}
+        run: |
+          ref=main
+          if git ls-remote --exit-code --heads https://github.com/OmniBrew/omnibrew.git "refs/heads/$BRANCH" > /dev/null; then
+            ref="$BRANCH"
+          fi
+          echo "Validating with OmniBrew/omnibrew@$ref"
+          echo "ref=$ref" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/checkout@v7
+        with:
+          repository: OmniBrew/omnibrew
+          ref: ${{ steps.engine.outputs.ref }}
+          path: omnibrew
+
+      - uses: pnpm/setup@v3
+        with:
+          runtime: node@24
+          cache: true
+          install: false
+          working-directory: omnibrew
+
+      # --ignore-scripts skips `nuxt prepare`: the validator needs no Nuxt build.
+      - run: pnpm install --frozen-lockfile --ignore-scripts
+        working-directory: omnibrew
+
+      - name: Validate
+        run: pnpm validate:me5e --content ../content --fail-on error
+        working-directory: omnibrew
