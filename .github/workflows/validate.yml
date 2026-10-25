@@ -58,3 +58,11 @@ jobs:
       - name: Validate
         run: pnpm validate:me5e --content ../content --fail-on error
         working-directory: omnibrew
+
+      # Rebuild beta.n7.world (Amplify app me5e-beta) once a push to master validates.
+      # The secret holds the app's incoming webhook URL.
+      - name: Rebuild the beta site
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        env:
+          WEBHOOK: ${{ secrets.AMPLIFY_BETA_WEBHOOK }}
+        run: curl -fsS -X POST -H 'Content-Type: application/json' -d '{}' "$WEBHOOK"
