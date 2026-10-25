@@ -17,12 +17,7 @@ mechanics:
     bonus:
       type: flat
       value: 1
-  - type: global-note
-    subType: defenses
-    value: Null Critical
-    moreInfo:
-      model: armor
-      id: securitel-helmet
+  - type: critical-immunity
 ---
 - +1 AC.
 - Any critical hit against you becomes a normal hit

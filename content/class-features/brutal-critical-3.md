@@ -7,11 +7,10 @@ mechanics:
     value:
       model: vanguard
       id: brutal-critical-1
-    limit:
-      - global-note
+      limit:
+        - attack-augment
     merge:
-      moreInfo:
-        id: brutal-critical-3
+      addCritDie: 3
 ---
 At 17th level, you can roll three additional damage die when determining the extra damage for a critical hit with
 a melee attack.

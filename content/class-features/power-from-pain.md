@@ -4,12 +4,18 @@ level: 3
 klass: soldier
 subclass: incubus
 mechanics:
-  - type: global-note
-    subType: action
-    value: Power from Pain
-    moreInfo:
-      model: class-features
-      id: power-from-pain
+  - type: other
+    damage:
+      - dieCount:
+          type: progressive
+          limit: soldier
+          value:
+            3: 1
+            7: 2
+            10: 3
+            15: 4
+            18: 5
+        dieType: 6
 ---
 Your greatest strength lies in inflicting pain on others. Especially enemies that are already wounded are prime targets
 for your agonizing strikes.
