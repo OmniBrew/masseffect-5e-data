@@ -32,11 +32,15 @@ ability_score_increase_title: Ability Score Increase
 about_title: About
 aboutpage:
   about_me5e_title: About Mass Effect 5e
-  about_text: Mass Effect 5e is a fan-made, D&D 5th Edition, homebrew project that started in early 2016. The core ruleset and website were created by Luke A with guidance from Hugh T. Luke continues to maintain the website, actively develops new features and changes, and filters community-made content.
+  about_text: "Mass Effect 5e is a fan-made, D&D 5th Edition homebrew project that started in early 2016. The core ruleset was created by Luke Aeschleman with collaboration and editing by Hugh Thompson. Luke continues to maintain the website, but is no longer responsible for content changes or updates. Instead, this has become a \"living homebrew\", in which the community provides feedback and the following Discord moderators assess and make changes as necessary."
+  bug_report: "Please report using the {channel} channel on {discord}"
   bug_text: Found a bug or error on the website, please report it!
+  bug_title: Found a bug?
   contributors_title: Contributors
   contributors_text: Mass Effect 5e has had dozens of people who've contributed in a variety of ways, both large and small. The following list represents the people who've contributed to the project in a major way, be it helping moderate the discord server or subreddit, site and character sheet design, or being actively involved in the development of the game. Not everyone on this list is still actively involved and these people are presented in no particular order.
+  current_title: Content Developers & Discord Moderators
   former_contributors_title: Former Contributors
+  races_shoutout: "Special shout-out to StrayChowChow for letting us use the descriptions and traits from {races}! If you can't convince your group to play in a sci-fi setting and want to bring a little Mass Effect to your D&D 5e game, you should definitely check it out!"
   shoutouts_title: Shout Outs
   shoutouts_text: In addition to the above, the system has had many contributors who've added invaluable feedback, shared ideas, created assets, playtested, and much more. If we've missed anyone, it was not on purpose!
   image_attributions_title: Image Attributions
@@ -176,6 +180,7 @@ character:
 casting_time_title: Casting Time
 change: change
 changelog_title: Changelog
+conditions_intro: "All of the conditions which can affect a character or object are listed below. Note that there are a few new conditions in this system in order to maintain consistency with the Mass Effect setting: Frozen, Lifted, Primed"
 conditions_title: Conditions
 character_builder_title: Character Builder
 character_title: Character | Characters
