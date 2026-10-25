@@ -1,5 +1,5 @@
 ---
-name: Kett
+name: None
 mechanics:
   - type: asi
     ability: con
