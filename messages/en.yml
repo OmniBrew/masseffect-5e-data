@@ -708,6 +708,8 @@ settings:
   language: Language
 shell:
   all_results: See all results
+  home: Home
+  not_found: This page doesn't exist.
   result_count: "{n} result | {n} results"
   search_description: Search rules, powers, equipment and more
   search_placeholder: Search Mass Effect 5e…
