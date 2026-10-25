@@ -82,26 +82,26 @@ progression:
     - label: features
     - label: combat_powers
       values:
-        - 1
-        - 1
-        - 1
-        - 2
-        - 2
-        - 2
-        - 2
-        - 3
         - 3
         - 3
         - 3
         - 4
         - 4
         - 4
+        - 4
+        - 5
         - 5
         - 5
         - 5
         - 6
         - 6
         - 6
+        - 7
+        - 7
+        - 7
+        - 8
+        - 8
+        - 8
 snippet: Soldiers are pure combat specialists effective at taking down enemies with gunfire.
 ---
 The Soldier is a tough warrior, able to deal with a range of combat situations. The Soldier gets improved health and has the widest selection of weapons. No one is tougher or more effective at taking down enemies with gunfire.

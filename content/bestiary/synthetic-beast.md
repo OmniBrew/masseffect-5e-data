@@ -19,7 +19,7 @@ abilityScores:
 irv:
   vul:
     - lightning
-  imm:
+  damImm:
     - poison
     - psychic
   conImm:

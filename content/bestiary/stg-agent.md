@@ -27,6 +27,7 @@ speed:
 entries:
   features:
     - mod: int
+      ref: power
       list:
         - id: decoy
           perDay: 3

@@ -59,7 +59,7 @@ for the resources in Tuchanka are scarce.
 Curiously, the krogan also possess redundant organs; a second set of major organs in case of failure or injury. These
 traits make krogan exceptionally difficult to kill, but perhaps what makes krogan so dangerous is an adaptation known as "Blood Rage."
 
-### Blood Rage
+### The Blood Rage
 The blood rage is a legendary state of pure violence. When krogan enter a blood rage, they become nearly mindless
 killing machines, fighting through all injury and even death. Blood rage is due to an enormous flood of adrenaline and
 suppression of serotonin, which numbs the krogan to all pain. This state, combined with their plated hide, and redundant

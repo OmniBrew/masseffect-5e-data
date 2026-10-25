@@ -3,10 +3,10 @@ name: M-920 Cain
 mechanics:
   - type: action
     layout: attack
-    name: M-560 Hydra
+    name: M-920 Cain
     group: Heavy Weapons
     resource:
-      id: m-560-hydra
+      id: m-920-cain
       max:
         type: flat
         value: 5

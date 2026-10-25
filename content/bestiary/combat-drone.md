@@ -30,6 +30,7 @@ speed:
 entries:
   features:
     - mod: int
+      ref: power
       list:
         - id: sabotage
           perDay: 3

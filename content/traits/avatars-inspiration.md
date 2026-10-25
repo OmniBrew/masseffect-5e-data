@@ -1,6 +1,7 @@
 ---
 name: Avatar's Inspiration
 species:
+  - avatar-bravery
   - avatar-humor
   - avatar-leadership
   - avatar-sacrifice

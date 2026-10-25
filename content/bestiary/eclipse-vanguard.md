@@ -33,6 +33,7 @@ entries:
       text: As a bonus action, the vanguard can activate its Tech Armor. It immediately gains 10 temporary hit points. While the vanguard has at least 1 of these temporary hit points remaining, it has +2 AC.
     - mod: wis
       casterLevel: "6"
+      ref: power
       list:
         - shockwave
         - warp

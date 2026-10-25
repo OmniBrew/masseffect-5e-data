@@ -34,6 +34,7 @@ entries:
       text: As an action or bonus action, the N7 slayer gains 5 barrier ticks. When the N7 slayer is dealt damage, remove one barrier tick and reduce the damage by 1d8.
     - mod: wis
       casterLevel: 9
+      ref: power
       list:
         - charge
         - phase-disruptor

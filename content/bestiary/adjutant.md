@@ -26,6 +26,7 @@ speed:
 entries:
   features:
     - mod: wis
+      ref: power
       list:
         - id: singularity
           perDay: 3

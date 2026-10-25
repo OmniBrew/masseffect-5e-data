@@ -7,4 +7,4 @@ mechanics:
     speed: fly
     distance: 4
 ---
-You have a flying speed of 4 meters.
+You have a flying speed of :distance{length="10"}.

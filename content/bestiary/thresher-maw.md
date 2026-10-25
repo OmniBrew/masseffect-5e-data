@@ -90,9 +90,6 @@ entries:
       id: tail
       name: Tail
       hit: " If the target is a creature, it must succeed on a DC 22 Strength saving throw or be knocked prone"
-    - attack: ranged
-      proficient: true
-      range: 90
     - name: Multiattack
       text: "The thresher maw can use its Frightful Presence. It then makes four attacks: one with its grasp, two with its tail, one with its acid spit. It can use its Swallow instead of its grasp."
       id: multiattack

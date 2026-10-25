@@ -31,6 +31,7 @@ entries:
       text: As an action or bonus action, the eclipse commando gains 10 barrier ticks. When the eclipse commando is dealt damage, remove one barrier tick and reduce the damage by 1d8.
     - mod: wis
       casterLevel: "12"
+      ref: power
       list:
         - charge
         - warp

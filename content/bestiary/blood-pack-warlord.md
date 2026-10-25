@@ -4,7 +4,7 @@ image: https://vignette.wikia.nocookie.net/masseffect/images/b/b6/ME3_Krogan_War
 type: organic
 unit: blood_pack
 alignment: ce
-profBonus: 4
+profBonus: 3
 ac: 18
 hp:
   dieCount: 8

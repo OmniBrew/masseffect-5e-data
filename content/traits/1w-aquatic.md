@@ -7,4 +7,4 @@ mechanics:
     speed: swim
     distance: 30
 ---
-After 1 week, you gain a swimming speed of 12 meters.
+After 1 week, you gain a swimming speed of :distance{length="30"}.

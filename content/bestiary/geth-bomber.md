@@ -36,6 +36,7 @@ speed:
 entries:
   features:
     - mod: int
+      ref: power
       list:
         - id: overload
           perDay: at_will

@@ -32,6 +32,7 @@ entries:
       name: Barrier
       text: As an action or bonus action, the banshee gains 20 barrier ticks. When the banshee is dealt damage, remove one barrier tick and reduce the damage by 1d8.
     - mod: wis
+      ref: power
       list:
         - id: charge
           perDay: at_will
@@ -71,7 +72,7 @@ entries:
       - cost: 1
         id: impale-attack
         name: Impale Attack
-        text: The banshee uses its imaple attack.
+        text: The banshee uses its Impale attack.
       - cost: 2
         id: wail-attack
         name: Wail Attack

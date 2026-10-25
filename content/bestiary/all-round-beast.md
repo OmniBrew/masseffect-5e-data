@@ -18,7 +18,7 @@ abilityScores:
 size: medium
 speed:
   walk: 40
-  note: choose 16m swimming or climbing, or 8m of burrowing
+  note: choose :distance{length="40"} swimming or climbing, or :distance{length="20"} of burrowing
 entries:
   actions:
     - attack: melee
