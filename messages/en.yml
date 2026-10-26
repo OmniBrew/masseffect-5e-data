@@ -136,6 +136,7 @@ attack_types:
   ranged_power: Ranged Power Attack
 auth:
   account: Account
+  account_overline: N7 World account
   back_to_sign_in: Back to sign in
   callback_failed: Sign-in didn't finish. Try again.
   code: Verification code
@@ -145,6 +146,7 @@ auth:
   forgot_password: Forgot your password?
   google: Continue with Google
   new_password: New password
+  new_here: New here?
   or: or
   password: Password
   password_hint: At least 8 characters
@@ -365,12 +367,15 @@ homepage:
       text: Our bestiary is filled with iconic Mass Effect enemies custom-made using D&D's Dungeon Master Guide to ensure balanced combat. From Reaper forces to Blue Sun grunts, we've got enough monsters to keep your players engaged and challenged.
   features:
     - title: Interactive Manual
+      eyebrow: Player's Manual
       text: Our player's manual is more than a PDF. It's a fully navigable web app that allows you to browse rules, search for items and spells, and create bookmarks for frequently used information.
       button: Get Started
     - title: At-the-table Assets
+      eyebrow: Assets
       text: We offer a few at-the-table assets like custom-made character sheets, printable spell cards, and Roll20 tokens.
       button: View
     - title: Contributors Welcome!
+      eyebrow: Community
       text: Want to get involved? We're always open to content suggestions, feedback, and ideas from the community. Come join the conversation!
       button: Collaborate
 legal:
@@ -636,6 +641,7 @@ npc:
     reach: reach {range}
     range: range ({short}/{long})
   reactions_title: Reactions
+  traits_title: Traits
   recharges:
     - None
     - Recharge {0}
@@ -771,12 +777,26 @@ settings:
   language: Language
 shell:
   all_results: See all results
+  count_of: "{n} of {total}"
   home: Home
+  note: Note
   not_found: This page doesn't exist.
+  on_this_page: On this page
   result_count: "{n} result | {n} results"
+  search_button: Search the codex
   search_description: Search rules, powers, equipment and more
   search_placeholder: Search Mass Effect 5e…
   switch_units: Switch between metric and imperial units
+  units_abbr:
+    metric: M
+    imperial: FT
+sheet_color:
+  title: Sheet color
+  match_class: Match my class
+  match_class_detail: "{class}, first class"
+  alliance: Alliance
+  reset: Reset
+  done: Done
 shields_title: Shields
 shield: no shields | 1 shield | {n} shields
 size_title: Size
@@ -907,6 +927,7 @@ times:
   turn: 1 turn | {n} turns
   turn_title: 1 Turn | {n} Turns
   turn_abbr: "{n}TRN"
+short_title: ME5e
 title: Mass Effect 5e
 tool_prof_types:
   artisan: Artisan
