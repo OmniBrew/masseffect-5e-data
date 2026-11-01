@@ -189,6 +189,69 @@ bookmarks_title: Bookmarks
 bonus_formulas:
   plus: +{bonus}
   minus: -{bonus}
+builder:
+  title: Character Builder
+  steps: Builder steps
+  step:
+    species: Species
+    class: Class
+    abilities: Abilities
+    background: Background
+    powers: Powers
+    equipment: Equipment
+    details: Details
+  view_sheet: View Sheet
+  done: Done
+  not_yours: This character isn't yours to edit.
+  missing: "{n} to pick"
+  no_options: Nothing to pick from here.
+  stale_title: "No longer used: {n} pick | No longer used: {n} picks"
+  stale_text: These picks belong to a species, class or option the character no longer has.
+  stale_remove: Remove them
+  choice:
+    skill: Choose a skill | Choose {n} skills
+    expertise: Choose a skill for expertise | Choose {n} skills for expertise
+    tool: Choose a tool proficiency | Choose {n} tool proficiencies
+    weapon: Choose a weapon proficiency | Choose {n} weapon proficiencies
+    asi: Increase your ability scores
+    powercasting: Choose your powercasting ability
+    advancements: Choose a power advancement | Choose {n} power advancements
+    model: Choose one | Choose {n}
+  species:
+    search: Search species
+    tashas: Customize your origin
+    tashas_text: Move the species' ability score increases to abilities of your choice.
+    variants: Variant
+    base: Standard
+  class:
+    choose: Choose a class
+    multiclass: Add another class
+    add: Add
+    remove: "Remove {name}"
+    milestone: Milestone leveling
+    total_level: "Character level {n}"
+    subclass_at: "Available at level {n}"
+    asi: Ability increase
+    feat: Feat
+    rolled: Rolled hit points
+    hp_at: "Hit points at level {n}"
+  abilities:
+    standard: Standard array
+    buy: Point buy
+    manual: Manual
+    points: "{n} of {max} points left"
+    standard_text: "Give each ability one of {values}."
+    pick: Pick
+    ability: Ability
+    base: Base
+    class: Class & feats
+    other: Other
+    total: Total
+  background:
+    choose: Choose a background
+  details:
+    image: Image link
+    image_hint: An https address
 buttons:
   add_bookmark: Bookmark
   back_to_changelog: Back To Changelog
@@ -224,6 +287,49 @@ character:
   appearance: Appearance
   backstory: Backstory
   name: Name
+characters:
+  title: Characters
+  new: New Character
+  import: Import
+  export: Export
+  export_all: Export All
+  duplicate: Duplicate
+  share: Copy share link
+  delete: Delete
+  cancel: Cancel
+  retry: Try again
+  unnamed: Unnamed character
+  not_started: Not started
+  on_this_device: On this device
+  copy_name: "{name} (copy)"
+  edit_name: "Edit {name}"
+  more: "More for {name}"
+  link_copied: Share link copied. Anyone with it can view this character.
+  local_title: Your characters are kept in this browser
+  local_text: Sign in to keep them in your account, where you can open them on any device and share them. They upload when you sign in.
+  uploaded: "Moved {n} character from this browser to your account. | Moved {n} characters from this browser to your account."
+  upload_limit: "{n} character stayed on this device: your account is at its character limit. | {n} characters stayed on this device: your account is at its character limit."
+  load_failed: Your characters didn't load
+  save_failed: "The character wasn't saved: {message}"
+  delete_failed: "The character wasn't deleted: {message}"
+  delete_title: "Delete {name}?"
+  delete_text: This can't be undone. Export the character first if you might want it back.
+  empty_title: No characters yet
+  empty_text: Build one with the character builder, or import a file.
+  import_title: Import characters
+  import_text: Characters exported from this site or from the old n7.world. Each is saved as a new character; nothing is overwritten.
+  import_choose: Choose a file
+  import_formats: A .json export, of one character or several
+  import_bad_file: "That file can't be imported ({message})."
+  import_no_migrator: This site can't convert old characters.
+  import_wrong_game: "This character is from another game ({game})."
+  import_from: "from version {version}"
+  import_save: Import | Import {n} character | Import {n} characters
+  import_issues:
+    unknown: "{n} content ids no longer exist (kept)"
+    homebrew: "{n} homebrew items (kept; linked once homebrew comes to this site)"
+    renamed: "{n} values renamed"
+    dropped: "{n} values that couldn't be carried over"
 casting_time_title: Casting Time
 change: change
 changelog_title: Changelog
@@ -354,6 +460,7 @@ homepage:
   title: Mass Effect + D&D 5th Edition
   subtitle: An Unofficial D&D 5th Edition homebrew for Mass Effect
   get_started: Get Started
+  build_character: Build a Character
   begin: Begin Your Journey
   begin_text: Mass Effect 5e lets you take the immersive and cooperative story-telling gameplay of Dungeons & Dragons 5th edition and experience new adventures in the Mass Effect universe. Go exploring in the Outer Terminus. Stop a political assassination on Thessia. Battle the Reaper invasion on Earth, Palavan, or Sur'Kesh. Solve crimes as a C-SEC officer on the Citadel. With Mass Effect 5e, the adventure is in your hands. You can play anywhere in the Mass Effect timeline, create new worlds, or revisit old ones. So, gear up and start making your own journey.
   play_text: Play with the best tech
@@ -790,6 +897,335 @@ shell:
   units_abbr:
     metric: M
     imperial: FT
+sheet:
+  title: Character Sheet
+  view_only: You're viewing someone else's character. You can roll, but not change it.
+  missing_title: Character not found
+  missing_text: The link may be wrong, or the character was deleted.
+  load_failed: The character didn't load
+  prose_failed: The text didn't load.
+  prof_abbr: Prof
+  init_abbr: Init
+  insp_abbr: Insp
+  initiative: Initiative
+  inspiration: Inspiration
+  passive: "Passive {skill}"
+  dc: "DC {dc}"
+  proficiency:
+    "0": Not proficient
+    "1": Proficient
+    "2": Expertise
+  menu:
+    title: Character menu
+    edit: Edit in builder
+  mobile:
+    roll: Roll
+    menu: Menu
+    settings: Settings
+  save:
+    saving: Saving…
+    pending: Unsaved changes
+    saved: Saved
+    error: Not saved
+    retry: Retry
+    conflict: Saved elsewhere
+    local: Saved in this browser
+  conflict:
+    title: This character was changed in another tab or on another device
+    text: Your latest change hasn't been saved. Load the newer version, or keep yours and save over it.
+    theirs: Load the newer version
+    mine: Keep mine
+  tabs:
+    label: Sheet sections
+    actions: Actions
+    gear: Gear
+    features: Features
+    details: Details
+  vitals:
+    title: Vitals
+    hp: HP
+    temp_hp: Temp HP
+    shields: Shields
+    tech_armor: Tech Armor
+    barrier: Barrier
+    reduction: damage reduction
+    amount: Amount
+    damage: Take damage
+    heal: Heal
+    more: Damage type
+    damage_mode: Damage
+    mode_normal: Normal damage
+    mode_bypass: "Bypass {pool}"
+    mode_double: "Double damage to {pool}"
+    mode_short_bypass: Bypass shields
+    mode_short_double: 2× to shields
+    add_temp: Add as temp HP
+    add_to: "Add to {pool}"
+    regen_amount: "Regain this much {pool}"
+    regen: "Regen {n}"
+    spend: Spend
+    spend_roll: "Spend ({dice})"
+    refill: "Refill {pool}"
+    death_saves: Death saves
+    death_save: Roll death save
+    successes: Successes
+    failures: Failures
+    success_n: "Success {n}"
+    failure_n: "Failure {n}"
+    dead: Dead
+    stable: Stable
+  defenses:
+    title: Defenses
+    kind:
+      resistance: resistance
+      immunity: immunity
+      vulnerability: vulnerability
+      condition-immunity: condition immunity
+      special: special
+    special:
+      critical-immunity: Critical hit immunity
+      evasion: Evasion
+  conditions:
+    edit: Edit conditions
+    immune: Immune
+  actions:
+    empty: No actions yet.
+    extra_attacks: "{n} attacks with the Attack action"
+    powers: Powers
+    sections:
+      attacks: Attacks
+      action: Actions
+      bonus-action: Bonus Actions
+      reaction: Reactions
+      other: Other
+    in_combat:
+      action: Actions in Combat
+      bonus-action: Bonus Actions in Combat
+      reaction: Reactions in Combat
+    special:
+      twf: Two-Weapon Fighting
+      bf: Burst Fire
+      dt: Double Tap
+  toggle:
+    option: "{name} option"
+  resource:
+    per_short: / short rest
+    per_long: / long rest
+    use_n: "Use {n} of {max}"
+    less: One less
+    more: One more
+    reset: Reset
+  powers:
+    cast: Cast
+    cantrips: Cantrips
+    manage: Manage Powers
+    none: No powers yet
+    none_text: Pick powers in the power manager.
+    no_casters: None of this character's classes casts powers.
+    spend_point: Spend a point
+    regain_point: Regain a point
+    limit: "up to {n} per casting"
+    slot_n: "{level} slot {n}"
+    pool:
+      points_tech: Tech Points
+      slots: Power Slots
+    cantrips_known: "Cantrips {n}/{max}"
+    powers_known: "Powers {n}/{max}"
+    max_level: "Up to level {n}"
+    learned_only: Learned only
+    learn: "Learn {name}"
+    from_feature: From a feature
+    not_available: Above your level
+    unlinked: Powers from older versions
+  gear:
+    credits: Credits
+    manage: Manage Equipment
+    none: No equipment yet
+    owned: Owned
+    add: Add
+    add_free: Add
+    buy: Buy
+    sell: "Sell ({n})"
+    remove: Remove
+    equipped: Equipped
+    equip: "Equip {name}"
+    count: Count
+    mods: "{n} mod | {n} mods"
+    mod_slot: "Mod: {slot}"
+    bonus_hit: Attack bonus
+    bonus_damage: Damage bonus
+    credits_left: "{n} credits"
+    set_bonuses: Set Bonuses
+  equip:
+    weapon_slots: "Your weapon slots are full ({max})."
+    programs: "You can install {max} omni-tool programs."
+  features:
+    none: No features yet.
+    groups:
+      feats: Feats
+      benefits: Reputation Benefits
+      powers: Powers
+      species: Species
+      edges: Edges
+  details:
+    milestone: Milestone
+    empty: No details yet.
+    edit: Edit details
+  notes:
+    placeholder: Notes, contacts, loot, plans…
+    empty: No notes.
+  profs:
+    tools: Tools
+  log:
+    title: Roll Log
+    text: "The last {n} rolls of this character, kept in this browser."
+    empty: No rolls yet
+    clear: Clear log
+  dice:
+    title: Roll Dice
+    count: Dice
+    custom: Custom roll
+    placeholder: 2d6+3
+    roll: Roll
+  roll:
+    custom: Custom roll
+    damage: Roll damage
+    crit_damage: Roll crit damage
+    crit: Critical hit!
+    fumble: Natural 1
+    advantage: Advantage
+    disadvantage: Disadvantage
+    normal: Normal
+    mode: Roll with
+    questions: This attack
+    dialog_text: Answer for this attack, then roll.
+    adds_hit: "{n} to hit"
+    adds_dc: "{n} to the DC"
+    adds_damage: "+{damage} damage"
+    to_hit: To hit
+    roll_attack: Roll attack
+    roll_damage: Roll damage
+    attack_with: "Attack with {name}"
+    damage_with: "Damage of {name}"
+    check_of: "{ability} check"
+    save_of: "{ability} save"
+    kind:
+      attack: Attack
+      damage: Damage
+      crit_damage: Critical damage
+      check: Check
+      save: Save
+      skill: Skill check
+      initiative: Initiative
+      custom: Roll
+      hit_dice: Hit dice
+      recovery: Recovery
+  rest:
+    short: Short Rest
+    long: Long Rest
+    short_text: Spend hit dice and recover what a short rest restores.
+    long_text: Regain hit points and what a long rest restores.
+    take_short: Take short rest
+    take_long: Take long rest
+    done_short: Short rest taken
+    done_long: Long rest taken
+    hit_dice_left: "{n} of {max} left"
+    hit_dice_of: "Hit dice ({name})"
+    spend_of: "Hit dice to spend ({name})"
+    min_roll: "Each hit die rolls at least {n}."
+    hp_back: "You regain {n} hit points."
+    recovery: Power recovery
+    recovery_budget: "{used} of {max} levels recovered"
+    recover_of: "Recover {name}"
+    used: "{n} used"
+    regain_all: You regain all your hit dice.
+    regain_up_to: "Regain up to {n} hit dice."
+    regain_of: "Hit dice to regain ({name})"
+    reduce_exhaustion: Lose one level of exhaustion
+    reduce_indoctrination: Lose one level of indoctrination (you made the Wisdom save)
+  settings:
+    title: Settings & Overrides
+    overrides: Overrides
+    preferences: Preferences
+    custom: Custom Features
+    defensive: Defensive
+    offensive: Offensive
+    powercasting: Powercasting ability
+    abilities: Ability scores
+    speeds_senses: Speeds & senses
+    hp_override: Max HP
+    ac_override: AC
+    ac_bonus: AC bonus
+    auto: Auto
+    attack: Attack
+    bonus: Bonus
+    override: Override
+    expertise: Expertise
+    feet: Speeds and senses are in feet.
+    defense:
+      resistance: Resistances
+      immunity: Immunities
+      vulnerability: Vulnerabilities
+      conditionImmunity: Condition immunities
+    roll_kind:
+      all: All
+      melee: Melee
+      ranged: Ranged
+      power: Powers
+  preferences:
+    armorSpeedPenalty: Armor strength requirement
+    armorSpeedPenalty_text: Heavy armor without the Strength it needs reduces your speed.
+    armorProficiencyPenalty: Armor proficiency penalty
+    armorProficiencyPenalty_text: Armor you aren't proficient with gives disadvantage, then stops powercasting.
+    abilityScoreOnTop: Show ability scores above modifiers
+    weaponSlots: Enforce weapon slots
+    weaponSlots_text: Armor and features give weapon slots. Turn off to equip any number of weapons.
+    grenadeSlots: Enforce grenade slots
+    grenadeSlots_text: Chest and leg armor provide grenade slots. Turn off to equip more grenades, or grenades without armor.
+    medigelSlots: Enforce medi-gel slots
+    medigelSlots_text: Chest and arm armor provide medi-gel slots. Turn off to equip more medi-gel, or medi-gel without armor.
+    thermalClipSlots: Enforce thermal clip slots
+    thermalClips: Track thermal clips
+    thermalClips_text: Reloading a weapon spends a ready thermal clip.
+    programInstall: Limit installed omni-tool programs
+    programInstall_text: You can install three programs at a time.
+    consumeThermalClips: Reloading uses thermal clips
+  custom:
+    text: Features you write yourself. Those with a type show on the Actions tab, with uses if they have any.
+    new: New feature
+    add: Add feature
+    uses: Uses
+    recharge: Recharge
+    description: Description
+    types:
+      action: Action
+      bonus-action: Bonus action
+      reaction: Reaction
+      other: Other
+      feature: Feature
+  me:
+    reputation: Reputation
+    paragon: Paragon
+    renegade: Renegade
+    benefit_at: "Benefit at {n}"
+    benefit_attention: This benefit's prerequisite no longer holds.
+    choose_benefit: Choose a benefit
+    unavailable: unavailable
+    grenades: Grenades
+    medi_gel: Medi-gel
+    thermal_clips: Thermal clips
+    ready: "Ready one more {name}"
+    unready: "Ready one fewer {name}"
+    shoulder_mounts: "Shoulder mounts {n}/{max}"
+    mount: "Mount {name}"
+    no_mountable: No weapon fits the mounts.
+    fire: Fire
+    reload: Reload
+    use: Use
+    omni_gel: omni-gel
+    shields_override: Shields
+    regen_override: Regen
+    shield_source: Shield source
 sheet_color:
   title: Sheet color
   match_class: Match my class
