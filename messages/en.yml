@@ -478,8 +478,404 @@ gear_types:
   tool: Tool
 generators_title: Generators
 homebrew:
+  accept: I accept the
+  action_failed: That didn't work. Try again.
+  add_advancement: Add advancement
+  add_damage: Add damage
+  add_effect: Add effect
+  adds: adds
+  advanced_effect: Advanced effect (kept as is)
+  anonymous: anonymous
+  badge: Homebrew
+  based_on: Start from
+  based_on_help: Copy an official record's stats and text, then change what you like. Other players' homebrew can't be copied.
+  browse: Browse homebrew
+  by: "by {name}"
+  clear: Clear
+  collection: My Collection
+  collection_help: Homebrew in your collection shows up in the character builder and on your sheets. A character keeps its copy of a homebrew record even after you remove it here.
+  collection_missing: "{n} homebrew records in your collection are no longer shared by their authors."
+  copies_refreshed: "Updated {n} homebrew records on this character to their latest versions."
+  copy_of: "Copy of {name}"
+  create: Create homebrew
+  creations: My Creations
+  creations_help: Homebrew you wrote. Add your own records to your collection to use them on your characters.
+  delete: Delete
+  delete_text: This homebrew will be deleted. This can't be undone.
+  delete_title: "Delete {name}?"
+  delete_used: "{n} players use this homebrew. Their characters keep their copies, marked as removed by its author. This can't be undone."
+  edit: Edit
+  editor_title: Homebrew editor
+  effects_empty: No effects yet. Add what this record does to a character, like a resistance, a bonus or an action.
+  errors: "{n} problems to fix before sharing"
+  fix_errors: Fix the problems marked in the form first.
+  gone_text: "No longer shared by their authors: {names}. This character keeps its copies."
+  gone_title: "{n} homebrew records were removed by their authors"
+  headline: Made by players
+  in_collection: In collection
+  intro: Weapons, armor, gear, mods, powers and feats written by players. Add one to your collection to use it in the character builder and on your sheets, and vote for your favorites.
+  kind: Kind
+  link_copied: Link copied.
+  load_failed: Homebrew couldn't load. Reload the page to try again.
+  make_copy: Make a copy
+  missing_text: It may be private, or its author deleted it.
+  missing_title: Homebrew not found
   my_title: My Homebrew
+  no_collection: Your collection is empty. Browse homebrew and use what you like.
+  no_creations: You haven't written any homebrew yet.
+  no_name: You have no display name, so you'll show as "anonymous". Set one in your profile.
+  none: None
+  none_found: No homebrew of this kind yet.
+  not_yours_text: You can only edit homebrew you wrote.
+  not_yours_title: Not your homebrew
+  other_errors: Other problems
+  pick_kind: Pick a kind of homebrew to browse.
+  property_value: "Value of {name}"
+  publish: Publish
+  publish_text: Published homebrew is shared with every player, can be voted for, and can't be changed or unpublished, because characters use it. To change it later, make a copy.
+  publish_title: Publish this homebrew?
+  record: Record
+  remove: Remove
+  retry: Retry
+  search: Search by name or author
+  share: Copy link
+  show_development: Show in development
+  stale_copies: "{n} homebrew records no longer used"
+  stale_copies_text: This character keeps copies of homebrew it used. These aren't used anymore.
+  start_blank: Start from scratch
   title: Homebrew
+  to_development: Share in development
+  unknown_kind: "This site doesn't support {kind} homebrew."
+  unlimited: Unlimited
+  untitled: Untitled homebrew
+  unvote: "Remove your vote for {name}"
+  upcast_bonus: "Bonus at {level}"
+  upcast_cantrip: "From level {level}"
+  upcast_dice: "Dice at {level}"
+  upcast_level: "Cast at level {level}"
+  upcast_no_damage: Add damage on the Attack tab to set how it grows with higher levels.
+  use: Use
+  uses_per: "{n} per {reset}"
+  view: View
+  vote: "Vote for {name}"
+  vote_short: Vote
+  voted: Voted
+  votes: votes
+  yes: "Yes"
+  advantage:
+    advantage: Advantage
+    bonus: A bonus
+    die-bonus: An extra die
+    disadvantage: Disadvantage
+  attack_model:
+    power: Powers
+    weapon: Weapons
+  attack_type:
+    melee: Melee
+    none: No attack roll
+    ranged: Ranged
+  augment:
+    damage: Damage
+    dc: Save DC
+    hit: Attack rolls
+  coverage:
+    piece: One piece (head, chest, arms or legs)
+    suit: A full suit
+  dice:
+    d4: d4
+    d6: d6
+    d8: d8
+    d10: d10
+    d12: d12
+  effect_groups:
+    abilities: Abilities
+    attacks: Attacks
+    cards: Actions
+    defenses: Defenses
+    equipment: Equipment
+    movement: Movement and senses
+    proficiencies: Proficiencies and bonuses
+  effects:
+    action:
+      help: An action the character can take, with its own text, uses, attack, save and damage.
+      title: Action
+    ac:
+      bonus: Bonus
+      help: Adds to Armor Class.
+      limit: Only with armor of type
+      title: Armor Class bonus
+    adjust-weapon-props:
+      add: Add properties
+      help: Changes the properties of the character's weapons.
+      remove: Remove properties
+      title: Weapon properties
+    asi:
+      ability: Ability
+      amount: Increase
+      help: Raises an ability score.
+      title: Ability score increase
+    attack-augment:
+      add_damage: Extra damage on a hit
+      ask: Only when (asked when rolling)
+      ask_help: A question the roll dialog asks, like "Is the target marked?". Leave empty to always apply.
+      augment_types: Adds to
+      bonus: Bonus
+      help: A bonus to attacks or save DCs, for weapons, powers or both.
+      model: Attacks with
+      title: Attack bonus
+      type: Melee or ranged
+    bonus-action:
+      help: A bonus action, with its own text, uses, attack, save and damage.
+      title: Bonus action
+    condition-immunity:
+      help: The character can't get a condition.
+      title: Condition immunity
+      value: Condition
+    critical-immunity:
+      help: A critical hit against the character is a normal hit.
+      title: Critical hit immunity
+    evasion:
+      help: Dexterity saves for half damage take none on a success and half on a failure.
+      title: Evasion
+    hp:
+      bonus: Extra hit points
+      help: Adds to maximum hit points.
+      title: Hit point bonus
+    immunity:
+      help: The character takes no damage of a type.
+      title: Damage immunity
+      value: Damage type
+    initiative:
+      bonus: Bonus
+      help: Adds to initiative.
+      title: Initiative bonus
+    me_grenade-capacity:
+      help: Grenades the character can carry ready.
+      title: Grenade capacity
+      value: Extra grenades
+    me_medi-gel-capacity:
+      help: Medi-gel the character can carry.
+      title: Medi-gel capacity
+      value: Extra medi-gel
+    me_shields:
+      capacity: Shield points
+      help: Adds shield points and shield regeneration.
+      regen: Shield regen
+      title: Shields
+    me_shoulder-mounts:
+      help: Shoulder mounts that hold weapons.
+      max: Mounts
+      slots: Weapon slots each
+      title: Shoulder mounts
+    me_thermal-clip-capacity:
+      help: Thermal clips the character can carry.
+      title: Thermal clip capacity
+      value: Extra thermal clips
+    me_weapon-heat-increase:
+      help: Raises the heat of the character's weapons.
+      title: Weapon heat
+      value: Extra heat
+    other:
+      help: Anything else the character can use, with its own text and uses.
+      title: Other ability
+    reaction:
+      help: A reaction, with its own text, uses, attack, save and damage.
+      title: Reaction
+    resistance:
+      help: The character takes half damage of a type.
+      title: Damage resistance
+      value: Damage type
+    saving-throw:
+      bonus: Bonus
+      effect: Effect
+      effect_help: Leave empty for proficiency in these saves.
+      help: Proficiency, advantage or a bonus on saving throws.
+      title: Saving throws
+      value: Saves
+    sense:
+      distance: Range (ft)
+      help: Darkvision, blindsight and other senses.
+      sense: Sense
+      title: Sense
+    skill:
+      expertise: Expertise
+      help: Proficiency (or expertise) in a skill.
+      title: Skill proficiency
+      value: Skill
+    skill-check:
+      bonus: Bonus
+      effect: Effect
+      help: Advantage, disadvantage or a bonus on skill checks.
+      title: Skill checks
+      value: Skills
+    speed:
+      distance: Speed (ft)
+      help: A new kind of speed, like flying or swimming.
+      speed: Speed
+      title: Speed
+    speed-bonus:
+      bonus: Bonus (ft)
+      help: Raises speeds.
+      title: Speed bonus
+      value: Speeds
+    vulnerability:
+      help: The character takes double damage of a type.
+      title: Damage vulnerability
+      value: Damage type
+  fields:
+    additional_damage: Extra damage
+    advancements: Advancements
+    advancements_help: Upgrades a player can pick for this power, each with its own text.
+    andromeda: Andromeda
+    aoe_size: Area size (ft)
+    aoe_type: Area shape
+    armor_type: Armor type
+    attack: Attack roll
+    availability: Fits
+    base_ac: Base AC
+    body: Description
+    body_help: "Markdown. Write distances with the distance component (:distance{'{'}length=30{'}'}) so they show in each player's units, and conditions with the condition component (:condition{'{'}id=primed{'}'})."
+    casting_time: Casting time
+    classes: Classes
+    concentration: Concentration
+    conditions: Conditions it causes
+    consumable: Consumable
+    cost: Cost (credits)
+    coverage: Coverage
+    damage: Damage
+    damage_bonus: Damage bonus
+    damage_type: Damage type
+    detonates: Detonates
+    die_count: Dice
+    die_type: Die
+    duration_length: Duration
+    duration_unit: Duration unit
+    effects: Effects
+    effects_help: What this record does to a character. Each effect is a small form; the preview shows the result.
+    equippable: Equippable
+    flavor: Flavor text
+    gear_type: Gear type
+    image: Image URL
+    image_help: A link to a picture (PNG, JPEG or WebP).
+    level: Level
+    level_help: 0 for a cantrip.
+    mod_type: Mod for
+    name: Name
+    note: Note
+    placement: Placement
+    power_type: Power type
+    prerequisite: Prerequisite
+    prerequisite_help: Shown with the feat, like "Dexterity 13 or higher".
+    primes: Primes
+    primes_help: The damage type this power primes a target with.
+    properties: Properties
+    properties_help: Heat and other properties that take a value get a box for it.
+    range: Range (ft)
+    range_long: Long range (ft)
+    range_short: Range (ft)
+    rarity: Rarity
+    save: Saving throw
+    short_desc: What it does
+    slot: Slot
+    slots: Weapon slots
+    slots_help: How many weapon slots it takes.
+    stealth_disadvantage: Disadvantage on Stealth
+    tags: Tags
+    upcasts: Higher levels
+    upcasts_help: The damage when cast at higher levels (a cantrip's when the character reaches each tier). Leave a box empty to keep the base value.
+    uses: Uses
+    weapon_type: Weapon type
+    weight: Weight
+  formula:
+    ability: Ability
+    flat: A number
+    level: Character level
+    mod: Ability modifier
+    mod_of: "{ability} modifier"
+    multiplier: Times
+    other: Custom formula (kept)
+    proficiency: Proficiency bonus
+    value: Value
+  healing:
+    hp: Healing
+    temp: Temporary hit points
+  kinds:
+    armor: Armor
+    feats: Feats
+    gear: Gear
+    mods: Mods
+    powers: Powers
+    weapons: Weapons
+  markdown:
+    empty: Nothing written yet.
+    help: Markdown with the site's prose components. HTML isn't allowed.
+    preview: Preview
+    write: Write
+  mod_type:
+    armor: Armor
+    weapon: Weapons
+  preview:
+    added: new
+    changes: What changes
+    level: Level
+    no_changes: Nothing changes on this sample yet.
+    not_placed: This record can't be placed on this sample (a mod needs an item it fits).
+    removed: gone
+    sample: Sample character
+    stale: The latest change can't be computed yet; showing the last result.
+  reset:
+    long: long rest
+    short: short rest
+    title: Comes back after
+  samples:
+    adept: Adept, level 5
+    engineer: Engineer, level 5
+    sentinel: Sentinel, level 5
+    soldier: Soldier, level 5
+  save_state:
+    dirty: Unsaved changes
+    failed: Not saved
+    saved: Saved
+    saving: Saving…
+  sort:
+    adds: Most used
+    name: Name
+    newest: Newest
+    title: Sort by
+    votes: Most votes
+  status:
+    development: In development
+    private: Private
+    published: Published
+  status_help:
+    development: Shared with every player and still changing. Players can use it but not vote for it.
+    private: Only you can find and use it. Share it in development to test it with others, or publish it.
+    published: Shared with every player. Published homebrew can't change; make a copy to work on a new version.
+  status_set:
+    development: Shared in development.
+    published: Published.
+    private: Saved as private.
+  summary:
+    attack: "Attack: {name}"
+    power: "Power: {name}"
+    save: "{ability} save"
+    defense:
+      condition-immunity: Condition immunities
+      immunity: Damage immunities
+      resistance: Resistances
+      vulnerability: Vulnerabilities
+    special:
+      critical-immunity: Critical hit immunity
+      evasion: Evasion
+  tabs:
+    advancements: Advancements
+    attack: Attack
+    basics: Basics
+    casting: Casting
+    description: Description
+    effects: Effects
+    preview: Preview
+    upcasts: Higher levels
 guide:
   title: Guides
   creating_armor: Creating Armor
@@ -674,6 +1070,7 @@ meta:
   classes: Choose your favorite Mass Effect class, each with 3 subclasses to provide variety to the game.
   conditions: There are new conditions in Mass Effect 5e that add variety to combat.
   feats: New feats available! Plus a curated list of D&D 5th edition feats.
+  homebrew: Weapons, armor, gear, mods, powers and feats made by players, to use on your characters.
   gear: Mass Effect 5e gear comprises a number of items, like tools and kits, and special weapons, like grenades, heavy weapons.
   guide: The Galaxy Masters section has handy tools and guides for expanding your campaign.
   home: Ever wanted to play D&D in the Mass Effect Universe? Mass Effect 5e has you covered.
