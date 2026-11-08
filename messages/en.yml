@@ -1287,6 +1287,72 @@ sheet:
       reaction: Reaction
       other: Other
       feature: Feature
+  companions:
+    add: Add Companion
+    add_action: Add Action
+    add_condition: Add condition
+    aoe: Area
+    aoe_size: Area size (ft)
+    check: "{ability} check"
+    condition_immunities: Condition Immunities
+    damage_bonus: Damage bonus
+    damage_dice: Damage dice
+    damage_die: Die
+    dc: Save DC
+    dc_save: Saving throw
+    delete: Delete Companion
+    delete_confirm: "Delete {name}? This can't be undone."
+    description: Description
+    done: Done
+    edit: "Edit {name}"
+    empty: No companions yet. Add one for a drone, a pet or a squadmate who follows this character.
+    empty_view: This character has no companions.
+    expertise_help: Skills that add twice the proficiency bonus.
+    features: "Features that grant a companion ({n})"
+    feet_help: Distances in feet; the sheet shows them in your units.
+    hit: To hit
+    image: Image URL
+    image_help: A link to a picture (PNG, JPEG or WebP).
+    immunities: Damage Immunities
+    long_range: Long range (ft)
+    max_hp: Hit points
+    max_pool: "{pool}"
+    new_name: New Companion
+    no_conditions: None
+    notes: Notes
+    pool_regen: "{pool} regen"
+    prof_bonus: Proficiency bonus
+    range: Range (ft)
+    regain_one: Regain one use
+    regen: Regen
+    remove_action: Remove action
+    resistances: Damage Resistances
+    resource_checkboxes: Checkboxes
+    resource_counter: Counter
+    resource_heat: Heat tracker
+    roll_label: "{name}: {label}"
+    subtitle: Companion
+    title: Companions
+    type: Type
+    unnamed_action: Unnamed action
+    use_n: "Use {n}"
+    use_one: Spend one use
+    uses: Uses
+    uses_display: Uses shown as
+    uses_max: Uses
+    vulnerabilities: Damage Vulnerabilities
+    tabs:
+      abilities: Abilities & Skills
+      actions: Actions
+      defenses: Defenses
+      movement: Speed & Senses
+      name: Name & Image
+    types:
+      action: Actions
+      attack: Attacks
+      bonus_action: Bonus Actions
+      other: Other
+      reaction: Reactions
   webhooks:
     load_failed: Your Discord webhooks couldn't load.
     manage: Manage webhooks in your profile
