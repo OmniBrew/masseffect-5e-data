@@ -186,6 +186,34 @@ benefits:
 benefits_title: Reputation Benefits
 bestiary_title: Bestiary | Bestiary
 bookmarks_title: Bookmarks
+bookmarks:
+  bookmarked: Bookmarked
+  empty_text: Bookmark a power, weapon, creature or any other record from its page, and it shows up here.
+  empty_title: No bookmarks yet
+  headline: Your records
+  index_failed: Record names couldn't load; bookmarks show their ids.
+  load_failed: Your bookmarks couldn't load.
+  local_text: These bookmarks are kept in this browser. Sign in to keep them on your account and see them on every device.
+  local_title: Saved in this browser
+  missing: No longer exists
+  remove: "Remove {name} from bookmarks"
+  retry: Retry
+  save_failed: The bookmark couldn't be saved. Try again.
+  groups:
+    armor: Armor
+    backgrounds: Backgrounds
+    bestiary: Bestiary
+    classes: Classes
+    conditions: Conditions
+    feats: Feats
+    gear: Gear
+    homebrew: Homebrew
+    mods: Mods
+    powers: Powers
+    species: Species
+    tool-profs: Tool Proficiencies
+    vehicles: Vehicles
+    weapons: Weapons
 bonus_formulas:
   plus: +{bonus}
   minus: -{bonus}
@@ -449,6 +477,9 @@ gear_types:
   shield: Shield
   tool: Tool
 generators_title: Generators
+homebrew:
+  my_title: My Homebrew
+  title: Homebrew
 guide:
   title: Guides
   creating_armor: Creating Armor
