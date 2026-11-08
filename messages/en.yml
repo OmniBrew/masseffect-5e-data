@@ -864,6 +864,52 @@ prerequisite_title: Prerequisite
 primary_ability_title: Primary Ability
 primes_detonates_title: Primes/Detonates
 primes_text: Primes ({type})
+profile:
+  account: Account
+  discard: Discard changes
+  load_failed: Your profile couldn't load. Reload the page to try again.
+  name_help: Shown as the author of homebrew you publish. 2 to 32 characters.
+  name_length: Display names are 2 to 32 characters.
+  preferences: Preferences
+  preferences_help: Saved to your account and applied when you sign in on another device.
+  color:
+    dark: Dark
+    light: Light
+    system: Match device
+    title: Color mode
+  picture:
+    alt: Your profile picture
+    failed: The picture couldn't be saved. Try another image.
+    remove: Remove picture
+    too_big: That file is over 10 MB. Pick a smaller image.
+    upload: Upload picture
+    wrong_type: Pick a PNG, JPEG, WebP, GIF or AVIF image.
+  units:
+    imperial: Feet and miles
+    metric: Meters and kilometers
+    title: Units
+  webhooks:
+    add: Add webhook
+    characters: Posts rolls for
+    characters_help: You can also turn a webhook on from a character sheet's Preferences.
+    delete: Delete webhook
+    footer: N7 World
+    gone: This Discord webhook no longer works. Check it in Discord, or delete it here.
+    help: Post a character's rolls to a Discord channel. In Discord, open Server Settings › Integrations › Webhooks, create one and copy its URL.
+    limit: "You can have {n} webhooks"
+    name: Name
+    name_placeholder: "Webhook {n}"
+    no_characters: No characters yet
+    test: Send test
+    test_failed: The test message couldn't be sent. Check the URL.
+    test_label: Test from N7 World
+    test_sent: Test message sent. Check your Discord channel.
+    title: Discord webhooks
+    unknown_character: Deleted character
+    url: Webhook URL
+    url_hint: Kept private to you
+    url_invalid: That isn't a Discord webhook URL (https://discord.com/api/webhooks/…).
+    url_required: Paste the webhook's URL.
 proficiencies_title: Proficiencies
 progression_table_title: Progression Table
 random_height_weight_title: Random Height & Weight
@@ -1241,6 +1287,14 @@ sheet:
       reaction: Reaction
       other: Other
       feature: Feature
+  webhooks:
+    load_failed: Your Discord webhooks couldn't load.
+    manage: Manage webhooks in your profile
+    none: You have no Discord webhooks. Add one in your profile.
+    not_stored: Save this character to your account to post its rolls to Discord.
+    save_failed: The webhook couldn't be changed. Try again.
+    sign_in: Sign in to post this character's rolls to Discord.
+    text: Post this character's rolls to
   me:
     reputation: Reputation
     paragon: Paragon
