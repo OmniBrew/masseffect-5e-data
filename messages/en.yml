@@ -202,6 +202,8 @@ builder:
     details: Details
   view_sheet: View Sheet
   done: Done
+  selected: Selected
+  keep: "Keep {name}"
   not_yours: This character isn't yours to edit.
   missing: "{n} to pick"
   no_options: Nothing to pick from here.
@@ -223,10 +225,14 @@ builder:
     tashas_text: Move the species' ability score increases to abilities of your choice.
     variants: Variant
     base: Standard
+    change: Change species
+    more: "More about {name}"
+    options: "{n} option | {n} options"
   class:
     choose: Choose a class
     multiclass: Add another class
-    add: Add
+    add_named: "Add {name}"
+    hit_die: "Hit die d{n}"
     remove: "Remove {name}"
     milestone: Milestone leveling
     total_level: "Character level {n}"
@@ -248,7 +254,8 @@ builder:
     other: Other
     total: Total
   background:
-    choose: Choose a background
+    change: Change background
+    choices: "{n} choice | {n} choices"
   details:
     image: Image link
     image_hint: An https address
