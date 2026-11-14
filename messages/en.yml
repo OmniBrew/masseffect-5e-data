@@ -207,6 +207,7 @@ bookmarks:
     conditions: Conditions
     feats: Feats
     gear: Gear
+    genpc: Generated NPCs
     homebrew: Homebrew
     mods: Mods
     powers: Powers
@@ -1001,6 +1002,60 @@ lists:
     - "{0}"
     - "{0} and {1}"
     - "{0} and {1} and {2}"
+loot:
+  intro: "The loot generator rolls on a set of loot tables to decide rewards. Individual rewards are credits only; weapons, armor, mods and gear come from hoards."
+  meta: "A random loot generator for Mass Effect 5e: credits, consumables and equipment by challenge rating."
+  options_title: "Options"
+  band: "Challenge rating"
+  hoard: "Hoard"
+  generate: "Generate loot"
+  clear: "Clear all loot"
+  raw_tables: "Raw tables"
+  raw_tables_title: "Raw loot tables"
+  individual_title: "Individual rewards"
+  hoard_title: "Hoard rewards"
+  equipment_title: "Equipment tables"
+  band_title: "CR {band}"
+  credits: "Credits"
+  additional_credits: "Additional credits"
+  consumables: "Consumables"
+  reward_title: "Reward {n}"
+  remove: "Remove reward {n}"
+  log_show: "Show the rolls"
+  log_hide: "Hide the rolls"
+  empty: "Choose a challenge rating and generate loot. Each roll adds a reward card."
+  load_failed: "The loot tables couldn't load."
+  retry: "Retry"
+  headers:
+    cr: "CR"
+    reward: "Reward"
+    d100: "d100"
+    hoard_roll: "Equipment table roll"
+    result: "Result"
+  nothing: "Nothing more"
+  roll_once: "Roll once on {table}"
+  roll_times: "Roll {times} times on {table}"
+  row_item: "1 {rarity} {kind}"
+  row_consumable: "{dice} {name}"
+  kinds:
+    weapons: "weapon"
+    armor: "armor"
+    mods: "mod"
+    gear: "gear"
+  log:
+    base_credits: "Base credits"
+    random_credits: "Rolling for random credits between {min} and {max}"
+    credits: "{n} credits"
+    hoard_roll: "Rolling d100 for loot"
+    roll_result: "{roll}: {text}"
+    times_roll: "Rolling {dice} for the number of rolls"
+    table_roll: "Roll {n}: rolling d100 on {table}"
+    item_roll: "Rolling for 1 random {rarity} {kind}"
+    item_none: "No {rarity} {kind} to choose from"
+    consumable_roll: "Rolling {dice}"
+    consumable_result: "{rolls} = {n} {name}"
+    missing_table: "Table {table} doesn't exist"
+    no_row: "nothing on this roll"
 loot_generator_title: Loot Generator
 manual:
   title: Player's Manual
@@ -1087,6 +1142,22 @@ meta:
   weapon_props: Mass Effect 5e comes with some new and fun weapon properties!
   weapons: The Mass Effect 5e arsenal has over 80 unique weapons designed to match the game's weaponry
 military: military
+migration:
+  details: Details
+  done: "Characters: {characters}. Bookmarks: {bookmarks}. Homebrew: {homebrew}. | Characters: {characters}. Bookmarks: {bookmarks}. Homebrew: {homebrew}."
+  done_title: Your data from the old site is here
+  download: Download the original
+  download_failed: The original couldn't be downloaded. Try again later.
+  failed: Your data from the old site couldn't be brought over just now. It's safe; we'll try again the next time you sign in.
+  failed_characters: "{n} character couldn't be brought over. It's kept as it was; download the original to keep a copy, or import it later. | {n} characters couldn't be brought over. They're kept as they were; download the originals to keep a copy, or import them later."
+  limit_raised: "Your character limit is now {n}, so all of your characters fit."
+  local_characters: "Moved {n} character from the old site in this browser. | Moved {n} characters from the old site in this browser."
+  local_failed: "{n} character from the old site in this browser couldn't be moved. | {n} characters from the old site in this browser couldn't be moved."
+  private_homebrew: "{n} of your homebrew needs fixing before it can be shared again, so it's private for now: | {n} of your homebrew need fixing before they can be shared again, so they're private for now:"
+  running: Bringing over your data from the old site…
+  summary: "From the old site: {characters} characters, {bookmarks} bookmarks and {homebrew} homebrew."
+  title: From the old site
+  unnamed: Unnamed character
 misc:
   criminal_specialty: Criminal Specialty
   assassin: Assassin
@@ -1160,6 +1231,35 @@ new_title: New
 none: None
 notes_title: Notes
 npc:
+  generator:
+    intro: "This generator creates disposable NPCs based on the Mass Effect archetypes. Your options are:"
+    option_scale: "Offensive or defensive: offensive NPCs deal more damage per round but have less AC, shields and hit points; defensive ones the opposite."
+    option_focus: "Damage priority: when choosing attacks, the generator tries to make the chosen type (powers, weapons or grenades) the NPC's biggest source of damage."
+    option_grenades: "Grenades: whether the NPC uses grenades."
+    option_traits: "Species traits: whether the NPC gains its species' special traits."
+    traits_note: "The generator's species traits are its own and predate the current species rules. Turn them off if they would confuse your table."
+    show_details: "How it works"
+    hide_details: "Hide details"
+    options_title: "Options"
+    random: "Random"
+    scale: "Offensive or defensive"
+    more_defensive: "More defensive"
+    more_offensive: "More offensive"
+    focus: "Damage priority"
+    focuses:
+      powers: "Powers"
+      weapons: "Weapons"
+      grenades: "Grenades"
+    grenades: "Grenades"
+    traits: "Species traits"
+    generate: "Generate"
+    generated: "Generated NPC"
+    bookmarked: "Bookmarked NPC"
+    empty: "Choose your options, or leave them random, and generate an NPC."
+    bookmark_missing_title: "Bookmark not found"
+    bookmark_missing_text: "This NPC isn't in your bookmarks here. It may have been removed, or bookmarked on another account."
+    load_failed: "The generator couldn't load its data."
+    retry: "Retry"
   actions_title: Actions
   at_will: At Will
   attack_types:

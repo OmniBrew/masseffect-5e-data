@@ -1,7 +1,7 @@
 ---
 name: Elcor
-bodyImg: https://data.n7.world/images/species/elcor.png
-img: https://data.n7.world/images/species/elcor_card.jpg
+bodyImg: /content-images/species/elcor.png
+img: /content-images/species/elcor_card.jpg
 randomDimensions:
   height:
     base:

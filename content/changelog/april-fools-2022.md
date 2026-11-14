@@ -3,7 +3,7 @@ title: The Bestest Update Eva!!!
 layout: post
 description: I'm Commander Shepard, and this is my favorite update on the Citadel
 date: 2022-04-02
-image: https://data.n7.world/images/af-2022/cmf.jpg
+image: /content-images/af-2022/cmf.jpg
 ---
 # v100.N7.314
 
@@ -80,113 +80,113 @@ The NPC Generator has been reverted back to the Grunt Generator and now only gen
 #### Angara
 
 ::figure{max-width="300"}
-![Angara](https://data.n7.world/images/af-2022/angara.jpg)
+![Angara](/content-images/af-2022/angara.jpg)
 ::
 
 #### Asari
 
 ::figure{max-width="300"}
-![Asari](https://data.n7.world/images/af-2022/asari.jpg)
+![Asari](/content-images/af-2022/asari.jpg)
 ::
 
 #### Awakened Collector
 
 ::figure{max-width="300"}
-![Awakened Collector](https://data.n7.world/images/af-2022/awakened-collector.jpg)
+![Awakened Collector](/content-images/af-2022/awakened-collector.jpg)
 ::
 
 #### Batarian
 
 ::figure{max-width="300"}
-![Batarian](https://data.n7.world/images/af-2022/batarian.jpg)
+![Batarian](/content-images/af-2022/batarian.jpg)
 ::
 
 #### Drell
 
 ::figure{max-width="300"}
-![Drell](https://data.n7.world/images/af-2022/drell.jpg)
+![Drell](/content-images/af-2022/drell.jpg)
 ::
 
 #### Elcor
 
 ::figure{max-width="300"}
-![Elcor](https://data.n7.world/images/af-2022/elcor.jpg)
+![Elcor](/content-images/af-2022/elcor.jpg)
 ::
 
 #### Geth
 
 ::figure{max-width="300"}
-![Geth](https://data.n7.world/images/af-2022/geth.jpg)
+![Geth](/content-images/af-2022/geth.jpg)
 ::
 
 #### Hanar
 
 ::figure{max-width="300"}
-![hanar](https://data.n7.world/images/af-2022/hanar.jpg)
+![hanar](/content-images/af-2022/hanar.jpg)
 ::
 
 #### Human
 
 ::figure{max-width="300"}
-![human](https://data.n7.world/images/af-2022/human.jpg)
+![human](/content-images/af-2022/human.jpg)
 ::
 
 #### Kett
 
 ::figure{max-width="300"}
-![Kett](https://data.n7.world/images/af-2022/kett.jpg)
+![Kett](/content-images/af-2022/kett.jpg)
 ::
 
 #### Krogan
 
 ::figure{max-width="300"}
-![Krogan](https://data.n7.world/images/af-2022/krogan.jpg)
+![Krogan](/content-images/af-2022/krogan.jpg)
 ::
 
 #### Prothean
 
 ::figure{max-width="300"}
-![Prothean](https://data.n7.world/images/af-2022/prothean.jpg)
+![Prothean](/content-images/af-2022/prothean.jpg)
 ::
 
 #### Quarian
 
 ::figure{max-width="300"}
-![Quarian](https://data.n7.world/images/af-2022/quarian.jpg)
+![Quarian](/content-images/af-2022/quarian.jpg)
 ::
 
 #### Salarian
 
 ::figure{max-width="300"}
-![Salarian](https://data.n7.world/images/af-2022/salarian.jpg)
+![Salarian](/content-images/af-2022/salarian.jpg)
 ::
 
 #### Turian
 
 ::figure{max-width="300"}
-![Turian](https://data.n7.world/images/af-2022/turian.jpg)
+![Turian](/content-images/af-2022/turian.jpg)
 ::
 
 #### Unshackled AI
 
 ::figure{max-width="300"}
-![Unshackled AI](https://data.n7.world/images/af-2022/unshackled-ai.jpg)
+![Unshackled AI](/content-images/af-2022/unshackled-ai.jpg)
 ::
 
 #### Volus
 
 ::figure{max-width="300"}
-![Volus](https://data.n7.world/images/af-2022/volus.jpg)
+![Volus](/content-images/af-2022/volus.jpg)
 ::
 
 #### Vorcha
 
 ::figure{max-width="300"}
-![Vorcha](https://data.n7.world/images/af-2022/vorcha.jpg)
+![Vorcha](/content-images/af-2022/vorcha.jpg)
 ::
 
 #### Yahg
 
 ::figure{max-width="300"}
-![Yahg](https://data.n7.world/images/af-2022/yahg.jpg)
+![Yahg](/content-images/af-2022/yahg.jpg)
 ::

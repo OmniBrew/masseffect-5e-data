@@ -370,6 +370,51 @@ flavor: Generator designed to enhance the effectiveness of tech or biotic attack
 ```
 </details>
 
+<details><summary><b>loot-tables</b> and <b>loot-rewards</b>: the loot generator's tables</summary>
+
+`/generators/loot` rolls on these. A **loot table** is a d100 table (`a` to `h`); its rows
+must cover 1 to 100 exactly once (the validator checks). A row gives either a random item
+of a kind and rarity, or a number of one consumable (a gear id, or a grenade or other
+version id) with an optional `bonus` added to the roll.
+
+```md
+---
+name: Equipment Table A
+rows:
+  - min: 1
+    max: 15
+    consumable: omni-gel
+    count: 1d4
+  - min: 36
+    max: 50
+    item: gear
+    rarity: common
+---
+```
+
+A **loot reward** is one challenge-rating band: `individual` credits (one is picked at
+random), and the `hoard`: its credits, the extra credits list, and which tables it rolls on
+(by d100, `times` a number or dice).
+
+```md
+---
+name: 0-4
+order: 1
+individual: [10, 20, 30]
+hoard:
+  credits: 3000
+  additionalCredits: [0, 1000]
+  rolls:
+    - min: 1
+      max: 30
+    - min: 31
+      max: 100
+      table: a
+      times: 1d6
+---
+```
+</details>
+
 <details><summary><b>npc-stats</b>: NPC statistics by challenge rating</summary>
 
 ```md
