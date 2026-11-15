@@ -415,6 +415,32 @@ hoard:
 ```
 </details>
 
+<details><summary><b>npc-traits</b>: the NPC generator's species traits</summary>
+
+`/generators/npc` gives an NPC its species' traits from these, one file per species (the
+file name is the species id). Edit a trait's `name` and `text` freely; what the trait does
+(AC, skills, resistances) is in the generator. Every trait the generator uses must stay in
+its file (the validator says which). A trait you add is shown as it is: a feature, or an
+action with `kind: action`.
+
+In `text`, `{{ name }}` is the NPC ("the krogan soldier") and `{{ dc }}` its save DC. A few
+traits have one more: `{{ powercasting }}` (angara and asari innate powercasting),
+`{{ temporaryHitPoints }}` (krogan Blood Rage), `{{ extraDamage }}` (volus Fury of the Small).
+
+```md
+---
+traits:
+  - id: blood-rage
+    name: Blood Rage
+    text: When the {{ name }} reduces an enemy's hit points to 0, it may enter a blood rage, gaining {{ temporaryHitPoints }} at the start of each of its turns...
+  - id: tusks
+    name: Tusks
+    kind: action
+    text: The {{ name }} gores one creature within :distance{length="5"}.
+---
+```
+</details>
+
 <details><summary><b>npc-stats</b>: NPC statistics by challenge rating</summary>
 
 ```md
