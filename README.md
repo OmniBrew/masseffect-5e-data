@@ -370,6 +370,77 @@ flavor: Generator designed to enhance the effectiveness of tech or biotic attack
 ```
 </details>
 
+<details><summary><b>loot-tables</b> and <b>loot-rewards</b>: the loot generator's tables</summary>
+
+`/generators/loot` rolls on these. A **loot table** is a d100 table (`a` to `h`); its rows
+must cover 1 to 100 exactly once (the validator checks). A row gives either a random item
+of a kind and rarity, or a number of one consumable (a gear id, or a grenade or other
+version id) with an optional `bonus` added to the roll.
+
+```md
+---
+name: Equipment Table A
+rows:
+  - min: 1
+    max: 15
+    consumable: omni-gel
+    count: 1d4
+  - min: 36
+    max: 50
+    item: gear
+    rarity: common
+---
+```
+
+A **loot reward** is one challenge-rating band: `individual` credits (one is picked at
+random), and the `hoard`: its credits, the extra credits list, and which tables it rolls on
+(by d100, `times` a number or dice).
+
+```md
+---
+name: 0-4
+order: 1
+individual: [10, 20, 30]
+hoard:
+  credits: 3000
+  additionalCredits: [0, 1000]
+  rolls:
+    - min: 1
+      max: 30
+    - min: 31
+      max: 100
+      table: a
+      times: 1d6
+---
+```
+</details>
+
+<details><summary><b>npc-traits</b>: the NPC generator's species traits</summary>
+
+`/generators/npc` gives an NPC its species' traits from these, one file per species (the
+file name is the species id). Edit a trait's `name` and `text` freely; what the trait does
+(AC, skills, resistances) is in the generator. Every trait the generator uses must stay in
+its file (the validator says which). A trait you add is shown as it is: a feature, or an
+action with `kind: action`.
+
+In `text`, `{{ name }}` is the NPC ("the krogan soldier") and `{{ dc }}` its save DC. A few
+traits have one more: `{{ powercasting }}` (angara and asari innate powercasting),
+`{{ temporaryHitPoints }}` (krogan Blood Rage), `{{ extraDamage }}` (volus Fury of the Small).
+
+```md
+---
+traits:
+  - id: blood-rage
+    name: Blood Rage
+    text: When the {{ name }} reduces an enemy's hit points to 0, it may enter a blood rage, gaining {{ temporaryHitPoints }} at the start of each of its turns...
+  - id: tusks
+    name: Tusks
+    kind: action
+    text: The {{ name }} gores one creature within :distance{length="5"}.
+---
+```
+</details>
+
 <details><summary><b>npc-stats</b>: NPC statistics by challenge rating</summary>
 
 ```md

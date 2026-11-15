@@ -1,26 +1,26 @@
 current:
   - name: Noblesse Oblige
-    image: https://data.n7.world/images/classes/engineer.svg
+    image: /content-images/classes/engineer.svg
     roles:
       - discord
       - content
   - name: Bryce Gelinas
-    image: https://data.n7.world/images/misc/bryce.jpg
+    image: /content-images/misc/bryce.jpg
     roles:
       - developer
       - content
   - name: Spagheddy
-    image: https://data.n7.world/images/misc/spageddy.jpg
+    image: /content-images/misc/spageddy.jpg
     roles:
       - discord
       - content
   - name: Tech Knight
-    image: https://data.n7.world/images/misc/Tech_Knight.png
+    image: /content-images/misc/Tech_Knight.png
     roles:
       - discord
       - content
   - name: Helios
-    image: https://data.n7.world/images/misc/helios.png
+    image: /content-images/misc/helios.png
     roles:
       - discord
       - content
@@ -34,11 +34,11 @@ former:
     roles:
       - editor
   - name: Nerdsworth
-    image: https://data.n7.world/images/classes/sentinel.svg
+    image: /content-images/classes/sentinel.svg
     roles:
       - reddit
   - name: Chris "OodSigma13" Dickson
-    image: https://data.n7.world/images/classes/infiltrator.svg
+    image: /content-images/classes/infiltrator.svg
     roles: designer
   - name: RJ Haggerty, a.k.a. SleightxHope
     image: https://avatars3.githubusercontent.com/u/31451010?s=460&v=4
@@ -50,7 +50,7 @@ former:
     image: https://avatars3.githubusercontent.com/u/37369223?s=460&v=4
     roles: content
   - name: Dakota P.
-    image: https://data.n7.world/images/misc/dakota_p.png
+    image: /content-images/misc/dakota_p.png
     roles: content
   - name: RexThePig
     image: https://avatars2.githubusercontent.com/u/33875334?s=88&v=4
