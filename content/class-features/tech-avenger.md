@@ -21,8 +21,8 @@ mechanics:
             - type: powers
               value: bec-field
               provider:
-                model: subclasses
-                id: engi-knight
+                model: class-features
+                id: tech-avenger
         - id: tech-strike-focus-cold
           name: Frostbite Strike
           whenOn:
@@ -32,7 +32,7 @@ mechanics:
                 model: class-features
                 id: tech-avenger
               merge:
-                primed: cold
+                primes: cold
                 notes:
                   - Immune to detonations on this primer
         - id: tech-strike-focus-fire
@@ -47,7 +47,7 @@ mechanics:
                 damage:
                   - {}
                   - type: fire
-                primed: fire
+                primes: fire
                 notes:
                   - Immune to detonations on this primer
         - id: tech-strike-focus-lightning
@@ -56,13 +56,13 @@ mechanics:
             - type: powers
               value: bec-field
               provider:
-                model: subclasses
-                id: engi-knight
+                model: class-features
+                id: tech-avenger
               merge:
                 damage:
                   - {}
                   - type: lightning
-                primed: lightning
+                primes: lightning
                 notes:
                   - Immune to detonations on this primer
 ---

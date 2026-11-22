@@ -19,6 +19,7 @@ mechanics:
   - type: me:weapon-augment
     damageType: fire
     primes: fire
+    primesLength: until the end of its next turn
     primeLength: until the end of its next turn
     addDamage:
       - dieCount: 1

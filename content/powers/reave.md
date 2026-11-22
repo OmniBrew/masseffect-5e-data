@@ -28,6 +28,7 @@ casting:
       short: 150
     detonates: false
     primes: necrotic
+    primesLength: until the end of your next turn
   - damage:
       - dieCount: 4
   - damage:

@@ -98,7 +98,7 @@ mechanics:
   - type: use-class-for-power-list
     klass: vanguard
 ---
-Beggining at 1st level, you gain a small power list. Your powers use your Constitution modifier as your
+Beginning at 1st level, you gain a small power list. Your powers use your Constitution modifier as your
 powercasting modifier, and you regain all power slots used on a long rest. You can choose from the
 cantrips available to the Adept, and from the powers available to the Vanguard
 

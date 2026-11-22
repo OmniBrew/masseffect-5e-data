@@ -8,6 +8,7 @@ mechanics:
     name: Gunslinger's Ballad
     shortDesc: When you use a Bonus Action to attack with an off hand weapon, you can make an additional attack with that same off hand weapon.
     resource:
+      reset: short
       max:
         type: proficiency
   - type: augment

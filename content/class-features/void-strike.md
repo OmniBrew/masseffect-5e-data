@@ -15,4 +15,4 @@ mechanics:
           - model: class-features
             id: void-strike
 ---
-At 10th level, you treat any 1's you roll on the damage roll of a Biotic Punch as 2's. Your Biotic Punch now has a Range of 4 meters.
+At 10th level, you treat any 1's you roll on the damage roll of a Biotic Punch as 2's. Your Biotic Punch now has a Range of :distance{length="10"}.

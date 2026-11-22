@@ -35,6 +35,7 @@ casting:
       short: 5
     detonates: false
     primes: lightning
+    primesLength: until the end of your next turn
     notes:
       - "Hit: CON save (DC {{ dc }}) or stunned"
   - damage:

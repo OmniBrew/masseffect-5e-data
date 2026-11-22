@@ -1648,6 +1648,27 @@ sheet:
       powers: Powers
       species: Species
       edges: Edges
+      apex_augments: Apex Augments
+      armiger_fuel: Armiger Fuel
+      augment_boosts: Augment Boosts
+      bastion_tactics: Bastion Tactics
+      commands: Commands
+      exalted_lineages: Exalted Lineages
+      fighting_styles: Fighting Styles
+      integrated_weaponry_damage: Integrated Weaponry Damage
+      main_augments: Main Augments
+      maneuvers: Maneuvers
+      metabiotics: Metabiotics
+      premium_genetics: Premium Genetics
+      primal_augments: Primal Augments
+      primers: Primers
+      sneak_toxin: Sneak Toxins
+      subgrounds: Subgrounds
+      supercharged_augments: Supercharged Augments
+      tracker_affinity: Tracker Affinities
+      tracker_affinity_advancement: Affinity Advancements
+      training_regimens: Training Regimens
+      weapon_of_choice: Weapons of Choice
   details:
     milestone: Milestone
     empty: No details yet.
@@ -1743,6 +1764,10 @@ sheet:
     override: Override
     expertise: Expertise
     feet: Speeds and senses are in feet.
+    reset: Reset overrides
+    reset_title: Reset every override?
+    reset_text: Clears everything on this tab (typed HP and AC, bonuses, ability score bonuses and overrides, extra proficiencies, defenses, speeds and senses). Preferences and custom features stay.
+    reset_confirm: Reset
     defense:
       resistance: Resistances
       immunity: Immunities

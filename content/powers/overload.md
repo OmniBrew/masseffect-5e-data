@@ -31,6 +31,7 @@ casting:
       short: 120
     detonates: false
     primes: lightning
+    primesLength: until the start of your next turn
   - damage:
       - dieCount: 5
   - damage:

@@ -22,5 +22,5 @@ mechanics:
               sense: infrared-vision
               distance: 60
 ---
-Your optic sensors have two additional optic modes: darkvision 24m (60ft) and infrared vision 24m (60ft). You can
+Your optic sensors have two additional optic modes: darkvision :distance{length="60"} (60ft) and infrared vision :distance{length="60"} (60ft). You can
 toggle these modes on or off (or between the two) as a bonus action.

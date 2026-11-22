@@ -1,19 +1,19 @@
 ---
-name: Payer
+name: Prayer
 level: 3
 klass: infiltrator
 subclass: devotee-of-the-old-ways
 mechanics:
   - type: bonus-action
-    name: Payer (Kalahira)
+    name: Prayer (Kalahira)
     range:
       short: 4
     shortDesc: Stabilize a dying creature within :distance{length="10"}.
   - type: bonus-action
-    name: Payer (Arashu)
+    name: Prayer (Arashu)
     shortDesc: Choose one ally. Until the end of their next turn, the first attack roll each turn against them has disadvantage.
   - type: bonus-action
-    name: Payer (Amonkira)
+    name: Prayer (Amonkira)
     shortDesc: When you score a critical hit during the turn you spoke this prayer, you add your level to the damage of any critical hits you make.
 ---
 At 3rd level, you can use your cunning action to whisper a short prayer to a god of your choosing. Chose one of the following effects:

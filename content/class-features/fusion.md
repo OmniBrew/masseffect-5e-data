@@ -9,7 +9,7 @@ mechanics:
     resource:
       reset: long
 ---
-At 14th level, you can chose to become :condition{id="primed" sub="radiant"} in exchange for doubling the damage of your
+At 14th level, you can choose to become :condition{id="primed" sub="radiant"} in exchange for doubling the damage of your
 Radiant powers until you are detonated.
 
 Once you use this feature, you can't use it again until you finish a long rest.

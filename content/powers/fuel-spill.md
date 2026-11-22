@@ -88,4 +88,4 @@ an ally uses an action to douse themselves.
 When the power ends (which you can do at any time, regardless of whose turn it is) the canister returns to you.
 You only have 1 canister, and can thus only have 1 active fuel spill at a time.
 
-Higher Level Casting: When casting this power at a higher level, increase the area of the pool by 2m, and both ticks of damage dealt by 2d6.
+Higher Level Casting: When casting this power at a higher level, increase the area of the pool by :distance{length="5"}, and both ticks of damage dealt by 2d6.

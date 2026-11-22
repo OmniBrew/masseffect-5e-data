@@ -88,4 +88,4 @@ attack rolls until the power ends. A creature affected by the swarm can use its 
 against your power save DC. On a success, it breaks free of the swarm.
 
 __At Higher Levels__: When you cast this power using a power slot of 2nd level or higher, the damage increases by 1d8
-and the range the swarms can spread increases by 2m for each slot level above 1st.
+and the range the swarms can spread increases by :distance{length="5"} for each slot level above 1st.

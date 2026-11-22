@@ -12,5 +12,5 @@ mechanics:
       id: muscular-boost
 ---
 At 6th level, the implants along your body supplement your physical strength. When you make an attack that uses
-Strength, you instead can chose to use your Intelligence for both the attack and damage roll. If you do so for a
+Strength, you instead can choose to use your Intelligence for both the attack and damage roll. If you do so for a
 melee attack, you can add half of your proficiency bonus and half of your intelligence bonus again to the damage roll.

@@ -11,5 +11,5 @@ mechanics:
       model: class-features
       id: phase-through-matter
 ---
-At 2nd level, your powers are tuned to bypass shields. When you cast a power or a cantrip, you can chose to
+At 2nd level, your powers are tuned to bypass shields. When you cast a power or a cantrip, you can choose to
 lower it's damage die by one size. If you do so, the damage of the power ignores shields and barrier.

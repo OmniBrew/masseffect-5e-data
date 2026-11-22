@@ -82,7 +82,7 @@ mechanics:
                   model: class-features
                   id: tech-cannon
 ---
-At 3rd level, you can choose to create a Tech Cannon instead of Tech Armor. When you chose to do so, you don't gain the
+At 3rd level, you can choose to create a Tech Cannon instead of Tech Armor. When you choose to do so, you don't gain the
 Temporary Hit Points your armor would give you. Instead, your power slots are treated as one level higher when you
 cast them for the duration of Tech Armor. When you cast a Cantrip while Tech Canon is active,
 you roll one more damage die of equal size and add that to the damage.

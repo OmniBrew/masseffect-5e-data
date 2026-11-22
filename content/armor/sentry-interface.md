@@ -13,7 +13,7 @@ rarity: uncommon
 flavor: This visor works with the Sentry system, a software application that optimizes an armor suit's microframe computer. When the Sentry system is running, more power can be devoted to shield management.
 mechanics:
   - type: reaction
-    name: Capacitor Helmet
+    name: Sentry Interface
     resource:
       reset: short
     shortDesc: When you take damage, gain {{ shieldRegen }} shield points.

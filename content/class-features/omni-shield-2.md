@@ -109,7 +109,7 @@ mechanics:
                       type: powercastingMod
                       value: sentinel
                 notes:
-                  - "Hit: DC {{ dc }} STR save or frozen."
+                  - "Hit: detonates; DC {{ dc }} STR save or frozen."
                 moreInfo:
                   model: class-features
                   id: omni-shield-1
@@ -129,4 +129,4 @@ __Cryo Shield__.
 * +1 AC.
 * If a creature within :distance{length="5"} of you is attacked, you may use your reaction to impose disadvantage on that attack.
 * You can make a melee weapon attack with your cryo shield. You are proficient with this attack and add your powercasting modifier to the attack and damage rolls.
-On a hit, it deals 2d8 cold damage and detonates primed targets and the target must succeed on a Strength saving throw against your powercasting DC or become :condition{id="frozen"} until the end its next turn.
+On a hit, it deals 2d8 cold damage and detonates primed targets and the target must succeed on a Strength saving throw against your powercasting DC or become :condition{id="frozen"} until the end of its next turn.

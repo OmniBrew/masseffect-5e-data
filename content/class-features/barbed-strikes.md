@@ -15,11 +15,11 @@ mechanics:
           max:
             type: proficiency
   - type: bonus-action
-    value: Barbed Strikes
+    name: Barbed Strikes
     shortDesc: When you hit two attacks against the same target during a round, you deal damage equal to Blade Armor's dice roll to the target, without adding modifiers (such as your Strength or Brawler damage).
 ---
 At 10th level, you can use Blade Armor a number of times equal to your proficiency modifier between short rests.
 
-Additionally, when you hit two attacks against the same target during a round, you can chose to
+Additionally, when you hit two attacks against the same target during a round, you can choose to
 violently rip the target using a bonus action. When you do so, you deal damage equal to
 Blade Armor's dice roll to the target, without adding modifiers (such as your Strength or Brawler damage).

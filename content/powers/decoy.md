@@ -24,7 +24,7 @@ casting:
 advancements:
   - id: explosive
     name: Explosive
-    text: As an action, you can detonate your Decoy. Each creature within 4m of the decoy must make a Dexterity saving throw. On a failed save, a creature takes 3d6 thunder damage or half as much on a successful one.
+    text: As an action, you can detonate your Decoy. Each creature within :distance{length="10"} of the decoy must make a Dexterity saving throw. On a failed save, a creature takes 3d6 thunder damage or half as much on a successful one.
     casting:
       - dc:
           save: dex

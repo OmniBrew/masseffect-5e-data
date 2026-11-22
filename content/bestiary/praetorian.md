@@ -70,7 +70,7 @@ entries:
       text: The praetorian has 10 barrier ticks. When it is dealt damage, remove one barrier tick and reduce the damage by 1d8.
       id: barrier
     - name: Possessed Praetorian
-      text: When the praetorian is possessed by a harbinger it gains 10 barrier ticks and while it has barrier ticks it also gains resistance to bludgeoning, piercing, and slashing damage. It can use its action to launch 2 missiles at a single or different target creatures within 60m. Each target must make a DC 18 Dexterity saving throw. On a failed save a target takes 33 (6d10) thunder damage, or half as much on a successful one. Once the praetorian fires its missiles, it cannot do so again.
+      text: When the praetorian is possessed by a harbinger it gains 10 barrier ticks and while it has barrier ticks it also gains resistance to bludgeoning, piercing, and slashing damage. It can use its action to launch 2 missiles at a single or different target creatures within :distance{length="150"}. Each target must make a DC 18 Dexterity saving throw. On a failed save a target takes 33 (6d10) thunder damage, or half as much on a successful one. Once the praetorian fires its missiles, it cannot do so again.
       id: possessed-praetorian
   reactions:
     - name: Negation Barrier
