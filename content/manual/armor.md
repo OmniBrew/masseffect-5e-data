@@ -70,10 +70,10 @@ use the Armor Piece Weights table to determine the total weight of the armor you
 
 |Placement/Type|Light|Medium|Heavy|
 |:---|:---:|:---:|:---:|
-|Chest|3kg|6kg|10kg|
-|Arms|1kg|2kg|3kg|
-|Legs|1kg|2kg|3kg|
-|Head|All headwear weighs 2kg|||
+|Chest|:weight{amount="7" abbr}|:weight{amount="13" abbr}|:weight{amount="22" abbr}|
+|Arms|:weight{amount="2" abbr}|:weight{amount="4" abbr}|:weight{amount="7" abbr}|
+|Legs|:weight{amount="2" abbr}|:weight{amount="4" abbr}|:weight{amount="7" abbr}|
+|Head|All headwear weighs :weight{amount="4" abbr}|||
 
 ### Set Bonuses
 Some armor can provide a set bonus, which are additional benefits you receive from wearing multiple pieces from the same set, signifying the armors

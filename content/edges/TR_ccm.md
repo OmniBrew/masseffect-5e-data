@@ -17,9 +17,9 @@ Your beast can use the C.C.M. three times, after which it must take a long rest 
 
 Damage type|Area/Range|Damage and Secondary effects|Save type
 ---|---|---|---|---
-Fire|6m Cone|3d6 Fire, and Primed Fire|Dex
-Cold|4m Cone|2d6 cold, movement speed slowed by 4m and Primed cold|Con
-Lightning|6m Cone|3d4 lightning, primed lightning|Dex
-Thunder|6m radius around beast|3d8 thunder, deafened and pushed back 4m, heard up to 120 meters away|Con
-Radiant|4m Cone|2d10 radiant, blinded, creatures that are immune to being blinded do not take damage|Con
-Acid|3 points within 6m of beast, 2m radius each|2d4 acid damage, and on failed save, AC reduced by 1 if wearing armor|Dex
+Fire|:distance{length="15"} Cone|3d6 Fire, and Primed Fire|Dex
+Cold|:distance{length="10"} Cone|2d6 cold, movement speed slowed by :distance{length="10"} and Primed cold|Con
+Lightning|:distance{length="15"} Cone|3d4 lightning, primed lightning|Dex
+Thunder|:distance{length="15"} radius around beast|3d8 thunder, deafened and pushed back :distance{length="10"}, heard up to :distance{length="300"} away|Con
+Radiant|:distance{length="10"} Cone|2d10 radiant, blinded, creatures that are immune to being blinded do not take damage|Con
+Acid|3 points within :distance{length="15"} of beast, :distance{length="5"} radius each|2d4 acid damage, and on failed save, AC reduced by 1 if wearing armor|Dex

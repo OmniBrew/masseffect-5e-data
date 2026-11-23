@@ -6,7 +6,7 @@ subclass: armiger
 mechanics:
   - type: other
     name: Afterburner
-    shortDesc: Spend 1 Fuel double your speed until the end of your round.
+    shortDesc: Spend 1 Fuel to double your speed until the end of your round.
     resource:
       reset: short
       id: armiger-fuel

@@ -11,5 +11,5 @@ mechanics:
       model: class-features
       id: death-blossom
 ---
-At 18th level, when you use the Attack Action, you can also chose to spend your bonus action to make an extra
+At 18th level, when you use the Attack Action, you can also choose to spend your bonus action to make an extra
 attack per attack you would normally make. These extra attacks must come from your off hand weapon.

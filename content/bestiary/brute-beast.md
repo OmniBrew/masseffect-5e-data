@@ -34,7 +34,7 @@ entries:
       name: Gore
   features:
     - name: Charge
-      text: If this creature moves at least 8m before making an attack with its Gore, it deals an additional 2d6 damage.
+      text: If this creature moves at least :distance{length="20"} before making an attack with its Gore, it deals an additional 2d6 damage.
       id: charge
     - name: Powerful Build
       text: The Brute counts as 1 size larger when determining push, lift and carryweight.

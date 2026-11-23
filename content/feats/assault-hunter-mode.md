@@ -34,7 +34,7 @@ Geth were designed as lethal weapons and can activate subroutines to enhance the
 
 As an action, you can activate Assault Hunter Mode, gaining the following benefits for 1 minute:
 
-- Your movement speed increases by 2 meters.
+- Your movement speed increases by :distance{length="5"}.
 - Whenever you make a weapon attack, gain a +1 bonus to the roll.
 - You can attack one additional time whenever you take the Attack action on your turn.
 

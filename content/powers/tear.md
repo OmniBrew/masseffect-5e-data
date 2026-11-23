@@ -38,7 +38,7 @@ advancements:
     casting: []
   - id: anti-synthetic
     name: Anti-Synthetic
-    text: Non-organic creatures or objects take an extra 40 force damage. This power disintegrates up to a 6m cube of synthetic materials.
+    text: Non-organic creatures or objects take an extra 40 force damage. This power disintegrates up to a :distance{length="15"} cube of synthetic materials.
     casting: []
 ---
 A concentrated ray of warp energy erupts from your outstretched hand toward a target that you can see within range.

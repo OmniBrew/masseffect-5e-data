@@ -7,7 +7,7 @@ mechanics:
     ifExists:
       bonus:
         type: flat
-        value: 4
+        value: 10
     else:
       bonus:
         type: speed

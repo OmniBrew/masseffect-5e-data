@@ -5,7 +5,7 @@ klass: infiltrator
 subclass: devotee-of-the-old-ways
 mechanics:
   - type: other
-    name: Ture Devotion
+    name: True Devotion
     shortDesc: "During a long rest, attune to either Kalahira, Arashu, or Amonkira. You cannot attune to a single god twice in a row: you need to change the god you are attuned to during your long rests."
     toggle:
       id: devotee-true-devotion

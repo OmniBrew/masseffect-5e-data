@@ -27,6 +27,8 @@ mechanics:
         type: bludgeoning
     notes:
       - On a hit, target has disadvantage on the grenade's saving throw.
+  - type: me:grenade-capacity
+    value: 2
 note: Additional grenades. Can throw grenades as an action for additional benefits.
 prerequisite: Dexterity or Strength 12 or higher
 ---

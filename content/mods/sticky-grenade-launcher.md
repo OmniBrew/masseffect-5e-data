@@ -22,9 +22,10 @@ mechanics:
         type: thunder
         addTo: all
     notes:
+      - "Hit: the target is knocked :condition{id=\"prone\"}"
       - type: tooltip
         text: "Miss: explosion"
-        tooltipText: On a miss, the grenade lands 4 meters beyond the target. At the end of your turn, each creature within 2 meters of the grenade must succeed on a DC 10 Dexterity saving throw or take 3d6 thunder damage.
+        tooltipText: On a miss, the grenade lands :distance{length="10"} beyond the target. At the end of your turn, each creature within :distance{length="5"} of the grenade must succeed on a DC 10 Dexterity saving throw or take 3d6 thunder damage.
   - type: adjust-weapon-props
     remove:
       - burst-fire

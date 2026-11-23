@@ -34,6 +34,7 @@ casting:
         size: 20
     detonates: false
     primes: fire
+    primesLength: until the start of your next turn
   - damage:
       - dieCount: 8
   - damage:

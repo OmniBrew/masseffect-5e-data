@@ -11,7 +11,7 @@ mechanics:
     name: Tank Through
     shortDesc: Halve an attack's damage aimed against you.
 ---
-At 15th level, your nanomachines can resist wounds that would kill off most normal people. You can chose to use your
+At 15th level, your nanomachines can resist wounds that would kill off most normal people. You can choose to use your
 reaction to halve an attack's damage aimed against you.
 
 Your Nanite Armor's AC is now 15+Con Modifier

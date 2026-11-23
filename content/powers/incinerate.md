@@ -31,6 +31,7 @@ casting:
     range:
       short: 120
     primes: fire
+    primesLength: until the end of your next turn
     detonates: true
   - damage:
       - dieCount: 4

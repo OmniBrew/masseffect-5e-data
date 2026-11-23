@@ -4,7 +4,7 @@ level: 1
 klass: engineer
 mechanics:
   - type: action
-    shortDesc: Spent 1 tech point to summon an assault, combat, defense, disruption, recon, or rocket drone. It gains additional hit points equal to twice your engineer level and you add your proficiency bonus to its rolls.
+    shortDesc: Spend 1 tech point to summon an assault, combat, defense, disruption, recon, or rocket drone. It gains additional hit points equal to twice your engineer level and you add your proficiency bonus to its rolls.
   - type: companion
 ---
 As an Action, spend 1 tech point to summon one of the following drones: assault, combat, defense, disruption, recon, or rocket.

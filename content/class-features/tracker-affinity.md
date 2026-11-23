@@ -24,9 +24,9 @@ Landscape|Bonus
 Arctic|You have advantage on Constitution saving throws against effects of extreme cold.
 Badlands|You can go twice as long without food, and only need half as much time for a long rest.
 Jungle|Capable at hiding in the lush flora of the jungle, you are able to take the hide action even if only Lightly Obscured by foliage.
-Mountains|You gain a climbing speed equal to half your walking speed, rounded down. If you already have a climbing speed, increase it by 2m.
+Mountains|You gain a climbing speed equal to half your walking speed, rounded down. If you already have a climbing speed, increase it by :distance{length="5"}.
 Low Gravity|While in Low-Gravity, it is not considered difficult terrain for you.
-Plains|Your walking speed increases by 4m.
-Swamps|You gain a swimming speed equal to your walking speed. If you already have a swimming speed, your swim speed increases by 4m.
+Plains|Your walking speed increases by :distance{length="10"}.
+Swamps|You gain a swimming speed equal to your walking speed. If you already have a swimming speed, your swim speed increases by :distance{length="10"}.
 Urban|Used to moving through personal space, moving through allies is not difficult terrain, and do not give cover to enemies.
 Volcanic|You have advantage on Constitution saving throws against effects of extreme heat.

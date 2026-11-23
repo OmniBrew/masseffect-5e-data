@@ -44,7 +44,7 @@ mechanics:
         value: 2
       id: tech-armor
 ---
-At 3rd level, when you use Tech Armor, you can instead chose to activate an omni-barricade for you and your teammates.
+At 3rd level, when you use Tech Armor, you can instead choose to activate an omni-barricade for you and your teammates.
 When you do so, you don't gain the normal benefits of Tech Armor, but any allies adjacent to you gain the benefits of
 half cover. The bonus remains for as long as your Tech Barrier would have held up.
 

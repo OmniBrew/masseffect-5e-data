@@ -15,7 +15,7 @@ availability:
 flavor: Fire projectiles that vibrate rapidly, allowing them to bypass kinetic barriers.
 mechanics:
   - type: me:weapon-augment
-    hitBonus: -2
+    damageBonus: -2
     notes:
       - type: text
         text: bypasses shields

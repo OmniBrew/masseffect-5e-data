@@ -16,10 +16,10 @@ mechanics:
   - type: speed-note
     note: Your long jump and high jump distance is tripled
   - type: other
-    name: Nanite Apothesis (regen)
+    name: Nanite Apotheosis (regen)
     shortDesc: Whenever you are conscious and below half your hit point maximum, regain {{ 5 + conMod }} hit points per turn until you are at or above half of your hit points.
   - type: other
-    name: Nanite Apothesis (unarmed strikes)
+    name: Nanite Apotheosis (unarmed strikes)
     shortDesc: Your unarmed strikes deal an extra 1d8 fire, lightning, or force damage. You can change the damage type when you take a long rest.
     toggle:
       id: nanite-apotheosis
@@ -66,7 +66,7 @@ mechanics:
                     - {}
                     - model: class-features
                       id: nanite-apotheosis
-        - id: nanite-apotheosis-fire
+        - id: nanite-apotheosis-force
           name: Force
           whenOn:
             - type: augment
@@ -88,11 +88,11 @@ mechanics:
                     - model: class-features
                       id: nanite-apotheosis
 ---
-At 18th level, your nanoamchines are so adapted to you you couldn't fathom living without them. In turn, they make you
+At 18th level, your nanomachines are so adapted to you that you couldn't fathom living without them. In turn, they make you
 more than superhuman in combat.
 
 - Whenever you're conscious and below half your hit point maximum, regain 5 + Con hit points per turn until you are at or above half of your hit points.
-- Your speed increases by 6 meters
+- Your speed increases by :distance{length="15"}
 - Your long jump and high jump distance triples
 - Your unarmed attacks deal 1d8 extra damage. This extra damage is either Fire, Lightning or Force damage, and you can change it when you take a long rest.
 - Your Nanite Armor's AC is now 16+ Con modifier.

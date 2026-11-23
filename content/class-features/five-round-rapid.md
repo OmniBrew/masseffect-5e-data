@@ -11,7 +11,7 @@ mechanics:
       model: class-features
       id: five-round-rapid
 ---
-At 17th level, when you take the Attack action with a Heavy Pistol, you can chose to fire your pistol a number of times
+At 17th level, when you take the Attack action with a Heavy Pistol, you can choose to fire your pistol a number of times
 equal to your proficiency modifier. These shots can be aimed at one person or at several, and Sneak Attack can be
 applied once to each person you aim at if they fulfill the conditions for Sneak Attack.
 

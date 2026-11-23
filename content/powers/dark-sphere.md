@@ -28,6 +28,7 @@ casting:
         size: 10
     detonates: true
     primes: necrotic
+    primesLength: until the end of its next turn
   - damage:
       - dieCount: 8
   - damage:

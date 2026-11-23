@@ -19,6 +19,6 @@ prereq:
 ---
 You’ve strengthened your wings to allow you to maneuver more deftly and hover for short periods.
 
-- Your flying speed becomes 16 meters.
+- Your flying speed becomes :distance{length="40"}.
 - At the end of your turn, if you are in the air, you can hover until the start of your next turn.
 You can hover a number of times between short rests equal to your proficiency bonus.

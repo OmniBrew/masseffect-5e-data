@@ -32,4 +32,4 @@ mechanics:
 - +6 grenade capacity.
 - +8 Thermal clip capacity.
 - +4 medi-gel capacity.
-- You have 2 additional weapon slots (or increase your carry capacity by 20kg).
+- You have 2 additional weapon slots (or increase your carry capacity by :weight{amount="44"}).

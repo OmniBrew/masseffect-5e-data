@@ -16,15 +16,16 @@ mechanics:
       - dieCount: 1
         dieType:
           type: progressive
+          limit: experiment
           value:
             1: 4
             5: 6
             9: 8
             13: 10
             17: 12
-          bonus:
-            type: level
-            value: experiment
+        bonus:
+          type: level
+          value: experiment
         label: Exploit Die
     shortDesc: When you are hit by a projectile weapon reduce the damage taken from the weapon by one roll of your Exploit die + your Experiment level. If you reduce the damage of the attack to 0, you slingshot the projectile back at the attacker. Roll the attack with the same bonuses that your attacker used on the attack roll against you.
 ---

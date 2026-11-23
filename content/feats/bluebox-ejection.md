@@ -12,7 +12,7 @@ You have taken the necessary precautions to protect your blue box, should your h
 Gain the following (if you have selected the Hologram hardware, your Emitter gains the following instead):
 
 - Your blue box is a Tiny object that weighs a few kgs (~5lbs). It is equipped with some basic optic 
-input, aural output devices, and a walking speed of 6 meters.
+input, aural output devices, and a walking speed of :distance{length="15"}.
 - Instead of making a death saving throw you may eject your blue box from your hardware. While 
 ejected you can see and speak, but can take no other action except the Help, Hide, or Dash action.
 Whenever you would suffer damage you take 1 death saving throw failure instead. If you suffer three

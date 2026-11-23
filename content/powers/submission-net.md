@@ -33,7 +33,7 @@ casting:
         size: 10
     detonates: false
     notes:
-      - 1d6 lightning dmg on failed STR save to escape
+      - "Escape: STR (Athletics) check against your power save DC; 1d6 lightning damage on each attempt"
   - range:
       aoe:
         size: 15

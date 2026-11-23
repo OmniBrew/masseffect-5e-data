@@ -37,7 +37,7 @@ casting:
 advancements:
   - id: concussive-arrow
     name: Concussive Arrow
-    text: You may chose to deal bludgeoning damage instead of piercing damage with your Bowshot. Targets hit by more than one arrow have to make a Constitution save or be stunned until the end of their next round.
+    text: You may choose to deal bludgeoning damage instead of piercing damage with your Bowshot. Targets hit by more than one arrow have to make a Constitution save or be stunned until the end of their next round.
     casting:
       - notes:
           - {}
@@ -47,7 +47,7 @@ advancements:
     text: Your Bowshot power now has a range of :distance{length="200"}. Targets hit by more than one arrow lose 1 point of AC until the end of their next turn.
     casting:
       - range:
-          short: 250
+          short: 200
         notes:
           - {}
           - 2+ hits to single target = -1 AC

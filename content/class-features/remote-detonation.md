@@ -11,7 +11,7 @@ mechanics:
       model: class-features
       id: remote-detonation
   - type: bonus-action
-    shortDesc: Detonate a grenade, mine, or explosive object that is not being worn or carried within the short ranged of the weapon you a wielding. The explosion radius is increased by :distance{length="5"}. If you are currently hidden this turn, you will remain hidden with your current Stealth result without needing to roll a new Stealth check.
+    shortDesc: Detonate a grenade, mine, or explosive object that is not being worn or carried within the short range of the weapon you are wielding. The explosion radius is increased by :distance{length="5"}. If you are currently hidden this turn, you will remain hidden with your current Stealth result without needing to roll a new Stealth check.
 ---
 You've also gotten the knack for triggering traps with more control on when they go off and how.
 

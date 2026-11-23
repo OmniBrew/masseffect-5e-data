@@ -19,7 +19,7 @@ __Improved Brawler__: Any enemy you hit with a melee attack has their speed halv
 
 __Improved Carnage__: When you reroll a die that landed on a 1 or a 2, you an roll twice and pick the highest result.
 
-__Improved Close Quarters Shooter__: When making a ranged attack while you are within 2m of a hostile creature, you now gain advantage on the attack roll against it. Your ranged attacks now igore full cover against targets within 10m of you.
+__Improved Close Quarters Shooter__: When making a ranged attack while you are within :distance{length="5"} of a hostile creature, you now gain advantage on the attack roll against it. Your ranged attacks now igore full cover against targets within :distance{length="25"} of you.
 
 __Improved Defense__: You gain an additional +1 AC while wearing armor.
 

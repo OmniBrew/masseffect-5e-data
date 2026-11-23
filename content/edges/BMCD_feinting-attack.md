@@ -1,7 +1,7 @@
 ---
 name: Feinting Attack
 mechanics:
-  - type: other
+  - type: bonus-action
     resource:
       reset: short
       id: command-dice

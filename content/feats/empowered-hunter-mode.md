@@ -39,7 +39,7 @@ Geth were designed as lethal weapons and can activate subroutines to enhance the
 
 As an action, you can activate Empowered Hunter Mode, gaining the following benefits for 1 minute:
 
-- Your movement speed increases by 2 meters.
+- Your movement speed increases by :distance{length="5"}.
 - You gain a +1 bonus to power attack rolls and the DC of your powers increases by 1.
 - Increase the die type by 1 (max d12) for any damage rolls of powers you cast.
 If the die type is already d12, add +1 for each d12 rolled instead of increasing the die type.
