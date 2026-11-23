@@ -18,18 +18,7 @@ mechanics:
         - attack-augment
     merge:
       bonus:
-        value: 2
-  - type: augment
-    value:
-      model: experiment
-      id: reaper-scar
-      limit:
-        - global-note
-    merge:
-      moreInfo:
-        additional:
-          - model: class-features
-            id: aura-of-dominance
+        min: 2
 ---
 At 6th level, your indoctrination works its way into the minds of people around you. It's a pervasive paranoia that
 slowly takes over other's cognitive behaviour. While within :distance{length="25"} of you, creatures reduce their movement

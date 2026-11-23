@@ -15,21 +15,7 @@ mechanics:
         - attack-augment
     merge:
       bonus:
-        value: 5
-  - type: augment
-    value:
-      model: experiment
-      id: reaper-scar
-      limit:
-        - global-note
-    merge:
-      moreInfo:
-        additional:
-          - {}
-          - {}
-          - {}
-          - model: class-features
-            id: apex-augments
+        min: 5
 ---
 At 18th level, the true power of the Reaper's augmentations shows itself to you now. You now count as an Indoctrinated
 device for the purposes of Indoctrinating other people around you. In addition, your augments improve.

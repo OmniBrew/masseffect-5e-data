@@ -23,20 +23,7 @@ mechanics:
         - attack-augment
     merge:
       bonus:
-        value: 4
-  - type: augment
-    value:
-      model: experiment
-      id: reaper-scar
-      limit:
-        - global-note
-    merge:
-      moreInfo:
-        additional:
-          - {}
-          - {}
-          - model: class-features
-            id: feeblemind
+        min: 4
 ---
 At 14th level, when you cause Psychic damage to a target, the target must roll a Charisma saving throw with a
 DC of 8 or have their Intelligence, Wisdom and Charisma scores reduced by 1. This effect is cumulative,

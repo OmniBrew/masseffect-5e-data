@@ -4,12 +4,26 @@ level: 14
 klass: adept
 subclass: blackstar
 mechanics:
-  - type: global-note
-    subType: power
-    value: Biotic Control
-    moreInfo:
-      model: class-features
-      id: biotic-control
+  - type: power-augment
+    powers:
+      - lift
+    notes:
+      - "Biotic Control: both advancement options"
+  - type: power-augment
+    powers:
+      - pull
+    notes:
+      - "Biotic Control: two targets, an attack roll for each"
+  - type: power-augment
+    powers:
+      - singularity
+    notes:
+      - "Biotic Control: affects Large or smaller creatures and objects"
+  - type: power-augment
+    powers:
+      - stasis
+    notes:
+      - "Biotic Control: targets have disadvantage on the save"
 ---
 At 14th level, you've increased your mastery with biotic powers that control the battlefield. Gain the following
 benefits to the powers below:

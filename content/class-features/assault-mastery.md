@@ -27,12 +27,8 @@ mechanics:
               - {}
               - {}
               - {}
-              - type: global-note
-                value: Assault Mastery
-                subType: power
-                moreInfo:
-                  model: class-features
-                  id: assault-mastery
+              - type: power-augment
+                castLevelBonus: 1
 ---
 At 18th level, you are a walking siege engine. When you expend a power slot to cast a power while Tech Cannon active,
 it now counts as two levels higher than their actual level. In addition, once per short rest, you can cast two
