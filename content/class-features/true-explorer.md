@@ -37,12 +37,9 @@ mechanics:
           - combat
     append:
       klass: explorer
-  - type: global-note
-    subType: power
-    value: True Explorer
-    moreInfo:
-      model: class-features
-      id: true-explorer
+  - type: reaction
+    name: True Explorer
+    shortDesc: "When you detonate a primed target: prime it again with the same type."
 ---
 Your abilities have reached their peak, and the galaxy is ripe for your exploring. You double the number of cantrips
 you select every short rest with The Right Cantrip for the Job.

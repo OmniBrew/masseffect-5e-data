@@ -4,12 +4,14 @@ level: 3
 klass: tracker
 subclass: outrider
 mechanics:
-  - type: global-note
-    subType: action
-    value: Shock Cavalry
-    moreInfo:
-      model: class-features
-      id: shock-cavalry
+  - type: other
+    name: Shock Cavalry
+    dc:
+      base: 8
+      proficient: true
+      mod: wis
+      save: wis
+    shortDesc: 'You or your beast hit a creature after moving at least :distance{length="20"}, from within :distance{length="15"} of it: it makes a {{ dc }} Wisdom saving throw or is :condition{id="frightened"} for 1 minute (it retries at the end of each of its turns).'
 ---
 Disrupting the frontlines is your best tactic.
 

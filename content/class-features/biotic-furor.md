@@ -4,12 +4,11 @@ level: 6
 klass: experiment
 subclass: biotic
 mechanics:
-  - type: global-note
-    subType: action
-    value: Biotic Furor
-    moreInfo:
-      model: class-features
-      id: biotic-furor
+  - type: power-attack
+    powerTypes:
+      - biotic
+    levels:
+      - 0
 ---
 At 6th level, when you make an attack action on your turn, you can substitute one of the attacks
 you make with one biotic cantrip. If you do so, it's range is reduced by half, and you don't

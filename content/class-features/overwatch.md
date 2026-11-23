@@ -4,12 +4,6 @@ level: 13
 klass: infiltrator
 subclass: sniper
 mechanics:
-  - type: global-note
-    subType: action
-    value: Overwatch
-    moreInfo:
-      model: class-features
-      id: overwatch
   - type: reaction
     shortDesc: When one of your overwatch target moves from 1/2- or 3/4-cover, make a ranged weapon attack. The attack benefits from your Sneak Attack if you have not used sneak attack on the target this turn.
 ---

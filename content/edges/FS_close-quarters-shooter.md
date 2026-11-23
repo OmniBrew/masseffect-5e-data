@@ -1,13 +1,13 @@
 ---
 name: Close-Quarters Shooter
 mechanics:
-  - type: global-note
-    subType: action
-    attack: ranged
-    value: Close-Quarters Shooter
-    moreInfo:
-      model: edges
-      id: FS_close-quarters-shooter
+  - type: attack-augment
+    attackLimit:
+      type: ranged
+    augmentTypes:
+      - notes
+    notes:
+      - No disadvantage within :distance{length="5"} of a hostile creature; ignore half cover within :distance{length="30"}
 type: fighting-styles
 ---
 When making a ranged attack while you are within :distance{length="5"} of a hostile creature, you do not have

@@ -4,12 +4,15 @@ level: 2
 klass: adept
 subclass: disruptor
 mechanics:
-  - type: global-note
-    subType: action
-    value: Dark Biotics
-    moreInfo:
-      model: class-features
-      id: dark-biotics
+  - type: attack-augment
+    attackLimit:
+      model: power
+      modelTypes:
+        - biotic
+    augmentTypes:
+      - dc
+    bonus:
+      type: proficiency
 ---
 By 2nd level, creatures can rarely get the upper-hand to escape your biotic powers. Whenever a creature makes a saving
 throw against a biotic power you cast, it suffers a penalty to its saving throw equal to your proficiency bonus.

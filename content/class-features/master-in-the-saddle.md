@@ -4,12 +4,12 @@ level: 7
 klass: tracker
 subclass: outrider
 mechanics:
-  - type: global-note
-    subType: action
-    value: Mount/Dismount
-    moreInfo:
-      model: class-features
-      id: master-in-the-saddle
+  - type: saving-throw
+    effect:
+      type: advantage
+      note: on saving throws to avoid falling off your mount
+  - type: speed-note
+    note: Mount or dismount with :distance{length="5"} of movement; after a fall of :distance{length="10"} or less from your mount, land on your feet unless incapacitated.
 ---
 Having a lot of experience with riding, you and your beast are perfectly synchronized and capable of mounting and dismounting with trained ease.
 

@@ -4,12 +4,9 @@ level: 18
 klass: soldier
 subclass: legionnaire
 mechanics:
-  - type: global-note
-    subType: action
-    value: Total Combat
-    moreInfo:
-      model: class-features
-      id: total-combat
+  - type: bonus-action
+    name: Total Combat
+    shortDesc: "When you use Hold Your Ground or attack with an SMG: use a grenade."
 ---
 When you plant your feet and hold your ground, all those that stand against you can truly feel the wrath of the
 Legion at your side.

@@ -4,12 +4,13 @@ level: 18
 klass: engineer
 subclass: biohacker
 mechanics:
-  - type: global-note
-    subType: action
-    value: Peak Performance
-    moreInfo:
-      model: class-features
+  - type: other
+    shortDesc: "Attacking with Intelligence: attack twice when you take the Attack action."
+    toggle:
       id: peak-performance
+      whenOn:
+        - type: extra-attack
+          value: 2
   - type: asi
     ability: con
     amount: 2
