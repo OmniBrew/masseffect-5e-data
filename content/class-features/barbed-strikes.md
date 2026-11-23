@@ -17,6 +17,16 @@ mechanics:
   - type: bonus-action
     name: Barbed Strikes
     shortDesc: When you hit two attacks against the same target during a round, you deal damage equal to Blade Armor's dice roll to the target, without adding modifiers (such as your Strength or Brawler damage).
+    damage:
+      - dieCount:
+          type: progressive
+          value:
+            1: 1
+            5: 2
+            11: 3
+            17: 4
+        dieType: 6
+        type: piercing
 ---
 At 10th level, you can use Blade Armor a number of times equal to your proficiency modifier between short rests.
 

@@ -19,6 +19,15 @@ mechanics:
         type: flat
         value: 3
     shortDesc: Choose a creature you can see within :distance{length="75"}. For the next minute, you deal an extra 1d6 damage to the target whenever you hit it with a weapon attack, and you have advantage on any Wisdom (Perception) or Wisdom (Survival) check you make to find it.
+  - type: attack-augment
+    ask: Is the target marked by your Kuwashii Visor?
+    attackLimit:
+      model: weapon
+    augmentTypes:
+      - damage
+    addDamage:
+      - dieCount: 1
+        dieType: 6
 ---
 - As a bonus action, you choose a creature you can see within :distance{length="75"}. For the
 next minute, you deal an extra 1d6 damage to the target whenever you hit it with a weapon attack,

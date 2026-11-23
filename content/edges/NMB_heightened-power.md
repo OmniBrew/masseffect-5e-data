@@ -6,6 +6,7 @@ mechanics:
       reset: off
       displayType: barrier-ticks
       label: Barrier Ticks
+      increment: 3
     shortDesc: Spend 3 barrier ticks to give one target of your cast disadvantage on a saving throw caused by the power.
 type: metabiotics
 ---

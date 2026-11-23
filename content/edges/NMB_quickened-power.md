@@ -6,6 +6,7 @@ mechanics:
       reset: off
       displayType: barrier-ticks
       label: Barrier Ticks
+      increment: 2
     shortDesc: Spend 2 barrier ticks to change the casting time of one power to a bonus action (the chosen power's casting time must be 1 action).
 type: metabiotics
 ---

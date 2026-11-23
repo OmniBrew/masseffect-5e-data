@@ -15,6 +15,12 @@ mechanics:
   - type: bonus-action
     name: Prayer (Amonkira)
     shortDesc: When you score a critical hit during the turn you spoke this prayer, you add your level to the damage of any critical hits you make.
+  - type: attack-augment
+    ask: A critical hit on a turn you prayed to Amonkira?
+    augmentTypes:
+      - damage
+    bonus:
+      type: level
 ---
 At 3rd level, you can use your cunning action to whisper a short prayer to a god of your choosing. Chose one of the following effects:
 

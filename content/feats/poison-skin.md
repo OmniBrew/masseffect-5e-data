@@ -3,7 +3,15 @@ name: Poison Skin
 new: true
 mechanics:
   - type: bonus-action
-    shortDesc: Coat a weapon with your skin's poison. Creatures that suffer piercing or slashing damage take 1d4 damage and must succeed on a DC 13 saving throw or become poisoned for 1 hour.
+    shortDesc: Coat a weapon with your skin's poison. A creature that takes piercing or slashing damage from it takes {{ roll }} and must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour.
+    damage:
+      - dieCount: 1
+        dieType: 4
+        type: poison
+    dc:
+      base: 13
+      proficient: false
+      save: con
 prerequisite: Drell
 prereq:
   - type: species

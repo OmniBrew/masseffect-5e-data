@@ -9,6 +9,12 @@ mechanics:
     resource:
       id: smoke-grenade
       displayType: gear-consumable
+    range:
+      short: 30
+      aoe:
+        type: cube
+        size: 10
+    shortDesc: Smoke heavily obscures a :distance{length="10" adj} cube centered on a point within range for 30 seconds (a moderate wind disperses it after 1 round).
 consumable: true
 equippable: true
 ---

@@ -2,6 +2,11 @@
 name: Paralyzing Toxin
 mechanics:
   - type: other
+    dc:
+      base: 8
+      proficient: true
+      mod: int
+    shortDesc: 'Forgo any number of Sneak Attack dice: on a failed save, the target is :condition{id="paralyzed"} for that many rounds.'
 type: sneak-toxin
 ---
 _Prerequisite: Hindering Toxin_

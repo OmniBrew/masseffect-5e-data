@@ -24,6 +24,7 @@ mechanics:
         type: resource
         value: armiger-fuel
         useMax: true
+      increment: 2
 ---
 At 15th level, you can spend 1 unit of Fuel to double your speed until the end of your round. Alternatively, as a
 reaction when you make a Dexterity saving throw, you can use 2 units of Fuel to automatically pass the saving throw.

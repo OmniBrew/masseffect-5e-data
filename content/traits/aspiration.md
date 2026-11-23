@@ -7,6 +7,10 @@ mechanics:
     resource:
       reset: short
     shortDesc: Whenever you make an attack roll, skill check, or saving throw you may roll a d4 and add it to the roll.
+    damage:
+      - dieCount: 1
+        dieType: 4
+        label: Added to the roll
 ---
 You aspire to become an Avatar one day, but have not quite achieved the mantle. Whenever you make an attack roll,
 skill check, or saving throw you may roll a d4 and add it to the roll. You can wait until after you roll the

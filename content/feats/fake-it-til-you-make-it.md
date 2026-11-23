@@ -13,13 +13,17 @@ mechanics:
       type: advantage
       note: when attempting to convince a creature you can accomplish a task
   - type: other
-    shortDesc: When you fail an ability check or saving throw or miss with an attack roll, spent a hit dice to add a d4 to the roll.
+    shortDesc: When you fail an ability check or saving throw or miss with an attack roll, spend a hit die to add {{ roll }} to the roll.
     resource:
       reset: short
       resource:
         displayType: hit-dice
         label: false
         id: hitDice
+    damage:
+      - dieCount: 1
+        dieType: 4
+        label: Added to the roll
 prerequisite: Human or Batarian
 prereq:
   - type: species

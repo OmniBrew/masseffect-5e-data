@@ -13,6 +13,10 @@ mechanics:
         type: mod
         value: cha
     shortDesc: Roll a d6 and add to a Charisma (Persuasion) check
+    damage:
+      - dieCount: 1
+        dieType: 6
+        label: Added to the check
 ---
 When you make Charisma (Persuasion) check, you may roll a d6 and add the number rolled to the result.
 

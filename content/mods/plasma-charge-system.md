@@ -21,11 +21,6 @@ mechanics:
         tooltipText: Hit or miss, each creature within :distance{length="5"} of the target takes 2d10 radiant damage. Use a bonus action to charge the weapon before firing, consuming 2 heat. If charged, increase the hit or miss radiant damage to 4d10.
         text: Plasma Charge
         html: true
-    addDamage:
-      - dieCount: 2
-        dieType: 10
-        type: radiant
-        addTo: all
   - type: adjust-weapon-props
     remove:
       - burst-fire

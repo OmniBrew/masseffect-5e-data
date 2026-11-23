@@ -9,6 +9,16 @@ mechanics:
         type: flat
         value: 4
     shortDesc: Use :distance{length="5"} of movement and switch places with a willing creature, then roll your command die. Until the start of your next turn, you or the other creature (your choice) gains a bonus to AC equal to the number rolled.
+    damage:
+      - dieCount: 1
+        dieType:
+          type: progressive
+          limit: tracker
+          value:
+            3: 8
+            10: 10
+            14: 12
+        label: Command die
 type: commands
 ---
 When you’re within :distance{length="5"} of a creature on your turn, you can expend one Command die and

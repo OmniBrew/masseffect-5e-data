@@ -6,6 +6,7 @@ mechanics:
       max:
         type: mod
         value: int
+    shortDesc: "Forgo all your Sneak Attack dice: the target rolls a d20, and on 10 or under it drops to -1 hit points. It is immune to this toxin for 24 hours."
 type: sneak-toxin
 ---
 _Prerequisite: 18th level Infiltrator, Vulnerability Toxin_

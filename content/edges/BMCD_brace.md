@@ -9,6 +9,16 @@ mechanics:
         type: flat
         value: 4
     shortDesc: When a creature you can see moves into the reach your beast has with the melee weapon that it wields, your beast can use its reaction to expend one Command die and make one attack against the creature, using that weapon. If the attack hits, add the Command die to the weapon’s damage roll.
+    damage:
+      - dieCount: 1
+        dieType:
+          type: progressive
+          limit: tracker
+          value:
+            3: 8
+            10: 10
+            14: 12
+        label: Command die
 type: commands
 ---
 When a creature you can see moves into the reach your beast has with the melee weapon that it wields, your beast

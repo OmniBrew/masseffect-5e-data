@@ -11,6 +11,7 @@ mechanics:
       reset: off
       displayType: barrier-ticks
       label: Barrier Ticks
+      increment: 2
 ---
 At 18th level, you can spend two uses of your Barrier feature as an action to turn invisible until you make your
 next attack roll, or for 1 minute, whichever is shortest. When you break your cloak by making an
