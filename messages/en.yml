@@ -1745,6 +1745,11 @@ sheet:
     regain_of: "Hit dice to regain ({name})"
     reduce_exhaustion: Lose one level of exhaustion
     reduce_indoctrination: Lose one level of indoctrination (you made the Wisdom save)
+  saves:
+    advantage_against: Advantage against being {list}
+    disadvantage_against: Disadvantage against being {list}
+    advantage_note: Advantage {note}
+    disadvantage_note: Disadvantage {note}
   settings:
     title: Settings & Overrides
     overrides: Overrides

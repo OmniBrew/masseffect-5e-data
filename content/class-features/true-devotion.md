@@ -20,12 +20,14 @@ mechanics:
         - id: devotee-true-devotion-kalahira
           name: Kalahira
           whenOn:
-            - type: global-note
-              subType: defenses
-              value: Kalahira Devotion
-              moreInfo:
-                model: class-features
-                id: true-devotion
+            - type: other
+              name: Kalahira Devotion
+              damage:
+                - dieCount: 1
+                  dieType: 4
+                  mod: wis
+                  type: shields
+              shortDesc: 'An enemy within :distance{length="50"} dies: regain {{ roll }} points (temporary hit points until your next short rest if your shields are full).'
         - id: devotee-true-devotion-arashu
           name: Arashu
           whenOn:

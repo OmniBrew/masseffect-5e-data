@@ -4,12 +4,25 @@ level: 3
 klass: tracker
 subclass: beast-master
 mechanics:
-  - type: global-note
-    subType: action
-    value: Command Dice (1d8)
-    moreInfo:
-      model: class-features
-      id: give-command
+  - type: other
+    name: Command Dice
+    damage:
+      - dieCount: 1
+        dieType:
+          type: progressive
+          limit: tracker
+          value:
+            3: 8
+            10: 10
+            14: 12
+        label: Command Die
+    resource:
+      id: command-dice
+      reset: short
+      max:
+        type: flat
+        value: 4
+    shortDesc: Spend one on a Command you know.
   - type: model-choice
     options: true
     model: commands

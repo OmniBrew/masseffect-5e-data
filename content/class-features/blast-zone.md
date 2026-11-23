@@ -4,12 +4,12 @@ level: 10
 klass: adept
 subclass: fury
 mechanics:
-  - type: global-note
-    value: Blast Zone
-    subType: defenses
-    moreInfo:
-      model: class-features
-      id: blast-zone
+  - type: immunity
+    id: detonations
+    label: Detonations you trigger
+  - type: reaction
+    name: Blast Zone
+    shortDesc: Add your Wisdom modifier to a detonation you triggered with a power you Furycast.
   - type: augment
     value:
       model: adept

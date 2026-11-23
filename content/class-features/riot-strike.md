@@ -21,12 +21,9 @@ mechanics:
         additional:
           - model: class-features
             id: riot-strike
-  - type: global-note
-    subType: defenses
-    value: Riot Strike
-    moreInfo:
-      model: class-features
-      id: riot-strike
+  - type: immunity
+    id: detonations
+    label: Detonations from your Havoc Strike
 ---
 At 18th level, you halve the amount of fuel needed to cast Havoc Strike as a bonus action. Your Havoc
 Strike now also detonates targets caught in the radius. You are immune to detonations caused by your Havoc Strike.

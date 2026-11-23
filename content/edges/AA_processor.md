@@ -13,12 +13,15 @@ mechanics:
     value: con
   - type: saving-throw
     value: wis
-  - type: global-note
-    subType: defenses
-    value: Apex Processor
-    moreInfo:
-      model: edges
-      id: AA_processor
+  - type: other
+    name: Apex Processor
+    damage:
+      - type: hp
+        mod: con
+        bonus:
+          type: flat
+          value: 5
+    shortDesc: "At the start of each of your turns, while you have at least 1 hit point and are below half your maximum: regain {{ roll }}."
 type: apex-augments
 ---
 You gain proficiency in all saving throws. You regenerate hit points equal to 5 + your constitution

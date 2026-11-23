@@ -9,12 +9,10 @@ mechanics:
       - poisoned
     effect:
       type: advantage
-  - type: global-note
-    subType: defenses
-    value: Divine Health
-    moreInfo:
-      model: class-features
-      id: divine-health
+  - type: saving-throw
+    effect:
+      type: advantage
+      note: on death saving throws and against the effects of detonations
 ---
 At 9th level, your faith in your gods strengthens your bond to the physical world. You have advantage on death saving
 throws. In addition, you gain advantage on saving throws to resist the poisoned condition, and against the effects of Detonations.
