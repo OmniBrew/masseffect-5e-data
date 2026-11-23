@@ -19,12 +19,13 @@ mechanics:
       - attr: powerType
         value:
           - biotic
-  - type: global-note
-    subType: power
-    value: Deep Biotics
-    moreInfo:
-      model: class-features
-      id: deep-biotics
+  - type: power-augment
+    powerTypes:
+      - biotic
+    levels:
+      - 0
+    dieIncrease: 1
+    overflowPerDie: 2
 ---
 At 3rd level, your brain is beginning to attune more finely to the Element Zero in your system. You gain another cantrip
 slot that must be occupied by a Biotic Cantrip. When you use a Biotic Cantrip, you bump up the die by one.

@@ -19,12 +19,12 @@ mechanics:
       - attr: powerType
         value:
           - combat
-  - type: global-note
-    subType: power
-    value: 2x Cantrip Charges
-    moreInfo:
-      model: class-features
-      id: tools-of-destruction
+  - type: power-augment
+    powerTypes:
+      - combat
+    levels:
+      - 0
+    usesMultiplier: 2
 ---
 At 3rd level, your systems are focused on combat. You gain another cantrip slot that must be occupied by a Combat
 Cantrip. You double the uses of your Combat Cantrips before needing to recharge them.

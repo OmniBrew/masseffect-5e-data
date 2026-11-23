@@ -75,12 +75,12 @@ mechanics:
           - id: tech-cannon-option
             name: Tech Cannon
             whenOn:
-              - type: global-note
-                value: Tech Cannon
-                subType: power
-                moreInfo:
-                  model: class-features
-                  id: tech-cannon
+              - type: power-augment
+                castLevelBonus: 1
+              - type: power-augment
+                levels:
+                  - 0
+                dieCount: 1
 ---
 At 3rd level, you can choose to create a Tech Cannon instead of Tech Armor. When you choose to do so, you don't gain the
 Temporary Hit Points your armor would give you. Instead, your power slots are treated as one level higher when you
