@@ -1360,6 +1360,13 @@ power_types:
 prerequisite_title: Prerequisite
 primary_ability_title: Primary Ability
 primes_detonates_title: Primes/Detonates
+power_damage_by_slot: Damage by slot level
+power_slot_title: Slot
+power_primer_title: Primer
+power_primer_text: "{name} primes its target ({type}). A later power or attack that detonates ends the primed condition with an explosive effect. See {link}."
+power_detonator_title: Detonator
+power_detonator_text: "{name} detonates primed targets: the primed condition ends with an explosive effect. See {link}."
+power_primers_link: Primers and Detonators
 primes_text: Primes ({type})
 profile:
   account: Account
@@ -1465,6 +1472,10 @@ settings:
   language: Language
 shell:
   all_results: See all results
+  back_to_top: Back to top
+  sort_by: Sort by
+  sort_ascending: Sort ascending
+  sort_descending: Sort descending
   count_of: "{n} of {total}"
   home: Home
   note: Note
