@@ -3,7 +3,9 @@ name: Advanced Weapon Holsters
 level: 3
 klass: soldier
 subclass: havoc
-mechanics: []
+mechanics:
+  - type: me:weapon-slots
+    value: 2
 ---
 You've outfitted your armor with special rigs that make carrying weapons a cinch.
 

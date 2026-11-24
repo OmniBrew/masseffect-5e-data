@@ -19,6 +19,7 @@ mechanics:
           14: 5
           18: 6
       id: cardinal-focus-points
+      increment: 3
   - type: powers
     value: overload
     provider:

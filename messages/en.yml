@@ -1545,6 +1545,7 @@ sheet:
     regen_amount: "Regain this much {pool}"
     regen: "Regen {n}"
     spend: Spend
+    spend_n: Spend {n}
     spend_roll: "Spend ({dice})"
     refill: "Refill {pool}"
     death_saves: Death saves

@@ -6,6 +6,7 @@ mechanics:
   - type: other
     resource:
       reset: short
+    shortDesc: "When you miss an attack or fail an ability check or saving throw: add the number of allies you can see (at most +5)."
 ---
 Batarians are careful not to show weakness in front of their allies, for fear of losing status. If you miss with an
 attack roll or fail an ability check or a saving throw, you can gain a bonus to the roll equal to the number of allies

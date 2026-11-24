@@ -15,6 +15,17 @@ mechanics:
         type: mod
         value: cha
     shortDesc: You can choose to expend a use of Inspiration as a reaction to an ally being targeted by an attack or when an enemy is subject to a saving throw. You must choose to use this feature before the attack is made or the saving throw is rolled. When you do so, you roll the Inspiration die and your enemy subtracts that amount from their roll.
+    damage:
+      - dieCount: 1
+        dieType:
+          type: progressive
+          limit: musician
+          value:
+            1: 6
+            5: 8
+            10: 10
+            15: 12
+        label: Subtracted from the roll
 ---
 At 7th level, you can generate a shrill, piercing sound that distracts and harries your enemies when they need to focus.
 You can choose to expend a use of Inspiration as a reaction to an ally being targeted by an attack or when an enemy

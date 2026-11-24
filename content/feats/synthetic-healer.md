@@ -13,6 +13,10 @@ mechanics:
     name: Create epoxy
     baseGroup: true
     shortDesc: Expend 1 omni-gel and create 10 charges of a fast-acting, conductive Epoxy.
+    resource:
+      displayType: omni-gel
+      reset: off
+      label: omni-gel
   - type: action
     resource:
       displayType: counter

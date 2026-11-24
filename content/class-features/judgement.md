@@ -5,7 +5,12 @@ klass: soldier
 subclass: legionnaire
 mechanics:
   - type: reaction
-    shortDesc: Whenever another creature makes an attack roll against you and misses, you may use your reaction to force the attacking creature to make a {{ 8 + conMod + profBonus }} Wisdom saving throw. On a failed save, the creature becomes frightened of your for 1 minute. The affected creature may roll another Wisdom saving throw at the end of each of their next turns. On a success, they're no longer frightened.
+    shortDesc: Whenever another creature makes an attack roll against you and misses, you may use your reaction to force the attacking creature to make a {{ dc }} Wisdom saving throw. On a failed save, the creature becomes frightened of you for 1 minute. The affected creature may roll another Wisdom saving throw at the end of each of their next turns. On a success, they're no longer frightened.
+    dc:
+      base: 8
+      proficient: true
+      mod: con
+      save: wis
 ---
 Your might and ability to hold your ground against difficult odds start to weaken the resolve of lesser
 gangs and other troublemakers.

@@ -9,6 +9,16 @@ mechanics:
         type: flat
         value: 4
     shortDesc: When you hit a creature with a weapon attack, you can expend one Command die to maneuver one of your comrades into a more advantageous position. You add the Command die to the attack’s damage roll, and you choose a friendly creature who can see or hear you. That creature can use its reaction to move up to half its speed without provoking opportunity attacks from the target of your attack.
+    damage:
+      - dieCount: 1
+        dieType:
+          type: progressive
+          limit: tracker
+          value:
+            3: 8
+            10: 10
+            14: 12
+        label: Command die
 type: commands
 ---
 When you hit a creature with a weapon attack, you can expend one Command die to maneuver one of your comrades into a

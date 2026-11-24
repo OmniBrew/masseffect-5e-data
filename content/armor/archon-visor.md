@@ -16,6 +16,10 @@ mechanics:
     resource:
       reset: long
     shortDesc: Gain 1d4 worth of power slots or tech points
+    damage:
+      - dieCount: 1
+        dieType: 4
+        label: Power slot levels or tech points
 ---
 - As an action, gain 1d4 worth of power slots or tech points. You can’t use this property again
 until you finish a long rest.

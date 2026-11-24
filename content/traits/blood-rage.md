@@ -5,7 +5,9 @@ species:
   - tankbred
 mechanics:
   - type: other
-    resource: {}
+    resource:
+      reset: long
+    shortDesc: "Reduced to 0 hit points but not killed: rage for 1 minute instead of falling unconscious (Attack or Dash only; immune to charmed and frightened; death saves continue)."
 ---
 When you are reduced to 0 hit points but not killed outright, you can choose to not fall unconscious and enter a
 blood rage instead. When you enter your blood rage, you lose concentration on any powers you are maintaining.

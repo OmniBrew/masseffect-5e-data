@@ -2,7 +2,18 @@
 name: Diagnostic Drone
 level: 10
 klass: explorer
-mechanics: []
+mechanics:
+  - type: other
+    name: Diagnostic Drone
+    resource:
+      reset: long
+      max:
+        type: progressive
+        limit: explorer
+        value:
+          10: 1
+          20: 2
+    shortDesc: "When you take a short rest: recover half your expended power slots, split evenly between biotic and tech."
 ---
 Your skill with using VI's and tech allow you to recharge a few of your powers. At 10th level, whenever you take a
 short rest, you can choose spend a few minutes tinkering with your Omni-tool and focusing to recover half your expended

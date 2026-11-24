@@ -6,6 +6,29 @@ subclass: holo-operative
 mechanics:
   - type: bonus-action
     name: Hologram
+    shortDesc: Create a hologram of yourself within :distance{length="15"} (AC {{ 14 + profBonus }}, 1 hit point, immune to conditions and priming). It moves :distance{length="25"} on your turn (no action). Your attacks and aimed combat powers can come from its position, as lightning damage.
+  - type: reaction
+    name: Hologram Opportunity Attack
+    shortDesc: "A creature moves through your hologram's threatened area: a melee attack from the hologram."
+    attack:
+      type: melee
+      proficient: true
+      bonus:
+        type: modComparison
+        value:
+          - str
+          - dex
+    range:
+      short: 5
+    damage:
+      - dieCount: 1
+        dieType: 6
+        type: lightning
+        bonus:
+          type: modComparison
+          value:
+            - str
+            - dex
 ---
 At 3rd level, you can create a lifelike hologram of yourself within :distance{length="15"} of your current
 location as a bonus action. The hologram stays active until you dismiss it (no action required), it is hit or you try

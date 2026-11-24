@@ -5,7 +5,9 @@ species:
   - prothean-no-avatar
 mechanics:
   - type: other
-    resource: {}
+    resource:
+      reset: long
+    shortDesc: 'Touch a creature or object and concentrate for 1 minute: learn basic facts about it and the events within :distance{length="30"} of it in the past 24 hours.'
 ---
 While in physical contact with a creature or object, you can recall its experiences. If you touch an object or
 creature and concentrate on it for 1 minute, you learn a few basic facts about it. You gain a mental image from the object

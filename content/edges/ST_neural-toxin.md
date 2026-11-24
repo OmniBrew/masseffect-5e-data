@@ -2,6 +2,11 @@
 name: Neural Toxin
 mechanics:
   - type: other
+    dc:
+      base: 8
+      proficient: true
+      mod: int
+    shortDesc: "Forgo any number of Sneak Attack dice: on a failed save, a target that casts tech powers loses that many tech points."
 type: sneak-toxin
 ---
 _Prerequisite: 13th Infiltrator Level_

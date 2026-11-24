@@ -18,6 +18,12 @@ mechanics:
   - type: other
     name: Nanite Apotheosis (regen)
     shortDesc: Whenever you are conscious and below half your hit point maximum, regain {{ 5 + conMod }} hit points per turn until you are at or above half of your hit points.
+    damage:
+      - type: hp
+        mod: con
+        bonus:
+          type: flat
+          value: 5
   - type: other
     name: Nanite Apotheosis (unarmed strikes)
     shortDesc: Your unarmed strikes deal an extra 1d8 fire, lightning, or force damage. You can change the damage type when you take a long rest.

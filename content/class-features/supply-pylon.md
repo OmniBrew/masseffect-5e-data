@@ -5,7 +5,21 @@ klass: engineer
 subclass: medic
 mechanics:
   - type: other
-    resource: {}
+    resource:
+      reset: long
+    name: Supply Pylon
+    range:
+      short: 10
+    dc:
+      base: 8
+      proficient: true
+      mod: int
+      save: dex
+    damage:
+      - dieCount: 4
+        dieType: 8
+        type: bludgeoning
+    shortDesc: Call a supply pylon to a point within :distance{length="10"}; it lands at the start of your next turn. A creature in that spot makes a {{ dc }} Dexterity saving throw with advantage, or takes {{ roll }} and is knocked :condition{id="prone"}. It holds 5 resources you choose (restock with 5 omni-gel).
 ---
 By 18th level, you can call in a :distance{length="5"} tall by :distance{length="2"} wide supply pylon to a location within :distance{length="10"}. At the start of your next turn, the pylon arrives. If any creature is
 standing in the targeted location, the creature must make a Dexterity saving throw with advantage.
